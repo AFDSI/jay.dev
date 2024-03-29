@@ -1,0 +1,53 @@
+cards:
+  - icon: icon-ontomatica
+    headline: Simplify application development
+    text: |
+      Application development tools use structured data and functional programming.
+
+      Curated data definitions and datasets enable data sharing.
+
+      Visualization and machine-reasoning improve dataset quality over time.
+  - icon: icon-daily-food
+    headline: Monitor biology & chemistry of food & drugs
+    text: |
+      Monitor component intake over days, weeks, months, and years using electronic data about food and drugs.
+
+      Query composition and formulation information that is not available on printed labels.
+
+      Pet owners monitor food and medicine for their companions.
+
+      Determine links between food intake and health outcomes.
+  - icon: icon-daily-care
+    headline: Monitor biology & chemistry of cosmetics, textiles & household chemicals
+    text: |
+      Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals.
+
+      Query chemical and fiber information that is not available on a printed label.
+     
+      Determine links between use/exposure and health outcomes.
+  - icon: icon-electronic-label
+    headline: Define product identity & impede counterfeits
+    text: |
+      Use electronic product identity to impede counterfeit products and claims.
+
+      Create a new label by combining existing labels and adding new information.
+
+      Improve machine-automation by using structured data to control machine-operations.
+  - icon: icon-export-import-data
+    headline: Be a friend to Authorities
+    text: |
+      Product Passport is a companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet.
+
+      Authorities (e.g. USA/California, European Union, Great Britain, Saudi Arabia, India) have specific local rules and tarrifs.
+
+      Product Passport enables automated verification of imports and exports.
+  - icon: icon-fdi
+    headline: Open standards, Open data
+    text: |
+      Transform data from individual scientific studies into shared data repositories.
+
+      Discover new solutions by comparing data from multiple studies.
+
+      National organizations synchronize local and international research.
+      
+      For example, FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others.
