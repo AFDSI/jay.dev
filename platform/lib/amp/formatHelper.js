@@ -1,13 +1,13 @@
-const FORMAT_WEBSITES = "websites";
+const FORMAT_WEBSITES = 'websites';
 const SUPPORTED_FORMATS = [
   FORMAT_WEBSITES,
-  "stories",
-  "ads",
-  "email",
-  "food",
-  "drugs",
-  "cosmetics",
-  "textiles",
+  'stories',
+  'ads',
+  'email',
+  'food',
+  'drugs',
+  'cosmetics',
+  'textiles',
 ];
 const DEFAULT_FORMAT = SUPPORTED_FORMATS[0];
 
