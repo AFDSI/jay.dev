@@ -103,6 +103,7 @@
       .#{atom('ico')} { fill: color('charade'); }
     }
   }
+
 /*
   &-link-food {
     &:hover, &.#{molecule('format-toggle')}-selected  {
@@ -132,6 +133,7 @@
     }
   }
 */
+
   &-angle {
     margin-right: 0;
     margin-left: auto;
