@@ -30,4 +30,24 @@
     @include gradient-e-mails;
     @include color-e-mails;
   }
+
+  &-food {
+    @include gradient-food;
+    @include color-food;
+  }
+
+  &-drugs {
+    @include gradient-drugs;
+    @include color-drugs;
+  }
+
+  &-cosmetics {
+    @include gradient-cosmetics;
+    @include color-cosmetics;
+  }
+
+  &-textiles {
+    @include gradient-textiles;
+    @include color-textiles;
+  }
 }

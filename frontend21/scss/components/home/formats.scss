@@ -119,6 +119,18 @@ $gap: 10px;
         &.beta {
           fill: url('#gradient-beta') color('black');
         }
+        &.food {
+          fill: url('#gradient-food') color('black');
+        }
+        &.drugs {
+          fill: url('#gradient-drugs') color('black');
+        }
+        &.cosmetics {
+          fill: url('#gradient-cosmetics') color('black');
+        }
+        &.textiles {
+          fill: url('#gradient-textiles') color('black');
+        }
       }
 
       svg {
@@ -279,6 +291,19 @@ $gap: 10px;
 
     .beta & {
       @include ci-beta;
+    }
+
+    .food & {
+      @include ci-food;
+    }
+    .drugs & {
+      @include ci-drugs;
+    }
+    .cosmetics & {
+      @include ci-cosmetics;
+    }
+    .textiles & {
+      @include ci-textiles;
     }
 
     svg {
