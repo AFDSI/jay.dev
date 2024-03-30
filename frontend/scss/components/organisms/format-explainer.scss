@@ -159,12 +159,12 @@
     &-stories.active { @include gradient-stories; }
     &-ads.active { @include gradient-ads; }
     &-email.active { @include gradient-e-mails; }
-
+/*
     &-food.active { @include gradient-food; }
     &-drugs.active { @include gradient-drugs; }
     &-cosmetics.active { @include gradient-cosmetics; }
     &-textiles.active { @include gradient-textiles; }
-
+*/
     &-icon {
       width: 30px;
       height: 30px;
