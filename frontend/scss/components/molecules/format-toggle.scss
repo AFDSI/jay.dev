@@ -103,7 +103,7 @@
       .#{atom('ico')} { fill: color('charade'); }
     }
   }
-
+/*
   &-link-food {
     &:hover, &.#{molecule('format-toggle')}-selected  {
       @include gradient-food; color: color('white');
@@ -131,7 +131,7 @@
       .#{atom('ico')} { fill: color('charade'); }
     }
   }
-
+*/
   &-angle {
     margin-right: 0;
     margin-left: auto;
