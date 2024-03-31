@@ -39,23 +39,23 @@ format_explainer:
 
 cards:
   - icon: icon-ontomatica
-    headline: Simplify application development
+    headline: Simplify development of data-intensive applications
     text: "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning."
   - icon: icon-daily-food
-    headline: Monitor biology & chemistry of food & drugs
+    headline: Monitor biology & chemistry of food and drugs
     text: "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
   - icon: icon-daily-care
-    headline: Monitor biology & chemistry of cosmetics, textiles & household chemicals
-    text: Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+    headline: Monitor biology & chemistry of cosmetics, textiles and household chemicals
+    text: "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
   - icon: icon-electronic-label
     headline: Define product identity and impede counterfeits
     text: "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations."
   - icon: icon-export-import-data
     headline: Be a friend to Authorities
-    text: "Product Passport is a companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities (e.g. USA/California, European Union, Great Britain, Saudi Arabia, India) have specific local rules and tariffs.  Product Passport enables automated verification of global and local rules for imports and exports."
+    text: "Product Passport is a companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
   - icon: icon-fdi
-    headline: Open standards, Open data
-    text: "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. For example, FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+    headline: Research using open standards & open data
+    text: "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
 
 success_stories:
   - !g.doc /content/amp-dev/runner/success-stories/washingtonpost.yaml
@@ -233,7 +233,7 @@ success_stories:
 
   <section class="ap-intro ap-section --col-right">
     <div class="ap-text-block">
-      <h1>{{ _('Learn more about applications') }}</h1>
+      <h1>{{ _('Learn more about structured data applications') }}</h1>
       <p>{{ _('Read case studies from industry, science and government.') }}</p>
       {% with %}
         {% set square = true %}
@@ -243,6 +243,7 @@ success_stories:
       {% endwith %}
     </div>
   </section>
+
   {% set slider_id = 'success-stories' %}
   {% set teaser_docs = doc.success_stories %}
   {% include '/views/2021/partials/teaser-slider.j2' %}
