@@ -17,10 +17,10 @@ teaser:
     width: 595
     height: 135
     alt: Pronto
-  text: Jelly jujubes marshmallow donut. Wafer cheesecake lollipop fruitcake danish powder. Pudding croissant biscuit icing.
+  text: Pronto data kits to rapidly develop product specifications.
 
 stage:
-  headline: Ontomatica’s mobile-first design helps users navigate 70% faster
+  headline: Pronto data kits to rapidly develop product specifications
   subline: Starting point for machine readable data
   layout: all
   logo:
@@ -49,8 +49,8 @@ stage:
       alt: Pronto
 
 kpis:
-  - value: "&#x1F4C8; value &nbsp;&nbsp;"
-    text: Jelly jujubes marshmallow donut. Wafer cheesecake lollipop fruitcake danish powder. Pudding croissant biscuit icing. Gummi bears fruitcake cake wafer cake cookie caramels marshmallow bonbon.
+  - value: "&#x1F4C8; &nbsp;&nbsp; value"
+    text: Wafer cheesecake lollipop fruitcake danish powder. Pudding croissant biscuit icing. Gummi bears fruitcake cake wafer cake cookie caramels marshmallow bonbon.
 
   - value: "&#x1F4C9; expense"
     text: Jelly jujubes marshmallow donut. Pudding croissant biscuit icing. Gummi bears fruitcake cake wafer cake cookie caramels marshmallow bonbon.
@@ -111,7 +111,7 @@ contents:
     alt: Pronto
     headline: Drug Substance Data Kit
     text: "Drug Substance Data Kit describes approximately 1,000 substances in human and animal drugs."
-    direction: right-flat
+    direction: left-flat
 
   - layout: text
     headline: Cosmetics Substance
@@ -139,7 +139,7 @@ contents:
     alt: Pronto
     headline: Textile Substance Data Kit
     text: "Textile Substance Data Kit describes approximately 800 substances in textiles."
-    direction: right-flat
+    direction: left-flat
 
   - layout: text
     headline: Product Data Kit
