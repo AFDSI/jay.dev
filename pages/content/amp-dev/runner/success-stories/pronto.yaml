@@ -2,7 +2,7 @@ $title: Pronto
 $view: /views/detail/success-story-detail.j2
 $category: finance
 $date: 2024-03-05
-description: With the addition of AMP pages to the purchase funnel, Ontomatica’s performance continues to improve...
+description: Pronto data kits to rapidly develop product specifications
 formats:
   - websites
 
@@ -70,7 +70,7 @@ contents:
   - layout: text
     headline: Substance Data Kit
     text: Ontomatica offers pre-defined substance descriptions. Descriptions are organized into Kits. Each substance (each item) is described using Substance Markup Language - Linked Data (SUML-LD) based on ISO 11238 standard. Each item is facet classified and accessible through a facet search interface.
-    direction: right-flat
+    direction: left-flat
 
   - layout: text
     headline: Chemical Substance
@@ -90,6 +90,7 @@ contents:
   - layout: text
     headline: Food Substance
     text: "Food is any substance consumed to provide nutritional support for a body. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth."
+    direction: right-flat
 
   - layout: text-media
     image_src: "/static/img/success-stories/pronto/21001100001000142161/image-333x334.webp"
@@ -99,11 +100,12 @@ contents:
     alt: Pronto
     headline: Food Substance Data Kit
     text: "Food Substance Data Kit describes approximately 300 nutrients and additives organized by chemical group (e.g. lipids, proteins, phenols) and by function group (e.g. fortifiers, colors, preservatives)."
-    direction: right-flat
+    direction: left-flat
 
   - layout: text
     headline: Drug Substance
     text: "A drug is any substance other than food, that when inhaled, injected, smoked, consumed, absorbed via a patch on the skin or dissolved under the tongue causes a physiological change in the body. In pharmacology, a pharmaceutical drug, also called a medication or medicine, is a chemical substance used to treat, cure, prevent, or diagnose a disease or to promote well-being. Traditionally drugs were obtained through extraction from medicinal plants, but more recently also by organic synthesis."
+    direction: right-flat
 
   - layout: text-media
     image_src: "/static/img/success-stories/pronto/21001100001000162161/vector-w140-h120.svg"
@@ -118,6 +120,7 @@ contents:
   - layout: text
     headline: Cosmetics Substance
     text: "Cosmetics are substances or products used to enhance the appearance or fragrance of the human body. Many cosmetics are designed for use of applying to the face and hair. They are generally mixtures of chemical compounds; some being derived from natural sources (such as coconut oil), and some being synthetics. Common cosmetics include lipstick, mascara, eye shadow, foundation, rouge, skin cleansers and skin lotions, shampoo, hairstyling products (gel, hair spray, etc.), perfume, and cologne."
+    direction: right-flat
 
   - layout: text-media
     image_src: "/static/img/success-stories/pronto/21001100001000192161/vector-w140-h120.svg"
@@ -127,7 +130,7 @@ contents:
     alt: Pronto
     headline: Cosmetics Substance Data Kit
     text: "Cosmetics Substance Data Kit describes approximately 500 substances in cosmetics."
-    direction: right-flat
+    direction: left-flat
 
   - layout: text
     headline: Textile Substance
@@ -141,7 +144,7 @@ contents:
     alt: Pronto
     headline: Textile Substance Data Kit
     text: "Textile Substance Data Kit describes approximately 800 substances in textiles."
-    direction: left-flat
+    direction: right-flat
 
   - layout: text
     headline: Product Data Kit
@@ -150,7 +153,7 @@ contents:
   - layout: text
     headline: Chemical Product
     text: "Chemical products are the species formed from chemical reactions. During a chemical reaction, reactants are transformed into products after passing through a high energy transition state. This process results in the consumption of the reactants. It can be a spontaneous reaction or mediated by catalysts which lower the energy of the transition state, and by solvents which provide the chemical environment necessary for the reaction to take place."
-    direction: left-right
+    direction: left-flat
 
   - layout: text-media
     image_src: "/static/img/success-stories/pronto/21001100001000252161/vector-w140-h120.svg"
