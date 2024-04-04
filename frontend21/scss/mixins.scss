@@ -106,52 +106,13 @@
   }
 }
 
-@mixin ci-food {
+@mixin ci-ontomatica {
   background: linear-gradient(
     225deg,
-    color('robins-egg') 0%,
-    color('blue-ribbon') 75%
+    color('guardsman-red') 0%,
+    color('bittersweet') 75%
   );
   color: color('white');
-
-  svg {
-    fill: currentColor;
-  }
-}
-
-@mixin ci-drugs {
-  background: linear-gradient(
-    225deg,
-    color('clementine') 0%,
-    color('school-bus') 75%
-  );
-  color: color('charade');
-
-  svg {
-    fill: currentColor;
-  }
-}
-
-@mixin ci-cosmetics {
-  background: linear-gradient(
-    225deg,
-    color('lav-magenta') 0%,
-    color('electric-violet') 75%
-  );
-  color: color('white');
-
-  svg {
-    fill: currentColor;
-  }
-}
-
-@mixin ci-textiles {
-  background: linear-gradient(
-    225deg,
-    color('japan-laurel') 0%,
-    color('confetti') 75%
-  );
-  color: color('charade');
 
   svg {
     fill: currentColor;
