@@ -106,10 +106,4 @@
     }
   }
 
-  &-link:hover,
-  &-selected {
-    &.--ontomatica {
-      @include ci-ontomatica;
-    }
-  }
 }
