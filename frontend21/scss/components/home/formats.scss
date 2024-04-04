@@ -281,6 +281,10 @@ $gap: 10px;
       @include ci-beta;
     }
 
+    .ontomatica & {
+      @include ci-ontomatica;
+    }
+
     svg {
       position: absolute;
       height: 100%;

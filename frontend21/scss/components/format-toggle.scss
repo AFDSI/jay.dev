@@ -105,4 +105,11 @@
       @include ci-beta;
     }
   }
+
+  &-link:hover,
+  &-selected {
+    &.--ontomatica {
+      @include ci-ontomatica;
+    }
+  }
 }
