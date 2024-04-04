@@ -4,10 +4,6 @@ const SUPPORTED_FORMATS = [
   'stories',
   'ads',
   'email',
-  'food',
-  'drugs',
-  'cosmetics',
-  'textiles',
 ];
 const DEFAULT_FORMAT = SUPPORTED_FORMATS[0];
 

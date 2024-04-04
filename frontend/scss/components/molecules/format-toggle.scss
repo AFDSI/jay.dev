@@ -104,36 +104,6 @@
     }
   }
 
-/*
-  &-link-food {
-    &:hover, &.#{molecule('format-toggle')}-selected  {
-      @include gradient-food; color: color('white');
-      .#{atom('ico')} { fill: color('white'); }
-    }
-  }
-
-  &-link-drugs {
-    &:hover, &.#{molecule('format-toggle')}-selected {
-      @include gradient-drugs; color: color('charade');
-      .#{atom('ico')} { fill: color('charade'); }
-    }
-  }
-
-  &-link-cosmetics {
-    &:hover, &.#{molecule('format-toggle')}-selected {
-      @include gradient-cosmetics; color: color('white');
-      .#{atom('ico')} { fill: color('white'); }
-    }
-  }
-
-  &-link-textiles {
-    &:hover, &.#{molecule('format-toggle')}-selected {
-      @include gradient-textiles; color: color('charade');
-      .#{atom('ico')} { fill: color('charade'); }
-    }
-  }
-*/
-
   &-angle {
     margin-right: 0;
     margin-left: auto;

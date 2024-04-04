@@ -105,32 +105,4 @@
       @include ci-beta;
     }
   }
-
-  &-link:hover,
-  &-selected {
-    &.--food {
-      @include ci-food;
-    }
-  }
-
-  &-link:hover,
-  &-selected {
-    &.--drugs {
-      @include ci-drugs;
-    }
-  }
-
-  &-link:hover,
-  &-selected {
-    &.--cosmetics {
-      @include ci-cosmetics;
-    }
-  }
-
-  &-link:hover,
-  &-selected {
-    &.--textiles {
-      @include ci-textiles;
-    }
-  }
 }
