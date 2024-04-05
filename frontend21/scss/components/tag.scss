@@ -19,18 +19,6 @@
     @include ci-e-mails;
   }
 
-  &.--alpha {
-    @include ci-alpha;
-  }
-
-  &.--beta {
-    @include ci-beta;
-  }
-
-  &.--ontomatica {
-    @include ci-ontomatica;
-  }
-
   &.--general {
     color: color('white');
     background: color('blue-ribbon');

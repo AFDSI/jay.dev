@@ -80,7 +80,7 @@
   }
 }
 
-@mixin ci-alpha {
+@mixin ci-daily-care {
   background: linear-gradient(
     225deg,
     color('japan-laurel') 0%,
@@ -93,7 +93,20 @@
   }
 }
 
-@mixin ci-beta {
+@mixin ci-daily-food {
+  background: linear-gradient(
+    225deg,
+    color('clementine') 0%,
+    color('school-bus') 75%
+  );
+  color: color('charade');
+
+  svg {
+    fill: currentColor;
+  }
+}
+
+@mixin ci-electronic-label {
   background: linear-gradient(
     225deg,
     color('robins-egg') 0%,
@@ -106,11 +119,37 @@
   }
 }
 
-@mixin ci-ontomatica {
+@mixin ci-export-import-data {
   background: linear-gradient(
     225deg,
-    color('guardsman-red') 0%,
-    color('bittersweet') 75%
+    color('lav-magenta') 0%,
+    color('electric-violet') 75%
+  );
+  color: color('white');
+
+  svg {
+    fill: currentColor;
+  }
+}
+
+@mixin ci-food-data-institute {
+  background: linear-gradient(
+    225deg,
+    color('athens-gray') 0%,
+    color('oslo-gray') 75%
+  );
+  color: color('white');
+
+  svg {
+    fill: currentColor;
+  }
+}
+
+@mixin ci-ontomatica {
+  background: linear-gradient(
+    142deg,
+    color('peach-orange') 0%,
+    color('guardsman-red') 75%
   );
   color: color('white');
 

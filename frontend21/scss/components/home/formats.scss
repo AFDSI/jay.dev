@@ -112,14 +112,29 @@ $gap: 10px;
           fill: url('#gradient-email') color('black');
         }
 
-        &.alpha {
-          fill: url('#gradient-alpha') color('black');
+        &.daily-care {
+          fill: url('#gradient-daily-care') color('black');
         }
 
-        &.beta {
-          fill: url('#gradient-beta') color('black');
+        &.daily-food {
+          fill: url('#gradient-daily-food') color('black');
         }
-      }
+
+        &.electronic-label {
+          fill: url('#gradient-electronic-label') color('black');
+        }
+
+        &.export-import-data {
+          fill: url('#gradient-export-import-data') color('black');
+        }
+
+        &.food-data-institute {
+          fill: url('#gradient-food-data-institute') color('black');
+        }
+
+        &.ontomatica {
+          fill: url('#gradient-ontomatica') color('black');
+        }
 
       svg {
         width: 40px;
@@ -163,8 +178,10 @@ $gap: 10px;
       }
     }
 */
+    &.electronic-label,
+    &.export-import-data,
+    &.ontomatica,
     &.websites,
-    &.beta,
     &.ads {
       color: color('white');
     }
@@ -232,8 +249,10 @@ $gap: 10px;
     @include respond-to('medium') {
       display: initial;
 
+      .electronic-label &,
+      .export-import-data &,
+      .ontomatica &,
       .websites &,
-      .beta &,
       .ads & {
         fill: color('white');
       }
@@ -273,12 +292,24 @@ $gap: 10px;
       @include ci-ads;
     }
 
-    .alpha & {
-      @include ci-alpha;
+    .daily-care & {
+      @include ci-daily-care;
     }
 
-    .beta & {
-      @include ci-beta;
+    .daily-food & {
+      @include ci-daily-food;
+    }
+
+    .electronic-label & {
+      @include ci-electronic-label;
+    }
+
+    .export-import-data & {
+      @include ci-export-import-data;
+    }
+
+    .food-data-institute & {
+      @include ci-food-data-institute;
     }
 
     .ontomatica & {
