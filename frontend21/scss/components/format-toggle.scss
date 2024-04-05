@@ -91,4 +91,46 @@
       @include ci-e-mails;
     }
   }
+
+  &-link:hover,
+  &-selected {
+    &.--daily-care {
+      @include ci-daily-care;
+    }
+  }
+
+  &-link:hover,
+  &-selected {
+    &.--daily-food {
+      @include ci-daily-food;
+    }
+  }
+
+  &-link:hover,
+  &-selected {
+    &.--electronic-label {
+      @include ci-electronic-label;
+    }
+  }
+
+  &-link:hover,
+  &-selected {
+    &.--export-import-data {
+      @include ci-export-import-data;
+    }
+  }
+
+  &-link:hover,
+  &-selected {
+    &.--food-data-institute {
+      @include ci-food-data-institute;
+    }
+  }
+
+  &-link:hover,
+  &-selected {
+    &.--ontomatica {
+      @include ci-ontomatica;
+    }
+  }
 }
