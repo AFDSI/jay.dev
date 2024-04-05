@@ -1,4 +1,10 @@
 <symbol id="amp-daily-food" xmlns="http://www.w3.org/2000/svg" width="536" height="536" viewBox="0 0 536 536">
+  <defs>
+    <linearGradient id="gradient-daily-food" x1="81.726943%" x2="23.7165981%" y1="-28.3832685%" y2="119.978062%">
+      <stop offset="0%" stop-color="#FFF300"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+  </defs>
 <g transform="translate(3.004 -3.004)">
 <g transform="translate(178.273 -443.761)"><path d="M10.91 449.77s78.41 9.01 64.14 86.19c.06 0-75.05-3.87-64.14-86.19Z" style="fill:#ec6600;stroke:none;stroke-linecap:butt;stroke-width:3.00427"/></g>
 <g transform="translate(262.483 -443.01)"><path d="M78.44 449.77S0 458.78 14.27 535.96c0 0 75.2-3.87 64.17-86.19Z" style="fill:#ec6600;stroke:none;stroke-linecap:butt;stroke-width:3.00427"/></g>

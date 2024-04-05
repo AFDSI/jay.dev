@@ -1,4 +1,10 @@
 <symbol id="amp-food-data-institute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 272">
+  <defs>
+    <linearGradient id="gradient-food-data-institute" x1="81.726943%" x2="23.7165981%" y1="-28.3832685%" y2="119.978062%">
+      <stop offset="0%" stop-color="#ebebf0"/>
+      <stop offset="100%" stop-color="#91979d"/>
+    </linearGradient>
+  </defs>
 <g fill="#ffffff" transform="translate(71.157 -26.459)"><path d="M0 177.185h72v94.5H0z"/></g>
 <g fill="#ffffff" transform="translate(26.157 -102.959)"><path d="M0 132.185h166.5v139.5H0z"/></g>
 <g fill="#9c9c9c" transform="translate(50.551 -150.246)"><path d="M0 263.117h8.568v8.568H0z"/></g>
