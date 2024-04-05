@@ -121,7 +121,9 @@ $gap: 10px;
         }
 
         &.electronic-label {
-          fill: url('#gradient-electronic-label') color('black');
+          fill: url('#gradient-electronic-label-1') color('black');
+          fill: url('#gradient-electronic-label-2') color('black');
+          fill: url('#gradient-electronic-label-3') color('black');
         }
 
         &.export-import-data {
