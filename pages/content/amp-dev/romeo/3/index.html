@@ -6,11 +6,12 @@ $localization:
   path: /{locale}/3/{base}.html
 
 flyout:
+  format: email
   description: Next gen email
   icon: amp-email
 ---
-{% do doc.styles.addCssFile('css/components/templates/roadmap.css') %}
 
+{% do doc.styles.addCssFile('css/components/templates/roadmap.css') %}
 <main class="ap--main ap-t-roadmap">
   <section class="ap--stage ap--container-fluid">
     {% do doc.styles.addCssFile('css/components/organisms/stage.css') %}
