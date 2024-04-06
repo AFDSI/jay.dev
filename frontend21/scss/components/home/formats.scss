@@ -95,6 +95,10 @@ $gap: 10px;
         &.email {
           fill: url('#gradient-email') color('black');
         }
+
+        &.daily-care {
+          fill: url('#gradient-daily-care') color('black');
+        }
       }
 
       svg {
@@ -244,6 +248,10 @@ $gap: 10px;
 
     .ads & {
       @include ci-ads;
+    }
+
+    .daily-care & {
+      @include ci-daily-care;
     }
 
     svg {
