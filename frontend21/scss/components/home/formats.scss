@@ -99,6 +99,9 @@ $gap: 10px;
         &.daily-care {
           fill: url('#gradient-daily-care') color('black');
         }
+        &.daily-food {
+          fill: url('#gradient-daily-food') color('black');
+        }
       }
 
       svg {
