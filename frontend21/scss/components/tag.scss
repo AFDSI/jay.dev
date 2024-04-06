@@ -18,31 +18,6 @@
   &.--email {
     @include ci-e-mails;
   }
-/*
-  &.--daily-care {
-    @include ci-daily-care;
-  }
-
-  &.--daily-food {
-    @include ci-daily-food;
-  }
-
-  &.--electronic-label {
-    @include ci-electronic-label;
-  }
-
-  &.--export-import-data {
-    @include ci-export-import-data;
-  }
-
-  &.--food-data-institute {
-    @include ci-food-data-institute;
-  }
-
-  &.--ontomatica {
-    @include ci-ontomatica;
-  }
-*/
   &.--general {
     color: color('white');
     background: color('blue-ribbon');
