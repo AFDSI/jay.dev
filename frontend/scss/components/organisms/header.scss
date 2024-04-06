@@ -258,6 +258,10 @@
         &.email {
           @include gradient-e-mails;
         }
+
+        &.guides-documents {
+          @include gradient-guides-documents;
+        }
       }
 
       &-link {
@@ -287,6 +291,9 @@
           }
           &.email {
             fill: url(#gradient-email) #000;
+          }
+          &.guides-documents {
+            fill: url(#gradient-guides-documents) #000;
           }
         }
       }
