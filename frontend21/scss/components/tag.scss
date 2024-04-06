@@ -18,7 +18,7 @@
   &.--email {
     @include ci-e-mails;
   }
-
+/*
   &.--daily-care {
     @include ci-daily-care;
   }
@@ -42,7 +42,7 @@
   &.--ontomatica {
     @include ci-ontomatica;
   }
-
+*/
   &.--general {
     color: color('white');
     background: color('blue-ribbon');

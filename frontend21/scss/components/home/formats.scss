@@ -292,7 +292,7 @@ $gap: 10px;
       .ads & {
         @include ci-ads;
       }
-
+/*
       .daily-care & {
         @include ci-daily-care;
       }
@@ -316,7 +316,7 @@ $gap: 10px;
       .ontomatica & {
         @include ci-ontomatica;
       }
-
+*/
       svg {
         position: absolute;
         height: 100%;
