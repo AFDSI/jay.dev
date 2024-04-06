@@ -99,8 +99,13 @@ $gap: 10px;
         &.daily-care {
           fill: url('#gradient-daily-care') color('black');
         }
+
         &.daily-food {
           fill: url('#gradient-daily-food') color('black');
+        }
+
+        &.export-import-data {
+          fill: url('#gradient-export-import-data') color('black');
         }
       }
 
@@ -259,6 +264,10 @@ $gap: 10px;
 
     .daily-food & {
       @include ci-daily-food;
+    }
+
+    .export-import-data & {
+      @include ci-export-import-data;
     }
 
     svg {
