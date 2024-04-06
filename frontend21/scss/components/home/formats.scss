@@ -30,21 +30,6 @@ $gap: 10px;
 
   @include respond-to('large') {
     grid-column: 1/-1;
-    .ap-formats-format {
-      flex: 1 0 calc(16.666% - (2 * #{$gap})); /* Adjusted for 6 boxes per row */
-    }
-  }
-
-  @include respond-to('xlarge') {
-    .ap-formats-format {
-      flex: 1 0 calc(16.666% - (2 * #{$gap})); /* Adjusted for 6 boxes per row */
-    }
-  }
-
-  @include respond-to('max') {
-    .ap-formats-format {
-      flex: 1 0 calc(16.666% - (2 * #{$gap})); /* Adjusted for 6 boxes per row */
-    }
   }
 
   &-navigation {
@@ -110,221 +95,172 @@ $gap: 10px;
         &.email {
           fill: url('#gradient-email') color('black');
         }
-/*
-        &.daily-care {
-          fill: url('#gradient-daily-care') color('black');
-        }
+      }
 
-        &.daily-food {
-          fill: url('#gradient-daily-food') color('black');
-        }
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
 
-        &.electronic-label {
-          fill: url('#gradient-electronic-label-1') color('black');
-          fill: url('#gradient-electronic-label-2') color('black');
-          fill: url('#gradient-electronic-label-3') color('black');
-        }
+  &-format {
+    position: relative;
+    flex: 1;
+    color: color('charade');
+    overflow: hidden;
+    transform: skewY(calc(var(--skew-angle) * -1));
 
-        &.export-import-data {
-          fill: url('#gradient-export-import-data') color('black');
-        }
+    &-content {
+      position: relative;
+      padding: 136px 20px 137px 109px;
+      transform: skewY(var(--skew-angle));
+      display: flex;
+      flex-direction: column;
+      height: 100%;
 
-        &.food-data-institute {
-          fill: url('#gradient-food-data-institute') color('black');
-        }
+      .#{project('h5')} {
+        flex-grow: 2;
+        margin: 15px 0 40px;
+      }
 
-        &.ontomatica {
-          fill: url('#gradient-ontomatica') color('black');
-        }
-*/
-        svg {
-          width: 40px;
-          height: 40px;
+      .#{project('link')} {
+        color: inherit;
+        padding-bottom: 0;
+        &-text {
+          color: inherit;
         }
       }
     }
 
-    &-format {
-      position: relative;
-      flex: 1;
-      color: color('charade');
-      overflow: hidden;
-      transform: skewY(calc(var(--skew-angle) * -1));
-
-      &-content {
-        position: relative;
-        padding: 136px 20px 137px 109px;
-        transform: skewY(var(--skew-angle));
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-
-        .#{project('h5')} {
-          flex-grow: 2;
-          margin: 15px 0 40px;
-        }
-
-        .#{project('link')} {
-          color: inherit;
-          padding-bottom: 0;
-          &-text {
-            color: inherit;
-          }
-        }
-      }
-/*
     &.websites {
       .cta {
         display: none;
       }
     }
-*/
-      &.electronic-label,
-      &.export-import-data,
-      &.ontomatica,
-      &.websites,
-      &.ads {
-        color: color('white');
+
+    &.websites,
+    &.ads {
+      color: color('white');
+    }
+
+    @include respond-to('small') {
+      &-content {
+        padding: 168px 83px 154px 207px;
+      }
+    }
+
+    @include respond-to('medium') {
+      transform: skewY(0deg);
+      @include shadow-large;
+      transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+      flex: 1 0 calc(50% - (2 * #{$gap}));
+      border-radius: 4px;
+
+      &:hover,
+      &:focus,
+      &:focus-within {
+        transform: translateY(-0.125em);
+        @include shadow-small;
       }
 
-      @include respond-to('small') {
-        &-content {
-          padding: 168px 83px 154px 207px;
-        }
-      }
-
-      @include respond-to('medium') {
+      &-content {
+        padding: 50px 30px 30px;
         transform: skewY(0deg);
-        @include shadow-large;
-        transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-        flex: 1 0 calc(50% - (2 * #{$gap}));
-        border-radius: 4px;
 
-        &:hover,
-        &:focus,
-        &:focus-within {
-          transform: translateY(-0.125em);
-          @include shadow-small;
+        h1 {
+          font-size: 28px;
         }
 
-        &-content {
-          padding: 50px 30px 30px;
-          transform: skewY(0deg);
-
-          h1 {
-            font-size: 28px;
-          }
-
-          .cta {
-            margin-bottom: 19px;
-          }
+        .cta {
+          margin-bottom: 19px;
         }
+      }
 
-        &:nth-child(even) {
-          top: -24px;
-        }
+      &:nth-child(even) {
+        top: -24px;
+      }
 
-        &:nth-child(odd) {
-          top: 24px;
-        }
-/*
+      &:nth-child(odd) {
+        top: 24px;
+      }
+
       &.websites {
         .cta {
           display: inline-block;
         }
       }
-*/
-      }
-
-      @include respond-to('large') {
-        flex: 1 0 calc(25% - (4 * #{$gap}));
-      }
     }
 
-    &-logo {
-      width: 50px;
-      height: 50px;
-      margin-bottom: 15px;
-      display: none;
-
-      @include respond-to('medium') {
-        display: initial;
-
-        .electronic-label &,
-        .export-import-data &,
-        .ontomatica &,
-        .websites &,
-        .ads & {
-          fill: color('white');
-        }
-      }
+    @include respond-to('large') {
+      flex: 1 0 calc(25% - (4 * #{$gap}));
     }
+  }
 
-    &-background {
-      position: absolute;
-      top: calc(var(--skew-padding) * -1);
-      right: 0;
-      bottom: calc(var(--skew-padding) * -1);
-      left: 0;
-      transform: skewY(var(--skew-angle));
+  &-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    display: none;
 
-      @include respond-to('medium') {
-        top: 0;
-        bottom: 0;
-        transform: skewY(0deg);
-        svg {
-          display: none;
-        }
-      }
+    @include respond-to('medium') {
+      display: initial;
 
-      .websites & {
-        @include ci-websites;
-      }
-
-      .stories & {
-        @include ci-stories;
-      }
-
-      .email & {
-        @include ci-e-mails;
-      }
-
+      .websites &,
       .ads & {
-        @include ci-ads;
+        fill: color('white');
       }
-/*
-      .daily-care & {
-        @include ci-daily-care;
-      }
+    }
+  }
 
-      .daily-food & {
-        @include ci-daily-food;
-      }
+  &-background {
+    position: absolute;
+    top: calc(var(--skew-padding) * -1);
+    right: 0;
+    bottom: calc(var(--skew-padding) * -1);
+    left: 0;
+    transform: skewY(var(--skew-angle));
 
-      .electronic-label & {
-        @include ci-electronic-label;
-      }
-
-      .export-import-data & {
-        @include ci-export-import-data;
-      }
-
-      .food-data-institute & {
-        @include ci-food-data-institute;
-      }
-
-      .ontomatica & {
-        @include ci-ontomatica;
-      }
-*/
+    @include respond-to('medium') {
+      top: 0;
+      bottom: 0;
+      transform: skewY(0deg);
       svg {
-        position: absolute;
-        height: 100%;
-        width: 80%;
-        bottom: calc(var(--skew-padding) * -1);
-        left: 50%;
-        opacity: 0.1;
+        display: none;
       }
+    }
+
+    .websites & {
+      @include ci-websites;
+    }
+
+    .stories & {
+      @include ci-stories;
+    }
+
+    .email & {
+      @include ci-e-mails;
+    }
+
+    .ads & {
+      @include ci-ads;
+    }
+
+    .alpha & {
+      @include ci-alpha;
+    }
+
+    .beta & {
+      @include ci-beta;
+    }
+
+    svg {
+      position: absolute;
+      height: 100%;
+      width: 80%;
+      bottom: calc(var(--skew-padding) * -1);
+      left: 50%;
+      opacity: 0.1;
     }
   }
 }
