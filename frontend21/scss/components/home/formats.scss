@@ -107,6 +107,10 @@ $gap: 10px;
         &.export-import-data {
           fill: url('#gradient-export-import-data') color('black');
         }
+        &.electronic-label {
+          fill: url('#gradient-electronic-label') color('black');
+        }
+
       }
 
       svg {
@@ -151,6 +155,8 @@ $gap: 10px;
       }
     }
 
+    &.electronic-label,
+    &.export-import-data,
     &.websites,
     &.ads {
       color: color('white');
@@ -218,6 +224,8 @@ $gap: 10px;
     @include respond-to('medium') {
       display: initial;
 
+      .electronic-label &,
+      .export-import-data &,
       .websites &,
       .ads & {
         fill: color('white');
@@ -268,6 +276,10 @@ $gap: 10px;
 
     .export-import-data & {
       @include ci-export-import-data;
+    }
+
+    .electronic-label & {
+      @include ci-electronic-label;
     }
 
     svg {

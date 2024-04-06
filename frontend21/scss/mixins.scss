@@ -106,7 +106,6 @@
   }
 }
 
-/*
 @mixin ci-electronic-label {
   background: linear-gradient(
     225deg,
@@ -119,10 +118,10 @@
     fill: currentColor;
   }
 }
-*/
+
 @mixin ci-export-import-data {
   background: linear-gradient(
-    225deg,
+    45deg,
     color('lav-magenta') 0%,
     color('electric-violet') 75%
   );
