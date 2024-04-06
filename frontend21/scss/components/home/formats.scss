@@ -110,7 +110,7 @@ $gap: 10px;
         &.email {
           fill: url('#gradient-email') color('black');
         }
-
+/*
         &.daily-care {
           fill: url('#gradient-daily-care') color('black');
         }
@@ -136,7 +136,7 @@ $gap: 10px;
         &.ontomatica {
           fill: url('#gradient-ontomatica') color('black');
         }
-
+*/
         svg {
           width: 40px;
           height: 40px;
@@ -172,7 +172,7 @@ $gap: 10px;
           }
         }
       }
-      /*
+/*
     &.websites {
       .cta {
         display: none;
@@ -227,7 +227,7 @@ $gap: 10px;
         &:nth-child(odd) {
           top: 24px;
         }
-        /*
+/*
       &.websites {
         .cta {
           display: inline-block;
