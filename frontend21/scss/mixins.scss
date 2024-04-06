@@ -108,7 +108,7 @@
 
 @mixin ci-electronic-label {
   background: linear-gradient(
-    225deg,
+    45deg,
     color('robins-egg') 0%,
     color('blue-ribbon') 75%
   );
@@ -121,7 +121,7 @@
 
 @mixin ci-export-import-data {
   background: linear-gradient(
-    45deg,
+    225deg,
     color('lav-magenta') 0%,
     color('electric-violet') 75%
   );
