@@ -257,6 +257,10 @@ $gap: 10px;
       @include ci-daily-care;
     }
 
+    .daily-food & {
+      @include ci-daily-food;
+    }
+
     svg {
       position: absolute;
       height: 100%;
