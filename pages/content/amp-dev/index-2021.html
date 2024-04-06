@@ -1,71 +1,73 @@
 ---
-$title: AMP - a web component framework to easily create user-first web experiences
+$title: Knowledge graph applications for industry, science and government
 $view: /views/2021/base.html
 $titles:
   navigation: Start
-description: 'Whether you are a publisher, e-commerce company, storyteller, advertiser or email sender, AMP makes it easy to create great experiences on the web. Use AMP to build websites, stories, ads and emails.'
+description: Knowledge graph applications for industry, science and government.
 
 format_explainer:
   - name: websites
-    headline: AMP Websites
-    description: "Easily create websites with a great page experience out-of-the-box using AMP’s ready-to-go web components."
-    link: "All about AMP Websites"
-    cta: "Get started"
-    url: /about/websites.html
+    headline: Ontomatica
+    description: "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
+    link: "All about Ontomatica"
+    url: /
   - name: stories
-    headline: Web Stories
-    description: "Immerse readers in visual and tappable stories they can share anywhere on the open web."
-    link: "All about Web Stories"
-    url: /about/stories.html
-  - name: email
-    headline: AMP Emails
-    description: "Send emails of the future with personalized dynamic content and interactive elements that engage readers."
-    link: "All about AMP Emails"
-    url: /about/email.html
+    headline: DailyFood
+    description: "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
+    link: "All about DailyFood"
+    url: /
   - name: ads
-    headline: AMP Ads
-    description: "Serve lightning fast and secure eye-catching creatives."
-    link: "All about AMP Ads"
-    url: /about/ads.html
-  - name: wrench
-    headline: Components
-    description: "Now is the time for action."
-    link: "All about components"
-    url: /about/websites.html
-  - name: code-architecture
-    headline: Functionality
-    description: "The sun is a star."
-    link: "All about functionality"
-    url: /about/websites.html
+    headline: DailyCare
+    description: "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
+    link: "All about DailyCare"
+    url: /
+  - name: email
+    headline: Export Import Data
+    description: "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
+    link: "All about Export Import Data"
+    url: /
+
+cards:
+  - icon: icon-ontomatica
+    headline: Simplify development of knowledge graph applications
+    text: "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
+  - icon: icon-daily-food
+    headline: Monitor food & drug biochemistry
+    text: "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
+  - icon: icon-daily-care
+    headline: Monitor cosmetics, textile & household chemical biochemistry
+    text: "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+  - icon: icon-electronic-label
+    headline: Define product identity and impede counterfeits
+    text: "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
+  - icon: icon-export-import-data
+    headline: Be a friend to Authorities
+    text: "Product Passport is a companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+  - icon: icon-fdi
+    headline: Open standards & open data research
+    text: "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
 
 success_stories:
-  - !g.doc /content/amp-dev/about/success-stories/washingtonpost.yaml
-  - !g.doc /content/amp-dev/about/success-stories/teads.yaml
-  - !g.doc /content/amp-dev/about/success-stories/carved.yaml
-  - !g.doc /content/amp-dev/about/success-stories/wompmobile.yaml
+  - !g.doc /content/amp-dev/runner/success-stories/washingtonpost.yaml
+  - !g.doc /content/amp-dev/runner/success-stories/teads.yaml
+  - !g.doc /content/amp-dev/runner/success-stories/carved.yaml
+  - !g.doc /content/amp-dev/runner/success-stories/wompmobile.yaml
 ---
 
 <main class="ap--main">
   <section class="ap-home-stage">
-<!--
+
     <div class="ap-home-stage-logo">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194 194">
-        <defs>
-            <linearGradient id="hnk2zvh1ka" x1="100%" x2="0%" y1="0%" y2="100%">
-                <stop offset="0%" stop-color="#00DCC0"/>
-                <stop offset="100%" stop-color="#005AF0"/>
-            </linearGradient>
-        </defs>
-        <g fill="none" fill-rule="evenodd">
-            <g fill="url(#hnk2zvh1ka)" transform="translate(-91 -83)">
-                <path d="M188 83c53.572 0 97 43.428 97 97s-43.428 97-97 97-97-43.428-97-97 43.428-97 97-97zm0 2.533c-52.173 0-94.467 42.294-94.467 94.467s42.294 94.467 94.467 94.467 94.467-42.294 94.467-94.467S240.173 85.533 188 85.533zM193.88 124l8.969.037-6.742 41.065 18.96-.023.31-.005.177.002c2.472.072 4.446 2.15 4.446 4.697 0 1.007-.345 1.937-.952 2.77l.043-.06L182.03 236h-8.853l6.577-41.007-18.856.028-.277.005-.173-.001c-2.472-.073-4.449-2.153-4.449-4.698 0-.37.076-.76.208-1.185.071-.23.158-.465.257-.705.156-.378.312-.697.445-.944L193.88 124zm1.435 2.562L159.1 188.754l-.067.132-.1.21c-.05.106-.099.217-.145.33-.071.172-.132.336-.178.485-.015.05-.029.096-.04.14l-.029.118-.017.094c-.003.026-.005.048-.005.064 0 1.187.928 2.143 2.062 2.143l.19-.003 21.947-.035-6.579 41.011h4.454l36.39-62.366.038-.053c.305-.42.458-.832.458-1.25 0-1.19-.925-2.143-2.06-2.143l-22.288.032 6.744-41.082-4.561-.019z"/>
-            </g>
-        </g>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+        <path d="M18 11.38a4 4 0 0 0-3.51-3.88 5.1 5.1 0 0 0-5.25-4.88A5.25 5.25 0 0 0 4.22 6 4.8 4.8 0 0 0 0 10.67a4.9 4.9 0 0 0 5.07 4.71h8.65a.78.78 0 0 0 .22 0 4.1 4.1 0 0 0 4.06-4Z" style="fill:#e1eb64; stroke:#09a600; stroke-width: 0.12"/>
+        <path d="M5.42 10.39h-.88a1.09 1.09 0 1 0 0 .49h.88a.2.2 0 0 1 .2.2v4.3h.49v-4.3a.69.69 0 0 0-.69-.69Zm-1.95.88a.64.64 0 1 1 .64-.64.64.64 0 0 1-.64.64Z" style="fill:#c80000"/>
+        <path d="M8.94 10.61v-1a.7.7 0 0 0-.7-.7H6.69a.2.2 0 0 1-.2-.2V3.4l-.23.12-.26.14v5a.69.69 0 0 0 .69.69h1.55a.21.21 0 0 1 .21.21v1a1.08 1.08 0 0 0-.85 1.06 1.09 1.09 0 1 0 1.34-1.06Zm-.25 1.7a.64.64 0 1 1 .64-.64.64.64 0 0 1-.64.64Z" style="fill:#5500d7"/>
+        <path d="M14.53 8.5a1.09 1.09 0 0 0-.25 2.15v.2a.21.21 0 0 1-.21.21h-2V7.54a.69.69 0 0 0-.69-.69h-1.03A1.08 1.08 0 0 0 9.29 6a1.09 1.09 0 1 0 1.06 1.34h1.07a.2.2 0 0 1 .2.2v7.84h.49v-3.83h2a.7.7 0 0 0 .7-.7v-.2a1.09 1.09 0 0 0 .85-1.06 1.09 1.09 0 0 0-1.13-1.09Zm-5.24-.77a.64.64 0 1 1 .64-.64.64.64 0 0 1-.64.64Zm5.24 2.5a.64.64 0 1 1 .63-.64.64.64 0 0 1-.63.64Z" style="fill:#1f64ff"/>
       </svg>
     </div>
--->
+
     <div class="ap-home-stage-text">
-      <h1 class="ap-h1">{{ _('AMP is a web component framework to easily create user-first experiences for the web.') }}</h1>
+      <h1 class="ap-h1">{{ _('Knowledge graph applications for industry, science and government.') }}</h1>
     </div>
   </section>
   <section class="ap-formats">
@@ -134,9 +136,6 @@ success_stories:
         </div>
         <h1>{{ _(format.headline) }}</h1>
         <h5 class="ap-h5">{{ _(format.description) }}</h5>
-        {% if format.cta %}
-          <a href="documentation/index.html" class="ap-button --inverted cta">{{ _(format.cta) }}</a>
-        {% endif %}
         {% with %}
           {% set href = format.url %}
           {% set text = _(format.link) %}
@@ -146,111 +145,79 @@ success_stories:
     </div>
     {% endfor %}
   </section>
-<!--
-  <section class="ap-intro ap-section --col-left">
-    <h1>{{ _('The latest news') }}</h1>
-    <p>{{ _('Don\'t want to miss any of the great stuff that happens around AMP? Then always be first in line and subscribe to our newsletter!') }}</p>
-    {% with %}
-      {% set square = true %}
-      {% set class= "ap-newsletter-double" %}
-      {% set href = "https://services.google.com/fb/forms/ampnewsletter-doubleopt-in/" %}
-      {% set text = _("Subscribe") %}
-      {% include '/views/2021/partials/content/link.j2' %}
-    {% endwith %}
 
-    {% with %}
-      {% set square = true %}
-      {% set class= "ap-newsletter" %}
-      {% set href = "https://services.google.com/fb/forms/ampnewsletter/" %}
-      {% set text = _("Subscribe") %}
-      {% include '/views/2021/partials/content/link.j2' %}
-    {% endwith %}
+  <section class="ap-center-stage">
+    <div class="ap-center-stage-content">
+      <h2 class="ap-h2">{{ _("New information technology should aspire to accomplish two goals:") }}</h2>
+      <h3 class="">
+        {{ _("Take an existing business process and significantly reduce its total cost of implementation.") }}
+      </h3>
+      <h3 class="">
+        {{ _("Develop new, productive habits among consumers.") }}
+      </h3>
+      <h2 class="ap-h2">
+        {{ _("Consortium members aspire to accomplish both goals.") }}
+      </h2>
+    </div>
   </section>
--->
 
-<!--
-  <section class="ap-teaser-carousel --news">
-    [% set posts = []|importBlog %]
-    [% if posts|length %]
-    <div class="ap-teaser-carousel-container">
-      <amp-base-carousel
-        id="teaser-carousel-news"
-        height="523"
-        layout="fixed-height"
-        role="region"
-        snap-align="(min-width: 768px) start, center"
-        visible-count="(min-width: 1024px) 3, (min-width: 768px) 2, 1.05"
-        aria-label="{{ _('News') }}"
-        on="slideChange:teaser-carousel-pagination-news.toggle(index=event.index, value=true)">
-        [% for post in posts %]
-        [% set url = post.url     %]
-        [% set image = post.image %]
-        [% set alt = post.title   %]
-        [% set meta = post.date   %]
-        [% set headline = post.headline %]
-        <a href="[= url =]" class="ap-teaser --news">
-          <div class="ap-teaser-card">
-            <div class="ap-teaser-card-header">
-              [% if post.formats %]
-                [% set format = post.formats[0] %]
-                  <div class="ap-teaser-card-header-logo">
-                    <svg fill="url(#gradient-[= format =])"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#amp-[= format =]"></use></svg>
-                  </div>
-                  <h6>[= format =]</h6>
-              [% else %]
-              <h6>[= post.title =]</h6>
-              [% endif %]
-            </div>
-            <div class="ap-teaser-card-image">
-              [% if image and image != '' %]
-                <amp-img class=""
-                    src="[= image =]"
-                    layout="fill"
-                    alt="[= alt =]">
-                </amp-img>
-              [% else %]
-                <div class="ap-teaser-card-news-icon">
-                  <div class="ap-a-ico">
-                    {% do doc.icons.useIcon('icons/news.svg') %}
-                    <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#news"></use></svg>
-                  </div>
-                </div>
-              [% endif %]
-            </div>
-            <div class="ap-teaser-card-body">
-              <h4 class="ap-teaser-card-headline">[= headline =]</h4>
-              <div class="ap-teaser-card-meta">[= meta =]</div>
-            </div>
-          </div>
-        </a>
+  <section class="ap-cards">
+    <div class="ap-cards-grid" role="list">
+      {% for card in doc.cards %}
+      <div class="ap-cards-item" role="listitem">
+        <svg class="ap-cards-item-icon" width="30" height="30">
+          <use
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xlink:href="/static/frontend/sprite.svg#{{ card.icon }}"
+          ></use>
+        </svg>
 
-        [% endfor %]
-        <button slot="next-arrow"></button>
-        <button slot="prev-arrow"></button>
-      </amp-base-carousel>
+        <h3>{{ card.headline }}</h3>
+        <p>{{ card.text }}</p>
+      </div>
+      {% endfor %}
     </div>
-    <div class="ap-teaser-carousel-controls --prev">
-      <button on="tap: teaser-carousel-news.prev()" class="amp-carousel-button amp-carousel-button-prev" aria-label="Previous"></button>
-    </div>
-    <div class="ap-teaser-carousel-controls --next">
-      <button on="tap: teaser-carousel-news.next()" class="amp-carousel-button amp-carousel-button-next" aria-label="Next"></button>
-    </div>
-    <amp-selector class="ap-teaser-carousel-pagination" id="teaser-carousel-pagination-news" layout="container" on="select: teaser-carousel-news.goToSlide(index=event.targetOption)">
-      [% for post in posts %]
-        <div class="ap-teaser-carousel-pagination-item" option="[= loop.index0 =]" [% if loop.index0 == 0 %]selected[% endif %]></div>
-      [% endfor %]
+
+    <amp-base-carousel
+      id="cards-carousel"
+      class="ap-cards-carousel"
+      role="list"
+      layout="fixed-height"
+      height="350"
+      controls="never"
+      on="slideChange:cards-carousel-pagination.toggle(index=event.index, value=true)"
+    >
+      {% for card in doc.cards %}
+      <div class="ap-cards-item-wrapper">
+        <div class="ap-cards-item" role="listitem">
+          <svg class="ap-cards-item-icon" width="30" height="30">
+            <use
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xlink:href="/static/frontend/sprite.svg#{{ card.icon }}"
+            ></use>
+          </svg>
+
+          <h3>{{ card.headline }}</h3>
+          <p>{{ card.text }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </amp-base-carousel>
+    <amp-selector class="ap-cards-carousel-pagination" id="cards-carousel-pagination" layout="container" on="select: cards-carousel.goToSlide(index=event.targetOption)">
+      {% for card in doc.cards %}
+        <div class="ap-cards-carousel-pagination-item" option="{{ loop.index0 }}" {% if loop.index0==0 %}selected{% endif
+          %}></div>
+      {% endfor %}
     </amp-selector>
-    [% endif %]
   </section>
--->
   <section class="ap-intro ap-section --col-right">
     <div class="ap-text-block">
-      <h1>{{ _('Explore AMP success stories') }}</h1>
-      <p>{{ _('Don’t take our word for it - read case studies from industry success stories and see how AMP has produced positive results.') }}</p>
+      <h1>{{ _('Learn more about knowledge graph applications') }}</h1>
+      <p>{{ _('Read case studies from industry, science and government.') }}</p>
       {% with %}
         {% set square = true %}
-        {% set href = "about/success-stories/index.html" %}
-        {% set text = _("See all success stories") %}
+        {% set href = "runner/success-stories/index.html" %}
+        {% set text = _("See all case studies") %}
         {% include '/views/2021/partials/content/link.j2' %}
       {% endwith %}
     </div>
