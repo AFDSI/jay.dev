@@ -3,6 +3,8 @@ $view: /views/detail/success-story-detail.j2
 $category: graph analytics
 $date: 2023-10-01
 description: Create flawless web experiences
+$localization:
+  path: /{locale}/{base}.html
 
 teaser:
   image:

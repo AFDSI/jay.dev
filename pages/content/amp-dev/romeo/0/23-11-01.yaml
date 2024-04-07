@@ -3,15 +3,17 @@ $view: /views/detail/success-story-detail.j2
 $category: consumer application
 $date: 2023-11-01
 description: Tell a story
+$localization:
+  path: /{locale}/{base}.html
 
 teaser:
   image:
-    src: "/static/img/blog/23-11-01/teaser-image-750x750.jpg"
+    src: /static/img/blog/23-11-01/teaser-image-750x750.jpg
     width: 750
     height: 750
     alt: Pronto
   logo:
-    src: "/static/img/company/daily-food/teaser-logo-1044x344.png"
+    src: /static/img/company/daily-food/teaser-logo-1044x344.png
     width: 1044
     height: 344
     alt: Pronto
@@ -22,25 +24,25 @@ stage:
   subline: November 1, 2023
   layout: all
   logo:
-    src: "/static/img/product/biograph/teaser-logo-2425x911.png"
+    src: /static/img/product/biograph/teaser-logo-2425x911.png
     width: 2425
     height: 911
     alt: 
   devices:
 
-    - image_src: "/static/img/blog/23-11-01/stage-desktop-683x512.jpg"
+    - image_src: /static/img/blog/23-11-01/stage-desktop-683x512.jpg
       width: 683
       height: 512
       type: desktop
       alt: 
 
-    - image_src: "/static/img/blog/23-11-01/stage-tablet-384x512.jpg"
+    - image_src: /static/img/blog/23-11-01/stage-tablet-384x512.jpg
       width: 384
       height: 512
       type: tablet
       alt: 
 
-    - image_src: "/static/img/blog/23-11-01/stage-mobile-362x724.jpg"
+    - image_src: /static/img/blog/23-11-01/stage-mobile-362x724.jpg
       width: 362
       height: 724
       type: mobile
@@ -53,8 +55,8 @@ contents:
     height: 880
     type: mobile
     alt: cake
-    headline: "Begin building for creation, design and development."
-    text: "Convey facts and figures via bite-sized chunks of one or two sentences – ideal for mobile devices. Choose from different font colors for basic readability. Or add visual elements like subtle black transparent gradient overlays to ensure readability even on random background imagery, for example user generated content. On top of this, you can use short audio files on every page to provide spoken information or background music."
+    headline: Begin building for creation, design and development.
+    text: Convey facts and figures via bite-sized chunks of one or two sentences – ideal for mobile devices. Choose from different font colors for basic readability. Or add visual elements like subtle black transparent gradient overlays to ensure readability even on random background imagery, for example user generated content. On top of this, you can use short audio files on every page to provide spoken information or background music.
 
   - layout: text-media
     image_src: /static/img/blog/shared/dummy-asking-1000x650.png
@@ -62,8 +64,8 @@ contents:
     height: 650
     type: mobile
     alt: asking
-    headline: "Create great web experiences for users across the open web"
-    text: "Third-party JS likes to use synchronous JS loading. They also like to <code>document.write</code> more sync scripts. For example, if you have five ads on your page, and each of them cause three synchronous loads, each with a 1 second latency connection, you’re in 15 seconds of load time just for JS loading."
+    headline: Create great web experiences for users across the open web
+    text: Third-party JS likes to use synchronous JS loading. They also like to <code>document.write</code> more sync scripts. For example, if you have five ads on your page, and each of them cause three synchronous loads, each with a 1 second latency connection, you’re in 15 seconds of load time just for JS loading.
 
   - layout: text-media
     image_src: /static/img/blog/shared/dummy-food-1000x650.png
@@ -71,8 +73,8 @@ contents:
     height: 650
     type: mobile
     alt: four foods
-    headline: "Grow engagement and increase conversions with faster experiences"
-    text: "Web Stories provide content publishers with a mobile-focused format for delivering news and information as visually rich, tap-through stories. Web Stories offers a robust set of advertising opportunities for advertisers and publishers to reach a unique audience on the web with immersive experiences."
+    headline: Grow engagement and increase conversions with faster experiences
+    text: Web Stories provide content publishers with a mobile-focused format for delivering news and information as visually rich, tap-through stories. Web Stories offers a robust set of advertising opportunities for advertisers and publishers to reach a unique audience on the web with immersive experiences.
 
   - layout: text-media
     image_src: /static/img/blog/shared/refrigerator-597x890.jpg
@@ -80,22 +82,22 @@ contents:
     height: 890
     type: mobile
     alt: refrigerator
-    headline: "Solve problems on the right layer."
-    text: "When in doubt, do what’s best for the end user experience, even if it means that it’s harder for the page creator to build or for the library developer to implement."
+    headline: Solve problems on the right layer.
+    text: When in doubt, do what’s best for the end user experience, even if it means that it’s harder for the page creator to build or for the library developer to implement.
 
   - layout: text
-    headline: "Pick one of several editors to start creating ads without any coding involved."
-    text: "We are committed to improving speed across the board. If our site takes a long time to load, it doesn’t matter how great our journalism is, some people will leave the page before they see what’s there."
+    headline: Pick one of several editors to start creating ads without any coding involved.
+    text: We are committed to improving speed across the board. If our site takes a long time to load, it doesn’t matter how great our journalism is, some people will leave the page before they see what’s there.
 
   - layout: text
-    headline: "The fastest way to learn is to peak over the tangible examples."
-    text: "You can use CSS to customize your styling and dynamic data to fetch the freshest data where needed."
+    headline: The fastest way to learn is to peak over the tangible examples.
+    text: You can use CSS to customize your styling and dynamic data to fetch the freshest data where needed.
 
   - layout: text
-    text: "Get started quickly with a ready-made design. Templates designed to work with all devices - mobile, tablet and desktop."
+    text: Get started quickly with a ready-made design. Templates designed to work with all devices - mobile, tablet and desktop.
 
   - layout: text
-    text: "Lorem ipsum dolor sit amet, ex quo primis repudiandae. Duo error impetus accusamus ut, no vel cetero verear appetere. Ad solet soleat mea, eos suas complectitur ea. Vis an scribentur disputando, suas legimus his ex. Audire sententiae no eum, mel nulla aliquid nusquam at."
+    text: Lorem ipsum dolor sit amet, ex quo primis repudiandae. Duo error impetus accusamus ut, no vel cetero verear appetere. Ad solet soleat mea, eos suas complectitur ea. Vis an scribentur disputando, suas legimus his ex. Audire sententiae no eum, mel nulla aliquid nusquam at.
 
   - layout: text
-    text: "Need further explanation?"
+    text: Need further explanation?
