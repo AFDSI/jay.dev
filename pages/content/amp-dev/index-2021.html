@@ -58,10 +58,12 @@ cards:
     text: "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
 
 success_stories:
-  - !g.doc /content/amp-dev/runner/success-stories/washingtonpost.yaml
-  - !g.doc /content/amp-dev/runner/success-stories/teads.yaml
-  - !g.doc /content/amp-dev/runner/success-stories/carved.yaml
-  - !g.doc /content/amp-dev/runner/success-stories/wompmobile.yaml
+  - !g.doc /content/amp-dev/romeo/0/23-10-01.yaml
+  - !g.doc /content/amp-dev/romeo/0/23-11-01.yaml
+  - !g.doc /content/amp-dev/romeo/0/23-12-01.yaml
+  - !g.doc /content/amp-dev/romeo/0/24-01-01.yaml
+  - !g.doc /content/amp-dev/romeo/0/24-02-01.yaml
+  - !g.doc /content/amp-dev/romeo/0/24-03-01.yaml
 ---
 
 <main class="ap--main">
@@ -226,7 +228,7 @@ success_stories:
       <p>{{ _('Read case studies from industry, science and government.') }}</p>
       {% with %}
         {% set square = true %}
-        {% set href = "runner/success-stories/index.html" %}
+        {% set href = "romeo/0/index.html" %}
         {% set text = _("See all case studies") %}
         {% include '/views/2021/partials/content/link.j2' %}
       {% endwith %}
