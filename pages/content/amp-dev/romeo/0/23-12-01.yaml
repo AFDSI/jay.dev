@@ -6,7 +6,7 @@ description: Easily build user first websites with our templates
 
 teaser:
   image:
-    src: "/static/img/blog/2023-12-01/teaser-image-750x1050.jpg"
+    src: "/static/img/blog/23-12-01/teaser-image-750x1050.jpg"
     width: 750
     height: 1050
     alt: Pronto
@@ -28,19 +28,19 @@ stage:
     alt: 
   devices:
 
-    - image_src: "/static/img/blog/2023-12-01/stage-desktop-1366x1024.jpg"
+    - image_src: "/static/img/blog/23-12-01/stage-desktop-1366x1024.jpg"
       width: 1366
       height: 1024
       type: desktop
       alt: 
 
-    - image_src: "/static/img/blog/2023-12-01/stage-tablet-1152x1356.jpg"
+    - image_src: "/static/img/blog/23-12-01/stage-tablet-1152x1356.jpg"
       width: 1152
       height: 1356
       type: tablet
       alt: 
 
-    - image_src: "/static/img/blog/2023-12-01/stage-mobile-798x1596.jpg"
+    - image_src: "/static/img/blog/23-12-01/stage-mobile-798x1596.jpg"
       width: 798
       height: 1596
       type: mobile

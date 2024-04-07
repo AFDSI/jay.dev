@@ -6,7 +6,7 @@ description: The sun is a star.
 
 teaser:
   image:
-    src: "/static/img/blog/2024-03-01/teaser-image-750x750.jpg"
+    src: "/static/img/blog/24-03-01/teaser-image-750x750.jpg"
     width: 750
     height: 750
     alt: Pronto
@@ -28,19 +28,19 @@ stage:
     alt: 
   devices:
 
-    - image_src: "/static/img/blog/2024-03-01/stage-desktop-683x512.jpg"
+    - image_src: "/static/img/blog/24-03-01/stage-desktop-683x512.jpg"
       width: 683
       height: 512
       type: desktop
       alt: 
 
-    - image_src: "/static/img/blog/2024-03-01/stage-tablet-384x512.jpg"
+    - image_src: "/static/img/blog/24-03-01/stage-tablet-384x512.jpg"
       width: 384
       height: 512
       type: tablet
       alt: 
 
-    - image_src: "/static/img/blog/2024-03-01/stage-mobile-362x724.jpg"
+    - image_src: "/static/img/blog/24-03-01/stage-mobile-362x724.jpg"
       width: 362
       height: 724
       type: mobile

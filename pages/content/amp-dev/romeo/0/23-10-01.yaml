@@ -6,7 +6,7 @@ description: Create flawless web experiences
 
 teaser:
   image:
-    src: "/static/img/blog/2023-10-01/teaser-image-750x1050.jpg"
+    src: "/static/img/blog/23-10-01/teaser-image-750x1050.jpg"
     width: 750
     height: 1050
     alt: Pronto
@@ -28,19 +28,19 @@ stage:
     alt: 
   devices:
 
-    - image_src: "/static/img/blog/2023-10-01/stage-desktop-683x512.jpg"
+    - image_src: "/static/img/blog/23-10-01/stage-desktop-683x512.jpg"
       width: 683
       height: 512
       type: desktop
       alt: 
 
-    - image_src: "/static/img/blog/2023-10-01/stage-tablet-384x512.jpg"
+    - image_src: "/static/img/blog/23-10-01/stage-tablet-384x512.jpg"
       width: 384
       height: 512
       type: tablet
       alt: 
 
-    - image_src: "/static/img/blog/2023-10-01/stage-mobile-362x724.jpg"
+    - image_src: "/static/img/blog/23-10-01/stage-mobile-362x724.jpg"
       width: 362
       height: 724
       type: mobile
