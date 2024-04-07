@@ -1,7 +1,7 @@
 {
   "name": "ngfalls.netlify.app",
   "short_name": "ngfalls",
-  "theme_color": "#005af0",
+  "theme_color": "#1f64ff",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
