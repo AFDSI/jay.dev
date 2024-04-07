@@ -4,7 +4,7 @@ $category: application development
 $date: 2024-03-01
 description: The sun is a star.
 $localization:
-  path: /{locale}/{base}.html
+  path: /{locale}/romeo/0/{base}.html
 
 teaser:
   image:

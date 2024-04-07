@@ -4,7 +4,7 @@ $category: consumer application
 $date: 2023-11-01
 description: Tell a story
 $localization:
-  path: /{locale}/{base}.html
+  path: /{locale}/romeo/0/{base}.html
 
 teaser:
   image:

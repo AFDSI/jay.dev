@@ -4,7 +4,7 @@ $category: consumer application
 $date: 2023-12-01
 description: Easily build user first websites with our templates
 $localization:
-  path: /{locale}/{base}.html
+  path: /{locale}/romeo/0/{base}.html
 
 teaser:
   image:

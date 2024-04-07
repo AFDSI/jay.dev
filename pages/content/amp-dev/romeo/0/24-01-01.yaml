@@ -4,7 +4,7 @@ $category: graph application
 $date: 2024-01-01
 description: Track and measure
 $localization:
-  path: /{locale}/{base}.html
+  path: /{locale}/romeo/0/{base}.html
 
 teaser:
   image:
