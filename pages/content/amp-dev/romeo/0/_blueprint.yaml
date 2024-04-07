@@ -1,0 +1,6 @@
+$title: Blog
+$view: /views/default.j2
+$path: /0/{base}.html
+$localization:
+  path: /{locale}/0/{base}.html
+$order: 1
