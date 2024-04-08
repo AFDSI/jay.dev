@@ -2,7 +2,7 @@ $title@: Product Passport
 $view: /views/detail/success-story-detail.j2
 $category: electronic commerce
 $date: 2024-02-01
-description: Now is the time for action.
+description: Now is the time for action. Or wait a moment then act.
 $localization:
   path: /{locale}/romeo/0/{base}.html
 
@@ -17,7 +17,7 @@ teaser:
     width: 2285
     height: 740
     alt: Pronto
-  text: Now is the time for action.
+  text: Now is the time for action. Or wait a moment then act.
 
 stage:
   headline: Get started quickly with a ready-made design. Templates designed to work with all devices - mobile, tablet and desktop.

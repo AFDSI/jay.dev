@@ -2,7 +2,7 @@ $title@: Graph Kits
 $view: /views/detail/success-story-detail.j2
 $category: graph application
 $date: 2024-01-01
-description: Track and measure
+description: Track and measure. Need more information? Track and measure again.
 $localization:
   path: /{locale}/romeo/0/{base}.html
 
@@ -17,7 +17,7 @@ teaser:
     width: 2352
     height: 653
     alt: Pronto
-  text: Track and measure
+  text: Track and measure. Need more information? Track and measure again.
 
 stage:
   headline: Web pages that are compelling, smooth, and load near instantaneously

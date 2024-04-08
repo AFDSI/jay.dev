@@ -2,7 +2,7 @@ $title@: Plato
 $view: /views/detail/success-story-detail.j2
 $category: application development
 $date: 2024-03-01
-description: The sun is a star.
+description: The sun is a star. But don't look at it - you be blinded.
 $localization:
   path: /{locale}/romeo/0/{base}.html
 
@@ -17,7 +17,7 @@ teaser:
     width: 2052
     height: 560
     alt: Pronto
-  text: The sun is a star.
+  text: The sun is a star. But don't look at it - you be blinded.
 
 stage:
   headline: A faster way to grow your business
