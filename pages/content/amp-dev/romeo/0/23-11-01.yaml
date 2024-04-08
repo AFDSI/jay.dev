@@ -2,7 +2,7 @@ $title@: Biograph
 $view: /views/detail/success-story-detail.j2
 $category: consumer application
 $date: 2023-11-01
-description: Tell a story
+description: Tell a story. Tell another story. And yet another story.
 $localization:
   path: /{locale}/romeo/0/{base}.html
 
@@ -17,7 +17,7 @@ teaser:
     width: 1044
     height: 344
     alt: Pronto
-  text: Tell a story
+  text: Tell a story. Tell another story. And yet another story.
 
 stage:
   headline: Immerse readers in visual and tappable stories they can share anywhere on the open web.
