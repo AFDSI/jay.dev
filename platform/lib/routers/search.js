@@ -379,7 +379,7 @@ async function handleTestSearchRequest(request, response, next) {
     });
   }
 
-// prettier will not accept ngfalls.netlify.app for exampleUrl
+  // prettier will not accept ngfalls.netlify.app for exampleUrl
   const components = [];
   if (query.startsWith('amp-') && page == 1) {
     for (let i = 1; i <= 2; i++) {
