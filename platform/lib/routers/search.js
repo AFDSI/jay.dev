@@ -386,8 +386,8 @@ async function handleTestSearchRequest(request, response, next) {
         title: 'component ' + query + ' ' + i,
         description: 'description component a ' + i,
         url: 'https://ngfalls.netlify.app',
-        exampleUrl: i == 1 ? 'https://ngfalls.netlify.app/documentation/examples/' : null,
-        playgroundUrl: i == 1 ? 'https://playground.ngfalls.netlify.app' : null,
+        exampleUrl: i == 1 ? 'https://amp.dev/documentation/examples/' : null,
+        playgroundUrl: i == 1 ? 'https://playground.amp.dev' : null,
       });
     }
   }
