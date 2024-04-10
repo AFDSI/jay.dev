@@ -385,9 +385,9 @@ async function handleTestSearchRequest(request, response, next) {
       components.push({
         title: 'component ' + query + ' ' + i,
         description: 'description component a ' + i,
-        url: 'https://amp.dev',
-        exampleUrl: i == 1 ? 'https://amp.dev/documentation/examples/' : null,
-        playgroundUrl: i == 1 ? 'https://playground.amp.dev' : null,
+        url: 'https://https://ngfalls.netlify.app',
+        exampleUrl: i == 1 ? 'https://https://ngfalls.netlify.app/documentation/examples/' : null,
+        playgroundUrl: i == 1 ? 'https://playground.https://ngfalls.netlify.app' : null,
       });
     }
   }
