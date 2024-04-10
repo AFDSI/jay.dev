@@ -1267,6 +1267,12 @@ msgstr ""
 msgid "Text and audio"
 msgstr ""
 
+#: /content/amp-dev/romeo/0/23-10-01.yaml:59
+#: /content/amp-dev/romeo/0/23-11-01.yaml:59
+#: /content/amp-dev/romeo/0/23-12-01.yaml:59
+#: /content/amp-dev/romeo/0/24-01-01.yaml:59
+#: /content/amp-dev/romeo/0/24-02-01.yaml:59
+#: /content/amp-dev/romeo/0/24-03-01.yaml:59
 #: /content/amp-dev/about/stories.html:240
 msgid "Convey facts and figures via bite-sized chunks of one or two sentences – ideal for mobile devices. Choose from different font colors for basic readability. Or add visual elements like subtle black transparent gradient overlays to ensure readability even on random background imagery, for example user generated content. On top of this, you can use short audio files on every page to provide spoken information or background music."
 msgstr ""
@@ -2627,6 +2633,12 @@ msgstr ""
 msgid "Don't want to start from scratch? Start with a ready-made design."
 msgstr ""
 
+#: /content/amp-dev/romeo/0/23-10-01.yaml:58
+#: /content/amp-dev/romeo/0/23-11-01.yaml:58
+#: /content/amp-dev/romeo/0/23-12-01.yaml:58
+#: /content/amp-dev/romeo/0/24-01-01.yaml:58
+#: /content/amp-dev/romeo/0/24-02-01.yaml:58
+#: /content/amp-dev/romeo/0/24-03-01.yaml:58
 msgid "Begin building for creation, design and development."
 msgstr ""
 

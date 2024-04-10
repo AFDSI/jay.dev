@@ -1268,6 +1268,12 @@ msgstr "Imagens, vídeos e GIFs"
 msgid "Text and audio"
 msgstr "Texto e áudio"
 
+#: /content/amp-dev/romeo/0/23-10-01.yaml:59
+#: /content/amp-dev/romeo/0/23-11-01.yaml:59
+#: /content/amp-dev/romeo/0/23-12-01.yaml:59
+#: /content/amp-dev/romeo/0/24-01-01.yaml:59
+#: /content/amp-dev/romeo/0/24-02-01.yaml:59
+#: /content/amp-dev/romeo/0/24-03-01.yaml:59
 #: /content/amp-dev/about/stories.html:240
 msgid "Convey facts and figures via bite-sized chunks of one or two sentences – ideal for mobile devices. Choose from different font colors for basic readability. Or add visual elements like subtle black transparent gradient overlays to ensure readability even on random background imagery, for example user generated content. On top of this, you can use short audio files on every page to provide spoken information or background music."
 msgstr "Transmitir fatos e números através de pequenos pedaços de uma ou duas frases, o ideal para dispositivos móveis. Escolha dentre diferentes cores de fonte para facilitar a leitura. Ou adicione elementos visuais, como sobreposições sutis de gradiente transparente preto que garantem a legibilidade mesmo sobre imagens de fundo aleatórias, como, por exemplo, em conteúdo gerado pelo usuário. Além disso, você pode incluir pequenos arquivos de áudio em cada página para veicular informações faladas ou música de fundo."
@@ -2627,6 +2633,12 @@ msgstr "A maneira mais rápida de aprender é através de exemplos concretos."
 msgid "Don't want to start from scratch? Start with a ready-made design."
 msgstr "Não quer começar do zero? Comece com um design pronto."
 
+#: /content/amp-dev/romeo/0/23-10-01.yaml:58
+#: /content/amp-dev/romeo/0/23-11-01.yaml:58
+#: /content/amp-dev/romeo/0/23-12-01.yaml:58
+#: /content/amp-dev/romeo/0/24-01-01.yaml:58
+#: /content/amp-dev/romeo/0/24-02-01.yaml:58
+#: /content/amp-dev/romeo/0/24-03-01.yaml:58
 msgid "Begin building for creation, design and development."
 msgstr "Comece a criar para a elaboração, design e desenvolvimento."
 

@@ -1267,6 +1267,12 @@ msgstr "Images, vidéos et GIF"
 msgid "Text and audio"
 msgstr "Texte et audio"
 
+#: /content/amp-dev/romeo/0/23-10-01.yaml:59
+#: /content/amp-dev/romeo/0/23-11-01.yaml:59
+#: /content/amp-dev/romeo/0/23-12-01.yaml:59
+#: /content/amp-dev/romeo/0/24-01-01.yaml:59
+#: /content/amp-dev/romeo/0/24-02-01.yaml:59
+#: /content/amp-dev/romeo/0/24-03-01.yaml:59
 #: /content/amp-dev/about/stories.html:240
 msgid "Convey facts and figures via bite-sized chunks of one or two sentences – ideal for mobile devices. Choose from different font colors for basic readability. Or add visual elements like subtle black transparent gradient overlays to ensure readability even on random background imagery, for example user generated content. On top of this, you can use short audio files on every page to provide spoken information or background music."
 msgstr "Transmettez vos faits et chiffres en une ou deux phrases, un format idéal pour les appareils mobiles. Choisissez différentes couleurs de police pour faciliter la lisibilité. Ajoutez des éléments visuels comme des superpositions de dégradés transparents noirs subtils pour assurer la lisibilité même sur des images d'arrière-plan aléatoires (par exemple du contenu généré par l'utilisateur). En plus de cela, vous pouvez utiliser de courts fichiers audio sur chaque page afin de transmettre des informations oralement ou reproduire de la musique en arrière-plan."
@@ -2626,6 +2632,12 @@ msgstr "Le moyen le plus rapide d'apprendre est d'employer des exemples tangible
 msgid "Don't want to start from scratch? Start with a ready-made design."
 msgstr "Pas envie de partir de zéro ? Commencez avec un modèle prêt à l'emploi."
 
+#: /content/amp-dev/romeo/0/23-10-01.yaml:58
+#: /content/amp-dev/romeo/0/23-11-01.yaml:58
+#: /content/amp-dev/romeo/0/23-12-01.yaml:58
+#: /content/amp-dev/romeo/0/24-01-01.yaml:58
+#: /content/amp-dev/romeo/0/24-02-01.yaml:58
+#: /content/amp-dev/romeo/0/24-03-01.yaml:58
 msgid "Begin building for creation, design and development."
 msgstr "Lancez-vous à l'aide d'outils destinés à la création, à la conception et au développement."
 

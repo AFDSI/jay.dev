@@ -1267,6 +1267,12 @@ msgstr "Imágenes, videos y GIF"
 msgid "Text and audio"
 msgstr "Texto y audio"
 
+#: /content/amp-dev/romeo/0/23-10-01.yaml:59
+#: /content/amp-dev/romeo/0/23-11-01.yaml:59
+#: /content/amp-dev/romeo/0/23-12-01.yaml:59
+#: /content/amp-dev/romeo/0/24-01-01.yaml:59
+#: /content/amp-dev/romeo/0/24-02-01.yaml:59
+#: /content/amp-dev/romeo/0/24-03-01.yaml:59
 #: /content/amp-dev/about/stories.html:240
 msgid "Convey facts and figures via bite-sized chunks of one or two sentences – ideal for mobile devices. Choose from different font colors for basic readability. Or add visual elements like subtle black transparent gradient overlays to ensure readability even on random background imagery, for example user generated content. On top of this, you can use short audio files on every page to provide spoken information or background music."
 msgstr "Transmita hechos y datos mediante fragmentos pequeños de una o dos frases, ideal para dispositivos móviles. Elija entre diferentes colores de fuentes para obtener una legibilidad básica, o agregue elementos visuales como sutiles superposiciones de gradientes en negro transparente para garantizar la legibilidad, incluso en imágenes de fondo aleatorias, por ejemplo en el contenido generado por el usuario. Además de esto, puede utilizar archivos de audio cortos en cada página para proporcionar información hablada o música de fondo."
@@ -2626,6 +2632,12 @@ msgstr "La forma más rápida de aprender es poner en práctica ejemplos tangibl
 msgid "Don't want to start from scratch? Start with a ready-made design."
 msgstr "¿No desea empezar desde cero? Comience con un diseño predeterminado."
 
+#: /content/amp-dev/romeo/0/23-10-01.yaml:58
+#: /content/amp-dev/romeo/0/23-11-01.yaml:58
+#: /content/amp-dev/romeo/0/23-12-01.yaml:58
+#: /content/amp-dev/romeo/0/24-01-01.yaml:58
+#: /content/amp-dev/romeo/0/24-02-01.yaml:58
+#: /content/amp-dev/romeo/0/24-03-01.yaml:58
 msgid "Begin building for creation, design and development."
 msgstr "Comience a usar las herramientas ideales para crear, diseñar y desarrollar."
 
