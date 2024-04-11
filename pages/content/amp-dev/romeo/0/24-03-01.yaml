@@ -30,9 +30,9 @@ stage:
     alt: 
   devices:
 
-    - image_src: /static/img/blog/24-03-01/stage-desktop-683x512.jpg
-      width: 683
-      height: 512
+    - image_src: /static/img/blog/24-03-01/growth-function-1200x900.svg
+      width: 1200
+      height: 900
       type: desktop
       alt: 
 

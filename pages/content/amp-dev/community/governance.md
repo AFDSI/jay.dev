@@ -6,6 +6,12 @@ formats:
   - email
   - stories
   - ads
+
+flyout:
+  format: amp-ads
+  description: Governance
+  icon: lego
+
 teaser:
   text: ' Glossary'
 toc: true

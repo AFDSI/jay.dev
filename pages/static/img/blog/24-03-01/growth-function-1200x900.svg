@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<path style="fill:#476baf" d="M666.46 512.46c-105.09 105.1-221 171.4-299.72 208.52C314 745.86 261.91 765.12 214.26 777.75A202 202 0 0 0 254 747l1.46-1.45c85.64-80.87 146-107.14 222.5-140.39 52.38-22.79 112.8-49.07 194.31-98.42Q669.35 509.59 666.46 512.46z"/>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M1103 3e2c-280 0-183 120-513 186S340 8e2 1e2 8e2"/>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M1103 160c-137 0-136.65 130.87-263 226C5e2 642 432 572 252 742"/>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M250.49 743.49C216.2 777.16 172.84 8e2 1e2 8e2"/>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M1e2 8e2c137 0 390-104 570-284s430-77 430-77"/>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M474.34 668.6C695.34 535.6 817 439 11e2 439"/>
+
+<g>
+<path style="stroke-width:30px; fill:none;stroke-miterlimit:10" d="M830 1e2V8e2z"/>
+<path style="stroke-width:10px; stroke:#64c489; fill:none;stroke-miterlimit:10" d="M830 1e2V8e2z"/>
+</g>
+
+<g>
+
+<g>
+<ellipse cx="150" cy="148.55" rx="50" ry="50.47"/>
+<path d="M391.65 171.25 355.69 193.98 378.21 230.28 391.65 171.25z"/>
+<path d="M215.97 289.64 179.56 267.66 157.79 304.41 215.97 289.64z"/>
+</g>
+
+<g>
+<circle style="fill:#64c489" cx="220" cy="430" r="50"/>
+<circle style="fill:#476baf" cx="635" cy="256" r="50"/>
+<path style="fill:#476baf" d="M424.37 376.1 441.35 337.22 402.47 320.24 424.37 376.1z"/>
+</g>
+
+<g>
+<path style="stroke-width:10px; stroke:#476baf; fill:none;stroke-miterlimit:10" d="M404.19 352.78 276.07 406.49z"/>
+<path style="stroke-width:10px; stroke:#476baf; fill:none;stroke-miterlimit:10" d="M578.89 279.53 448.03 334.39z"/>
+</g>
+
+<g>
+
+<g>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M177.73 260.9 164.55 208.2z"/>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M205.37 371.49 189.22 306.86z"/>
+</g>
+
+<g>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M394.71 203.48 576.12 243.13z"/>
+<path style="stroke-width:10px; stroke:#000; fill:none;stroke-miterlimit:10" d="M208.7 162.83 347.94 193.26z"/>
+</g>
+
+</g>
+</g>
+</svg>
