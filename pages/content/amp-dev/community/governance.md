@@ -8,7 +8,7 @@ formats:
   - ads
 
 flyout:
-  format: amp-ads
+  format: ads
   description: Governance
   icon: lego
 

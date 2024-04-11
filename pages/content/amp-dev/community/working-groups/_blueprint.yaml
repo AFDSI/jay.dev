@@ -6,6 +6,6 @@ $localization:
 $order: 1
 
 flyout:
-  format: amp-email
+  format: email
   description: Working Groups
   icon: paperplane
