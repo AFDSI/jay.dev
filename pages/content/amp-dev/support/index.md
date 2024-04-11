@@ -6,6 +6,12 @@ formats:
   - email
   - stories
   - ads
+
+flyout:
+  format: email
+  description: Help
+  icon: wrench
+
 teaser:
   text: 'There are many ways to get help for questions and issues related to AMP:'
 ---
