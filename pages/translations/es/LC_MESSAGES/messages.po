@@ -1321,6 +1321,7 @@ msgstr "En estos días, si algo no es instantáneo, no es lo suficientemente rá
 msgid "Advertising continues to be the cornerstone of every publisher’s business model; AMP is fundamentally changing the way ads are built and delivered on the web by supporting ads that are fast, safe, compelling and effective for users."
 msgstr "La publicidad sigue siendo el pilar del modelo empresarial para cualquier editor. AMP está cambiando sustancialmente la forma en que se crean y se ofrecen los anuncios en la web al proporcionar anuncios rápidos, seguros, atractivos y eficientes para los usuarios."
 
+#: /content/amp-dev/romeo/0/24-03-01.yaml:23
 #: /content/amp-dev/about/ads.html:77
 msgid "A faster way to grow your business"
 msgstr "Una forma más rápida de hacer crecer su empresa"

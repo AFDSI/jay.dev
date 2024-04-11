@@ -1321,6 +1321,7 @@ msgstr ""
 msgid "Advertising continues to be the cornerstone of every publisher’s business model; AMP is fundamentally changing the way ads are built and delivered on the web by supporting ads that are fast, safe, compelling and effective for users."
 msgstr ""
 
+#: /content/amp-dev/romeo/0/24-03-01.yaml:23
 #: /content/amp-dev/about/ads.html:77
 msgid "A faster way to grow your business"
 msgstr ""

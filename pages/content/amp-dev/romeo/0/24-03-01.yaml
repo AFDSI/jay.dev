@@ -20,7 +20,7 @@ teaser:
   text: The sun is a star. But don't look at it - you'll be blinded.
 
 stage:
-  headline: A faster way to grow your business
+  headline@: A faster way to grow your business
   subline: March 1, 2024
   layout: all
   logo:
