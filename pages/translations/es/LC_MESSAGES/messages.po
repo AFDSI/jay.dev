@@ -1486,6 +1486,7 @@ msgstr "Obtener más información sobre el almacenamiento caché en AMP"
 msgid "Explore use cases of AMP websites"
 msgstr "Explore los diferentes casos de uso en los sitios web de AMP"
 
+#: /content/amp-dev/romeo/0/24-03-01.yaml:23
 #: pages/shared/data/benefits.yaml:3
 msgid "Web page speed improves the user experience and core business metrics"
 msgstr "La velocidad de la página web mejora la experiencia del usuario y las principales métricas empresariales"

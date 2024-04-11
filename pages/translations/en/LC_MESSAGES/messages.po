@@ -1486,6 +1486,7 @@ msgstr ""
 msgid "Explore use cases of AMP websites"
 msgstr ""
 
+#: /content/amp-dev/romeo/0/24-03-01.yaml:23
 #: pages/shared/data/benefits.yaml:3
 msgid "Web page speed improves the user experience and core business metrics"
 msgstr ""
