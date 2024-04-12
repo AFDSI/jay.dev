@@ -1,0 +1,52 @@
+{# Success story teaser #}
+{% if teaser_doc.view == '/views/detail/success-story-detail.j2' %}
+{% do doc.styles.addCssFile('css/components/molecules/teaser-success-story.css') %}
+<div class="ap-m-teaser ap-m-teaser-success-story"
+    [% if category in {{ doc.collection.list_docs(locale=doc.locale)|map(attribute='category')|unique|list|tojson }} and category not in '{{ teaser_doc.category|slug }}' %]hidden[% endif %]
+    [hidden]="activeFilter.chosenFilter != 'none' && activeFilter.chosenFilter != '{{ teaser_doc.category|slug }}'">
+  <a href="{{ teaser_doc.url.path }}">
+
+    {% if teaser_doc.category %}
+    {% do doc.styles.addCssFile('css/components/molecules/tag.css') %}
+    <div class="ap-m-tag ap-m-tag-general ap-m-teaser-tag">{{ _(teaser_doc.category) }}</div>
+    {% endif %}
+
+    <div class="ap-m-teaser-card">
+      {% set teaser = teaser or teaser_doc.teaser or {} %}
+      {% if teaser.video %}
+      <div class="ap-a-img ap-m-teaser-image">
+        <amp-video src="{{ teaser.video.src }}" layout="responsive" width="240" height="240" poster="{{ teaser.image.src }}" autoplay muted loop></amp-video>
+      </div>
+      {% elif teaser.image %}
+      <div class="ap-a-img ap-m-teaser-image">
+        <amp-img src="{{ teaser.image.src }}" layout="responsive" width="240" height="240" alt="{{ teaser.image.alt }}"></amp-img>
+      </div>
+      {% elif teaser.figure %}
+      {% do doc.styles.addCssFile('css/components/molecules/kpi.css') %}
+      <div class="ap-m-kpi ap-m-kpi-teaser ap-m-kpi-{{ teaser_doc.formats[0] }}">
+        <div class="ap-m-kpi-content">
+          {% if teaser.icon %}
+          {% do doc.icons.useIcon('icons/' + teaser.icon + '.svg') %}
+          <div class="ap-a-ico ap-m-kpi-icon">
+            <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ teaser.icon }}"></use></svg>
+          </div>
+          {% endif %}
+          <span class="ap-m-kpi-number">{{ _(teaser.figure) }}</span>
+          <span class="ap-m-kpi-text">{{ _(teaser.description) }}</span>
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="ap-m-teaser-content">
+        {% if teaser.logo %}
+          <div class="ap-a-img ap-m-teaser-logo fixed-container">
+            <amp-img class="contain" src="{{ teaser.logo.src }}" layout="fill" alt="{{ teaser.logo.alt }}"></amp-img>
+          </div>
+        {% endif %}
+
+        <h4 class="ap-m-teaser-headline">{{ _(teaser.text) }}</h4>
+      </div>
+    </div>
+  </a>
+</div>
+{% endif %}
