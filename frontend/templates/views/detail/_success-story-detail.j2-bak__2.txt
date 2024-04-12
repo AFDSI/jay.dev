@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block main %}
-{# {% include 'views/partials/sidebar-toggle-observer.j2' %} #}
+{% include 'views/partials/sidebar-toggle-observer.j2' %}
   <main class="ap--main ap-t-success-story">
     <section class="ap--stage ap--container-fluid">
       {% do doc.styles.addCssFile('css/components/organisms/stage.css') %}
@@ -347,12 +347,12 @@
       <div class="ap-o-teaser-grid-list">
         {% for category, stories in categories %}
         {% for teaser_doc in stories %}
-        {% include '/views/partials/teaser-ss.j2' %}
+        {% include '/views/partials/teaser.j2' %}
         {% endfor %}
         {% endfor %}
       </div>
     </div>
   </section>
   </main>
-{# {% include 'views/partials/sidebar.j2' %} #}
+{% include 'views/partials/sidebar.j2' %}
 {% endblock %}
