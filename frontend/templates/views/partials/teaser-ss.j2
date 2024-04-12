@@ -11,10 +11,11 @@
   <div class="ap-m-tag ap-m-tag-general ap-m-teaser-tag">{{ _(teaser_doc.category) }}</div>
   {% endif %}
 
-  {# Stage Headline #}
+{# Stage Headline
   {% if teaser_doc.stage and teaser_doc.stage.headline %}
     <h3 class="ap-m-teaser-stage-headline">{{ _(teaser_doc.stage.headline) }}</h3>
   {% endif %}
+#}
 
   <div class="ap-m-teaser-card">
    {% set teaser = teaser or teaser_doc.teaser or {} %}
