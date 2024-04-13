@@ -1,18 +1,13 @@
-{% extends '/layouts/default.j2' %}
-
-{% block styles %}
-{{ super() }}
-
-{% do doc.styles.addCssFile('css/components/molecules/table.css') %}
-{% do doc.styles.addCssFile('css/components/molecules/code-snippet.css') %}
-
-{% do doc.styles.addCssFile('css/components/templates/success-story.css') %}
-{% endblock %}
-
 {% block main %}
   <main class="ap--main ap-t-success-story">
     <section class="ap--stage ap--container-fluid">
       {% do doc.styles.addCssFile('css/components/organisms/stage.css') %}
+
+    {% if doc.stage and doc.stage.layout %}
+      {% set layout = doc.stage.layout %}
+    {% else %}
+      {% set layout = '' %}
+    {% endif %}
 
       <div class="ap-o-stage ap-o-stage-default {{doc.stage.layout}}">
         <div class="ap--container-fluid">
@@ -81,35 +76,6 @@
         </div>
       {% endif %}
     </section>
-
-
-
-    {#
-      KPI
-    #}
-    {% if doc.kpis %}
-      {% do doc.styles.addCssFile('css/components/molecules/teaser-success-story.css') %}
-      {% do doc.styles.addCssFile('css/components/organisms/kpi-list.css') %}
-      <div class="ap--kpi">
-        <div class="ap-o-kpi-list ap--container">
-          {% do doc.styles.addCssFile('css/components/molecules/kpi.css') %}
-          {% for kpi in doc.kpis %}
-            <div class="ap-m-kpi ap-m-kpi-websites">
-              <div class="ap-m-kpi-content">
-                {% if kpi.value %}
-                  <span class="ap-m-kpi-number">{{kpi.value|safe}}</span>
-                {% endif %}
-                {% if kpi.text %}
-                  <span class="ap-m-kpi-text">{{kpi.text|safe}}</span>
-                {% endif %}
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    {% endif%}
-
-
 
     {#
       CONTENT
@@ -273,40 +239,6 @@
               </div>
             </div>
           </section>
-        {% endif %}
-
-        {# layout: text with button #}
-        {% if content.layout == 'text-button' %}
-          <div class="ap-o-text-media-block ap--container-fluid">
-            <div class="ap-m-text-media text ap-m-copy">
-              {% if content.headline %}<h2>{{content.headline|safe}}</h2>{% endif %}
-              <p>{{content.text|safe}}</p>
-              <a href="{{content.download_url}}" target="_blank" class="ap-m-lnk ap-m-lnk-square">
-                <div class="ap-a-ico ap-m-lnk-icon">
-                  {% do doc.icons.useIcon('icons/internal.svg') %}
-                  <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#internal"></use></svg>
-                </div>
-                <span class="ap-m-lnk-text">Download PDF</span>
-              </a>
-            </div>
-
-            <div class="ap-m-text-media media{% if content.background %} bg-{{content.background}}{% endif %}">
-              {% if content.type %}
-              {% do doc.styles.addCssFile('css/components/molecules/ghost-frame-desktop.css') %}
-              {% do doc.styles.addCssFile('css/components/molecules/ghost-frame-tablet.css') %}
-              {% do doc.styles.addCssFile('css/components/molecules/ghost-frame-mobile.css') %}
-              <div class="ap-m-ghost-frame-{{content.type}} {{content.direction}}">
-                <amp-img
-                  layout="responsive"
-                  height="{{content.height}}"
-                  width="{{content.width}}"
-                  src="{{content.image_src}}"
-                  alt="{{content.alt}}">
-                </amp-img>
-              </div>
-              {% endif %}
-            </div>
-          </div>
         {% endif %}
       {% endfor %}
     {% endif %}
