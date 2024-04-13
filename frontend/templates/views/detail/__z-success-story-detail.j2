@@ -10,16 +10,9 @@
 {% endblock %}
 
 {% block main %}
-{% include 'views/partials/sidebar-toggle-observer.j2' %}
   <main class="ap--main ap-t-success-story">
     <section class="ap--stage ap--container-fluid">
       {% do doc.styles.addCssFile('css/components/organisms/stage.css') %}
-
-    {% if doc.stage and doc.stage.layout %}
-      {% set layout = doc.stage.layout %}
-    {% else %}
-      {% set layout = '' %}
-    {% endif %}
 
       <div class="ap-o-stage ap-o-stage-default {{doc.stage.layout}}">
         <div class="ap--container-fluid">
@@ -318,41 +311,5 @@
       {% endfor %}
     {% endif %}
 
-<!--
-  <section class="ap--intro ap--container">
-    <div class="ap--content">
-      <p>{{ _('Here we feature interesting and outstanding pages that have been published using AMP. We kindly invite you to look through them to see what AMP is capable of.') }}</p>
-    </div>
-    {% do doc.styles.addCssFile('css/components/organisms/filter-bubbles-list.css') %}
-    {% do doc.styles.addCssFile('css/components/atoms/pill.css', -100) %}
-    <div class="ap-o-filter-bubbles-list">
-      <button class="ap-a-pill filtered"
-        [class]="activeFilter.chosenFilter == 'none' ? 'ap-a-pill filtered' : 'ap-a-pill'"
-        on="tap:AMP.setState({ activeFilter: {chosenFilter: 'none' } })">
-        {{ _('All') }}
-      </button>
-      {% for category, stories in categories %}
-      <button class="ap-a-pill"
-        [class]="activeFilter.chosenFilter == '{{ category|slug }}' && chosenFilter != 'none' ? 'ap-a-pill filtered' : 'ap-a-pill'"
-        on="tap:AMP.setState({ activeFilter: {chosenFilter: '{{ category|slug }}' } })">
-        {{ _(category) }}
-      </button>
-      {% endfor %}
-    </div>
-  </section>
--->
-
-  <section class="ap--teaser-grid ap--container">
-    <div class="ap-o-teaser-grid">
-      <div class="ap-o-teaser-grid-list">
-        {% for category, stories in categories %}
-        {% for teaser_doc in stories %}
-        {% include '/views/partials/teaser.j2' %}
-        {% endfor %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
   </main>
-{% include 'views/partials/sidebar.j2' %}
 {% endblock %}
