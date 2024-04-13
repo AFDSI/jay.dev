@@ -4,33 +4,33 @@ $view: /views/custom.j2
 $hidden: true
 $path: /romeo/0/index.html
 $localization:
- path: /{locale}/romeo/0/{base}.html
+  path: /{locale}/romeo/0/{base}.html
 
 flyout:
- format: websites
- description: Current events
- icon: amp-websites
+  format: websites
+  description: Current events
+  icon: amp-websites
 
 stage:
- layout: all
- devices:
-  - image_src: '/static/img/success-stories/tasty/tasty-desktop.jpg'
-   width: 8
-   height: 5
-   type: desktop
-   alt: Tasty
-  - image_src: '/static/img/success-stories/bmw_jvm/bmw-com-tablet.jpg'
-   width: 3
-   height: 4
-   type: tablet
-   alt: BMW and Jung von Matt
-   url: bmw-com
-  - image_src: '/static/img/success-stories/carved/amp_carved_1.jpg'
-   width: 3
-   height: 5
-   type: mobile
-   alt: Carved
-   url: carved
+  layout: all
+  devices:
+    - image_src: '/static/img/success-stories/tasty/tasty-desktop.jpg'
+      width: 8
+      height: 5
+      type: desktop
+      alt: Tasty
+    - image_src: '/static/img/success-stories/bmw_jvm/bmw-com-tablet.jpg'
+      width: 3
+      height: 4
+      type: tablet
+      alt: BMW and Jung von Matt
+      url: bmw-com
+    - image_src: '/static/img/success-stories/carved/amp_carved_1.jpg'
+      width: 3
+      height: 5
+      type: mobile
+      alt: Carved
+      url: carved
 ---
 {% do doc.styles.addCssFile('css/components/templates/success-story.css') %}
 
