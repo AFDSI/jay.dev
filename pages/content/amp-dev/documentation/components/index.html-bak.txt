@@ -43,15 +43,6 @@ recent_components:
       {% include '/views/partials/sidebar-toggle-button.j2' %}
       {% include '/views/partials/breadcrumbs.j2' %}
 
-      <amp-state id="activeFilter">
-        <script type="application/json">
-          {
-            "chosenFilter": "none"
-          }
-        </script>
-      </amp-state>
-
-
       <h1>The AMP Component Catalogue</h1>
       <p>The AMP HTML library consists of a basic runtime that brings the core functionalities of AMP to your page. If you want to add additional features you can do so by using one or more of the ready-to-use AMP components. They are classified as:</p>
 <!--
