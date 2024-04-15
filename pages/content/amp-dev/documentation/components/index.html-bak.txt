@@ -135,11 +135,11 @@ recent_components:
         <h2>Filter by category</h2>
         {% include 'views/partials/category-filter.j2'%}
 
-        {% for category, components in categories %}
+        {% for category, docs in categories %}
         {% set scope = namespace(categoryFormats = []) %}
 
-        {% for component in components %}
-          {% set formats = component.formats or ['websites'] %}
+        {% for doc in docs %}
+          {% set formats = doc.formats or ['websites'] %}
           {% set scope.categoryFormats = scope.categoryFormats + formats %}
         {% endfor %}
 
@@ -149,7 +149,7 @@ recent_components:
             {% if category %}
             <h4 id="{{ category }}">{{ _(category_name) }}</h4>
             {% endif %}
-            {% for component in components if component.is_current %}
+            {% for component in docs if component.is_current %}
             {# The latest document might not support a format, hence we have to check if any version supports a format #}
             {% set formats = [component.formats] %}
             {% if component.versions|count > 1 %}

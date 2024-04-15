@@ -1,14 +1,14 @@
 {% do doc.styles.addCssFile('css/components/organisms/filter-bubbles-list.css') %}
-{% do doc.styles.addCssFile('css/components/atoms/pill.css') %}
+{% do doc.styles.addCssFile('css/components/atoms/pill.css -100') %}
 
 <div class="ap-o-filter-bubbles-list">
   <a class="ap-a-pill [% if not {{ filter_categories }}.includes(category)%]filtered[% endif %]" href="{{ doc.url.path }}#filter" name="all">
     {{ _('All') }}
   </a>
-  {% for category, components in categories %}
+  {% for category, docs in categories %}
   {% set scope = namespace(categoryFormats = []) %}
-    {% for component in components %}
-      {% set formats = component.formats or ['websites'] %}
+    {% for doc in docs %}
+      {% set formats = doc.formats or ['websites'] %}
       {% set scope.categoryFormats = scope.categoryFormats + formats %}
     {% endfor %}
   {% if category %}
