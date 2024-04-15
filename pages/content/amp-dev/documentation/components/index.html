@@ -40,24 +40,96 @@ recent_components:
     {% include 'views/partials/sidebar-toggle.j2' %}
     <span id="ap--sidebar-content" class="ap--sidebar"></span>
     <section class="ap--content">
-          <amp-state id="activeFilter">
-            <script type="application/json">
-              {
-              "chosenFilter": "none"
-              }
-            </script>
-          </amp-state>
-
+      {% include '/views/partials/sidebar-toggle-button.j2' %}
       {% include '/views/partials/breadcrumbs.j2' %}
 
       <h1>The AMP Component Catalogue</h1>
       <p>The AMP HTML library consists of a basic runtime that brings the core functionalities of AMP to your page. If you want to add additional features you can do so by using one or more of the ready-to-use AMP components. They are classified as:</p>
+<!--
+      {% do doc.styles.addCssFile('/css/components/organisms/benefits-overview.css') %}
+      <div class="ap--benefits--list">
+        {% do doc.styles.addCssFile('/css/components/molecules/benefit.css') %}
+        <div class="ap-m-benefit">
+          <div class="ap-m-benefit-icon">
+            {% do doc.icons.useIcon('/icons/built-in.svg') %}
+            <svg class="ap-m-benefit-icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#built-in"></use>
+            </svg>
+          </div>
+          <div class="ap-m-benefit-text">
+            <span class="ap-m-benefit-text-headline">Built-in</span>
+            <span class="ap-m-benefit-text-copy">Components that are included in the base library, such as <a href="reference/amp-img.md"><code>amp-img</code></a> and <a href="reference/amp-pixel.md"><code>amp-pixel</code></a>.</span>
+          </div>
+        </div>
+
+        <div class="ap-m-benefit">
+          <div class="ap-m-benefit-icon">
+            {% do doc.icons.useIcon('/icons/extended.svg') %}
+            <svg class="ap-m-benefit-icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#extended"></use>
+            </svg>
+          </div>
+          <div class="ap-m-benefit-text">
+            <span class="ap-m-benefit-text-headline">Extended</span>
+            <span class="ap-m-benefit-text-copy">Extensions to the base library that must be explicitly included in the document as custom elements.</span>
+          </div>
+        </div>
+
+        <div class="ap-m-benefit">
+          <div class="ap-m-benefit-icon">
+            {% do doc.icons.useIcon('icons/experimental.svg') %}
+            <svg class="ap-m-benefit-icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#experimental"></use>
+            </svg>
+          </div>
+          <div class="ap-m-benefit-text">
+            <span class="ap-m-benefit-text-headline">Experimental</span>
+            <span class="ap-m-benefit-text-copy">Components that are released but are not yet ready for wide use.</span>
+          </div>
+        </div>
+      </div>
+-->
       <hr>
+<!--
+      {% do doc.styles.addCssFile('css/components/molecules/teaser-component-code.css') %}
+      <section class="ap--section">
+        <h2>Highlighted Components</h2>
+        <div class="ap-m-teaser-component">
+          <div class="ap-m-teaser-container">
+            {% for teaser_doc in doc.highlighted_components %}
+            {% set teaser_doc = g.doc(teaser_doc, locale=doc.locale) %}
+              [% if format in '{{ teaser_doc.formats }}'%]
+                {% with highlightedTeaser = True %}
+                {% include 'views/partials/teaser.j2' %}
+                {% endwith %}
+              [% endif %]
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      {% if doc.recent_components %}
+      <section class="ap--section">
+        <h2>Recent Components</h2>
+        <div class="ap-m-teaser-component ap-m-teaser-component-recent">
+          <div class="ap-m-teaser-container">
+            {% for teaser_doc in doc.recent_components %}
+            {% set teaser_doc = g.doc(teaser_doc, locale=doc.locale) %}
+              [% if format in '{{ teaser_doc.formats }}'%]
+                {% with highlightedTeaser = True %}
+                {% include 'views/partials/teaser.j2' %}
+                {% endwith %}
+              [% endif %]
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      {% endif %}
+-->
 
       <section id="filter" class="ap-m-table-component-container">
         {% set categories = g.categories('/content/amp-dev/documentation/components/reference', locale=doc.locale) %}
         {% do doc.styles.addCssFile('/css/components/molecules/table-component.css') %}
-
         {% set filter_categories = categories|map(attribute=0)|list|tojson %}
 
         <h2>Filter by category</h2>
@@ -88,7 +160,7 @@ recent_components:
             {% endif %}
             {% set formats = formats|sum(start=[])|unique|list %}
 
-            <a class="ap-m-table-component-link" href="{{ component.url.path }}" [hidden]="component.category != activeFilter.chosenFilter && activeFilter.chosenFilter != 'none'">
+            <a class="ap-m-table-component-link" href="{{ component.url.path }}" [% if format not in {{ formats|tojson }} and forcedFiltered != true %]hidden[% endif %]>
               <div class="ap-m-table-component-row-components">
                 {% if formats %}
                 {% do doc.styles.addCssFile('/css/components/molecules/tag.css') %}
@@ -122,8 +194,11 @@ recent_components:
         [% endif %]
         {% endfor %}
       </section>
+    </section>
+<!-- close container -->
   </div>
 </main>
 {% with type = 'component' %}
+{% include 'views/partials/sidebar.j2' %}
 {% endwith %}
 {% endblock %}

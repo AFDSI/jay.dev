@@ -15,11 +15,14 @@
   [% if format in '{{ scope.categoryFormats|unique|list|tojson }}' %]
   {% set category = category.split('.')[1] if category and category.split('.')|length == 2 else category %}
 
-  <a class="ap-a-pill [% if {{ filter_categories }}.includes(category) and category == '{{ category|slug }}' %]filtered[% endif %]"
-      href="{{ doc.url.path }}?category={{category|slug}}#filter"
-      name="{{ _(category) }}">
+  <a class="ap-a-pill 
+        [% if activeFilter.chosenFilter == category|slug %]filtered[% endif %]"
+        href="{{ doc.url.path }}?category={{category|slug}}#filter"
+        onclick="AMP.setState({ activeFilter: { chosenFilter: '{{ category|slug }}' } })"
+        name="{{ _(category) }}">
     {{ _(category) }}
   </a>
+
   [% endif %]
   {% endif %}
   {% endfor %}
