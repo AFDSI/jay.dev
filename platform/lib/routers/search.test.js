@@ -21,11 +21,11 @@ app.use(router);
 function createItem(index, isComponent) {
   const link = isComponent
     ? 'https://https://ngfalls.netlify.app/documentation/components/amp-comp-' +
-       index +
-       '/'
+      index +
+      '/'
     : 'https://https://ngfalls.netlify.app/documentation/examples/amp-comp-' +
-       index +
-       '/';
+      index +
+      '/';
   return {
     title: 'long-title-' + index,
     link: link,
