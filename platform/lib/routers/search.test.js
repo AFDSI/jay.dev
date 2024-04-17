@@ -20,10 +20,10 @@ app.use(router);
 
 function createItem(index, isComponent) {
   const link = isComponent
-    ? 'https://https://ngfalls.netlify.app/documentation/components/amp-comp-' +
+    ? 'https://ngfalls.netlify.app/documentation/components/amp-comp-' +
       index +
       '/'
-    : 'https://https://ngfalls.netlify.app/documentation/examples/amp-comp-' +
+    : 'https://ngfalls.netlify.app/documentation/examples/amp-comp-' +
       index +
       '/';
   return {
@@ -238,9 +238,9 @@ test('Title and description are cleaned', (done) => {
 test('components with example get example and playground urls', (done) => {
   const searchResult = createSearchResult(2, 0, 2);
   searchResult.items[0].link =
-    'https://https://ngfalls.netlify.app/documentation/components/amp-test-example/';
+    'https://ngfalls.netlify.app/documentation/components/amp-test-example/';
   searchResult.items[1].link =
-    'https://https://ngfalls.netlify.app/documentation/components/amp-no-example/';
+    'https://ngfalls.netlify.app/documentation/components/amp-no-example/';
   googleSearch.search.mockResolvedValue(searchResult);
 
   request(app)
@@ -249,7 +249,7 @@ test('components with example get example and playground urls', (done) => {
     .expect(200)
     .then((res) => {
       expect(res.body.result.components[0].url).toBe(
-        'https://https://ngfalls.netlify.app/documentation/components/amp-test-example/'
+        'https://ngfalls.netlify.app/documentation/components/amp-test-example/'
       );
       expect(res.body.result.components[0].exampleUrl).toBe(
         'http://localhost:8080/documentation/examples/components/amp-test-example/'
@@ -258,7 +258,7 @@ test('components with example get example and playground urls', (done) => {
         'http://localhost:8083/?url=http%3A%2F%2Flocalhost%3A8084%2Fdocumentation%2Fexamples%2Fcomponents%2Famp-test-example'
       );
       expect(res.body.result.components[1].url).toBe(
-        'https://https://ngfalls.netlify.app/documentation/components/amp-no-example/'
+        'https://ngfalls.netlify.app/documentation/components/amp-no-example/'
       );
       expect(res.body.result.components[1].exampleUrl).toBe(undefined);
       expect(res.body.result.components[1].playgroundUrl).toBe(undefined);
@@ -269,9 +269,9 @@ test('components with example get example and playground urls', (done) => {
 test('components with example get example with locale and playground url without', (done) => {
   const searchResult = createSearchResult(2, 0, 2);
   searchResult.items[0].link =
-    'https://https://ngfalls.netlify.app/pt_br/documentation/components/amp-test-example/';
+    'https://ngfalls.netlify.app/pt_br/documentation/components/amp-test-example/';
   searchResult.items[1].link =
-    'https://https://ngfalls.netlify.app/pt_br/documentation/components/amp-no-example/';
+    'https://ngfalls.netlify.app/pt_br/documentation/components/amp-no-example/';
   googleSearch.search.mockResolvedValue(searchResult);
 
   request(app)
@@ -280,7 +280,7 @@ test('components with example get example with locale and playground url without
     .expect(200)
     .then((res) => {
       expect(res.body.result.components[0].url).toBe(
-        'https://https://ngfalls.netlify.app/pt_br/documentation/components/amp-test-example/'
+        'https://ngfalls.netlify.app/pt_br/documentation/components/amp-test-example/'
       );
       expect(res.body.result.components[0].exampleUrl).toBe(
         'http://localhost:8080/pt_br/documentation/examples/components/amp-test-example/'
@@ -289,7 +289,7 @@ test('components with example get example with locale and playground url without
         'http://localhost:8083/?url=http%3A%2F%2Flocalhost%3A8084%2Fdocumentation%2Fexamples%2Fcomponents%2Famp-test-example'
       );
       expect(res.body.result.components[1].url).toBe(
-        'https://https://ngfalls.netlify.app/pt_br/documentation/components/amp-no-example/'
+        'https://ngfalls.netlify.app/pt_br/documentation/components/amp-no-example/'
       );
       expect(res.body.result.components[1].exampleUrl).toBe(undefined);
       expect(res.body.result.components[1].playgroundUrl).toBe(undefined);
