@@ -12,10 +12,6 @@ FORMAT_TYPE_IDS = {
   'email',
   'ads',
   'stories',
-  'food',
-  'drugs',
-  'cosmetics',
-  'textiles',
 }
 
 DEFAULT_FORMAT = 'websites'
