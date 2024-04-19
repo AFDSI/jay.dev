@@ -39,9 +39,7 @@ const {
   FORMAT_WEBSITES,
   SUPPORTED_FORMATS,
 } = require('@lib/amp/formatHelper.js');
-const {
-  NATION_USA, SUPPORTED_NATIONS,
-} = require('@lib/amp/nationHelper.js');
+const {NATION_USA, SUPPORTED_NATIONS,} = require('@lib/amp/nationHelper.js');
 const {cheerioOptions} = require('../platform/lib/common/cheerioOptions');
 const coursesPath = '/documentation/courses';
 const coursesRegex = new RegExp(`^(.+)(?:${coursesPath})(.*)$`);
