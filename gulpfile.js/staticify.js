@@ -40,8 +40,7 @@ const {
   SUPPORTED_FORMATS,
 } = require('@lib/amp/formatHelper.js');
 const {
-  NATION_USA,
-  SUPPORTED_NATIONS,
+  NATION_USA, SUPPORTED_NATIONS,
 } = require('@lib/amp/nationHelper.js');
 const {cheerioOptions} = require('../platform/lib/common/cheerioOptions');
 const coursesPath = '/documentation/courses';
@@ -141,7 +140,9 @@ async function staticify(done) {
             // Rewrite links inside of each of the pages
 
             const $ = Cheerio.load(file.contents.toString());
-            const $links = $('a.nav-link, a.ap-m-format-toggle-link, a.ap-m-nation-toggle-link');
+            const $links = $(
+              'a.nav-link, a.ap-m-format-toggle-link, a.ap-m-nation-toggle-link'
+            );
 
             $links.each(function () {
               // eslint-disable-next-line no-invalid-this
@@ -188,7 +189,7 @@ async function staticify(done) {
     return f;
   });
 
-  const generatedNations = SUPPORTED_NATIONS.map((format) => {
+  const generatedNations = SUPPORTED_NATIONS.map((nation) => {
     const f = (cb) => {
       const env = nunjucksEnv();
 
