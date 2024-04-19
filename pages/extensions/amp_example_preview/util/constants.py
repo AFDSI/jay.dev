@@ -14,7 +14,15 @@ FORMAT_TYPE_IDS = {
   'stories',
 }
 
+NATION_TYPE_IDS = {
+  'usa',
+  'can',
+  'gbr',
+  'mex',
+}
+
 DEFAULT_FORMAT = 'websites'
+DEFAULT_NATION = 'usa'
 
 PREVIEW_INLINE = 'inline'
 PREVIEW_TOP_FRAME = 'top-frame'
