@@ -1,16 +1,16 @@
 ---
-formats:
-  - websites
-  - email
-  - ads
-  - stories
-$path: /documentation/guides-and-tutorials/develop/style_and_layout/index.html
+$path: /sambo/guide-tutorial/develop-2/style_and_layout-2/index.html
 $localization:
   path: /{locale}/documentation/guides-and-tutorials/develop/style_and_layout/index.html
 $title: Style & layout
 $order: 0
 description: "Styling and layout on AMP HTML pages is very similar to normal HTML pages – in
 both cases, you'll use CSS."
+formats:
+  - websites
+  - email
+  - ads
+  - stories
 $hidden: true
 author: pbakaus
 contributors:
