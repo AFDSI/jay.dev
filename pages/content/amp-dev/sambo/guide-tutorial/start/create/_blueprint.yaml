@@ -1,0 +1,14 @@
+$title@: Create your first AMP Page
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/start/create/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/start/create/{base}.html
+
+$order: 0
+
+formats:
+  - websites
+
+chaptered: true
+tutorial: true
+

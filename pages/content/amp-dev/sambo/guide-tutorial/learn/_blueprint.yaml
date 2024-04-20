@@ -1,0 +1,14 @@
+$title@: Learn
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/learn/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/learn/{base}.html
+
+$order: 1
+
+bucket: true
+formats:
+  - websites
+  - email
+  - ads
+  - stories

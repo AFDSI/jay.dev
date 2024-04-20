@@ -1,0 +1,13 @@
+$title@: Integrate
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/integrate/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/integrate/{base}.html
+
+$order: 3
+
+bucket: true
+formats:
+  - websites
+  - email
+  - stories

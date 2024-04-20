@@ -1,0 +1,6 @@
+$title@: Tutorials
+$path: /sambo/{base}.html
+$view: /views/detail/docs-detail.j2
+$localization:
+  path: /{locale}/sambo/{base}.html
+$order: 1
