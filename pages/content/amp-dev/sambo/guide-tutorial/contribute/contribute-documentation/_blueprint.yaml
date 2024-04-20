@@ -1,0 +1,13 @@
+$title@: Contribute documentation
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/contribute/contribute-documentation/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/contribute/contribute-documentation/{base}.html
+
+$order: 1
+
+formats:
+  - websites
+  - stories
+  - email
+  - ads

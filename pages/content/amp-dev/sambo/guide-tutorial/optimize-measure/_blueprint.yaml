@@ -1,0 +1,16 @@
+$title@: Optimize & Measure
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/optimize-and-measure/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/optimize-and-measure/{base}.html
+
+$order: 4
+
+bucket: true
+formats:
+  - websites
+  # Currently there are no documents for Optimization and Measurement
+  # around AMP for Email
+  # - email
+  - ads
+  - stories

@@ -1,0 +1,13 @@
+$title@: Style & Layout
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/develop/style_and_layout/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/develop/style_and_layout/{base}.html
+
+$order: 0
+
+formats:
+  - websites
+  - email
+  - ads
+  - stories

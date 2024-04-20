@@ -1,0 +1,13 @@
+$title@: Validation Workflow
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/learn/validation-workflow/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/learn/validation-workflow/{base}.html
+
+$order: 5
+
+formats:
+  - websites
+  - email
+  - stories
+  - ads
