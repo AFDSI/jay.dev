@@ -1,0 +1,12 @@
+$title@: Add advanced AMP features
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/start/add_advanced/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/start/add_advanced/{base}.html
+
+formats:
+  - websites
+
+chaptered: true
+tutorial: true
+
