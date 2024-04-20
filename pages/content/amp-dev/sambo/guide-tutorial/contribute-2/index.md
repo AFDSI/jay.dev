@@ -2,9 +2,9 @@
 $title: How to contribute
 $titles:
   navigation: Contribute
-$path: /sambo/guide-tutorial/contribute/index.html
+$path: /sambo/guide-tutorial/contribute-2/index.html
 $localization:
-  path: /{locale}/sambo/guide-tutorial/contribute/index.html
+  path: /{locale}/sambo/guide-tutorial/contribute-2/index.html
 $order: 0
 description: 'The AMP Project would not be possible without help from all members of the community whether you are a developer, content creator or provider of services relevant to AMP.'
 
