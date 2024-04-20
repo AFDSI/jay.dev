@@ -33,13 +33,9 @@ const {
   SupportedFormatsExtension,
 } = require('@lib/templates/SupportedFormatsExtension.js');
 const {
-  SupportedNationsExtension,
-} = require('@lib/templates/SupportedNationsExtension.js');
-const {
   FORMAT_WEBSITES,
   SUPPORTED_FORMATS,
 } = require('@lib/amp/formatHelper.js');
-const {NATION_USA, SUPPORTED_NATIONS} = require('@lib/amp/nationHelper.js');
 const {cheerioOptions} = require('../platform/lib/common/cheerioOptions');
 const coursesPath = '/documentation/courses';
 const coursesRegex = new RegExp(`^(.+)(?:${coursesPath})(.*)$`);
@@ -78,10 +74,6 @@ function nunjucksEnv() {
   env.addExtension(
     'SupportedFormatsExtension',
     new SupportedFormatsExtension()
-  );
-  env.addExtension(
-    'SupportedNationsExtension',
-    new SupportedNationsExtension()
   );
   env.addFilter('importBlog', importBlog, true);
 
@@ -138,9 +130,7 @@ async function staticify(done) {
             // Rewrite links inside of each of the pages
 
             const $ = Cheerio.load(file.contents.toString());
-            const $links = $(
-              'a.nav-link, a.ap-m-format-toggle-link, a.ap-m-nation-toggle-link'
-            );
+            const $links = $('a.nav-link, a.ap-m-format-toggle-link');
 
             $links.each(function () {
               // eslint-disable-next-line no-invalid-this
@@ -182,87 +172,6 @@ async function staticify(done) {
 
     Object.defineProperty(f, 'name', {
       value: `generatePagesFor${format}`,
-      writable: false,
-    });
-    return f;
-  });
-
-  const generatedNations = SUPPORTED_NATIONS.map((nation) => {
-    const f = (cb) => {
-      const env = nunjucksEnv();
-
-      return gulp
-        .src(`${project.paths.PAGES_DEST}/**/*html`)
-        .pipe(
-          // Render a static version of all of our pages
-
-          through.obj(async (file, enc, callback) => {
-            const configObj = {
-              requestPath: `${file.path.replace(requestPathRegex, '')}/`,
-              nation,
-              requestedNation: nation,
-            };
-
-            const srcHTML = file.contents.toString();
-
-            env.renderString(srcHTML, configObj, (err, result) => {
-              if (err) {
-                logger.error(`Error rendering ${file.path}`);
-                return callback(err);
-              }
-
-              file.contents = Buffer.from(result);
-              callback(null, file);
-            });
-          })
-        )
-        .pipe(
-          through.obj(async function (file, enc, callback) {
-            // Rewrite links inside of each of the pages
-
-            const $ = Cheerio.load(file.contents.toString());
-            const $links = $('a.nav-link, a.ap-m-nation-toggle-link');
-
-            $links.each(function () {
-              // eslint-disable-next-line no-invalid-this
-              const $this = $(this);
-              const origURL = $this.attr('href');
-              const updatedURL = getUpdatedURL(origURL, nation);
-
-              $this.attr('href', updatedURL);
-            });
-
-            const renderedPage = htmlContent($.root());
-
-            // we need to render a "default" version for the URLs, and treat the "website" version as such
-            if (nation === NATION_USA) {
-              const {path} = file;
-              let contents = Buffer.from(renderedPage);
-
-              if (file.path.endsWith('nations.html')) {
-                // In addition to the tools pages for each nation, we need to render a seperate main version that
-                // shows all of them. Rather than render its twice, we can just toggle a classname.
-                $('.ap-a-pill').addClass('active');
-                contents = htmlContent($.root());
-                contents = Buffer.from(contents);
-              }
-
-              // eslint-disable-next-line no-invalid-this
-              this.push(new Vinyl({path, contents}));
-            }
-
-            file.path = getUpdatedURL(file.path, nation);
-            file.contents = Buffer.from(renderedPage);
-
-            callback(null, file);
-          })
-        )
-        .pipe(gulp.dest((file) => file.base))
-        .on('end', cb);
-    };
-
-    Object.defineProperty(f, 'name', {
-      value: `generatePagesFor${nation}`,
       writable: false,
     });
     return f;
@@ -400,7 +309,6 @@ async function staticify(done) {
   return new Promise((resolve, reject) => {
     gulp.series(
       gulp.parallel(...generatedLevels),
-      gulp.parallel(...generatedNations),
       gulp.parallel(...generatedFormats),
       (seriesDone) => {
         seriesDone();
