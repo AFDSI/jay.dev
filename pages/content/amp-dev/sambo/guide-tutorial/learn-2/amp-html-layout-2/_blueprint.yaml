@@ -1,0 +1,13 @@
+$title@: AMP's Layout System
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/learn-2/amp-html-layout-2/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/learn-2/amp-html-layout-2/{base}.html
+
+$order: 4
+
+formats:
+  - websites
+  - email
+  - ads
+  - stories

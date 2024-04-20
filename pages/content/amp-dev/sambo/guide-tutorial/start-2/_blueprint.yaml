@@ -1,0 +1,15 @@
+$title@: Start
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/start-2/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/start-2/{base}.html
+
+$order: 0
+
+formats:
+  - websites
+  - email
+  - ads
+  - stories
+
+bucket: true

@@ -1,0 +1,11 @@
+$title@: Animate & Transition
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/develop-2/animations-2/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/develop-2/animations-2/{base}.html
+
+$order: 3
+
+formats:
+  - websites
+  - ads

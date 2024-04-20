@@ -1,0 +1,15 @@
+$title@: Create a login-requiring AMP page
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/develop-2/login_requiring-2/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/develop-2/login_requiring-2/{base}.html
+
+$order: 101
+
+formats:
+  - websites
+
+targeted: true
+chaptered: true
+tutorial: true
+

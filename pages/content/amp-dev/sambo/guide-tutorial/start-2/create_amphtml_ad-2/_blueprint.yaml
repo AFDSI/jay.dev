@@ -1,0 +1,14 @@
+$title@: Create your first AMPHTML ad
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/start-2/create_amphtml_ad-2/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/start-2/create_amphtml_ad-2/{base}.html
+
+$order: 3
+
+formats:
+  - ads
+
+targeted: true
+chaptered: true
+tutorial: true

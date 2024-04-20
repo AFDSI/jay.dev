@@ -1,0 +1,14 @@
+$title@: Create interactive AMP pages
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/develop-2/interactivity-2/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/develop-2/interactivity-2/{base}.html
+
+$order: 100
+
+formats:
+  - websites
+
+targeted: true
+chaptered: true
+tutorial: true

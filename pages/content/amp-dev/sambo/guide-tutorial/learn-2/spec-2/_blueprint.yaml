@@ -1,0 +1,10 @@
+$title@: AMP HTML Specification
+$view: /views/detail/docs-detail.j2
+$path: /sambo/guide-tutorial/learn-2/spec-2/{base}.html
+$localization:
+  path: /{locale}/sambo/guide-tutorial/learn-2/spec-2/{base}.html
+
+$order: 3
+
+formats:
+  - websites
