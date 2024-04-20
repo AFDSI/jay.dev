@@ -1,6 +1,6 @@
 ---
 $title: Create interactive AMP pages
-$path: /documentation/guides-and-tutorials/develop/interactivity/index.html
+$path: /sambo/guide-tutorial/develop-2/interactivity-2/index.html
 $order: 0
 description: In this tutorial, you'll learn how to use data binding and expressions to build awesome, interactive AMP pages with amp-bind ...
 $hidden: true
