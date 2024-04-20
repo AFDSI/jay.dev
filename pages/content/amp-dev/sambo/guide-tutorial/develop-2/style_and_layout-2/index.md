@@ -1,7 +1,7 @@
 ---
 $path: /sambo/guide-tutorial/develop-2/style_and_layout-2/index.html
 $localization:
-  path: /{locale}/documentation/guides-and-tutorials/develop/style_and_layout/index.html
+  path: /{locale}/sambo/guide-tutorial/develop-2/style_and_layout-2/index.html
 $title: Style & layout
 $order: 0
 description: "Styling and layout on AMP HTML pages is very similar to normal HTML pages – in
