@@ -4,3 +4,6 @@ $view: /views/detail/docs-detail.j2
 $localization:
   path: /{locale}/sambo/{base}.html
 $order: 1
+
+flyout:
+    - /content/amp-dev/sambo/index.html
