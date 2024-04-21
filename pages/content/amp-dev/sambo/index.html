@@ -16,31 +16,31 @@ flyout:
 highlight_guides:
   websites:
     - /content/amp-dev/sambo/guide-tutorial/develop-2/style_and_layout-2/index.md
-    - /content/amp-dev/sambo/guide-tutorial/optimize-measure-2/discovery.md
+    - /content/amp-dev/sambo/guide-tutorial/develop-2/animations-2/introduction_to_animations.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/amp-caches-and-cors-2/amp-cors-requests.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/validation-workflow-2/validate_amp.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/amp-html-layout-2/index.md
-    - /content/amp-dev/sambo/guide-tutorial/develop-2/animations-2/introduction_to_animations.md
+    - /content/amp-dev/sambo/guide-tutorial/optimize-measure-2/discovery.md
   stories:
     - /content/amp-dev/sambo/guide-tutorial/develop-2/style_and_layout-2/index.md
-    - /content/amp-dev/sambo/guide-tutorial/optimize-measure-2/discovery.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/amp-html-layout-2/index.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/amp-caches-and-cors-2/amp-cors-requests.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/validation-workflow-2/validate_amp.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/amp-caches-and-cors-2/how_amp_pages_are_cached.md
+    - /content/amp-dev/sambo/guide-tutorial/optimize-measure-2/discovery.md
   ads:
-    - /content/amp-dev/sambo/guide-tutorial/learn-2/intro-to-amphtml-ads.md
     - /content/amp-dev/sambo/guide-tutorial/develop-2/style_and_layout-2/index.md
+    - /content/amp-dev/sambo/guide-tutorial/develop-2/animations-2/introduction_to_animations.md
+    - /content/amp-dev/sambo/guide-tutorial/learn-2/intro-to-amphtml-ads.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/amp-caches-and-cors-2/amp-cors-requests.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/validation-workflow-2/validate_amp.md
     - /content/amp-dev/sambo/guide-tutorial/learn-2/amp-html-layout-2/index.md
-    - /content/amp-dev/sambo/guide-tutorial/develop-2/animations-2/introduction_to_animations.md
   email:
     - /content/amp-dev/sambo/guide-tutorial/start-2/create_email.md
     - /content/amp-dev/sambo/guide-tutorial/develop-2/testing_amp_emails.md
-    - /content/amp-dev/sambo/guide-tutorial/learn-2/email_fundamentals.md
     - /content/amp-dev/sambo/guide-tutorial/develop-2/amp_email_best_practices.md
-    - /content/amp-dev/sambo/guide-tutorial/learn-2/email-spec/amp-email-format.md
+    - /content/amp-dev/sambo/guide-tutorial/learn-2/email_fundamentals.md
+    - /content/amp-dev/sambo/guide-tutorial/learn-2/email-spec-2/amp-email-format.md
 
 recent_guides: !g.yaml /shared/data/recent-guides.yaml
 
@@ -349,11 +349,11 @@ guides:
       <div class="ap-m-teaser ap-m-teaser-column-box">
       {% for guide in doc.recent_guides %}
         {% set teaser_doc = g.doc(guide.path, locale=doc.locale) %}
-        [% if format in '{{ teaser_doc.formats }}' and counter < 6 %]
+          [% if format in '{{ teaser_doc.formats }}' and counter < 6 %]
 
           [% set counter = counter + 1 %]
           [% if counter is odd and counter != 1 %]
-          </div><div class="ap-m-teaser ap-m-teaser-column-box">
+      </div><div class="ap-m-teaser ap-m-teaser-column-box">
           [% endif %]
 
           {% with highlightedTeaser = True %}
