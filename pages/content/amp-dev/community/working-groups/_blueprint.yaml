@@ -4,8 +4,3 @@ $path: /community/working-groups/{base}.html
 $localization:
   path: /{locale}/community/working-groups/{base}.html
 $order: 1
-
-flyout:
-  format: websites
-  description: getting together
-  icon: amp-websites
