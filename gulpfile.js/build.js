@@ -437,11 +437,11 @@ function buildPages(done) {
             );
 
             redirects = redirects.map(([from, to]) => {
-              from = `https://go.amp.dev${from}`;
+              from = `https://go.ngfalls.netlify.app${from}`;
 
               // we only want to update the URL of shorturls that point to relative URLs
               if (!to.startsWith('http')) {
-                to = `https://amp.dev${to}`;
+                to = `https://ngfalls.netlify.app${to}`;
               }
 
               return {
