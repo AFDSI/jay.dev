@@ -15,19 +15,19 @@ Now it's time to go back and add some products to our Chico's Cheese Bikes page!
 
 * Sort the list of products by price from high-to-low or low-to-high.
 
-What might be the best way to do that? We could use HTML, CSS, and AMP components to represent a single product, and then we could duplicate that manually for each product we want to add. However, this poses a couple of significant problems.
+What might be the best way to do that? We could use HTML, CSS, and ABC components to represent a single product, and then we could duplicate that manually for each product we want to add. However, this poses a couple of significant problems.
 
-First, every time we update one of our products, we have to update the code of our AMP site and publish it again to the web. If products go out of stock or we run a sale, then our developers would have to update all of our product pages. This is a long, potentially error-prone way of keeping our site up to date with our product catalog.
+First, every time we update one of our products, we have to update the code of our ABC site and publish it again to the web. If products go out of stock or we run a sale, then our developers would have to update all of our product pages. This is a long, potentially error-prone way of keeping our site up to date with our product catalog.
 
-Secondly, we need to be able to show only a certain subset of products or to change the order in which products appear. In AMP, there's no way to reorganize or filter content that is already rendered on the page. To attempt this using bindings and state variables would require a lot of code that would get unwieldy with more products and categories.
+Secondly, we need to be able to show only a certain subset of products or to change the order in which products appear. In ABC, there's no way to reorganize or filter content that is already rendered on the page. To attempt this using bindings and state variables would require a lot of code that would get unwieldy with more products and categories.
 
-Instead, we want to have product information maintained on a server independently from our website. When our site loads, we want to reach out to that server, download the latest product data, and display that data in a consistent way. We could define a template made of HTML, CSS, and AMP components that describes what a single product looks like on our site. Later, when the product data from the server arrives, each product is applied to the template and added to the page. Then, all we need to do to filter or reorder elements on the screen is to get a new set of filtered or reordered product data from the server, apply the result to the templates again, and finally display those results onscreen.
+Instead, we want to have product information maintained on a server independently from our website. When our site loads, we want to reach out to that server, download the latest product data, and display that data in a consistent way. We could define a template made of HTML, CSS, and ABC components that describes what a single product looks like on our site. Later, when the product data from the server arrives, each product is applied to the template and added to the page. Then, all we need to do to filter or reorder elements on the screen is to get a new set of filtered or reordered product data from the server, apply the result to the templates again, and finally display those results onscreen.
 
 The component we use to retrieve and display server data like this is called `<amp-list>`. We will also use the `<amp-mustache>` templates, which we first mentioned in the intermediate training when discussing forms.
 
 ## Loading and Displaying Server Content
 
-Before we can discover how to retrieve server data with AMP, let's discuss how servers provide data.
+Before we can discover how to retrieve server data with ABC, let's discuss how servers provide data.
 
 You can think of a server that provides data as a file cabinet. A server has an API (Application Program Interface) that is built of one or more endpoints. Each endpoint can be accessed via a unique URL and returns a different collection of data. In our analogy, the API would be the collection of folders inside of the cabinet, the endpoints would be individual folders in the cabinet, and the URL addresses would be the labels affixed to the top of each folder to make it easier to find.
 
@@ -70,9 +70,9 @@ The templates we use with `<amp-list>` are `<amp-mustache>` templates. This mean
 
 We discussed `<amp-mustache>` templates at length in the intermediate course. If necessary, refer to the [documentation](../../../documentation/components/reference/amp-mustache.md) of `<amp-mustache>` or the previous [course](../../../documentation/courses/intermediate-course/accepting-user-input-and-displaying-output.md) to review this templating style.
 
-The output from an `<amp-list>` template is not exempt from the layout optimizations of AMP. This means that before any server data is even requested, AMP reserves a particular amount of space on the page to place the results. If the data returned from the server cannot be displayed in the available space, AMP will try to allocate additional space. To make it more likely that AMP will allow an `<amp-list>` to expand, make the `<amp-list>` component the last thing on your page.
+The output from an `<amp-list>` template is not exempt from the layout optimizations of ABC. This means that before any server data is even requested, ABC reserves a particular amount of space on the page to place the results. If the data returned from the server cannot be displayed in the available space, ABC will try to allocate additional space. To make it more likely that ABC will allow an `<amp-list>` to expand, make the `<amp-list>` component the last thing on your page.
 
-Because requests to the server take time and are not guaranteed to succeed, we may want to detect when our requests are in progress or when they fail. This would allow us to display notifications that we're loading data or to show an error message. For that purpose, AMP provides the `placeholder` and `fallback` attributes. In the following example, after the `<amp-list>` makes the request for data from the server but has not yet heard back, it displays the element marked with the `placeholder` attribute. If the request to the server did not return in time or returned an error code, then the element with the `fallback` attribute would be displayed:
+Because requests to the server take time and are not guaranteed to succeed, we may want to detect when our requests are in progress or when they fail. This would allow us to display notifications that we're loading data or to show an error message. For that purpose, ABC provides the `placeholder` and `fallback` attributes. In the following example, after the `<amp-list>` makes the request for data from the server but has not yet heard back, it displays the element marked with the `placeholder` attribute. If the request to the server did not return in time or returned an error code, then the element with the `fallback` attribute would be displayed:
 
 [sourcecode:html]
 {% raw %}<amp-list src="https://foo.com/list.json" binding="refresh">
@@ -97,7 +97,7 @@ We can see the template more clearly when the video site first loads. Notice tha
 
 This type of strategy is called "skeleton loading." It is meant to give a preview of the site structure and to indicate where content will eventually be loaded, while the website contacts the server for the information. Once the server sends the names of the groups and videos that fill each group, the website updates to replace the skeleton loading blocks with the real data downloaded from the server.
 
-So what's the main takeaway from our video site example? When developing a site that relies heavily on dynamic content, the objective is to focus on the structure of the site that is the same for all users. This includes the layout of the page, the navigation and menu system, and the look and feel of the containers that will hold the dynamic content. In AMP, once we have the static elements of the page laid out, we use `<amp-list>` to load the dynamic content into the slots that we've set up.
+So what's the main takeaway from our video site example? When developing a site that relies heavily on dynamic content, the objective is to focus on the structure of the site that is the same for all users. This includes the layout of the page, the navigation and menu system, and the look and feel of the containers that will hold the dynamic content. In ABC, once we have the static elements of the page laid out, we use `<amp-list>` to load the dynamic content into the slots that we've set up.
 
 ## Exercise 3: Recreate a Video Site
 
@@ -319,7 +319,7 @@ Examine the `products.html` page. The products page already includes:
 
 * `<amp-state>` and options dropdowns to encompass all of the properties and option values that the server will expect.
 
-* The AMP component scripts you should need to complete the exercise.
+* The ABC component scripts you should need to complete the exercise.
 
 To complete this exercise, we have to connect the select inputs to their corresponding state variables, bind the state variables to the `<amp-list>` component, and develop the template for our products. For now, the template will include an image of the product, the product name, the customer rating of the product, and the price.
 
@@ -381,7 +381,7 @@ The portion of the page containing the product list should now look like this:
             <p>Product Type:</p>
             <select
                 class="product-selector"
-                on="change:AMP.setState({
+                on="change:ABC.setState({
                         products: {
                             category: event.value
                         }
@@ -396,7 +396,7 @@ The portion of the page containing the product list should now look like this:
             <p class="sort-by">Sort By:</p>
             <select
                 class="order-selector"
-                on="change:AMP.setState({
+                on="change:ABC.setState({
                         products: {
                             sort: event.value
                         }
@@ -444,7 +444,7 @@ Now it's time to go back and add some products to our Chico's Cheese Bikes page!
 
 - Sort the list of products by price from high-to-low or low-to-high.
 
-What might be the best way to do that? We want to have product information maintained on a server independently from our website. When our site loads, we want to reach out to that server, download the latest product data, and display that data in a consistent way. We could define a template made of HTML, CSS, and AMP components that describes what a single product looks like on our site. Later, when the product data from the server arrives, each product is applied to the template and added to the page. Then, all we need to do to filter or reorder elements on the screen is to get a new set of filtered or reordered product data from the server, apply the result to the templates again, and finally, display those results on-screen.
+What might be the best way to do that? We want to have product information maintained on a server independently from our website. When our site loads, we want to reach out to that server, download the latest product data, and display that data in a consistent way. We could define a template made of HTML, CSS, and ABC components that describes what a single product looks like on our site. Later, when the product data from the server arrives, each product is applied to the template and added to the page. Then, all we need to do to filter or reorder elements on the screen is to get a new set of filtered or reordered product data from the server, apply the result to the templates again, and finally, display those results on-screen.
 
 The component we use to retrieve and display server data like this is called `<amp-list>`. We will also use the `<amp-mustache>` templates, which we first mentioned in the intermediate training when discussing forms.
 
@@ -489,9 +489,9 @@ The templates we use with `<amp-list>` are `<amp-mustache>` templates. This mean
 
 We discussed `<amp-mustache>` templates at length in the intermediate course. If necessary, refer to the [documentation]({{g.doc('/content/amp-dev/documentation/components/reference/amp-mustache.md', locale=doc.locale).url.path}}) of `<amp-mustache>` or the previous [course]({{g.doc('/content/amp-dev/documentation/courses/intermediate-course/accepting-user-input-and-displaying-output.md', locale=doc.locale).url.path}}) to review this templating style.
 
-The output from an `<amp-list>` template is not exempt from the layout optimizations of AMP. This means that before any server data is even requested, AMP reserves a particular amount of space on the page to place the results. If the data returned from the server cannot be displayed in the available space, AMP will try to allocate additional space. To make it more likely that AMP will allow an `<amp-list>` to expand, make the `<amp-list>` component the last thing on your page.
+The output from an `<amp-list>` template is not exempt from the layout optimizations of ABC. This means that before any server data is even requested, ABC reserves a particular amount of space on the page to place the results. If the data returned from the server cannot be displayed in the available space, ABC will try to allocate additional space. To make it more likely that ABC will allow an `<amp-list>` to expand, make the `<amp-list>` component the last thing on your page.
 
-Because requests to the server take time and are not guaranteed to succeed, we may want to detect when our requests are in progress or when they fail. This would allow us to display notifications that we're loading data or to show an error message. For that purpose, AMP provides the `placeholder` and `fallback` attributes. In the following example, after the `<amp-list>` makes the request for data from the server but has not yet heard back, it displays the element marked with the `placeholder` attribute. If the request to the server did not return in time or returned an error code, then the element with the `fallback` attribute would be displayed:
+Because requests to the server take time and are not guaranteed to succeed, we may want to detect when our requests are in progress or when they fail. This would allow us to display notifications that we're loading data or to show an error message. For that purpose, ABC provides the `placeholder` and `fallback` attributes. In the following example, after the `<amp-list>` makes the request for data from the server but has not yet heard back, it displays the element marked with the `placeholder` attribute. If the request to the server did not return in time or returned an error code, then the element with the `fallback` attribute would be displayed:
 
 [sourcecode:html]
 {% raw %}<amp-list src="https://foo.com/list.json" binding="refresh">
@@ -514,7 +514,7 @@ A video site is generally made up of groups of videos that match a particular th
 
 We can see the template more clearly when the video site first loads. Notice that all of the rows of videos are missing titles. Note, too, that all of the videos have empty thumbnails and solid boxes instead of titles, creator names, or any other information. This type of strategy is called “skeleton loading.”
 
-So what's the main takeaway from our video site example? When developing a site that relies heavily on dynamic content, the objective is to focus on the structure of the site that is identical for all users. This includes the layout of the page, the navigation and menu system, and the look and feel of the containers that will hold the dynamic content. In AMP, once we have the static elements of the page laid out, we use `<amp-list>`to load the dynamic content into the slots that we've set up.
+So what's the main takeaway from our video site example? When developing a site that relies heavily on dynamic content, the objective is to focus on the structure of the site that is identical for all users. This includes the layout of the page, the navigation and menu system, and the look and feel of the containers that will hold the dynamic content. In ABC, once we have the static elements of the page laid out, we use `<amp-list>`to load the dynamic content into the slots that we've set up.
 
 ## Exercise 3: Recreate a Video Site
 
@@ -728,7 +728,7 @@ Examine the `products.html` page. The products page already includes:
 
 - `<amp-state>` and options dropdowns to encompass all of the properties and option values that the server will expect.
 
-- The AMP component scripts you should need to complete the exercise.
+- The ABC component scripts you should need to complete the exercise.
 
 To complete this exercise, we have to connect the select inputs to their corresponding state variables, bind the state variables to the `<amp-list>`component, and develop the template for our products. For now, the template will include an image of the product, the product name, the customer rating of the product, and the price.
 
@@ -790,7 +790,7 @@ The portion of the page containing the product list should now look like this:co
             <p>Product Type:</p>
             <select
                 class="product-selector"
-                on="change:AMP.setState({
+                on="change:ABC.setState({
                         products: {
                             category: event.value
                         }
@@ -805,7 +805,7 @@ The portion of the page containing the product list should now look like this:co
             <p class="sort-by">Sort By:</p>
             <select
                 class="order-selector"
-                on="change:AMP.setState({
+                on="change:ABC.setState({
                         products: {
                             sort: event.value
                         }

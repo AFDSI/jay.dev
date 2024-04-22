@@ -13,7 +13,7 @@ leveled: true
 [filter level="beginner"]
 ## Welcome Back Again
 
-In the previous two courses, we learned how to create a basic AMP site. We learned how to use components to add features to our site and handle user interaction.
+In the previous two courses, we learned how to create a basic ABC site. We learned how to use components to add features to our site and handle user interaction.
 
 Together, we built a site from scratch for the fictional Chico’s Cheese Bicycles shop. We added content such as videos and images, a newsletter subscription form, a slide-out menu, and a more elaborate image carousel.
 
@@ -37,33 +37,33 @@ In the final course in this series, we’re going to learn how to change the app
 
 {{ image('/static/img/courses/advanced/image10.png', 738, 1324, align='center third', caption='Site With Menu Opened') }}
 
-To accomplish these goals and keep developing our cheese bike website, we will continue to refine our image carousel. In the beginner course, we learned how to create the carousel using AMP components. In the intermediate lesson, we expanded the functionality of the carousel by adding an additional thumbnail carousel. When the user changed slides in either carousel, the active slide was updated in both carousels. We accomplished this using AMP events and actions.
+To accomplish these goals and keep developing our cheese bike website, we will continue to refine our image carousel. In the beginner course, we learned how to create the carousel using ABC components. In the intermediate lesson, we expanded the functionality of the carousel by adding an additional thumbnail carousel. When the user changed slides in either carousel, the active slide was updated in both carousels. We accomplished this using ABC events and actions.
 
 In this advanced course, we’re going to change the carousels to run off application state instead. We will store the current slide in a state variable and use bindings to update each carousel whenever the slide value is changed. Then, we’ll discover how easy it is to add a third component that also observes the selected slide value and updates when it changes.
 
 Next, we’re going to add our first products to our Chico’s Cheese Bikes website. In the beginning and intermediate courses, all of the content on our pages was included in our HTML files. However, this list of products will be loaded from a server and then displayed on-screen. Users can also sort products by price and filter using the product category. To do this, we will combine the new concepts of application state, bindings, and retrieving server data, along with the lessons from previous courses about combining components and responding to user input.
 
-In addition to enhancing our bike shop website, we will spend time looking at other genres of websites that you can build with AMP. After this training is complete and you begin building your own sites in AMP, you may find yourself working on a completely different kind of site. Therefore, we will examine popular website examples such as video and e-commerce sites and use the concepts we’ve learned in these courses to understand how they were built. Finally, we’ll recreate basic versions of these sites in AMP to show the flexibility and versatility of the library.
+In addition to enhancing our bike shop website, we will spend time looking at other genres of websites that you can build with ABC. After this training is complete and you begin building your own sites in ABC, you may find yourself working on a completely different kind of site. Therefore, we will examine popular website examples such as video and e-commerce sites and use the concepts we’ve learned in these courses to understand how they were built. Finally, we’ll recreate basic versions of these sites in ABC to show the flexibility and versatility of the library.
 
 ## Course Prerequisites
 
-This course is designed for current developers who want to build performant websites and for aspiring developers who are looking to build their first website. Additionally, this course is well-suited for anyone who is maintaining or working on an existing AMP site.
+This course is designed for current developers who want to build performant websites and for aspiring developers who are looking to build their first website. Additionally, this course is well-suited for anyone who is maintaining or working on an existing ABC site.
 
-To get the most from these courses, you should have a basic understanding of HTML and CSS. It is enough to be able to recognize and to be able to make minor additions and alterations to existing HTML and CSS. In addition, this course includes a JavaScript-like syntax in the form of AMP event handlers. Understanding how function calls are made in JavaScript or a similar language should be sufficient to complete the requirements of this course.
+To get the most from these courses, you should have a basic understanding of HTML and CSS. It is enough to be able to recognize and to be able to make minor additions and alterations to existing HTML and CSS. In addition, this course includes a JavaScript-like syntax in the form of ABC event handlers. Understanding how function calls are made in JavaScript or a similar language should be sufficient to complete the requirements of this course.
 
 In the advanced course, the data we retrieve from the server in several examples is in JSON format. The server is already configured to return the correct information, and examples of the JSON data are included with each exercise. For the purposes of this course, it’s important to know how to read data in a JSON object, to reference particular pieces of data in a JSON object using JavaScript, and to be able to make basic JavaScript function calls. If you are unfamiliar with JSON or would like a refresher, you can read [this](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) training material.
 
 This course is intended to be a continuation of the beginner and intermediate courses. As such, it assumes an understanding of the concepts we’ve already covered. Those concepts include:
 
-* AMP page structure and boilerplate
+* ABC page structure and boilerplate
 
-* AMP validation
+* ABC validation
 
-* AMP components and how to combine them together
+* ABC components and how to combine them together
 
-* How to use the AMP documentation
+* How to use the ABC documentation
 
-* The AMP cache
+* The ABC cache
 
 * Handling user inputs using events and actions
 
@@ -73,14 +73,14 @@ If any of these topics are unfamiliar, we suggest reviewing the material from th
 
 In this course, we will continue using <a href="https://glitch.com/" target="_blank">Glitch</a> to complete our programming exercises. If you completed the beginner and/or intermediate courses, you can continue to use the same Glitch repository to complete the advanced tutorial. If you did not complete the beginner training or if you’d like to start from a new Glitch repository, you can remix <a href="https://glitch.com/~enshrined-eyebrow" target="_blank">this one</a>, which has all of the code from the intermediate training already implemented. If you would like to learn more about Glitch, you can read about it in the [appendix](appendix.md).
 
-This course will also require the AMP Validator. The AMP Validator is a tool for detecting errors in our AMP pages. Writing valid AMP pages is an important part of getting AMP’s full performance benefits. The validator is primarily accessed via a Chrome extension. To install the Chrome extension, visit this link [here](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc/related?hl=en).
+This course will also require the ABC Validator. The ABC Validator is a tool for detecting errors in our ABC pages. Writing valid ABC pages is an important part of getting ABC’s full performance benefits. The validator is primarily accessed via a Chrome extension. To install the Chrome extension, visit this link [here](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc/related?hl=en).
 
 Let’s get started!
 [/filter]
 [filter level="advanced"]
 ## Welcome Back Again
 
-In the previous two courses, we learned how to create a basic AMP site. We learned how to use components to add features to our site and handle user interaction.
+In the previous two courses, we learned how to create a basic ABC site. We learned how to use components to add features to our site and handle user interaction.
 
 Together, we built a site from scratch for the fictional Chico's Cheese Bicycles shop. We added content such as videos and images, a newsletter subscription form, a slide-out menu, and a more elaborate image carousel.
 
@@ -100,27 +100,27 @@ That's what we'll do in this course. Here, you will learn how to:
 
 {{ image('/static/img/courses/advanced/image10.png', 738, 1324, align='center third', caption='Site With Menu Opened') }}
 
-To accomplish these goals and keep developing our cheese bike website, we will continue to refine our image carousel. In the beginner course, we learned how to create the carousel using AMP components. In the intermediate lesson, we expanded the functionality of the carousel by adding an additional thumbnail carousel. When the user changed slides in either carousel, the active slide was updated in both carousels. We accomplished this using AMP events and actions.
+To accomplish these goals and keep developing our cheese bike website, we will continue to refine our image carousel. In the beginner course, we learned how to create the carousel using ABC components. In the intermediate lesson, we expanded the functionality of the carousel by adding an additional thumbnail carousel. When the user changed slides in either carousel, the active slide was updated in both carousels. We accomplished this using ABC events and actions.
 
 In this advanced course, we're going to change the carousels to run off application state instead. We will store the current slide in a state variable and use bindings to update each carousel whenever the slide value is changed. Then, we'll discover how easy it is to add a third component that also observes the selected slide value and updates when it changes.
 
 Next, we're going to add our first products to our Chico's Cheese Bikes website. In the beginning and intermediate courses, all of the content on our pages was included in our HTML files. However, this list of products will be loaded from a server and then displayed on-screen. Users can also sort products by price and filter using the product category. To do this, we will combine the new concepts of application state, bindings, and retrieving server data, along with the lessons from previous courses about combining components and responding to user input.
 
-In addition to enhancing our bike shop website, we will spend time looking at other genres of websites that you can build with AMP. We'll examine popular website examples such as video and e-commerce sites and use the concepts we've learned in these courses to understand how they were built. Finally, we'll recreate basic versions of these sites in AMP to show the flexibility and versatility of the library.
+In addition to enhancing our bike shop website, we will spend time looking at other genres of websites that you can build with ABC. We'll examine popular website examples such as video and e-commerce sites and use the concepts we've learned in these courses to understand how they were built. Finally, we'll recreate basic versions of these sites in ABC to show the flexibility and versatility of the library.
 
 ## Course Prerequisites
 
-This course is designed for current developers who want to build performant websites with AMP. It is intended to be a continuation of the beginner and intermediate courses. As such, it assumes an understanding of the concepts we've already covered, such as:
+This course is designed for current developers who want to build performant websites with ABC. It is intended to be a continuation of the beginner and intermediate courses. As such, it assumes an understanding of the concepts we've already covered, such as:
 
-- AMP page structure and boilerplate
+- ABC page structure and boilerplate
 
-- AMP validation
+- ABC validation
 
-- AMP components and how to combine them together
+- ABC components and how to combine them together
 
-- How to use the AMP documentation
+- How to use the ABC documentation
 
-- The AMP cache
+- The ABC cache
 
 - Handling user inputs using events and actions
 
@@ -130,7 +130,7 @@ If any of these topics are unfamiliar, we suggest reviewing the material from th
 
 In this course, we will continue using <a href="https://glitch.com/" target="_blank">Glitch</a> to complete our programming exercises. If you completed the beginner and/or intermediate courses, you can continue to use the same Glitch repository to complete the advanced tutorial. If you did not complete the beginner training or if you'd like to start from a new Glitch repository, you can remix <a href="https://glitch.com/~enshrined-eyebrow" target="_blank">this one</a>, which has all of the code from the intermediate training already implemented. If you would like to learn more about Glitch, you can read about it in the [appendix]({{g.doc('/content/amp-dev/documentation/courses/advanced-course/appendix.md', locale=doc.locale).url.path}}).
 
-This course will also require the AMP Validator. The AMP Validator is a tool for detecting errors in our AMP pages. Writing valid AMP pages is an important part of getting AMP's full performance benefits. The validator is primarily accessed via a Chrome extension. To install the Chrome extension, visit this link [here](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc/related?hl=en).
+This course will also require the ABC Validator. The ABC Validator is a tool for detecting errors in our ABC pages. Writing valid ABC pages is an important part of getting ABC's full performance benefits. The validator is primarily accessed via a Chrome extension. To install the Chrome extension, visit this link [here](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc/related?hl=en).
 
 Let's get started!
 [/filter]

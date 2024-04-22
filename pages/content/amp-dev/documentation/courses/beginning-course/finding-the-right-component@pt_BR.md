@@ -5,13 +5,13 @@ leveled: true
 ---
 
 [filter level="beginner"]
-## Navegando na documentação dos componentes AMP
+## Navegando na documentação dos componentes ABC
 
 Até agora, os componentes que usamos foram bastante simples. Para `<amp-img>` e `<amp-youtube>`, bastou visitar a documentação, olhar um exemplo e copiar para o nosso site. Para recursos mais avançados desses componentes, ou para componentes mais complicados, teremos que ler e absorver mais informações da documentação.
 
-Para desenvolver sites AMP de maneira eficaz, é importante aprender a navegar na documentação dos componentes AMP. Vamos praticar essa habilidade extensivamente ao longo de cada um dos treinamentos desta série.
+Para desenvolver sites ABC de maneira eficaz, é importante aprender a navegar na documentação dos componentes ABC. Vamos praticar essa habilidade extensivamente ao longo de cada um dos treinamentos desta série.
 
-Em seguida, queremos adicionar uma coleção de imagens de produtos de bicicleta de queijo para nossos usuários rolarem. Para isso, usaremos um componente de carrossel de imagens. Um **carrossel** é um elemento que contém um conjunto de itens que podem ser percorridos como uma apresentação de slides. A implementação AMP de um carrossel é o componente: `<amp-carousel>`. Este componente não é embutido, então você precisará adicionar seu script no `<head>` da página.
+Em seguida, queremos adicionar uma coleção de imagens de produtos de bicicleta de queijo para nossos usuários rolarem. Para isso, usaremos um componente de carrossel de imagens. Um **carrossel** é um elemento que contém um conjunto de itens que podem ser percorridos como uma apresentação de slides. A implementação ABC de um carrossel é o componente: `<amp-carousel>`. Este componente não é embutido, então você precisará adicionar seu script no `<head>` da página.
 
 Quando observamos para a [documentação]({{g.doc('/content/amp-dev/documentation/components/reference/amp-carousel.md', locale=doc.locale).url.path}}) para `<amp-carousel>`, estamos procurando respostas para perguntas como:
 
@@ -27,7 +27,7 @@ Quando observamos para a [documentação]({{g.doc('/content/amp-dev/documentatio
 
 - Quais layouts este componente suporta?
 
-{{ image('/static/img/courses/beginner/image25.png', 512, 386, caption='Página de documentação de AMP para <amp‑carousel>.') }}
+{{ image('/static/img/courses/beginner/image25.png', 512, 386, caption='Página de documentação de ABC para <amp‑carousel>.') }}
 
 Veja os seguintes itens na [documentação]({{g.doc('/content/amp-dev/documentation/components/reference/amp-carousel.md', locale=doc.locale).url.path}}) do `<amp-carousel>`:
 
@@ -35,7 +35,7 @@ Veja os seguintes itens na [documentação]({{g.doc('/content/amp-dev/documentat
 
 - **A seção de comportamento** - Esta seção explica como o componente funciona. Ele geralmente fornece algum código de amostra, bem como uma prévia da aparência do componente.
 
-- **A lista de atributos** - Falamos sobre atributos personalizados na seção anterior sobre web components. Isso nos permite personalizar nosso componente AMP de certas maneiras. Esta seção contém a lista de diferentes atributos, seus valores possíveis e o que os atributos controlam.
+- **A lista de atributos** - Falamos sobre atributos personalizados na seção anterior sobre web components. Isso nos permite personalizar nosso componente ABC de certas maneiras. Esta seção contém a lista de diferentes atributos, seus valores possíveis e o que os atributos controlam.
 
 - **A seção de estilo** - Esta seção explica como usar CSS para alterar a aparência deste componente. Além de estilizar por nome de tag ou ID, muitos componentes fornecem classes CSS adicionais que podem ser usadas para alterar a aparência do componente em certos estados. Por exemplo, `<amp-carousel>` fornece a classe `.amp-carousel-button`, que permite aos desenvolvedores remodelar os botões que mudam o slide do carrossel.
 
@@ -43,7 +43,7 @@ Veja os seguintes itens na [documentação]({{g.doc('/content/amp-dev/documentat
 
 - **Os layouts suportados** - Discutimos o atributo [layout]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/amp-html-layout/layouts_demonstrated.html', locale=doc.locale).url.path}}) em uma seção anterior. Ele controla a maneira como o elemento é renderizado na tela. Esta seção explica quais layouts são válidos para este componente.
 
-Esses itens estão listados na documentação de quase todos os componentes AMP. Vamos explorar a documentação usando um de seus exemplos:
+Esses itens estão listados na documentação de quase todos os componentes ABC. Vamos explorar a documentação usando um de seus exemplos:
 
 [sourcecode:html]
 {% raw %}<amp-carousel id="carousel-with-preview"
@@ -69,7 +69,7 @@ Esses itens estão listados na documentação de quase todos os componentes AMP.
 </amp-carousel>
 {% endraw %}[/sourcecode]
 
-Este carrossel contém três imagens para os usuários deslizarem. Os atributos desta instância do componente carrossel(`id`, `width`, `height`, `layout`, e `type`) são divididos em três grupos: [atributos comuns a todos os elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes) (`id`), [atributos comuns a todos os componentes AMP]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/common_attributes.md', locale=doc.locale).url.path}})
+Este carrossel contém três imagens para os usuários deslizarem. Os atributos desta instância do componente carrossel(`id`, `width`, `height`, `layout`, e `type`) são divididos em três grupos: [atributos comuns a todos os elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes) (`id`), [atributos comuns a todos os componentes ABC]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/common_attributes.md', locale=doc.locale).url.path}})
 (`width`, `height`, e `layout`), e atributos exclusivos do componente carrossel (`type`).
 
 Na documentação para `<amp-carousel>`, vemos que o componente pode ter um atributo `type`. Isso mostra que as entradas válidas para `type` incluem` slides` e `carousel`.
@@ -80,7 +80,7 @@ Isso significa que se você não especificar um `type`, o padrão será` carouse
 **Dica**: alguns atributos não exigem nenhum valor. Eles são chamados de [atributos booleanos](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes). Nesses casos, o atributo tem um valor padrão `false` e um valor` true` quando anexado a um elemento ou componente.
 [/tip]
 
-Muitos outros atributos personalizados podem ser usados com o componente `<amp-carousel>`. Ao usar um componente AMP pela primeira vez, consulte a documentação para ter uma ideia de todas as maneiras de personalizar a aparência ou o comportamento do componente por meio de atributos.
+Muitos outros atributos personalizados podem ser usados com o componente `<amp-carousel>`. Ao usar um componente ABC pela primeira vez, consulte a documentação para ter uma ideia de todas as maneiras de personalizar a aparência ou o comportamento do componente por meio de atributos.
 
 ## Exercício 5: Criando uma apresentação de slides de imagens
 
@@ -127,23 +127,23 @@ Lembre-se de incluir o script `<amp-carousel>` no `<head>`:
 
 ## Descobrindo Novos Componentes
 
-À medida que continuamos a desenvolver nosso site de bike cheese, nem sempre saberemos o nome do componente AMP que queremos adicionar para implementar algum novo recurso desejado. A comunidade AMP produziu uma grande coleção de componentes que lidam com muitos tipos diferentes de funcionalidade: anúncios e análises, conteúdo dinâmico, layout, mídia, apresentação e social. É comum, ao desenvolver um site AMP, receber um conjunto de requisitos para um novo recurso e, em seguida, pesquisar nas listas de componentes AMP em busca de um componente que atenda a esses requisitos.
+À medida que continuamos a desenvolver nosso site de bike cheese, nem sempre saberemos o nome do componente ABC que queremos adicionar para implementar algum novo recurso desejado. A comunidade ABC produziu uma grande coleção de componentes que lidam com muitos tipos diferentes de funcionalidade: anúncios e análises, conteúdo dinâmico, layout, mídia, apresentação e social. É comum, ao desenvolver um site ABC, receber um conjunto de requisitos para um novo recurso e, em seguida, pesquisar nas listas de componentes ABC em busca de um componente que atenda a esses requisitos.
 
-A primeira maneira de descobrir novos componentes AMP é usar seu mecanismo de pesquisa favorito ou a funcionalidade de pesquisa no projeto AMP [site](https://amp.dev/). Esta é uma maneira eficaz de ir diretamente para a documentação de um componente que você já conhece pelo nome. Além disso, você pode pesquisar descrições de componentes nos quais tem interesse para encontrar resultados. Pesquisar “vídeos do YouTube”, por exemplo, exibirá `<amp-youtube>` como o primeiro resultado. Da mesma forma, pesquisar “conteúdo que pode ser recolhido” trará o componente `<amp-accordion>` como o primeiro resultado.
+A primeira maneira de descobrir novos componentes ABC é usar seu mecanismo de pesquisa favorito ou a funcionalidade de pesquisa no projeto ABC [site](https://amp.dev/). Esta é uma maneira eficaz de ir diretamente para a documentação de um componente que você já conhece pelo nome. Além disso, você pode pesquisar descrições de componentes nos quais tem interesse para encontrar resultados. Pesquisar “vídeos do YouTube”, por exemplo, exibirá `<amp-youtube>` como o primeiro resultado. Da mesma forma, pesquisar “conteúdo que pode ser recolhido” trará o componente `<amp-accordion>` como o primeiro resultado.
 
-Outra maneira de encontrar componentes é usar a página de [Referência de componentes de AMP]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}). Ele contém uma lista dos componentes compatíveis com AMP. Cada entrada de componente inclui o nome do componente e uma breve descrição da funcionalidade que o componente fornece. Podemos acessar a documentação de um componente clicando em seu nome. Como aprendemos anteriormente, a documentação se aprofundará ainda mais no comportamento do componente. Com base nessas informações, devemos ser capazes de determinar se o componente atenderá às nossas necessidades ou se precisamos procurar um componente diferente. Em um treinamento futuro, discutiremos o que fazer se nenhum componente atender a todos os nossos requisitos.
+Outra maneira de encontrar componentes é usar a página de [Referência de componentes de ABC]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}). Ele contém uma lista dos componentes compatíveis com ABC. Cada entrada de componente inclui o nome do componente e uma breve descrição da funcionalidade que o componente fornece. Podemos acessar a documentação de um componente clicando em seu nome. Como aprendemos anteriormente, a documentação se aprofundará ainda mais no comportamento do componente. Com base nessas informações, devemos ser capazes de determinar se o componente atenderá às nossas necessidades ou se precisamos procurar um componente diferente. Em um treinamento futuro, discutiremos o que fazer se nenhum componente atender a todos os nossos requisitos.
 
-{{ image('/static/img/courses/beginner/image3.png', 512, 271, caption='A página de referência do componente AMP.') }}
+{{ image('/static/img/courses/beginner/image3.png', 512, 271, caption='A página de referência do componente ABC.') }}
 
-Finalmente, podemos ainda ter dúvidas sobre como o componente atuaria em nosso site, ou podemos não estar certos sobre como usar o componente de maneiras mais complexas. A seção [AMP por exemplo]({{g.doc('/content/amp-dev/documentation/examples/index.html', locale=doc.locale).url.path}}) em amp.dev tem páginas que mostram muitos componentes AMP, mostrando uma variedade de maneiras de configurar esses componentes para atender a casos de uso comuns em sites modernos. Normalmente, você pode acessar a página AMP por exemplo correspondente para um componente diretamente da documentação.
+Finalmente, podemos ainda ter dúvidas sobre como o componente atuaria em nosso site, ou podemos não estar certos sobre como usar o componente de maneiras mais complexas. A seção [ABC por exemplo]({{g.doc('/content/amp-dev/documentation/examples/index.html', locale=doc.locale).url.path}}) em amp.dev tem páginas que mostram muitos componentes ABC, mostrando uma variedade de maneiras de configurar esses componentes para atender a casos de uso comuns em sites modernos. Normalmente, você pode acessar a página ABC por exemplo correspondente para um componente diretamente da documentação.
 
-{{ image('/static/img/courses/beginner/image7.png', 512, 350, caption='Página AMP por exemplo para o componente`<amp-carousel>`.') }}
+{{ image('/static/img/courses/beginner/image7.png', 512, 350, caption='Página ABC por exemplo para o componente`<amp-carousel>`.') }}
 
 ## Exercício 6: Adicionando Links de Compartilhamento Social
 
-Links de mídia social são comuns em páginas web modernas. O AMP nos fornece botões de link prontos que permitem aos usuários compartilhar sua página em suas mídias sociais com um único clique, ajudando assim a aumentar o engajamento do usuário.
+Links de mídia social são comuns em páginas web modernas. O ABC nos fornece botões de link prontos que permitem aos usuários compartilhar sua página em suas mídias sociais com um único clique, ajudando assim a aumentar o engajamento do usuário.
 
-Usando a documentação de AMP, adicione botões abaixo do componente `<amp-youtube>` que permitem ao usuário **compartilhar** nossa página com um único clique. No entanto, você precisará navegar e pesquisar em [Referência de componentes de AMP]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) para encontrar o componente AMP adequado. (**Dica**: o título desta seção deve ajudá-lo a encontrar o que procura.)
+Usando a documentação de ABC, adicione botões abaixo do componente `<amp-youtube>` que permitem ao usuário **compartilhar** nossa página com um único clique. No entanto, você precisará navegar e pesquisar em [Referência de componentes de ABC]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) para encontrar o componente ABC adequado. (**Dica**: o título desta seção deve ajudá-lo a encontrar o que procura.)
 
 Depois de localizar o componente correto, clique no nome do componente para acessar sua documentação. Use essa documentação para adicionar componentes que:
 
@@ -151,9 +151,9 @@ Depois de localizar o componente correto, clique no nome do componente para aces
 
 Diretrizes de estilo recomendadas:
 
-- Envolva os componentes AMP em um `div` com uma classe`social-bar`.
+- Envolva os componentes ABC em um `div` com uma classe`social-bar`.
 
-- Dê a cada componente AMP uma `width` e uma` height` de `44`.
+- Dê a cada componente ABC uma `width` e uma` height` de `44`.
 
 Depois de concluir esta tarefa, sua página deve conter botões para o usuário compartilhar seu site:
 
@@ -178,9 +178,9 @@ Lembre-se de incluir o script `<amp-social-share>` no `<head>`:
 [/filter]
 
 [filter level="advanced"]
-## Navegando na documentação dos componentes AMP
+## Navegando na documentação dos componentes ABC
 
-Em seguida, queremos adicionar uma coleção de imagens de produtos de bicicleta de queijo para nossos usuários rolarem. Para isso, usaremos um componente de carrossel de imagens. A implementação AMP de um carrossel é o componente: `<amp-carousel>`. Este componente não é padrão, então você precisará adicionar seu script no `<head>` da página.
+Em seguida, queremos adicionar uma coleção de imagens de produtos de bicicleta de queijo para nossos usuários rolarem. Para isso, usaremos um componente de carrossel de imagens. A implementação ABC de um carrossel é o componente: `<amp-carousel>`. Este componente não é padrão, então você precisará adicionar seu script no `<head>` da página.
 
 Quando olhamos para a [documentação]({{g.doc('/content/amp-dev/documentation/components/reference/amp-carousel.md', locale=doc.locale).url.path}}) para `<amp-carousel>`, estamos procurando respostas para perguntas como:
 
@@ -196,7 +196,7 @@ Quando olhamos para a [documentação]({{g.doc('/content/amp-dev/documentation/c
 
 - Quais layouts este componente suporta?
 
-{{ image('/static/img/courses/beginner/image25.png', 512, 386, caption='Página de documentação de AMP para <amp‑carousel>.') }}
+{{ image('/static/img/courses/beginner/image25.png', 512, 386, caption='Página de documentação de ABC para <amp‑carousel>.') }}
 
 Veja os seguintes itens na [documentação]({{g.doc('/content/amp-dev/documentation/components/reference/amp-carousel.md', locale=doc.locale).url.path}}) do `<amp-carousel>`:
 
@@ -204,7 +204,7 @@ Veja os seguintes itens na [documentação]({{g.doc('/content/amp-dev/documentat
 
 - **A seção de comportamento** - Esta seção explica como o componente funciona. Ele geralmente fornece algum código de amostra, bem como uma prévia da aparência do componente.
 
-- **A lista de atributos** - Falamos sobre atributos personalizados na seção anterior sobre web components. Isso nos permite personalizar nosso componente AMP de certas maneiras. Esta seção contém a lista de diferentes atributos, seus valores possíveis e o que os atributos controlam.
+- **A lista de atributos** - Falamos sobre atributos personalizados na seção anterior sobre web components. Isso nos permite personalizar nosso componente ABC de certas maneiras. Esta seção contém a lista de diferentes atributos, seus valores possíveis e o que os atributos controlam.
 
 - **A seção de estilo** - Esta seção explica como usar CSS para alterar a aparência deste componente. Além de estilizar por nome de tag ou ID, muitos componentes fornecem classes CSS adicionais que podem ser usadas para alterar a aparência do componente em certos estados. Por exemplo, `<amp-carousel>` fornece a classe `.amp-carousel-button`, que permite aos desenvolvedores remodelar os botões que mudam o slide do carrossel.
 
@@ -212,7 +212,7 @@ Veja os seguintes itens na [documentação]({{g.doc('/content/amp-dev/documentat
 
 - **Os layouts suportados** - Discutimos o atributo [layout]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/amp-html-layout/layouts_demonstrated.html', locale=doc.locale).url.path}}) em uma seção anterior. Ele controla a maneira como o elemento é renderizado na tela. Esta seção explica quais layouts são válidos para este componente.
 
-Esses itens estão listados na documentação de quase todos os componentes AMP. Vamos explorar a documentação usando um de seus exemplos:
+Esses itens estão listados na documentação de quase todos os componentes ABC. Vamos explorar a documentação usando um de seus exemplos:
 
 [sourcecode:html]
 {% raw %}<amp-carousel id="carousel-with-preview"
@@ -238,7 +238,7 @@ Esses itens estão listados na documentação de quase todos os componentes AMP.
 </amp-carousel>
 {% endraw %}[/sourcecode]
 
-Este carrossel contém três imagens para os usuários deslizarem. Os atributos desta instância do componente carrossel(`id`, `width`, `height`, `layout`, e `type`) são divididos em três grupos: [atributos comuns a todos os elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes) (`id`), [atributos comuns a todos os componentes AMP]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/common_attributes.md', locale=doc.locale).url.path}})
+Este carrossel contém três imagens para os usuários deslizarem. Os atributos desta instância do componente carrossel(`id`, `width`, `height`, `layout`, e `type`) são divididos em três grupos: [atributos comuns a todos os elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes) (`id`), [atributos comuns a todos os componentes ABC]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/common_attributes.md', locale=doc.locale).url.path}})
 (`width`, `height`, e `layout`), e atributos exclusivos do componente carrossel (`type`).
 
 Na documentação para `<amp-carousel>`, vemos que o componente pode ter um atributo `type`. Isso mostra que as entradas válidas para `type` incluem` slides` e `carousel`.
@@ -249,7 +249,7 @@ Isso significa que se você não especificar um `type`, o padrão será` carouse
 **Dica**: alguns atributos não exigem nenhum valor. Eles são chamados de [atributos booleanos](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes). Nesses casos, o atributo tem um valor padrão `false` e um valor` true` quando anexado a um elemento ou componente.
 [/tip]
 
-Muitos outros atributos personalizados podem ser usados com o componente `<amp-carousel>`. Ao usar um componente AMP pela primeira vez, consulte a documentação para ter uma ideia de todas as maneiras de personalizar a aparência ou o comportamento do componente por meio de atributos.
+Muitos outros atributos personalizados podem ser usados com o componente `<amp-carousel>`. Ao usar um componente ABC pela primeira vez, consulte a documentação para ter uma ideia de todas as maneiras de personalizar a aparência ou o comportamento do componente por meio de atributos.
 
 ## Exercício 5: Criando uma apresentação de slides de imagens
 
@@ -296,24 +296,24 @@ Lembre-se de incluir o script `<amp-carousel>` no `<head>`:
 
 ## Descobrindo Novos Componentes
 
-À medida que continuamos a desenvolver nosso site de bike cheese, nem sempre saberemos o nome do componente AMP que queremos adicionar para implementar algum novo recurso desejado. A comunidade AMP produziu uma grande coleção de componentes que lidam com muitos tipos diferentes de funcionalidade: anúncios e análises, conteúdo dinâmico, layout, mídia, apresentação e social. A página [Referência de componentes de AMP]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) contém uma lista de componentes AMP:
+À medida que continuamos a desenvolver nosso site de bike cheese, nem sempre saberemos o nome do componente ABC que queremos adicionar para implementar algum novo recurso desejado. A comunidade ABC produziu uma grande coleção de componentes que lidam com muitos tipos diferentes de funcionalidade: anúncios e análises, conteúdo dinâmico, layout, mídia, apresentação e social. A página [Referência de componentes de ABC]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) contém uma lista de componentes ABC:
 
-{{ image('/static/img/courses/beginner/image3.webp', 1024, 541, caption='A página de referência dos componentes AMP.') }}
+{{ image('/static/img/courses/beginner/image3.webp', 1024, 541, caption='A página de referência dos componentes ABC.') }}
 
-Podemos ainda ter dúvidas sobre como o componente atuaria em nosso site, ou podemos não estar certos sobre como usar o componente de maneiras mais complexas. A sessão [AMP por exemplo]({{g.doc('/content/amp-dev/documentation/examples/index.html', locale=doc.locale).url.path}}) em amp.dev tem páginas que mostram muitos componentes AMP, mostrando uma variedade de maneiras de configurar esses componentes para atender a casos de uso comuns em sites modernos. Ele também possui playgrounds de codificação, onde você pode executar seus próprios experimentos.
+Podemos ainda ter dúvidas sobre como o componente atuaria em nosso site, ou podemos não estar certos sobre como usar o componente de maneiras mais complexas. A sessão [ABC por exemplo]({{g.doc('/content/amp-dev/documentation/examples/index.html', locale=doc.locale).url.path}}) em amp.dev tem páginas que mostram muitos componentes ABC, mostrando uma variedade de maneiras de configurar esses componentes para atender a casos de uso comuns em sites modernos. Ele também possui playgrounds de codificação, onde você pode executar seus próprios experimentos.
 
-{{ image('/static/img/courses/beginner/image7.webp', 1024, 699, caption='Página AMP por exemplo para o componente <amp‑carousel>.') }}
+{{ image('/static/img/courses/beginner/image7.webp', 1024, 699, caption='Página ABC por exemplo para o componente <amp‑carousel>.') }}
 
 ## Exercício 6: Adicionando Links de Compartilhamento Social
 
-A biblioteca de componentes AMP inclui componentes para compartilhamento social. Vamos adicionar alguns deles ao nosso site agora!
-Navegue e pesquise em [Referência de componentes de AMP]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) para encontrar o componente AMP adequado e, em seguida, coloque-o sob o elemento `<amp-youtube>`. Use a documentação para adicionar componentes que dão ao usuário a opção de compartilhar sua página via e-mail, LinkedIn, Tumblr e Twitter.
+A biblioteca de componentes ABC inclui componentes para compartilhamento social. Vamos adicionar alguns deles ao nosso site agora!
+Navegue e pesquise em [Referência de componentes de ABC]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) para encontrar o componente ABC adequado e, em seguida, coloque-o sob o elemento `<amp-youtube>`. Use a documentação para adicionar componentes que dão ao usuário a opção de compartilhar sua página via e-mail, LinkedIn, Tumblr e Twitter.
 
 Diretrizes de estilo recomendadas:
 
-- Envolva os componentes AMP em um `div` com uma classe`social-bar`.
+- Envolva os componentes ABC em um `div` com uma classe`social-bar`.
 
-- Dê a cada componente AMP uma `width` e uma` height` de `44`.
+- Dê a cada componente ABC uma `width` e uma` height` de `44`.
 
 Depois de concluir esta tarefa, sua página deve conter botões para o usuário compartilhar seu site:
 

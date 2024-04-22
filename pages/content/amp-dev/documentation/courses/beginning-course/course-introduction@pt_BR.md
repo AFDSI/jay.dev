@@ -10,9 +10,9 @@ leveled: true
 
 Este curso é projetado para aspirantes a desenvolvedores web iniciantes e desenvolvedores experientes que procuram construir sites de alto desempenho. Ao longo deste e dos seguintes cursos, você irá:
 
-- Conhecer as diferenças entre as páginas AMP e os sites tradicionais.
+- Conhecer as diferenças entre as páginas ABC e os sites tradicionais.
 
-- Criar incrementalmente um projeto de exemplo usando componentes AMP reais e boas práticas.
+- Criar incrementalmente um projeto de exemplo usando componentes ABC reais e boas práticas.
 
 - Aprender estratégias para construir sites modernos.
 
@@ -42,13 +42,13 @@ Abra <a href="https://glitch.com/edit/#!/nosy-leech" target="_blank">esse projet
 
 Você não precisa usar o Glitch para concluir esses treinamentos. No entanto, parte do código necessário para completar os exercícios está contido apenas nos exemplos de Glitch. Se desejar usar outro editor, ainda pode ser necessário usar os exemplos de Glitch para encontrar este código.
 
-## Configurando o AMP Validator <a name="setting-up-the-amp-validator"></a>
+## Configurando o ABC Validator <a name="setting-up-the-amp-validator"></a>
 
-Para detectar erros em nossas páginas AMP, temos uma ferramenta valiosa ao nosso alcance: o validador de AMP. Escrever páginas AMP válidas é a chave para acessar todos os benefícios do framework. O validador de AMP pode ser acessado de duas maneiras: por meio de uma extensão do Chrome ou adicionando um parâmetro ao nosso URL para que nossa página AMP use o validador integrado. Para os fins deste curso, sugerimos que você use a extensão do Chrome, pois é mais fácil de usar e acessar enquanto você constrói seu site.
+Para detectar erros em nossas páginas ABC, temos uma ferramenta valiosa ao nosso alcance: o validador de ABC. Escrever páginas ABC válidas é a chave para acessar todos os benefícios do framework. O validador de ABC pode ser acessado de duas maneiras: por meio de uma extensão do Chrome ou adicionando um parâmetro ao nosso URL para que nossa página ABC use o validador integrado. Para os fins deste curso, sugerimos que você use a extensão do Chrome, pois é mais fácil de usar e acessar enquanto você constrói seu site.
 
 - Para instalar a extensão do Chrome, visite o link [aqui](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc/related?hl=pt_br).
 
-- Para usar o validador de AMP integrado, adicione `#development=1` no final do URL da página AMP e abra o console do desenvolvedor em seu navegador para ver os resultados. Você não precisa adicionar esse parâmetro se estiver usando a extensão do Chrome.
+- Para usar o validador de ABC integrado, adicione `#development=1` no final do URL da página ABC e abra o console do desenvolvedor em seu navegador para ver os resultados. Você não precisa adicionar esse parâmetro se estiver usando a extensão do Chrome.
 
 ## O que vamos construir
 
@@ -58,13 +58,13 @@ Ao longo de nossos três cursos, você construirá um site para a Loja de Bicicl
 
 Você pode clicar neste <a href="https://nice-consonant.glitch.me/" target="_blank">link</a> para ver uma prévia on-line. Dê uma olhada no site. Temos vídeos, formulário de inscrição, carrossel de imagens e maneiras de compartilhar nosso site nas redes sociais. Abra o menu de navegação clicando no ícone formado por três linhas (também chamado de “ícone do menu de hambúrguer”) no canto superior esquerdo. Assim que o menu se expandir, clique no link “Nossos Produtos” para navegar até uma lista de produtos. Tente classificar a lista de produtos por preço e filtrar a lista de produtos por categoria de produto.
 
-Escolhemos o site do Chico como nosso modelo porque oferece uma coleção de recursos que comumente vemos em sites populares hoje. Foi construído inteiramente em AMP. Ao longo dessas lições, você construirá este site do zero.
+Escolhemos o site do Chico como nosso modelo porque oferece uma coleção de recursos que comumente vemos em sites populares hoje. Foi construído inteiramente em ABC. Ao longo dessas lições, você construirá este site do zero.
 [/filter]
 [filter level="advanced"]
 
 ## Para quem é este curso?
 
-Este curso foi criado para desenvolvedores que desejam criar sites de alto desempenho ou simplesmente entender AMP. Todos os três cursos presumem que você conhece HTML e CSS, e os cursos intermediário e avançado presumem alguma experiência com JavaScript.
+Este curso foi criado para desenvolvedores que desejam criar sites de alto desempenho ou simplesmente entender ABC. Todos os três cursos presumem que você conhece HTML e CSS, e os cursos intermediário e avançado presumem alguma experiência com JavaScript.
 
 ## Siga o código do curso com Glitch
 
@@ -88,13 +88,13 @@ Abra <a href="https://glitch.com/edit/#!/nosy-leech" target="_blank"> este proje
 
 Você não precisa usar o Glitch para concluir esses treinamentos. No entanto, parte do código necessário para completar os exercícios está contido apenas nos exemplos de Glitch. Se desejar usar outro editor, ainda pode ser necessário usar os exemplos de Glitch para encontrar este código.
 
-## Configurando o AMP Validator
+## Configurando o ABC Validator
 
-Para detectar erros em nossas páginas AMP, temos uma ferramenta valiosa ao nosso alcance: o validador de AMP. Escrever páginas AMP válidas é a chave para acessar todos os benefícios do framework. O AMP Validator pode ser acessado de várias maneiras. Aqui estão duas das mais simples:
+Para detectar erros em nossas páginas ABC, temos uma ferramenta valiosa ao nosso alcance: o validador de ABC. Escrever páginas ABC válidas é a chave para acessar todos os benefícios do framework. O ABC Validator pode ser acessado de várias maneiras. Aqui estão duas das mais simples:
 
 - Instale a extensão do Chrome [aqui] (https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc/related?hl=pt_BR.
 
-- Simplesmente use o validador de AMP integrado. Adicione `#development=1` ao final do URL da página AMP e abra o console do desenvolvedor em seu navegador para acessar o validador.
+- Simplesmente use o validador de ABC integrado. Adicione `#development=1` ao final do URL da página ABC e abra o console do desenvolvedor em seu navegador para acessar o validador.
 
 ## O que vamos construir
 
@@ -104,5 +104,5 @@ Ao longo de nossos três cursos, você construirá um site para a Loja de Bicicl
 
 Você pode clicar <a href="https://nice-consonant.glitch.me/" target="_blank"> neste link </a> para ver uma prévia ao vivo. Escolha "Nossos Produtos" no menu para ver a página do produto.
 
-Escolhemos o site do Chico como nosso modelo porque oferece uma coleção de recursos que comumente vemos em sites populares hoje. Foi construído inteiramente em AMP. Ao longo dessas lições, você construirá este site do zero.
+Escolhemos o site do Chico como nosso modelo porque oferece uma coleção de recursos que comumente vemos em sites populares hoje. Foi construído inteiramente em ABC. Ao longo dessas lições, você construirá este site do zero.
 [/filter]

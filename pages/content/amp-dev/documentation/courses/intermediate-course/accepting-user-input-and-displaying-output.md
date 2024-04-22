@@ -17,9 +17,9 @@ Studies show that every dollar spent on email marketing corresponds to several d
 
 - If the form submission succeeds, a welcome message with the user’s name should be displayed.
 
-In a non-AMP page, we might reach for a basic HTML form element to collect our users’ information. AMP provides an [`<amp-form>`](../../../documentation/components/reference/amp-form.md) component, but this component actually uses the element name "form" as well. So, what’s the difference?
+In a non-ABC page, we might reach for a basic HTML form element to collect our users’ information. ABC provides an [`<amp-form>`](../../../documentation/components/reference/amp-form.md) component, but this component actually uses the element name "form" as well. So, what’s the difference?
 
-In this section, we’ll explore what a traditional website form is, how AMP forms differ from traditional forms, and how to handle the response from the server when submitting AMP forms.
+In this section, we’ll explore what a traditional website form is, how ABC forms differ from traditional forms, and how to handle the response from the server when submitting ABC forms.
 
 ## Introduction To Forms
 
@@ -27,11 +27,11 @@ In this section, we’ll explore what a traditional website form is, how AMP for
 
 These days, users expect more from web forms. They want to know immediately if they've entered invalid data (form validation and form verification). They want to submit form data without the entire page having to refresh. Additionally, users want to know when their form data was accepted by the server and when an error occurred. Traditionally, developers have had to reach for JavaScript, [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX), and other similar technologies in order to provide these features.
 
-AMP forms extend the behavior of normal HTML forms by providing easier ways to perform form validation, form verification, form submission, success and error messages, and more. AMP forms also provide a set of events that allow developers to execute actions against other components when forms are submitted, valid, invalid, verified, etc. These events are useful for showing a loading spinner while submitting the form, or for showing popup messages for success and error messages.
+ABC forms extend the behavior of normal HTML forms by providing easier ways to perform form validation, form verification, form submission, success and error messages, and more. ABC forms also provide a set of events that allow developers to execute actions against other components when forms are submitted, valid, invalid, verified, etc. These events are useful for showing a loading spinner while submitting the form, or for showing popup messages for success and error messages.
 
-AMP forms also provide additional possibilities on the inputs that make up the forms. For example, AMP adds `change` and `input-debounced` events to each input field to make it easier to track when users change information. AMP provides additional CSS hooks to make styling your forms easier. Lastly, AMP provides some polyfills that make sure your forms work well in all browsers.
+ABC forms also provide additional possibilities on the inputs that make up the forms. For example, ABC adds `change` and `input-debounced` events to each input field to make it easier to track when users change information. ABC provides additional CSS hooks to make styling your forms easier. Lastly, ABC provides some polyfills that make sure your forms work well in all browsers.
 
-AMP provides a great deal of versatility for building forms. It’s worth spending some time browsing the documentation for [`<amp-form>`](../../../documentation/components/reference/amp-form.md) to absorb all of the various features that AMP provides.
+ABC provides a great deal of versatility for building forms. It’s worth spending some time browsing the documentation for [`<amp-form>`](../../../documentation/components/reference/amp-form.md) to absorb all of the various features that ABC provides.
 
 ## Exercise 3: Building the Subscription Form
 
@@ -109,11 +109,11 @@ At this point, our subscription form submits the user’s name and email, but th
 
 `<amp-form>` provides `submit-success` and `submit-error` attributes. These can be placed on elements such as `<div>` tags that are direct children of the `<form>` element. When a form is submitted and the server responds successfully, contents in elements tagged with `submit-success` are displayed. Similarly, when a form is submitted and the server returns an error, contents in elements tagged with `submit-error` are displayed.
 
-The contents of elements tagged with `submit-success` and `submit-error` are treated differently by AMP than the contents of other components we’ve seen and used so far. That is because these elements contain templates. Templates are a way to convert dynamic data (usually generated from a server) into pieces of HTML that get inserted into the page.
+The contents of elements tagged with `submit-success` and `submit-error` are treated differently by ABC than the contents of other components we’ve seen and used so far. That is because these elements contain templates. Templates are a way to convert dynamic data (usually generated from a server) into pieces of HTML that get inserted into the page.
 
-The most common type of template used in AMP pages is [`<amp-mustache>`](../../../documentation/components/reference/amp-mustache.md). This is based on the Mustache.js syntax. You can think of mustache templates as "Mad Libs" for websites. Mad Libs are stories in which certain words are missing and have to be supplied by the reader. For example, given the phrase "there are many `{adjective}` ways to pick a `{noun}` to read," a reader could choose the words "useful" and "magazine" and turn the phrase into "there are many useful ways to pick a magazine to read." (Usually, the results are a lot goofier, but we’ll try to keep it professional here.)
+The most common type of template used in ABC pages is [`<amp-mustache>`](../../../documentation/components/reference/amp-mustache.md). This is based on the Mustache.js syntax. You can think of mustache templates as "Mad Libs" for websites. Mad Libs are stories in which certain words are missing and have to be supplied by the reader. For example, given the phrase "there are many `{adjective}` ways to pick a `{noun}` to read," a reader could choose the words "useful" and "magazine" and turn the phrase into "there are many useful ways to pick a magazine to read." (Usually, the results are a lot goofier, but we’ll try to keep it professional here.)
 
-Similarly, mustache templates describe HTML content in which sections are missing and need to be filled in with information from a server. The templates are written in HTML, and the missing sections are identified by `{% raw %}{{ }}{% endraw %}` mustache braces. When data arrives from the server and the template is evaluated by AMP, the mustache variables are replaced with information from the server. The resultant HTML is displayed on the screen in the place where the template was defined.
+Similarly, mustache templates describe HTML content in which sections are missing and need to be filled in with information from a server. The templates are written in HTML, and the missing sections are identified by `{% raw %}{{ }}{% endraw %}` mustache braces. When data arrives from the server and the template is evaluated by ABC, the mustache variables are replaced with information from the server. The resultant HTML is displayed on the screen in the place where the template was defined.
 
 For example, when given the following data:
 
@@ -245,17 +245,17 @@ In order to keep our brand in our customers' minds, we want to send out a regula
 
 - If the form submission succeeds, a welcome message with the user's name should be displayed.
 
-In a non-AMP page, we might reach for a basic HTML form element to collect our users' information. AMP provides an [`<amp-form>`]({{g.doc('/content/amp-dev/documentation/components/reference/amp-form.md', locale=doc.locale).url.path}}) component, but this component actually uses the element name "form" as well. So, what's the difference?
+In a non-ABC page, we might reach for a basic HTML form element to collect our users' information. ABC provides an [`<amp-form>`]({{g.doc('/content/amp-dev/documentation/components/reference/amp-form.md', locale=doc.locale).url.path}}) component, but this component actually uses the element name "form" as well. So, what's the difference?
 
-In this section, we'll explore how AMP forms differ from traditional forms, and how to handle the response from the server when submitting AMP forms.
+In this section, we'll explore how ABC forms differ from traditional forms, and how to handle the response from the server when submitting ABC forms.
 
 ## Introduction To Forms
 
-AMP forms extend the behavior of regular HTML forms by providing easier ways to perform form validation, form verification, form submission, success and error messages, and more. AMP forms also provide a set of events that allow developers to execute actions against other components when forms are submitted, valid, invalid, verified, etc. These events are useful for showing a loading spinner while submitting the form, or for showing popup messages for success and error messages.
+ABC forms extend the behavior of regular HTML forms by providing easier ways to perform form validation, form verification, form submission, success and error messages, and more. ABC forms also provide a set of events that allow developers to execute actions against other components when forms are submitted, valid, invalid, verified, etc. These events are useful for showing a loading spinner while submitting the form, or for showing popup messages for success and error messages.
 
-AMP forms also provide additional possibilities on the inputs that make up the forms. For example, AMP adds `change` and `input-debounced` events to each input field to make it easier to track when users change information. AMP provides additional CSS hooks to make styling your forms easier. Lastly, AMP provides some polyfills that make sure your forms work well in all browsers.
+ABC forms also provide additional possibilities on the inputs that make up the forms. For example, ABC adds `change` and `input-debounced` events to each input field to make it easier to track when users change information. ABC provides additional CSS hooks to make styling your forms easier. Lastly, ABC provides some polyfills that make sure your forms work well in all browsers.
 
-AMP provides a great deal of versatility for building forms. It's worth spending some time browsing the documentation for [`<amp-form>`]({{g.doc('/content/amp-dev/documentation/components/reference/amp-form.md', locale=doc.locale).url.path}}) to absorb all of the various features that AMP provides.
+ABC provides a great deal of versatility for building forms. It's worth spending some time browsing the documentation for [`<amp-form>`]({{g.doc('/content/amp-dev/documentation/components/reference/amp-form.md', locale=doc.locale).url.path}}) to absorb all of the various features that ABC provides.
 
 ## Exercise 3: Building the Subscription Form
 
@@ -333,7 +333,7 @@ At this point, our subscription form submits the user's name and email, but the 
 
 `<amp-form>` provides `submit-success` and `submit-error` attributes. These can be placed on elements such as `<div>` tags that are direct children of the `<form>` element. When a form is submitted and the server responds successfully, contents in elements tagged with `submit-success` are displayed. Similarly, when a form is submitted and the server returns an error, contents in elements tagged with `submit-error` are displayed.
 
-AMP treats elements tagged with submit-success and submit-error differently than the contents of other components we've seen and used so far. That is because these elements use templates. The most common type of template used in AMP pages is [`<amp-mustache>`]({{g.doc('/content/amp-dev/documentation/components/reference/amp-mustache.md', locale=doc.locale).url.path}}) This is based on the commonly used [Mustache.js](https://mustache.github.io/) syntax. Mustache templates describe HTML content in which sections are missing and need to be filled in with information from a server. The templates are written in HTML, and the missing sections are identified by {% raw %}`{{ }}`{% endraw %} mustache braces.
+ABC treats elements tagged with submit-success and submit-error differently than the contents of other components we've seen and used so far. That is because these elements use templates. The most common type of template used in ABC pages is [`<amp-mustache>`]({{g.doc('/content/amp-dev/documentation/components/reference/amp-mustache.md', locale=doc.locale).url.path}}) This is based on the commonly used [Mustache.js](https://mustache.github.io/) syntax. Mustache templates describe HTML content in which sections are missing and need to be filled in with information from a server. The templates are written in HTML, and the missing sections are identified by {% raw %}`{{ }}`{% endraw %} mustache braces.
 
 For example, when given the following data:
 

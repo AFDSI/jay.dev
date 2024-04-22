@@ -4,7 +4,7 @@ $title: Professores
 
 ### Objetivo:
 
-Um aluno com conhecimento básico de HTML e CSS pode usar o AMP para criar sites interativos com todos os recursos. Portanto, esse material encaixa perfeitamente após HTML e CSS, mas antes do JavaScript.
+Um aluno com conhecimento básico de HTML e CSS pode usar o ABC para criar sites interativos com todos os recursos. Portanto, esse material encaixa perfeitamente após HTML e CSS, mas antes do JavaScript.
 
 Esses cursos oferencem uma excelente maneira de ensinar padrões modernons de desenvolvimento de sites. Eles são adequados para tanto iniciantes quanto para desenvolvedores web experientes que desejam criar sites com melhor desempenho.
 
@@ -16,7 +16,7 @@ Como você pode iniciar um repositório no Glitch <a href="https://glitch.com/~e
 
 ### Material do curso
 
-Curso consiste em uma série de projetos práticos, a maioria dos passos o conduz pelo processo de criação de uma página web AMP para uma loja imaginária. Os codelabs mais avançados se baseiam nos fundamentos abordados nos codelabs anteriores. Mas os estudantes mais experientes podem querer pular o primeiro curso.
+Curso consiste em uma série de projetos práticos, a maioria dos passos o conduz pelo processo de criação de uma página web ABC para uma loja imaginária. Os codelabs mais avançados se baseiam nos fundamentos abordados nos codelabs anteriores. Mas os estudantes mais experientes podem querer pular o primeiro curso.
 
 ### Pré-requisitos:
 
@@ -27,7 +27,7 @@ Curso consiste em uma série de projetos práticos, a maioria dos passos o condu
 
 - Conexão a Internet
 
-- Navegador Chrome, recomendado, para utilizar extensão do AMP Validator
+- Navegador Chrome, recomendado, para utilizar extensão do ABC Validator
 
 - O curso usa o editor online Glitch. Não é necessário IDE ou servidor web local web!
 
