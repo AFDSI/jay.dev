@@ -40,7 +40,7 @@ const AVAILABLE_LOCALES = [
   'fr',
   // 'ar',
   'es',
-  'hi',
+  // 'hi',
   // 'it',
   // 'id',
   // 'ja',
