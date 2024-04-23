@@ -1,11 +1,22 @@
 ---
-name: 'Release: Static Production'
+name: Deploy
+run-name: Deploy to ${{ inputs.deploy-environment || 'Staging' }}
 
 on:
   workflow_dispatch:
+    inputs:
+      deploy-environment:
+        description: 'Which environment to deploy to'
+        required: true
+        type: choice
+        options:
+          - Staging
+          - Production
+        default: Staging
   push:
     branches:
-      - static-production-amp-dev
+      - 'main'
+      - 'gha-deploy-*'
 
 jobs:
   queue:
@@ -42,7 +53,7 @@ jobs:
           npx gulp lintNode
           npx gulp lintYaml
           npm run test:platform
-#          npm run test:playground
+          npm run test:playground
   prepare:
     needs: verify
     runs-on: ubuntu-latest
@@ -81,21 +92,20 @@ jobs:
         language:
           [
             'en',
-#            'de',
+            'de',
             'fr',
-#            'ar',
+            'ar',
             'es',
-            'hi',
-#            'it',
-#            'id',
-#            'ja',
-#            'ko',
+            'it',
+            'id',
+            'ja',
+            'ko',
             'pt_BR',
-#            'ru',
-#            'tr',
-#            'zh_CN',
-#            'pl',
-#            'vi',
+            'ru',
+            'tr',
+            'zh_CN',
+            'pl',
+            'vi',
           ]
     runs-on: ubuntu-latest
     steps:
@@ -175,5 +185,7 @@ jobs:
           npx gulp buildFinalize
 
       - name: Deploying
+        env:
+          DEPLOY_ENVIRONMENT: ${{ inputs.deploy-environment || 'Staging' }}
         run: |
           npx gulp staticDeploy
