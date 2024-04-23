@@ -1,5 +1,5 @@
 ---
-$title: AMP [= format|capitalize =] Guides & Tutorials
+$title: ABC [= format|capitalize =] Guides & Tutorials
 $titles:
   navigation: Guides & Tutorials
 $view: /views/overview/guides.j2
@@ -8,9 +8,9 @@ $localization:
   path: /{locale}/documentation/guides-and-tutorials/index.html
 $order: 1
 $hidden: true
-description: "All resources you need to create stunning [= format if format !== 'email' else 'emails' =] with AMP: Guides, tutorials, reference documentation and examples."
+description: "All resources you need to create stunning [= format if format !== 'email' else 'emails' =] with ABC: Guides, tutorials, reference documentation and examples."
 flyout:
-  description: Get started with AMP
+  description: Get started with ABC
   icon: guides-documents
 
 highlight_guides:
@@ -48,13 +48,13 @@ guides:
   start:
     icon_name: start
     headline: Start
-    text: Building a 'Hello World' page and try adding your first interactive feature to an AMP page.
+    text: Building a 'Hello World' page and try adding your first interactive feature to an ABC page.
     links:
       - /content/amp-dev/documentation/guides-and-tutorials/start/create/basic_markup.md
   learn:
     icon_name: learn
     headline: Learn
-    text: Building a 'Hello World' page and try adding your first interactive feature to an AMP page.
+    text: Building a 'Hello World' page and try adding your first interactive feature to an ABC page.
     links:
       - /content/amp-dev/documentation/guides-and-tutorials/learn/spec/amphtml.md
   develop:
@@ -66,25 +66,25 @@ guides:
   integration:
     icon_name: integration
     headline: Integrate
-    text: "Combine your pages with non-AMP pages, a PWA, native apps and more."
+    text: "Combine your pages with non-ABC pages, a PWA, native apps and more."
     links:
       - /content/amp-dev/documentation/guides-and-tutorials/integrate/integrate-with-apps.md
   optimize:
     icon_name: optimize
     headline: Optimize & Measure
-    text: "Make more out of your AMP pages through analytics, optimal delivery and caching."
+    text: "Make more out of your ABC pages through analytics, optimal delivery and caching."
     links:
       - /content/amp-dev/documentation/guides-and-tutorials/optimize-measure/configure-analytics/index.md
 
 ---
 <section class="ap--section">
   <h1>{{ doc.title }}</h1>
-  <p>Here you can find everything you need to build AMP experiences. The sidebar on the left shows you all resources for building <strong>AMP [= format if format !== 'email' else 'emails' =].</strong></p>
+  <p>Here you can find everything you need to build ABC experiences. The sidebar on the left shows you all resources for building <strong>ABC [= format if format !== 'email' else 'emails' =].</strong></p>
 </section>
 
 {% do doc.styles.addCssFile('/css/components/organisms/card-grid.css') %}
 <section class="ap--card-grid">
-  <h2 class="ap-o-card-grid-text">AMP's development workflow</h2>
+  <h2 class="ap-o-card-grid-text">ABC's development workflow</h2>
 
   [% if format == 'websites' %]
   <div class="ap-o-card-grid-card">
@@ -93,14 +93,14 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#start"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Start</h4>
-    <p class="ap-o-card-grid-card-copy">Building a 'Hello World' page and try adding your first interactive feature to an AMP page.</p>
+    <p class="ap-o-card-grid-card-copy">Building a 'Hello World' page and try adding your first interactive feature to an ABC page.</p>
     <a href="start/create/basic_markup.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
         {% do doc.icons.useIcon('icons/internal.svg') %}
         <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#internal"></use></svg>
       </div>
-      <span class="ap-m-lnk-text">Create your AMP HTML page</span>
+      <span class="ap-m-lnk-text">Create your ABC HTML page</span>
     </a>
   </div>
   <div class="ap-o-card-grid-card">
@@ -109,14 +109,14 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#integration"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Integrate</h4>
-    <p class="ap-o-card-grid-card-copy">Combine your pages with non-AMP pages, a PWA, native apps and more.</p>
+    <p class="ap-o-card-grid-card-copy">Combine your pages with non-ABC pages, a PWA, native apps and more.</p>
     <a href="integrate/integrate-with-apps.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
         {% do doc.icons.useIcon('icons/internal.svg') %}
         <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#internal"></use></svg>
       </div>
-      <span class="ap-m-lnk-text">Integrate AMP with your app</span>
+      <span class="ap-m-lnk-text">Integrate ABC with your app</span>
     </a>
   </div>
   <div class="ap-o-card-grid-card">
@@ -125,14 +125,14 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#learn"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Learn</h4>
-    <p class="ap-o-card-grid-card-copy">Get to know how AMP is different and acquire the fundamentals for how AMP works.</p>
+    <p class="ap-o-card-grid-card-copy">Get to know how ABC is different and acquire the fundamentals for how ABC works.</p>
     <a href="learn/spec/amphtml.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
         {% do doc.icons.useIcon('icons/internal.svg') %}
         <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#internal"></use></svg>
       </div>
-      <span class="ap-m-lnk-text">AMP HTML Specification</span>
+      <span class="ap-m-lnk-text">ABC HTML Specification</span>
     </a>
   </div>
   <div class="ap-o-card-grid-card">
@@ -141,7 +141,7 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#optimize"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Optimize & Measure</h4>
-    <p class="ap-o-card-grid-card-copy">Make more out of your AMP pages through analytics, optimal delivery and caching.</p>
+    <p class="ap-o-card-grid-card-copy">Make more out of your ABC pages through analytics, optimal delivery and caching.</p>
     <a href="optimize-measure/configure-analytics/index.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
@@ -172,7 +172,7 @@ guides:
     <div class="ap-m-tip ap-m-tip-default">
       <div class="ap-m-tip-content">
         <h4>Using a CMS?</h4>
-        <p>AMP integrates with many publishing platforms and content management systems! Find the full list under <a href="../../support/faq/platform-and-vendor-partners.md">Platform and Vendor Partners.</a></p>
+        <p>ABC integrates with many publishing platforms and content management systems! Find the full list under <a href="../../support/faq/platform-and-vendor-partners.md">Platform and Vendor Partners.</a></p>
       </div>
     </div>
   </div>
@@ -185,14 +185,14 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#start"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Start</h4>
-    <p class="ap-o-card-grid-card-copy">Building a 'Hello World' page and try adding your first interactive feature to an AMP page.</p>
+    <p class="ap-o-card-grid-card-copy">Building a 'Hello World' page and try adding your first interactive feature to an ABC page.</p>
     <a href="start/visual_story/index.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
         {% do doc.icons.useIcon('icons/internal.svg') %}
         <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#internal"></use></svg>
       </div>
-      <span class="ap-m-lnk-text">Create your first AMP Story</span>
+      <span class="ap-m-lnk-text">Create your first ABC Story</span>
     </a>
   </div>
   <div class="ap-o-card-grid-card">
@@ -201,7 +201,7 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#learn"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Learn</h4>
-    <p class="ap-o-card-grid-card-copy">Get to know how AMP is different and acquire the fundamentals for how AMP works.</p>
+    <p class="ap-o-card-grid-card-copy">Get to know how ABC is different and acquire the fundamentals for how ABC works.</p>
     <a href="learn/common_attributes.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
@@ -217,7 +217,7 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#optimize"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Optimize & Measure</h4>
-    <p class="ap-o-card-grid-card-copy">Make more out of your AMP pages through analytics, optimal delivery and caching.</p>
+    <p class="ap-o-card-grid-card-copy">Make more out of your ABC pages through analytics, optimal delivery and caching.</p>
     <a href="optimize-measure/discovery.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
@@ -252,14 +252,14 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#start"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Start</h4>
-    <p class="ap-o-card-grid-card-copy">Building a 'Hello World' page and try adding your first interactive feature to an AMP page.</p>
+    <p class="ap-o-card-grid-card-copy">Building a 'Hello World' page and try adding your first interactive feature to an ABC page.</p>
     <a href="start/create_amphtml_ad/index.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
         {% do doc.icons.useIcon('icons/internal.svg') %}
         <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#internal"></use></svg>
       </div>
-      <span class="ap-m-lnk-text">Create an AMPHTML ad</span>
+      <span class="ap-m-lnk-text">Create an ABCHTML ad</span>
     </a>
   </div>
   <div class="ap-o-card-grid-card">
@@ -268,14 +268,14 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#learn"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Learn</h4>
-    <p class="ap-o-card-grid-card-copy">Get to know how AMP is different and acquire the fundamentals for how AMP works.</p>
+    <p class="ap-o-card-grid-card-copy">Get to know how ABC is different and acquire the fundamentals for how ABC works.</p>
     <a href="learn/intro-to-amphtml-ads.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
         {% do doc.icons.useIcon('icons/internal.svg') %}
         <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#internal"></use></svg>
       </div>
-      <span class="ap-m-lnk-text">Intro to AMPHTML ads</span>
+      <span class="ap-m-lnk-text">Intro to ABCHTML ads</span>
     </a>
   </div>
   <div class="ap-o-card-grid-card">
@@ -284,14 +284,14 @@ guides:
       <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#optimize"></use></svg>
     </div>
     <h4 class="ap-o-card-grid-card-headline">Optimize & Measure</h4>
-    <p class="ap-o-card-grid-card-copy">Make more out of your AMP pages through analytics, optimal delivery and caching.</p>
+    <p class="ap-o-card-grid-card-copy">Make more out of your ABC pages through analytics, optimal delivery and caching.</p>
     <a href="optimize-measure/tracking-engagement.md"
       class="ap-m-lnk">
       <div class="ap-a-ico ap-m-lnk-icon">
         {% do doc.icons.useIcon('icons/internal.svg') %}
         <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#internal"></use></svg>
       </div>
-      <span class="ap-m-lnk-text">How to configure basic analytics for your AMP pages</span>
+      <span class="ap-m-lnk-text">How to configure basic analytics for your ABC pages</span>
     </a>
   </div>
   <div class="ap-o-card-grid-card">
@@ -368,7 +368,7 @@ guides:
 {% do doc.styles.addCssFile('/css/components/organisms/video-slider.css') %}
 <section class="ap--video-slider">
   <h2 class="ap-o-video-slider-text">Featured Videos</h2>
-  <p class="ap-o-video-slider-text">See the latest videos about AMP and find out more on our <a href="https://www.youtube.com/channel/UCXPBsjgKKG2HqsKBhWA4uQw">YouTube Channel.</a></p>
+  <p class="ap-o-video-slider-text">See the latest videos about ABC and find out more on our <a href="https://www.youtube.com/channel/UCXPBsjgKKG2HqsKBhWA4uQw">YouTube Channel.</a></p>
   [% set youTubeChannelPosts = []|importYouTubeChannel %]
   [% if youTubeChannelPosts|length %]
   <amp-carousel class="ap-o-video-slider-carousel"
