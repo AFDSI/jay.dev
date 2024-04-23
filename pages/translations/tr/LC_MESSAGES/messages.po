@@ -3174,3 +3174,155 @@ msgstr "Şimdi eylem zamanı."
 
 msgid "The sun is a star."
 msgstr "Güneş bir yıldızdır."
+
+#: /content/amp-dev/index-2021.html:2
+msgid "Knowledge graph applications"
+msgstr "Bilgi grafiği uygulamaları"
+
+#: /content/amp-dev/index-2021.html:10
+msgid "Electronic Labels"
+msgstr "Elektronik Etiketler"
+
+#: /content/amp-dev/index-2021.html:11
+msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
+msgstr "İnsanlar ve diğer akıllı makineler için makine tarafından okunabilir formatta ayrıntılı ürün bilgileri içeren elektronik etiketler oluşturma."
+
+#: /content/amp-dev/index-2021.html:12
+msgid "All about Electronic Labels"
+msgstr "Elektronik Etiketler hakkında her şey"
+
+#: /content/amp-dev/index-2021.html:15
+msgid "Daily Food"
+msgstr "Günlük yiyecek"
+
+#: /content/amp-dev/index-2021.html:16
+msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
+msgstr "İnsan gıdası ve yemekleri, evcil hayvan yemi ve hayvan yemi hakkında ayrıntılı bilgilerin makine tarafından okunabilir formatta sunulması. Elektronik Sağlık Kaydınızın tamamlayıcısı olan kişisel Biyografinizde alım geçmişini saklama."
+
+#: /content/amp-dev/index-2021.html:17
+msgid "All about Daily Food"
+msgstr "Günlük Yemek hakkında her şey"
+
+#: /content/amp-dev/index-2021.html:20
+msgid "Export Import Data"
+msgstr "İçe Aktarma Verilerini Dışa Aktar"
+
+#: /content/amp-dev/index-2021.html:21
+msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
+msgstr "Sınır kontrol politikalarını ve tarifelerini yöneten devlet kurumlarına sunulmak üzere elektronik Ürün Pasaportlarının oluşturulması."
+
+#: /content/amp-dev/index-2021.html:22
+msgid "All about Export Import Data"
+msgstr "İthalat Verilerini Dışa Aktarma hakkında her şey"
+
+#: /content/amp-dev/index-2021.html:25
+msgid "Daily Care"
+msgstr "Günlük bakım"
+
+#: /content/amp-dev/index-2021.html:26
+msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
+msgstr "Kozmetik, tekstil ve ev kimyasalları hakkında ayrıntılı bilgilerin makine tarafından okunabilir formatta sunulması. Maruz kalma ve iletişim geçmişini kişisel Biyografinizde saklama."
+
+#: /content/amp-dev/index-2021.html:27
+msgid "All about Daily Care"
+msgstr "Günlük Bakım hakkında her şey"
+
+#: /content/amp-dev/index-2021.html:30
+msgid "Food Data Institute"
+msgstr "Gıda Veri Enstitüsü"
+
+#: /content/amp-dev/index-2021.html:31
+msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
+msgstr "Gıda ve tarıma yönelik veri spesifikasyonlarının geliştirilmesi. Araştırma verilerini kaydetmek ve karşılaştırmak ve yeni çözümler keşfetmek için depolar sunmak."
+
+#: /content/amp-dev/index-2021.html:32
+msgid "All about Food Data Institute"
+msgstr "Gıda Veri Enstitüsü hakkında her şey"
+
+#: /content/amp-dev/index-2021.html:35
+msgid "Ontomatica"
+msgstr "Ontomatica"
+
+#: /content/amp-dev/index-2021.html:36
+msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
+msgstr "Yerel, ulusal ve uluslararası pazarlarda satılmak üzere gıdalar, ilaçlar, kozmetikler, tekstiller, kimyasallar ve emtialar hakkında makine tarafından okunabilir bilgiler oluşturmak."
+
+#: /content/amp-dev/index-2021.html:37
+msgid "All about Ontomatica"
+msgstr "Ontomatica hakkında her şey"
+
+#: /content/amp-dev/index-2021.html:42
+msgid "Simplify development of knowledge graph applications"
+msgstr "Bilgi grafiği uygulamalarının geliştirilmesini basitleştirin"
+
+#: /content/amp-dev/index-2021.html:43
+msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
+msgstr "Yapılandırılmış verileri ve işlevsel programlamayı kullanarak uygulamalar geliştirin. Seçilen veri tanımlarını ve veri kümelerini kullanarak verileri paylaşın. Görselleştirme ve makine muhakemesini kullanarak veri kümesi kalitesini iyileştirin. Plato'yu (ontoloji platformu) kullanarak her şeyi senkronize tutun."
+
+#: /content/amp-dev/index-2021.html:45
+msgid "Monitor food & drug biochemistry"
+msgstr "Gıda ve ilaç biyokimyasını izleyin"
+
+#: /content/amp-dev/index-2021.html:46
+msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
+msgstr "Gıda ve ilaçlarla ilgili elektronik verileri kullanarak bileşen alımını günler, haftalar, aylar ve yıllar boyunca izleyin. Basılı etiketlerde bulunmayan bileşim ve formülasyon bilgilerini sorgulayın. Evcil hayvan sahipleri, arkadaşlarının yiyecek ve ilaçlarını denetler. Gıda alımı ile sağlık sonuçları arasındaki bağlantıları belirleyin."
+
+#: /content/amp-dev/index-2021.html:48
+msgid "Monitor cosmetics, textile & household chemical biochemistry"
+msgstr "Kozmetik, tekstil ve ev kimyasalları biyokimyasını izleyin"
+
+#: /content/amp-dev/index-2021.html:49
+msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+msgstr "Kozmetik, tekstil ve ev kimyasallarına ilişkin elektronik verileri kullanarak bileşenlerin kullanımını ve maruziyetini günler, haftalar, aylar ve yıllar boyunca izleyin. Basılı bir etikette bulunmayan kimyasal ve lif bilgilerini sorgulayın. Kullanım/maruz kalma ve sağlık sonuçları arasındaki bağlantıları belirleyin."
+
+#: /content/amp-dev/index-2021.html:51
+msgid "Define product identity and impede counterfeits"
+msgstr "Ürün kimliğini tanımlayın ve sahteciliği engelleyin"
+
+#: /content/amp-dev/index-2021.html:52
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "Sahte ürünleri ve iddiaları engellemek için elektronik ürün kimliğini kullanın. Mevcut etiketleri birleştirerek ve yeni bilgiler ekleyerek yeni bir etiket oluşturun. Makine işlemlerini kontrol etmek için yapılandırılmış verileri kullanarak makine otomasyonunu iyileştirin. Örnek: kimyasal formülasyonlara ve çevre koşullarına göre kalibre edilmiş tarım ekipmanları."
+
+#: /content/amp-dev/index-2021.html:54
+msgid "Be a friend to Authorities"
+msgstr "Yetkililere arkadaş olun"
+
+#: /content/amp-dev/index-2021.html:55
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "Ürün Pasaportu, Fatura, Konşimento ve Malzeme Güvenlik Veri Sayfası gibi kağıt belgelerin elektronik bir tamamlayıcısıdır. Yetkililerin belirli yerel kuralları ve tarifeleri vardır. Örnekler: ABD/Kaliforniya, Avrupa Birliği, Büyük Britanya, Suudi Arabistan, Hindistan. Ürün Pasaportu, ithalat ve ihracata ilişkin küresel ve yerel kuralların otomatik olarak doğrulanmasını sağlar."
+
+#: /content/amp-dev/index-2021.html:57
+msgid "Open standards & open data research"
+msgstr "Açık standartlar ve açık veri araştırması"
+
+#: /content/amp-dev/index-2021.html:58
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "Bireysel bilimsel çalışmalardan elde edilen verileri paylaşılan veri havuzlarına dönüştürün. Birden fazla çalışmadan elde edilen verileri karşılaştırarak yeni çözümler keşfedin. Ulusal kuruluşlar yerel ve uluslararası araştırmaları senkronize eder. Örnek: FDI-USA, FDI-CAN (Kanada), FDI-GBR (İngiltere), FDI-SAU (Suudi Arabistan), FDI-IND (Hindistan) ve diğerleriyle veri paylaşır."
+
+#: /content/amp-dev/index-2021.html:163
+msgid " New technology should aspire to accomplish two goals:"
+msgstr "Yeni teknoloji iki hedefe ulaşmayı hedeflemelidir:"
+
+#: /content/amp-dev/index-2021.html:165
+msgid " Take an existing business process and significantly reduce its total cost of implementation."
+msgstr "Mevcut bir iş sürecini ele alın ve toplam uygulama maliyetini önemli ölçüde azaltın."
+
+#: /content/amp-dev/index-2021.html:168
+msgid " Develop new, productive habits among consumers."
+msgstr "Tüketiciler arasında yeni, üretken alışkanlıklar geliştirin."
+
+#: /content/amp-dev/index-2021.html:171
+msgid " Consortium members aspire to accomplish both goals."
+msgstr "Konsorsiyum üyeleri her iki hedefe de ulaşmayı hedefliyor."
+
+#: /content/amp-dev/index-2021.html:227
+msgid " Learn more about knowledge graph applications"
+msgstr "Bilgi grafiği uygulamaları hakkında daha fazla bilgi edinin"
+
+#: /content/amp-dev/index-2021.html:228
+msgid " Read case studies from industry, science and government."
+msgstr "Endüstri, bilim ve hükümetten örnek olayları okuyun."
+
+#: /content/amp-dev/index-2021.html:232
+msgid " See all case studies"
+msgstr "Tüm vaka çalışmalarını görün"

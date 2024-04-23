@@ -3175,3 +3175,156 @@ msgstr "今こそ行動する時だ。"
 
 msgid "The sun is a star."
 msgstr "太陽は星です。"
+
+#: /content/amp-dev/index-2021.html:2
+msgid "Knowledge graph applications"
+msgstr "ナレッジグラフアプリケーション"
+
+#: /content/amp-dev/index-2021.html:10
+msgid "Electronic Labels"
+msgstr "電子ラベル"
+
+#: /content/amp-dev/index-2021.html:11
+msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
+msgstr "人間や他のインテリジェントマシン向けに、機械可読形式で詳細な製品情報を記載した電子ラベルを作成します。"
+
+#: /content/amp-dev/index-2021.html:12
+msgid "All about Electronic Labels"
+msgstr "電子ラベルのすべて"
+
+#: /content/amp-dev/index-2021.html:15
+msgid "Daily Food"
+msgstr "毎日の食事"
+
+#: /content/amp-dev/index-2021.html:16
+msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
+msgstr "人間の食品、食事、ペットフード、動物飼料に関する詳細情報を機械可読形式で提供します。摂取履歴を個人の経歴に保存 - 電子健康記録の付属品。"
+
+#: /content/amp-dev/index-2021.html:17
+msgid "All about Daily Food"
+msgstr "毎日の食事について"
+
+#: /content/amp-dev/index-2021.html:20
+msgid "Export Import Data"
+msgstr "データのエクスポート インポート"
+
+#: /content/amp-dev/index-2021.html:21
+msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
+msgstr "国境管理政策と関税を管理する政府機関に提示するための電子製品パスポートを作成します。"
+
+#: /content/amp-dev/index-2021.html:22
+msgid "All about Export Import Data"
+msgstr "エクスポート・インポート・データのすべて"
+
+#: /content/amp-dev/index-2021.html:25
+msgid "Daily Care"
+msgstr "毎日の手入れ"
+
+#: /content/amp-dev/index-2021.html:26
+msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
+msgstr "化粧品、繊維製品、家庭用化学薬品に関する詳細情報を機械可読形式で提供します。暴露と接触の履歴を個人の経歴に保存します。"
+
+#: /content/amp-dev/index-2021.html:27
+msgid "All about Daily Care"
+msgstr "毎日のケアについて"
+
+#: /content/amp-dev/index-2021.html:30
+msgid "Food Data Institute"
+msgstr "フードデータ研究所"
+
+#: /content/amp-dev/index-2021.html:31
+msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
+msgstr "食品と農業に関するデータ仕様の開発。研究データを記録および比較し、新しいソリューションを発見するためのリポジトリを提供します。"
+
+#: /content/amp-dev/index-2021.html:32
+msgid "All about Food Data Institute"
+msgstr "フードデータ研究所のすべて"
+
+#: /content/amp-dev/index-2021.html:35
+msgid "Ontomatica"
+msgstr "オントマティカ"
+
+#: /content/amp-dev/index-2021.html:36
+msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
+msgstr "食品、医薬品、化粧品、繊維、化学薬品、日用品に関する機械読み取り可能な情報を作成し、地域、国内、国際市場で販売します。"
+
+#: /content/amp-dev/index-2021.html:37
+msgid "All about Ontomatica"
+msgstr "オントマティカのすべて"
+
+#: /content/amp-dev/index-2021.html:42
+msgid "Simplify development of knowledge graph applications"
+msgstr "ナレッジ グラフ アプリケーションの開発を簡素化"
+
+#: /content/amp-dev/index-2021.html:43
+msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
+msgstr "構造化データと関数型プログラミングを使用してアプリケーションを開発します。厳選されたデータ定義とデータセットを使用してデータを共有します。視覚化と機械推論を使用してデータセットの品質を向上させます。 Plato (オントロジー用プラットフォーム) を使用してすべてを同期させます。"
+
+#: /content/amp-dev/index-2021.html:45
+msgid "Monitor food & drug biochemistry"
+msgstr "食品と医薬品の生化学を監視する"
+
+#: /content/amp-dev/index-2021.html:46
+msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
+msgstr "食品や医薬品に関する電子データを使用して、成分摂取量を数日、数週間、数か月、数年にわたって監視します。印刷されたラベルでは入手できない組成および配合情報を照会します。ペットの飼い主は、ペットの食べ物や薬を監視します。食物摂取と健康上の成果との関連性を特定します。"
+
+#: /content/amp-dev/index-2021.html:48
+msgid "Monitor cosmetics, textile & household chemical biochemistry"
+msgstr "化粧品、繊維、家庭用化学生化学を監視"
+
+#: /content/amp-dev/index-2021.html:49
+msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+msgstr "化粧品、繊維製品、家庭用化学薬品に関する電子データを使用して、コンポーネントの使用と曝露を数日、数週間、数か月、数年にわたって監視します。印刷されたラベルでは入手できない化学物質および繊維情報を照会します。使用/曝露と健康上の影響との間の関連性を判断します。"
+
+#: /content/amp-dev/index-2021.html:51
+msgid "Define product identity and impede counterfeits"
+msgstr "製品のアイデンティティを定義し、偽造品を阻止します"
+
+#: /content/amp-dev/index-2021.html:52
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "電子製品 ID を使用して、偽造品や偽造品の請求を阻止します。既存のラベルを結合し、新しい情報を追加して、新しいラベルを作成します。構造化データを使用して機械の動作を制御することで、機械の自動化を改善します。例: 化学配合と環境条件によって調整された農業機器。"
+
+#: /content/amp-dev/index-2021.html:54
+msgid "Be a friend to Authorities"
+msgstr "当局の友人になる"
+
+#: /content/amp-dev/index-2021.html:55
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "Product Passport は、請求書、船荷証券、製品安全データシートなどの紙文書の電子版です。当局は特定の現地規則と関税を定めています。例: 米国/カリフォルニア、欧州連合、英国、サウジアラビア、インド。 Product Passport を使用すると、輸出入に関するグローバルおよびローカルのルールを自動検証できます。"
+
+#: /content/amp-dev/index-2021.html:57
+msgid "Open standards & open data research"
+msgstr "オープンスタンダードとオープンデータ研究"
+
+#: /content/amp-dev/index-2021.html:58
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "個々の科学研究からのデータを共有データ リポジトリに変換します。複数の研究からのデータを比較することで、新しい解決策を発見します。国家機関は、国内と国際的な研究を同期させます。例: FDI-USA は、FDI-CAN (カナダ)、FDI-GBR (イギリス)、FDI-SAU (サウジアラビア)、FDI-IND (インド) などとデータを共有します。"
+
+#: /content/amp-dev/index-2021.html:163
+msgid " New technology should aspire to accomplish two goals:"
+msgstr "新しいテクノロジーは、次の 2 つの目標を達成することを目指す必要があります。"
+
+#: /content/amp-dev/index-2021.html:165
+msgid " Take an existing business process and significantly reduce its total cost of implementation."
+msgstr "既存のビジネス プロセスを利用して、実装の総コストを大幅に削減します。"
+
+#: /content/amp-dev/index-2021.html:168
+msgid " Develop new, productive habits among consumers."
+msgstr "消費者の間に新しい生産的な習慣を育みます。"
+
+#: /content/amp-dev/index-2021.html:171
+msgid " Consortium members aspire to accomplish both goals."
+msgstr "コンソーシアムのメンバーは両方の目標を達成することを目指しています。"
+
+#: /content/amp-dev/index-2021.html:227
+msgid " Learn more about knowledge graph applications"
+msgstr "ナレッジ グラフ アプリケーションの詳細については、こちらをご覧ください。"
+
+#: /content/amp-dev/index-2021.html:228
+msgid " Read case studies from industry, science and government."
+msgstr "産業界、科学、政府の事例研究を読んでください。"
+
+#: /content/amp-dev/index-2021.html:232
+msgid " See all case studies"
+msgstr "すべてのケーススタディを見る"
+
