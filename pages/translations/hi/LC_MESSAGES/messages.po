@@ -1805,9 +1805,9 @@ msgstr "यथास्थिति को तोड़ना"
 msgid "This example of magazine article demonstrates how to build an immersive reading experience by adding animations that enhance the written content on the page."
 
 msgstr "पत्रिका लेख का यह उदाहरण दर्शाता है कि पृष्ठ पर लिखित सामग्री को बढ़ाने वाले एनिमेशन जोड़कर एक गहन पढ़ने का अनुभव कैसे बनाया जाए।"
-msgid "<code>amp-position-observer</code> in combination with <code>amp-animation</code> allows a smooth \"scrolly-telling\" experience with minimal effort and without any custom JavaScript."
+msgid "<code>amp-position-observer</code> in combination with <code>amp-animation</code> allows a smooth \"scrolly-telling\"experience with minimal effort and without any custom JavaScript."
 
-msgstr "<कोड>एम्प-पोजीशन-ऑब्जर्वर</कोड>, <कोड>एम्प-एनीमेशन</कोड> के साथ संयोजन में न्यूनतम प्रयास और बिना किसी कस्टम जावास्क्रिप्ट के एक सहज \"स्क्रॉली-टेलिंग\" अनुभव की अनुमति देता है।"
+msgstr "<कोड>एम्प-पोजीशन-ऑब्जर्वर</कोड>, <कोड>एम्प-एनीमेशन</कोड> के साथ संयोजन में न्यूनतम प्रयास और बिना किसी कस्टम जावास्क्रिप्ट के एक सहज \"स्क्रॉली-टेलिंग\"अनुभव की अनुमति देता है।"
 msgid "Experience Demo"
 
 msgstr "अनुभव डेमो"
@@ -2024,9 +2024,9 @@ msgstr "सदस्यों"
 msgid "Communication Channels"
 
 msgstr "संचार कढ़ी"
-msgid "<a href={{ doc.html_url }} target=\"_blank\" rel=\"noopener\">The GitHub Team</a> also includes { name } WG members."
+msgid "<a href={{ doc.html_url }} target=\"_blank\"rel=\"noopener\">The GitHub Team</a> also includes { name } WG members."
 
-msgstr "<a href={{ doc.html_url }} target=\"_blank\" rel=\"noopener\">GitHub टीम</a> में {name } WG सदस्य भी शामिल हैं।"
+msgstr "<a href={{ doc.html_url }} target=\"_blank\"rel=\"noopener\">GitHub टीम</a> में {name } WG सदस्य भी शामिल हैं।"
 msgid "Other ways to get involved with AMP"
 
 msgstr "एएमपी से जुड़ने के अन्य तरीके"
@@ -2066,15 +2066,15 @@ msgstr "हम आगे कहाँ जा रहे हैं"
 msgid "Your city isn’t on the list? Check back soon for additional dates and cities. Or..."
 
 msgstr "आपका शहर सूची में नहीं है? अतिरिक्त तिथियों और शहरों के लिए शीघ्र ही वापस जाँचें। या..."
-msgid "That’s very kind. Fill out <a href=\"https://docs.google.com/forms/d/14B75eV89S1KaceNTG46ranAOPCj3wCLzgD3mxuGeUtU/viewform\" target=\"_blank\">this form</a> and we’ll see what we can do!"
+msgid "That’s very kind. Fill out <a href=\"https://docs.google.com/forms/d/14B75eV89S1KaceNTG46ranAOPCj3wCLzgD3mxuGeUtU/viewform\"target=\"_blank\">this form</a> and we’ll see what we can do!"
 
-msgstr "कि बहुत दयालु है। <a href=\"https://docs.google.com/forms/d/14B75eV89S1KaceNTG46ranAOPCj3wCLzgD3mxuGeUtU/viewform\" target=\"_blank\">यह फॉर्म</a> भरें और हम देखेंगे कि हम क्या कर सकते हैं !"
+msgstr "कि बहुत दयालु है। <a href=\"https://docs.google.com/forms/d/14B75eV89S1KaceNTG46ranAOPCj3wCLzgD3mxuGeUtU/viewform\"target=\"_blank\">यह फॉर्म</a> भरें और हम देखेंगे कि हम क्या कर सकते हैं !"
 msgid "Want to host your own AMP Roadshow?"
 
 msgstr "क्या आप अपना स्वयं का एएमपी रोड शो होस्ट करना चाहते हैं?"
-msgid "Why not? Fill out <a href=\"https://docs.google.com/forms/d/1PMWCq1MTqg-AslvBMvMlU_ozjyZK7WZ-4fUVs0UlheE/viewform\" target=\"_blank\">this form</a>, and we’ll share with you our talks and all the materials you need to do it yourself!"
+msgid "Why not? Fill out <a href=\"https://docs.google.com/forms/d/1PMWCq1MTqg-AslvBMvMlU_ozjyZK7WZ-4fUVs0UlheE/viewform\"target=\"_blank\">this form</a>, and we’ll share with you our talks and all the materials you need to do it yourself!"
 
-msgstr "क्यों नहीं? <a href=\"https://docs.google.com/forms/d/1PMWCq1MTqg-AslvBMvMlU_ozjyZK7WZ-4fUVs0UlheE/viewform\" target=\"_blank\">यह फॉर्म</a> भरें, और हम आपके साथ हमारी बातचीत और इसे स्वयं करने के लिए आवश्यक सभी सामग्री साझा करें!"
+msgstr "क्यों नहीं? <a href=\"https://docs.google.com/forms/d/1PMWCq1MTqg-AslvBMvMlU_ozjyZK7WZ-4fUVs0UlheE/viewform\"target=\"_blank\">यह फॉर्म</a> भरें, और हम आपके साथ हमारी बातचीत और इसे स्वयं करने के लिए आवश्यक सभी सामग्री साझा करें!"
 msgid "Agenda"
 
 msgstr "कार्यसूची"
@@ -2092,7 +2092,7 @@ msgid "Amplify Live!"
 msgstr "लाइव का विस्तार करें!"
 msgid "During \"Amplify live!\", we’ll be on stage exploring the most interesting AMP challenges, allowing you to either follow along or do your own thing, like one of the many AMP codelabs. Bring your laptop!"
 
-msgstr "\"एम्प्लीफाई लाइव!\" के दौरान, हम मंच पर सबसे दिलचस्प एएमपी चुनौतियों की खोज करेंगे, जिससे आप या तो साथ चल सकेंगे या कई एएमपी कोडलैब में से एक की तरह अपना काम कर सकेंगे। अपना लैपटॉप लाओ!"
+msgstr "\"एम्प्लीफाई लाइव!\"के दौरान, हम मंच पर सबसे दिलचस्प एएमपी चुनौतियों की खोज करेंगे, जिससे आप या तो साथ चल सकेंगे या कई एएमपी कोडलैब में से एक की तरह अपना काम कर सकेंगे। अपना लैपटॉप लाओ!"
 msgid "Frequently Asked Questions"
 
 msgstr "अक्सर पूछे जाने वाले प्रश्नों"
@@ -2312,12 +2312,12 @@ msgstr "आवश्यकताएं"
 msgid "Internet connection"
 
 msgstr "इंटरनेट कनेक्शन"
-msgid "<a href=\"https://www.google.com/chrome/\" target=\"_blank\">Chrome browser</a>, ideally, to use the <a href=\"https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc\" target=\"_blank\">AMP Validator extension</a>"
+msgid "<a href=\"https://www.google.com/chrome/\"target=\"_blank\">Chrome browser</a>, ideally, to use the <a href=\"https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc\"target=\"_blank\">AMP Validator extension</a>"
 
-msgstr "<a href=\"https://www.google.com/chrome/\" target=\"_blank\">क्रोम ब्राउज़र</a>, आदर्श रूप से, <a href=\"https:// का उपयोग करने के लिए chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc\" target=\"_blank\">AMP वैलिडेटर एक्सटेंशन</a>"
-msgid "We use the online editor <a href=\"https://glitch.com/\" target=\"_blank\">Glitch</a>. No IDE or local web server needed!"
+msgstr "<a href=\"https://www.google.com/chrome/\"target=\"_blank\">क्रोम ब्राउज़र</a>, आदर्श रूप से, <a href=\"https:// का उपयोग करने के लिए chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc\"target=\"_blank\">AMP वैलिडेटर एक्सटेंशन</a>"
+msgid "We use the online editor <a href=\"https://glitch.com/\"target=\"_blank\">Glitch</a>. No IDE or local web server needed!"
 
-msgstr "हम ऑनलाइन संपादक <a href=\"https://glitch.com/\" target=\"_blank\">Glitch</a> का उपयोग करते हैं। किसी आईडीई या स्थानीय वेब सर्वर की आवश्यकता नहीं!"
+msgstr "हम ऑनलाइन संपादक <a href=\"https://glitch.com/\"target=\"_blank\">Glitch</a> का उपयोग करते हैं। किसी आईडीई या स्थानीय वेब सर्वर की आवश्यकता नहीं!"
 msgid "Prerequisites"
 
 msgstr "आवश्यक शर्तें"
@@ -2330,9 +2330,9 @@ msgstr "उन्नत पाठ्यक्रम, जावास्क्र
 msgid "Take the Video Courses"
 
 msgstr "वीडियो पाठ्यक्रम लें"
-msgid "All three courses can be now be taken by video on <a href=\"https://www.youtube.com/playlist?list=PLXTOW_XMsIDS45GB-eBV5s_M9EGIXMjI_\" target=\"_blank\">our YouTube channel!</a>"
+msgid "All three courses can be now be taken by video on <a href=\"https://www.youtube.com/playlist?list=PLXTOW_XMsIDS45GB-eBV5s_M9EGIXMjI_\"target=\"_blank\">our YouTube channel!</a>"
 
-msgstr "तीनों पाठ्यक्रम अब <a href=\"https://www.youtube.com/playlist?list=PLXTOW_XMsIDS45GB-eBV5s_M9EGIXMjI_\" target=\"_blank\">हमारे YouTube चैनल पर वीडियो द्वारा लिए जा सकते हैं!</ ए>"
+msgstr "तीनों पाठ्यक्रम अब <a href=\"https://www.youtube.com/playlist?list=PLXTOW_XMsIDS45GB-eBV5s_M9EGIXMjI_\"target=\"_blank\">हमारे YouTube चैनल पर वीडियो द्वारा लिए जा सकते हैं!</ ए>"
 msgid "AMP Websites Examples"
 
 msgstr "एएमपी वेबसाइट उदाहरण"
@@ -2776,7 +2776,7 @@ msgid "Does making my content work for Accelerated Mobile Pages entail more work
 msgstr "क्या मेरी सामग्री को एक्सेलेरेटेड मोबाइल पेजों के लिए काम करने के लिए अधिक काम करना पड़ता है?"
 msgid "<p>In short, not much. Since “AMP HTML” is built entirely out of existing web technologies, the development process mirrors the one publishers  and advertisers are already using today. Publishers  and advertisers can familiarize themselves with the <a href=\"/docs/fundamentals/spec.html\">AMP HTML specification</a> on GitHub. For those used to the current process, we don’t expect a significant learning curve.</p>"
 
-msgstr "<p>संक्षेप में, ज़्यादा नहीं। चूंकि "एएमपी एचटीएमएल" पूरी तरह से मौजूदा वेब प्रौद्योगिकियों से बनाया गया है, विकास प्रक्रिया उसी को प्रतिबिंबित करती है जिसे प्रकाशक और विज्ञापनदाता आज पहले से ही उपयोग कर रहे हैं। प्रकाशक और विज्ञापनदाता GitHub पर <a href=\"/docs/fundamentals/spec.html\">AMP HTML विनिर्देश</a> से परिचित हो सकते हैं। वर्तमान प्रक्रिया के आदी लोगों के लिए, हम किसी महत्वपूर्ण सीखने की अवस्था की उम्मीद नहीं करते हैं।</p>"
+msgstr "<p>संक्षेप में, ज़्यादा नहीं। चूंकि "एएमपी एचटीएमएल"पूरी तरह से मौजूदा वेब प्रौद्योगिकियों से बनाया गया है, विकास प्रक्रिया उसी को प्रतिबिंबित करती है जिसे प्रकाशक और विज्ञापनदाता आज पहले से ही उपयोग कर रहे हैं। प्रकाशक और विज्ञापनदाता GitHub पर <a href=\"/docs/fundamentals/spec.html\">AMP HTML विनिर्देश</a> से परिचित हो सकते हैं। वर्तमान प्रक्रिया के आदी लोगों के लिए, हम किसी महत्वपूर्ण सीखने की अवस्था की उम्मीद नहीं करते हैं।</p>"
 msgid "How can a publisher or advertiser get content into AMP HTML?"
 
 msgstr "कोई प्रकाशक या विज्ञापनदाता एएमपी HTML में सामग्री कैसे प्राप्त कर सकता है?"
