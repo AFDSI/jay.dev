@@ -232,7 +232,7 @@ msgstr "एक अस्पष्टीकृत विशेषता?"
 
 #: /content/amp-dev/documentation/guides-and-tutorials/develop/animations/_blueprint.yaml
 msgid "Animate & Transition"
-msgstr "चेतन और संक्रमण"
+msgstr "चेतन एवं संक्रमण"
 
 #: /content/amp-dev/about/stories.html
 msgid "App Install"
@@ -805,6 +805,412 @@ msgstr "कामकाजी समूह"
 msgid "You're currently not connected to the internet."
 msgstr "आप वर्तमान में इंटरनेट से कनेक्ट नहीं हैं."
 
+#: /content/amp-dev/documentation/components/reference/amp-ad-exit-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-ad-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-analytics-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-auto-ads-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-call-tracking-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-experiment-v1.0.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-pixel-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-share-tracking-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-social-share-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-sticky-ad-v1.0.md
+#: /content/amp-dev/documentation/components/reference/amp-user-location-v0.1.md
+msgid "ads-analytics"
+msgstr "विज्ञापन-विश्लेषण"
+
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@es.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@id.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@it.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-access-laterpay-v0.2@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-access-poool-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-access-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-action-macro-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-bind-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-byside-content-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-consent-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-date-picker-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-form-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-geo-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-gist-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-google-document-embed-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-inputmask-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-install-serviceworker-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-link-rewriter-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-list-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-live-list-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-mraid-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@es.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@id.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@it.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-mustache-v0.2@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-next-page-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-script-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-selector-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-smartlinks-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-subscriptions-google-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-subscriptions-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-user-notification-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-video-docking-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-viewer-assistance-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-web-push-v0.1.md
+msgid "dynamic-content"
+msgstr "गतिशील-सामग्री"
+
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-accordion-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-app-banner-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-base-carousel-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-carousel-v0.2.md
+#: /content/amp-dev/documentation/components/reference/amp-fx-collection-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-fx-flying-carpet-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-iframe-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-image-lightbox-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-image-slider-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-layout-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-gallery-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-lightbox-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-orientation-observer-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-position-observer-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-sidebar-v1.0.md
+msgid "layout"
+msgstr "लेआउट"
+
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-3d-gltf-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-3q-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-anim-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-apester-media-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-audio-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-bodymovin-animation-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-brid-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-brightcove-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-connatix-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-dailymotion-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-delight-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-embedly-card-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-hulu-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-ima-video-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-img-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-imgur-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-izlesene-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-jwplayer-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-kaltura-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-megaphone-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-mowplayer-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-nexxtv-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-o2-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-ooyala-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-playbuzz-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-powr-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-reach-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-recaptcha-input-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-skimlinks-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-soundcloud-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-springboard-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-video-iframe-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-video-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-vimeo-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-viqeo-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-wistia-player-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-yotpo-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-youtube-v0.1@zh_cn.md
+msgid "media"
+msgstr "मिडिया"
+
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-animation-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-date-countdown-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-dynamic-css-classes-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-fit-text-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-font-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-mathml-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-pan-zoom-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-story-auto-ads-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-story-bookend-v1.0.md
+#: /content/amp-dev/documentation/components/reference/amp-story-cta-layer-v1.0.md
+#: /content/amp-dev/documentation/components/reference/amp-story-grid-layer-v1.0.md
+#: /content/amp-dev/documentation/components/reference/amp-story-page-attachment-v1.0.md
+#: /content/amp-dev/documentation/components/reference/amp-story-page-v1.0.md
+#: /content/amp-dev/documentation/components/reference/amp-story-v1.0.md
+#: /content/amp-dev/documentation/components/reference/amp-timeago-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-truncate-text-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-viz-vega-v0.1.md
+msgid "presentation"
+msgstr "प्रस्तुति"
+
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@ar.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@es.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@fr.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@id.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@it.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@ja.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@ko.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@pt_br.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@ru.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@tr.md
+#: /content/amp-dev/documentation/components/reference/amp-addthis-v0.1@zh_cn.md
+#: /content/amp-dev/documentation/components/reference/amp-beopinion-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-facebook-comments-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-facebook-like-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-facebook-page-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-facebook-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-gfycat-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-instagram-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-pinterest-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-reddit-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-riddle-quiz-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-twitter-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-vine-v0.1.md
+#: /content/amp-dev/documentation/components/reference/amp-vk-v0.1.md
+msgid "social"
+msgstr "सामाजिक"
+
 #: /views/partials/search.j2:153
 msgid "…while trying to load the search results."
 msgstr "...खोज परिणाम लोड करने का प्रयास करते समय।"
@@ -911,7 +1317,7 @@ msgstr "ब्रेकिंग न्यूज़ और सूचना क�
 
 #: /content/amp-dev/index.html:416
 msgid "Greg Manifold, Design Director of The Washington Post"
-msgstr "ग्रेग मैनिफ़ोल्ड, द वाशिंगटन पोस्ट के डिज़ाइन निदेशक"
+msgstr "ग्रेग मैनिफोल्ड, द वाशिंगटन पोस्ट के डिज़ाइन निदेशक"
 
 #: /content/amp-dev/index.html:462
 msgid "Explore ABC<br/> success stories"
@@ -931,7 +1337,7 @@ msgstr "समुदाय द्वारा,<br/>समुदाय के ल
 
 #: /content/amp-dev/index.html:494
 msgid "Many ways for you to contribute"
-msgstr "आपके लिए योगदान करने के कई तरीके"
+msgstr "आपके योगदान के कई तरीके हैं"
 
 #: /content/amp-dev/index.html:495
 msgid "The ABC Project would not be possible without help from all members of the community whether you are a developer, content creator or provider of services relevant to ABC."
@@ -999,7 +1405,7 @@ msgstr "वेब स्टोरीज़ के लाभ"
 
 #: /content/amp-dev/about/stories.html:223
 msgid "Read on how ABC works"
-msgstr "एएमपी कैसे काम करता है, इसके बारे में पढ़ें"
+msgstr "पढ़ें कि एएमपी कैसे काम करता है"
 
 #: /content/amp-dev/about/stories.html:235
 msgid "Web Stories are built with visually rich media, and whether you utilize pictures, videos or GIF assets is up to you. Images and videos expand to visually fill the readers’ screens, providing a smooth and fully engaging experience. ABC allows you to specify the file type to account for the user’s network connection and browser capabilities."
@@ -1103,11 +1509,11 @@ msgstr "शॉन जकारिया, अध्यक्ष और सह-स
 
 #: /content/amp-dev/about/ads.html:208
 msgid "The average mobile site takes 19 seconds to load over a 3G connection. Coupled with the fact that conversions fall by 12% for every additional second a webpage takes to load, you can safely assume two things: speed equals performance, and most advertiser campaigns have room to improve. That’s where you come in. As an SSP, DSP, analytics provider, or anything in between, embracing speed means improving campaign performance, delivering quality user experiences, and establishing yourself as the adtech platform for the fast web. Join the hundreds of technology platforms currently supporting the open source ABC ecosystem."
-msgstr "औसत मोबाइल साइट को 3जी कनेक्शन पर लोड होने में 19 सेकंड का समय लगता है। इस तथ्य के साथ कि वेबपेज लोड होने में लगने वाले प्रत्येक अतिरिक्त सेकंड के लिए रूपांतरण में 12% की गिरावट आती है, आप सुरक्षित रूप से दो बातें मान सकते हैं: गति प्रदर्शन के बराबर है, और अधिकांश विज्ञापनदाता अभियानों में सुधार की गुंजाइश है। यहीं आप आते हैं। एक एसएसपी, डीएसपी, एनालिटिक्स प्रदाता या इनके बीच की किसी भी चीज़ के रूप में, गति को अपनाने का अर्थ है अभियान प्रदर्शन में सुधार करना, गुणवत्तापूर्ण उपयोगकर्ता अनुभव प्रदान करना और तेज़ वेब के लिए खुद को एडटेक प्लेटफ़ॉर्म के रूप में स्थापित करना। वर्तमान में ओपन सोर्स एएमपी इकोसिस्टम का समर्थन करने वाले सैकड़ों प्रौद्योगिकी प्लेटफार्मों से जुड़ें।"
+msgstr "औसत मोबाइल साइट को 3जी कनेक्शन पर लोड होने में 19 सेकंड का समय लगता है। इस तथ्य के साथ कि वेबपेज लोड होने में लगने वाले प्रत्येक अतिरिक्त सेकंड के लिए रूपांतरण में 12% की गिरावट आती है, आप सुरक्षित रूप से दो बातें मान सकते हैं: गति प्रदर्शन के बराबर है, और अधिकांश विज्ञापनदाता अभियानों में सुधार की गुंजाइश है। यहीं आप आते हैं। एक एसएसपी, डीएसपी, एनालिटिक्स प्रदाता या इनके बीच की किसी भी चीज़ के रूप में, गति को अपनाने का अर्थ है अभियान प्रदर्शन में सुधार करना, गुणवत्तापूर्ण उपयोगकर्ता अनुभव प्रदान करना और तेज़ वेब के लिए खुद को एडटेक प्लेटफ़ॉर्म के रूप में स्थापित करना। वर्तमान में ओपन सोर्स एएमपी इकोसिस्टम का समर्थन करने वाले सैकड़ों प्रौद्योगिकी प्लेटफार्मों में शामिल हों।"
 
 #: /content/amp-dev/about/ads.html:209
 msgid "ABC offers a way for you to give users a faster experience everywhere: on ads, landing pages or on your entire website. ABC ads help users engage with your brand and improve the performance of your campaigns. When your target audience lands on an ABC page, they get what they’re looking for in the moment they’re looking for it. The net result – they’re more likely to be engaged with and receptive to your brand’s messages, and more likely to take the actions you’re guiding them towards like completing a purchase."
-msgstr "एएमपी आपको हर जगह उपयोगकर्ताओं को तेज़ अनुभव देने का एक तरीका प्रदान करता है: विज्ञापनों पर, लैंडिंग पृष्ठों पर या आपकी पूरी वेबसाइट पर। एएमपी विज्ञापन उपयोगकर्ताओं को आपके ब्रांड के साथ जुड़ने और आपके अभियानों के प्रदर्शन को बेहतर बनाने में मदद करते हैं। जब आपके लक्षित दर्शक किसी एएमपी पेज पर पहुंचते हैं, तो उन्हें उसी क्षण वह मिल जाता है जिसकी उन्हें तलाश होती है। शुद्ध परिणाम - वे आपके ब्रांड के संदेशों के साथ जुड़े रहने और उनके प्रति ग्रहणशील होने की अधिक संभावना रखते हैं, और उन कार्यों को करने की अधिक संभावना रखते हैं जिन्हें आप खरीदारी पूरी करने के लिए निर्देशित कर रहे हैं।"
+msgstr "एएमपी आपको हर जगह उपयोगकर्ताओं को तेज़ अनुभव देने का एक तरीका प्रदान करता है: विज्ञापनों पर, लैंडिंग पृष्ठों पर या आपकी संपूर्ण वेबसाइट पर। एएमपी विज्ञापन उपयोगकर्ताओं को आपके ब्रांड के साथ जुड़ने और आपके अभियानों के प्रदर्शन को बेहतर बनाने में मदद करते हैं। जब आपके लक्षित दर्शक किसी एएमपी पेज पर पहुंचते हैं, तो उन्हें उसी क्षण वह मिल जाता है जिसकी उन्हें तलाश होती है। शुद्ध परिणाम - वे आपके ब्रांड के संदेशों के साथ जुड़े रहने और उनके प्रति ग्रहणशील होने की अधिक संभावना रखते हैं, और उन कार्यों को करने की अधिक संभावना रखते हैं जिन्हें आप खरीदारी पूरी करने के लिए निर्देशित कर रहे हैं।"
 
 #: /content/amp-dev/about/ads.html:228
 msgid "What’s the difference between an ABCHTML ad and a regular ad? Seconds."
@@ -1195,11 +1601,11 @@ msgstr "एएमपी HTML विश्वसनीय प्रदर्श�
 
 #: /content/amp-dev/about/websites.html:228
 msgid "For example, the amp-img tag provides full srcset support even in browsers that don’t support it yet. Learn how to create your first ABC HTML page."
-msgstr "उदाहरण के लिए, amp-img टैग उन ब्राउज़रों में भी पूर्ण srcset समर्थन प्रदान करता है जो अभी तक इसका समर्थन नहीं करते हैं। जानें कि अपना पहला एएमपी HTML पेज कैसे बनाएं।"
+msgstr "उदाहरण के लिए, ABC-img टैग उन ब्राउज़रों में भी पूर्ण srcset समर्थन प्रदान करता है जो अभी तक इसका समर्थन नहीं करते हैं। जानें कि अपना पहला एएमपी HTML पेज कैसे बनाएं।"
 
 #: /content/amp-dev/about/websites.html:230
 msgid "ABC pages are discovered by search engines and other platforms through the HTML tag. You can choose to have a non-ABC version and an ABC version of your page, or just an ABC version. "
-msgstr "एएमपी पेज खोज इंजन और अन्य प्लेटफार्मों द्वारा HTML टैग के माध्यम से खोजे जाते हैं। आप अपने पेज का एक गैर-एएमपी संस्करण और एक एएमपी संस्करण, या सिर्फ एक एएमपी संस्करण चुन सकते हैं।"
+msgstr "एएमपी पेज खोज इंजन और अन्य प्लेटफार्मों द्वारा HTML टैग के माध्यम से खोजे जाते हैं। आप अपने पेज का एक गैर-एएमपी संस्करण और एक एएमपी संस्करण या सिर्फ एक एएमपी संस्करण चुन सकते हैं।"
 
 #: /content/amp-dev/about/websites.html:237
 msgid "Learn more in Make Your Page Discoverable."
@@ -1339,7 +1745,7 @@ msgid "Used by popular and global platforms like Google, Bing and Twitter, ABC a
 msgstr "Google, बिंग और ट्विटर जैसे लोकप्रिय और वैश्विक प्लेटफार्मों द्वारा उपयोग किया जाता है, एएमपी आपको यह सुनिश्चित करने की अनुमति देता है कि इन सभी सतहों के उपयोगकर्ताओं को उपलब्ध होने पर एएमपी पृष्ठों पर डिफ़ॉल्ट रूप से एक अद्वितीय, अक्सर तात्कालिक और देशी-अनुभव अनुभव मिलता है।"
 
 msgid "You can use CSS to customize your styling, dynamic data to fetch the freshest data where needed, to build the best possible user experience for your customers."
-msgstr "आप अपने स्टाइलिंग, डायनामिक डेटा को अनुकूलित करने के लिए सीएसएस का उपयोग कर सकते हैं ताकि जहां आवश्यक हो वहां नवीनतम डेटा प्राप्त किया जा सके, ताकि आपके ग्राहकों के लिए सर्वोत्तम संभव उपयोगकर्ता अनुभव तैयार किया जा सके।"
+msgstr "आप अपने स्टाइलिंग, डायनामिक डेटा को अनुकूलित करने के लिए सीएसएस का उपयोग कर सकते हैं ताकि जहां आवश्यक हो वहां नवीनतम डेटा प्राप्त कर सकें, ताकि आपके ग्राहकों के लिए सर्वोत्तम संभव उपयोगकर्ता अनुभव तैयार किया जा सके।"
 
 msgid "The ABC Project is an open source initiative to protect the future of the web helping everyone deliver a better, faster more user-friendly experience."
 msgstr "एएमपी प्रोजेक्ट वेब के भविष्य की सुरक्षा के लिए एक ओपन सोर्स पहल है जो हर किसी को बेहतर, तेज और अधिक उपयोगकर्ता-अनुकूल अनुभव प्रदान करने में मदद करता है।"
@@ -1414,7 +1820,7 @@ msgid "ABC for email has no arbitrary 3rd party features to limit security issue
 msgstr "ईमेल के लिए एएमपी में सुरक्षा समस्याओं को सीमित करने के लिए कोई मनमाना तृतीय पक्ष सुविधाएँ नहीं हैं, और यह वर्तमान में तृतीय पक्ष प्रदाताओं द्वारा प्रदान की गई क्षमताओं से कहीं अधिक है। उपयोगकर्ताओं को सुरक्षित रखते हुए, एएमपी ईमेल में विज्ञापन घटकों की अनुमति नहीं है। उपयोगकर्ताओं की सुरक्षा और गोपनीयता की अपेक्षाओं को बनाए रखने के लिए, एएमपी कार्यक्षमता के केवल एक रूढ़िवादी उपसमुच्चय की अनुमति दी जाएगी।"
 
 msgid "Embedding ABC within an email is simple, add a new MIME part with a content type of text/x-amp-html as a descendant of multipart/alternative. It should live alongside the existing text/html or text/plain parts. This ensures that the email message works on all clients."
-msgstr "ईमेल के भीतर एएमपी एम्बेड करना सरल है, मल्टीपार्ट/विकल्प के वंशज के रूप में टेक्स्ट/x-amp-html के सामग्री प्रकार के साथ एक नया MIME भाग जोड़ें। इसे मौजूदा टेक्स्ट/एचटीएमएल या टेक्स्ट/सादा भागों के साथ रहना चाहिए। यह सुनिश्चित करता है कि ईमेल संदेश सभी ग्राहकों पर काम करता है।"
+msgstr "ईमेल के भीतर एएमपी एम्बेड करना सरल है, मल्टीपार्ट/विकल्प के वंशज के रूप में टेक्स्ट/x-ABC-html के सामग्री प्रकार के साथ एक नया MIME भाग जोड़ें। इसे मौजूदा टेक्स्ट/एचटीएमएल या टेक्स्ट/सादा भागों के साथ रहना चाहिए। यह सुनिश्चित करता है कि ईमेल संदेश सभी ग्राहकों पर काम करता है।"
 
 msgid "Start sending ABC Emails"
 msgstr "एएमपी ईमेल भेजना प्रारंभ करें"
@@ -1438,7 +1844,7 @@ msgid "Pick one of several editors to start creating stories without any coding 
 msgstr "बिना किसी कोडिंग के कहानियां बनाना शुरू करने के लिए कई संपादकों में से एक को चुनें।"
 
 msgid "Pick one of several editors to start creating websites without any coding involved."
-msgstr "बिना किसी कोडिंग के वेबसाइट बनाना शुरू करने के लिए कई संपादकों में से एक चुनें।"
+msgstr "बिना किसी कोडिंग के वेबसाइट बनाना शुरू करने के लिए कई संपादकों में से एक को चुनें।"
 
 msgid "WYSIWYG Editor"
 msgstr "WYSIWYG संपादक"
@@ -1501,16 +1907,16 @@ msgid "Grow engagement and increase conversions with faster experiences"
 msgstr "तेज़ अनुभवों के साथ जुड़ाव बढ़ाएँ और रूपांतरण बढ़ाएँ"
 
 msgid "The average mobile site takes 19 seconds to load over a 3G connection. Coupled with the fact that conversions fall by 12% for every additional second a webpage takes to load, you can safely assume two things: speed equals performance, and most advertiser campaigns have room to improve. That’s where you come in. As an SSP, DSP, analytics provider, or anything in between, embracing speed means improving campaign performance, delivering quality user experiences, and establishing yourself as the adtech platform for the fast web. Join the hundreds of technology platforms currently supporting the open source ABC ecosystem."
-msgstr "औसत मोबाइल साइट को 3जी कनेक्शन पर लोड होने में 19 सेकंड का समय लगता है। इस तथ्य के साथ कि वेबपेज लोड होने में लगने वाले प्रत्येक अतिरिक्त सेकंड के लिए रूपांतरण में 12% की गिरावट आती है, आप सुरक्षित रूप से दो बातें मान सकते हैं: गति प्रदर्शन के बराबर है, और अधिकांश विज्ञापनदाता अभियानों में सुधार की गुंजाइश है। यहीं आप आते हैं। एक एसएसपी, डीएसपी, एनालिटिक्स प्रदाता या इनके बीच की किसी भी चीज़ के रूप में, गति को अपनाने का अर्थ है अभियान प्रदर्शन में सुधार करना, गुणवत्तापूर्ण उपयोगकर्ता अनुभव प्रदान करना और तेज़ वेब के लिए खुद को एडटेक प्लेटफ़ॉर्म के रूप में स्थापित करना। वर्तमान में ओपन सोर्स एएमपी इकोसिस्टम का समर्थन करने वाले सैकड़ों प्रौद्योगिकी प्लेटफार्मों से जुड़ें।"
+msgstr "औसत मोबाइल साइट को 3जी कनेक्शन पर लोड होने में 19 सेकंड का समय लगता है। इस तथ्य के साथ कि वेबपेज लोड होने में लगने वाले प्रत्येक अतिरिक्त सेकंड के लिए रूपांतरण में 12% की गिरावट आती है, आप सुरक्षित रूप से दो बातें मान सकते हैं: गति प्रदर्शन के बराबर है, और अधिकांश विज्ञापनदाता अभियानों में सुधार की गुंजाइश है। यहीं आप आते हैं। एक एसएसपी, डीएसपी, एनालिटिक्स प्रदाता या इनके बीच की किसी भी चीज़ के रूप में, गति को अपनाने का अर्थ है अभियान प्रदर्शन में सुधार करना, गुणवत्तापूर्ण उपयोगकर्ता अनुभव प्रदान करना और तेज़ वेब के लिए खुद को एडटेक प्लेटफ़ॉर्म के रूप में स्थापित करना। वर्तमान में ओपन सोर्स एएमपी इकोसिस्टम का समर्थन करने वाले सैकड़ों प्रौद्योगिकी प्लेटफार्मों में शामिल हों।"
 
 msgid "ABC offers a way for you to give users a faster experience everywhere: on ads, landing pages or on your entire website. ABC ads help users engage with your brand and improve the performance of your campaigns. When your target audience lands on an ABC page, they get what they’re looking for in the moment they’re looking for it. The net result – they’re more likely to be engaged with and receptive to your brand’s messages, and more likely to take the actions you’re guiding them towards like completing a purchase."
-msgstr "एएमपी आपको हर जगह उपयोगकर्ताओं को तेज़ अनुभव देने का एक तरीका प्रदान करता है: विज्ञापनों पर, लैंडिंग पृष्ठों पर या आपकी पूरी वेबसाइट पर। एएमपी विज्ञापन उपयोगकर्ताओं को आपके ब्रांड के साथ जुड़ने और आपके अभियानों के प्रदर्शन को बेहतर बनाने में मदद करते हैं। जब आपके लक्षित दर्शक किसी एएमपी पेज पर पहुंचते हैं, तो उन्हें उसी क्षण वह मिल जाता है जिसकी उन्हें तलाश होती है। शुद्ध परिणाम - वे आपके ब्रांड के संदेशों के साथ जुड़े रहने और उनके प्रति ग्रहणशील होने की अधिक संभावना रखते हैं, और उन कार्यों को करने की अधिक संभावना रखते हैं जिन्हें आप खरीदारी पूरी करने के लिए निर्देशित कर रहे हैं।"
+msgstr "एएमपी आपको हर जगह उपयोगकर्ताओं को तेज़ अनुभव देने का एक तरीका प्रदान करता है: विज्ञापनों पर, लैंडिंग पृष्ठों पर या आपकी संपूर्ण वेबसाइट पर। एएमपी विज्ञापन उपयोगकर्ताओं को आपके ब्रांड के साथ जुड़ने और आपके अभियानों के प्रदर्शन को बेहतर बनाने में मदद करते हैं। जब आपके लक्षित दर्शक किसी एएमपी पेज पर पहुंचते हैं, तो उन्हें उसी क्षण वह मिल जाता है जिसकी उन्हें तलाश होती है। शुद्ध परिणाम - वे आपके ब्रांड के संदेशों के साथ जुड़े रहने और उनके प्रति ग्रहणशील होने की अधिक संभावना रखते हैं, और उन कार्यों को करने की अधिक संभावना रखते हैं जिन्हें आप खरीदारी पूरी करने के लिए निर्देशित कर रहे हैं।"
 
 msgid "Allows the creation of rich, eye-catching marketing content with Adobe Animate."
 msgstr "Adobe Animate के साथ समृद्ध, आकर्षक मार्केटिंग सामग्री के निर्माण की अनुमति देता है।"
 
 msgid "Create ABCHTML-valid and ready to be published individual designs or full sets of static or animated marketing visuals, within minutes."
-msgstr "मिनटों के भीतर ABCHTML-मान्य और प्रकाशित होने के लिए तैयार व्यक्तिगत डिज़ाइन या स्थिर या एनिमेटेड मार्केटिंग विज़ुअल के पूर्ण सेट बनाएं।"
+msgstr "मिनटों के भीतर एएमपीएचटीएमएल-मान्य और प्रकाशित होने के लिए तैयार व्यक्तिगत डिज़ाइन या स्थिर या एनिमेटेड मार्केटिंग विज़ुअल के पूर्ण सेट बनाएं।"
 
 msgid "Online ABCHTML banner maker which allows you to easily create ABC ads without prior coding knowledge."
 msgstr "ऑनलाइन एएमपीएचटीएमएल बैनर निर्माता जो आपको पूर्व कोडिंग ज्ञान के बिना आसानी से एएमपी विज्ञापन बनाने की अनुमति देता है।"
@@ -1554,7 +1960,7 @@ msgstr "एएमपी घटकों में हुड के नीचे 
 
 #: pages/content/amp-dev/about/how-amp-works.html:32
 msgid "While custom JS is allowed in <a href=\"../documentation/components/reference/amp-script.md\"><code>amp-script</code></a>, and third-party JS is allowed in iframes, it cannot block rendering. For example, if third-party JS uses the <a href=\"http://www.stevesouders.com/blog/2012/04/10/dont-docwrite-scripts/\">super-bad-for-performance <code>document.write</code> API</a>, it does not block rendering the main page."
-msgstr "जबकि <a href=\"।./documentation/components/reference/amp-script.md\"><code>amp-script</code></a> में कस्टम JS की अनुमति है, और तृतीय-पक्ष JS है आईफ्रेम में अनुमति है, यह रेंडरिंग को ब्लॉक नहीं कर सकता। उदाहरण के लिए, यदि तृतीय-पक्ष JS <a href=\"http://www.stevesouders.com/blog/2012/04/10/dont-docwrite-scripts/\">super- Bad-for-performance का उपयोग करता है <code>document.write</code> API</a>, यह मुख्य पृष्ठ के रेंडरिंग को अवरुद्ध नहीं करता है।"
+msgstr "जबकि <a href=\"।./documentation/components/reference/ABC-script.md\"><code>ABC-script</code></a> में कस्टम JS की अनुमति है, और तृतीय-पक्ष JS है आईफ्रेम में अनुमति है, यह रेंडरिंग को ब्लॉक नहीं कर सकता। उदाहरण के लिए, यदि तृतीय-पक्ष JS <a href=\"http://www.stevesouders.com/blog/2012/04/10/dont-docwrite-scripts/\">super- Bad-for-performance का उपयोग करता है <code>document.write</code> API</a>, यह मुख्य पृष्ठ के रेंडरिंग को अवरुद्ध नहीं करता है।"
 
 #: pages/content/amp-dev/about/how-amp-works.html:36
 msgid "Size all resources statically"
@@ -1570,7 +1976,7 @@ msgstr "एक्सटेंशन तंत्र को रेंडरिं
 
 #: pages/content/amp-dev/about/how-amp-works.html:43
 msgid "ABC doesn’t let extension mechanisms block page rendering. ABC supports extensions for things like <a href=\"../documentation/components/reference/amp-lightbox.md\">lightboxes</a>, <a href=\"../documentation/components/reference/amp-instagram.md\">instagram embeds</a>, <a href=\"../documentation/components/reference/amp-twitter.md\">tweets</a>, etc. While these require additional HTTP requests, those requests do not block page layout and rendering."
-msgstr "एएमपी एक्सटेंशन तंत्र को पेज रेंडरिंग को अवरुद्ध नहीं करने देता। एएमपी <a href=\'../documentation/components/reference/amp-lightbox.md\'>lightboxes</a>, <a href=\'../documentation/components/reference/ जैसी चीज़ों के लिए एक्सटेंशन का समर्थन करता है amp-instagram.md\">इंस्टाग्राम एंबेड</a>, <a href=\"।./documentation/components/reference/amp-twitter.md\">ट्वीट्स</a>, आदि। जबकि इनके लिए अतिरिक्त की आवश्यकता होती है HTTP अनुरोध, वे अनुरोध पृष्ठ लेआउट और रेंडरिंग को अवरुद्ध नहीं करते हैं।"
+msgstr "एएमपी एक्सटेंशन तंत्र को पेज रेंडरिंग को अवरुद्ध नहीं करने देता। एएमपी <a href=\'../documentation/components/reference/ABC-lightbox.md\'>lightboxes</a>, <a href=\'../documentation/components/reference/ जैसी चीज़ों के लिए एक्सटेंशन का समर्थन करता है ABC-instagram.md\">इंस्टाग्राम एंबेड</a>, <a href=\"।./documentation/components/reference/ABC-twitter.md\">ट्वीट्स</a>, आदि। जबकि इनके लिए अतिरिक्त की आवश्यकता होती है HTTP अनुरोध, वे अनुरोध पृष्ठ लेआउट और रेंडरिंग को अवरुद्ध नहीं करते हैं।"
 
 #: pages/content/amp-dev/about/how-amp-works.html:53
 msgid "Keep all third-party JavaScript out of the critical path"
@@ -1634,7 +2040,7 @@ msgstr "तेज़ अनुकूलन का एकमात्र तर�
 
 #: pages/content/amp-dev/about/how-amp-works.html:80
 msgid "The rules for animation-related CSS ensure that animations can be GPU-accelerated. Specifically, ABC only allows animating and transitioning on transform and opacity so that page layout isn’t required. Learn more about <a href=\"https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count\">using transform and opacity for animation changes</a>."
-msgstr "एनीमेशन-संबंधित सीएसएस के नियम यह सुनिश्चित करते हैं कि एनिमेशन को जीपीयू-त्वरित किया जा सकता है। विशेष रूप से, एएमपी केवल ट्रांसफॉर्मेशन और अपारदर्शिता पर एनिमेटिंग और ट्रांज़िशन की अनुमति देता है ताकि पेज लेआउट की आवश्यकता न हो। <a href=\"https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count\">ट्रांसफ़ॉर्म का उपयोग करने के बारे में और जानें एनिमेशन परिवर्तन के लिए अपारदर्शिता</a>."
+msgstr "एनीमेशन-संबंधित सीएसएस के नियम यह सुनिश्चित करते हैं कि एनिमेशन को जीपीयू-त्वरित किया जा सकता है। विशेष रूप से, एएमपी केवल ट्रांसफॉर्मेशन और अपारदर्शिता पर एनिमेटिंग और ट्रांज़िशन की अनुमति देता है ताकि पेज लेआउट की आवश्यकता न हो। <a href=\"https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count\">ट्रांसफ़ॉर्म का उपयोग करने के बारे में और जानें एनिमेशन परिवर्तन के लिए अपारदर्शिता</a>।"
 
 #: pages/content/amp-dev/about/how-amp-works.html:84
 msgid "Prioritize resource loading"
@@ -1666,7 +2072,7 @@ msgstr "जबकि प्रीरेंडरिंग को सभी व�
 
 #: pages/content/amp-dev/about/how-amp-works.html:95
 msgid "Learn more about <a href=\"https://medium.com/@cramforce/why-amp-html-does-not-take-full-advantage-of-the-preload-scanner-7e7f788aa94e\">why ABC HTML doesn’t take full advantage of the preload scanner</a>."
-msgstr "<a href=\"https://medium.com/@cramforce/why-amp-html-does-not-take-full-advantage-of-the-preload-scanner-7e7f788aa94e\">एएमपी के बारे में अधिक जानें HTML प्रीलोड स्कैनर का पूरा लाभ नहीं उठाता</a>।"
+msgstr "<a href=\"https://medium.com/@cramforce/why-ABC-html-does-not-take-full-advantage-of-the-preload-scanner-7e7f788aa94e\">एएमपी के बारे में अधिक जानें HTML प्रीलोड स्कैनर</a>का पूरा लाभ नहीं उठाता।"
 
 #: pages/content/amp-dev/index.html:370
 msgid "Developer Benefits"
@@ -1683,7 +2089,7 @@ msgid "ABC uncouples document layout from resource layout. Only one HTTP request
 msgstr "एएमपी दस्तावेज़ लेआउट को संसाधन लेआउट से अलग कर देता है। संपूर्ण दस्तावेज़ को लेआउट करने के लिए केवल एक HTTP अनुरोध की आवश्यकता है (<a href=\"#font-triggering-must-be-efficient\">+fonts</a>)। चूंकि एएमपी को ब्राउज़र में महंगी शैली पुनर्गणना और लेआउट से बचने के लिए अनुकूलित किया गया है, इसलिए संसाधन लोड होने पर कोई पुन: लेआउट नहीं होगा।"
 
 msgid "Any page that uses a custom script must tell the ABC system that it will eventually have a custom tag. For example, the <a href=\"../documentation/components/reference/amp-iframe.md\"><code>amp-iframe</code></a> script tells the system that there will be an <code>amp-iframe</code> tag. ABC creates the iframe box before it even knows what it will include:"
-msgstr "कोई भी पेज जो कस्टम स्क्रिप्ट का उपयोग करता है, उसे एएमपी सिस्टम को बताना होगा कि अंततः उसमें एक कस्टम टैग होगा। उदाहरण के लिए, <a href=\"।./documentation/components/reference/amp-iframe.md\"><code>amp-iframe</code></a> स्क्रिप्ट सिस्टम को बताती है कि एक होगा <code>amp-iframe</code> टैग. एएमपी यह जानने से पहले ही आईफ्रेम बॉक्स बनाता है कि इसमें क्या शामिल होगा:"
+msgstr "कोई भी पेज जो कस्टम स्क्रिप्ट का उपयोग करता है, उसे एएमपी सिस्टम को बताना होगा कि अंततः उसमें एक कस्टम टैग होगा। उदाहरण के लिए, <a href=\"../documentation/components/reference/ABC-iframe.md\"><code>ABC-iframe</code></a> स्क्रिप्ट सिस्टम को बताती है कि एक होगा <code>ABC-iframe</code> टैग. एएमपी यह जानने से पहले ही आईफ्रेम बॉक्स बनाता है कि इसमें क्या शामिल होगा:"
 
 msgid "ABC controls all resource downloads: it prioritizes resource loading, loading only what’s needed, and prefetches lazy-loaded resources."
 msgstr "एएमपी सभी संसाधन डाउनलोड को नियंत्रित करता है: यह संसाधन लोडिंग को प्राथमिकता देता है, केवल वही लोड करता है जो आवश्यक है, और आलसी-लोड किए गए संसाधनों को प्रीफ़ेच करता है।"
@@ -1749,7 +2155,7 @@ msgid "Prioritise things that improve the user experience – but compromise whe
 msgstr "उन चीजों को प्राथमिकता दें जो उपयोगकर्ता अनुभव को बेहतर बनाती हैं - लेकिन जरूरत पड़ने पर समझौता करें।"
 
 msgid "Some things can be made fast and are still a terrible user experience. ABCs should deliver a fantastic user experience and speed is just one part of that. Only compromise when lack of support for something would stop ABC from being widely used and deployed."
-msgstr "कुछ चीजें तेजी से बनाई जा सकती हैं और फिर भी उपयोगकर्ता के लिए एक भयानक अनुभव है। एएमपी को एक शानदार उपयोगकर्ता अनुभव प्रदान करना चाहिए और गति इसका सिर्फ एक हिस्सा है। केवल तभी समझौता करें जब किसी चीज़ के लिए समर्थन की कमी एएमपी को व्यापक रूप से उपयोग और तैनात होने से रोकेगी।"
+msgstr "कुछ चीजें तेजी से बनाई जा सकती हैं और फिर भी उपयोगकर्ता के लिए एक भयानक अनुभव है। एएमपी को एक शानदार उपयोगकर्ता अनुभव प्रदान करना चाहिए और गति इसका सिर्फ एक हिस्सा है। केवल तभी समझौता करें जब किसी चीज़ के लिए समर्थन की कमी एएमपी को व्यापक रूप से उपयोग और तैनात होने से रोक देगी।"
 
 msgid "No allowlists."
 msgstr "कोई अनुमति सूची नहीं."
@@ -1764,7 +2170,7 @@ msgid "Create your first ABC page"
 msgstr "अपना पहला एएमपी पेज बनाएं"
 
 msgid "Not sure how to get started? In this tutorial, you’ll learn how to create a basic ABC HTML page, how to stage it and validate that it’s ABC compliant, and finally ..."
-msgstr "पक्का नहीं है कि कैसे शुरू करें? इस ट्यूटोरियल में, आप सीखेंगे कि एक बुनियादी एएमपी एचटीएमएल पेज कैसे बनाया जाए, इसे कैसे चरणबद्ध किया जाए और सत्यापित किया जाए कि यह एएमपी के अनुरूप है, और अंत में..."
+msgstr "पक्का नहीं है कि कैसे शुरू करें? इस ट्यूटोरियल में, आप सीखेंगे कि एक बुनियादी एएमपी एचटीएमएल पेज कैसे बनाएं, इसे कैसे स्टेज करें और सत्यापित करें कि यह एएमपी के अनुरूप है, और अंत में ..."
 
 msgid "In this tutorial, you'll learn how to use data binding and expressions to build awesome, interactive ABC pages with amp-bind ..."
 msgstr "इस ट्यूटोरियल में, आप सीखेंगे कि एम्प-बाइंड के साथ अद्भुत, इंटरैक्टिव एएमपी पेज बनाने के लिए डेटा बाइंडिंग और एक्सप्रेशन का उपयोग कैसे करें..."
@@ -1821,7 +2227,7 @@ msgid "Always thought that all ABC pages look the same? Checkout this incredible
 msgstr "क्या आपने हमेशा सोचा था कि सभी एएमपी पेज एक जैसे दिखते हैं? एक जीवंत और आनंददायक अनुभव बनाने के लिए विभिन्न एएमपी घटकों वाली इस अविश्वसनीय बैंड वेबसाइट को देखें।"
 
 msgid "The use of <code>amp-sidebar</code> gives you the same feeling as if you are in a single page app."
-msgstr "<code>amp-sidebar</code> का उपयोग आपको वैसा ही एहसास देता है जैसे कि आप एक सिंगल पेज ऐप में हों।"
+msgstr "<code>ABC-sidebar</code> का उपयोग आपको वैसा ही एहसास देता है जैसे कि आप एक सिंगल पेज ऐप में हों।"
 
 msgid "E-Commerce"
 msgstr "ई-कॉमर्स"
@@ -1842,7 +2248,7 @@ msgid "Musement’s mobile-first design helps users navigate 70% faster"
 msgstr "म्यूज़मेंट का मोबाइल-फ़र्स्ट डिज़ाइन उपयोगकर्ताओं को 70% तेज़ी से नेविगेट करने में मदद करता है"
 
 msgid "To provide their blog content in a more attractive format, Ameba launched their article landing pages as ABC Stories"
-msgstr "अपने ब्लॉग सामग्री को अधिक आकर्षक प्रारूप में प्रदान करने के लिए, अमीबा ने अपने लेख लैंडिंग पेज को एएमपी स्टोरीज़ के रूप में लॉन्च किया"
+msgstr "अपने ब्लॉग सामग्री को अधिक आकर्षक प्रारूप में प्रदान करने के लिए, अमीबा ने एएमपी स्टोरीज़ के रूप में अपने लेख लैंडिंग पृष्ठ लॉन्च किए"
 
 msgid "Complex Networks drives a 3x revenue increase with ABC"
 msgstr "कॉम्प्लेक्स नेटवर्क एएमपी के साथ राजस्व में 3 गुना वृद्धि करता है"
@@ -1890,7 +2296,7 @@ msgid "Carved increases conversion rate by 75% with ABC and PWA"
 msgstr "एएमपी और पीडब्ल्यूए के साथ कार्व्ड रूपांतरण दर को 75% तक बढ़ाता है"
 
 msgid "TransUnion scores more conversions with faster page loads via ABC"
-msgstr "एएमपी के माध्यम से तेज पेज लोड के साथ ट्रांसयूनियन अधिक रूपांतरण प्राप्त करता है"
+msgstr "एएमपी के माध्यम से तेज़ पेज लोड के साथ ट्रांसयूनियन अधिक रूपांतरण प्राप्त करता है"
 
 msgid "The story of the all-new BMW.com"
 msgstr "बिल्कुल नई BMW.com की कहानी"
@@ -2049,7 +2455,7 @@ msgid "ABC for Email"
 msgstr "ईमेल के लिए एएमपी"
 
 msgid "wg-amp4email Working Group is responsible for the development and maintenance of the ABC for Email specification and related features."
-msgstr "wg-amp4email वर्किंग ग्रुप ईमेल विनिर्देश और संबंधित सुविधाओं के लिए एएमपी के विकास और रखरखाव के लिए जिम्मेदार है।"
+msgstr "wg-ABC4email वर्किंग ग्रुप ईमेल विनिर्देश और संबंधित सुविधाओं के लिए एएमपी के विकास और रखरखाव के लिए जिम्मेदार है।"
 
 msgid "View all"
 msgstr "सभी को देखें"
@@ -2238,7 +2644,7 @@ msgid "CMS User?"
 msgstr "सीएमएस उपयोगकर्ता?"
 
 msgid "ABC integrates with many publishing platforms and content management systems! Find the full list under <a href=\"../support/faq/platform-and-vendor-partners.md\">Platform and Vendor Partners.</a>"
-msgstr "एएमपी कई प्रकाशन प्लेटफार्मों और सामग्री प्रबंधन प्रणालियों के साथ एकीकृत होता है! <a href=\"../support/faq/platform-and-vendor-partners.md\">प्लेटफ़ॉर्म और विक्रेता भागीदार</a> के अंतर्गत पूरी सूची ढूंढें।"
+msgstr "एएमपी कई प्रकाशन प्लेटफार्मों और सामग्री प्रबंधन प्रणालियों के साथ एकीकृत होता है! <a href=\"।./support/faq/platform-and-vendor-partners.md\">प्लेटफ़ॉर्म और विक्रेता भागीदार</a> के अंतर्गत पूरी सूची ढूंढें।"
 
 msgid "Featured Videos"
 msgstr "विशेष रुप से प्रदर्शित वीडियोज़"
@@ -2257,7 +2663,7 @@ msgid "ABC Caches"
 msgstr "एएमपी कैश"
 
 msgid "ABC for Email Working Group members will use <code>#wg-amp4email</code> channel on ABC's Slack (<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform?fbzx=4406980310789882877\">signup</a>) for real-time discussion. The channel is open to anyone, regardless of membership in ABC for Email working group."
-msgstr "ईमेल वर्किंग ग्रुप के सदस्यों के लिए ABC, ABC के स्लैक पर <code>#wg-amp4email</code> चैनल का उपयोग करेगा (<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform? fbzx=4406980310789882877\">साइनअप</a>) वास्तविक समय की चर्चा के लिए। ईमेल कार्य समूह के लिए एएमपी की सदस्यता की परवाह किए बिना, चैनल किसी के लिए भी खुला है।"
+msgstr "ईमेल वर्किंग ग्रुप के सदस्यों के लिए ABC, ABC के स्लैक पर <code>#wg-ABC4email</code> चैनल का उपयोग करेगा (<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform? fbzx=4406980310789882877\">साइनअप</a>) वास्तविक समय की चर्चा के लिए। ईमेल कार्य समूह के लिए एएमपी की सदस्यता की परवाह किए बिना, चैनल किसी के लिए भी खुला है।"
 
 msgid "ABC for Email Working Group will post <strong>Announcements and Notices</strong> regarding events as an issue labeled with <code>Type: Event</code> in this repository."
 msgstr "ईमेल वर्किंग ग्रुप के लिए एएमपी इस रिपॉजिटरी में <कोड>प्रकार: इवेंट</कोड> लेबल वाले मुद्दे के रूप में घटनाओं के संबंध में <strong>घोषणाएं और नोटिस</strong> पोस्ट करेगा।"
@@ -2313,7 +2719,7 @@ msgid "Internet connection"
 msgstr "इंटरनेट कनेक्शन"
 
 msgid "<a href=\"https://www.google.com/chrome/\" target=\"_blank\">Chrome browser</a>, ideally, to use the <a href=\"https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc\" target=\"_blank\">ABC Validator extension</a>"
-msgstr "<a href=\"https://www.google.com/chrome/\" target=\"_blank\">क्रोम ब्राउज़र</a>, आदर्श रूप से, <a href=\"https:// का उपयोग करने के लिए chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc\" target=\"_blank\">ABC वैलिडेटर एक्सटेंशन</a>"
+msgstr "<a href=\"https://www.google.com/chrome/\" target=\"_blank\">क्रोम ब्राउज़र</a>, आदर्श रूप से, <a href=\"https:// का उपयोग करने के लिए chrome.google.com/webstore/detail/ABC-validator/nmoffdblmcmgeicmolmhobpoocbbmknc\" target=\"_blank\">ABC वैलिडेटर एक्सटेंशन</a>"
 
 msgid "We use the online editor <a href=\"https://glitch.com/\" target=\"_blank\">Glitch</a>. No IDE or local web server needed!"
 msgstr "हम ऑनलाइन संपादक <a href=\"https://glitch.com/\" target=\"_blank\">Glitch</a> का उपयोग करते हैं। किसी आईडीई या स्थानीय वेब सर्वर की आवश्यकता नहीं!"
@@ -2349,10 +2755,10 @@ msgid "<h1 class=\"ap-o-stage-content-headline\">Tools</h1> <h2 class=\"ap-o-sta
 msgstr "<h1 class=\"ap-o-stage-content-headline\">उपकरण</h1> <h2 class=\"ap-o-stage-content-subline\">निर्माण, डिजाइन और विकास के लिए</h2 >"
 
 msgid "Creation &amp; Design"
-msgstr "सृजन और amp; डिज़ाइन"
+msgstr "सृजन और ABC; डिज़ाइन"
 
 msgid "CMS &amp; Platforms"
-msgstr "सीएमएस एवं amp; प्लेटफार्म"
+msgstr "सीएमएस एवं ABC; प्लेटफार्म"
 
 msgid "Developer Tools"
 msgstr "डेवलपर उपकरण"
@@ -2382,7 +2788,7 @@ msgid "Build your first ABC Story"
 msgstr "अपनी पहली एएमपी स्टोरी बनाएं"
 
 msgid "Build your first ABC Ad"
-msgstr "अपना पहला एएमपी विज्ञापन बनाएं"
+msgstr "अपना पहला ABC विज्ञापन बनाएं"
 
 msgid "Build your first ABC Email"
 msgstr "अपना पहला एएमपी ईमेल बनाएं"
@@ -2439,7 +2845,7 @@ msgid "Create interactive email templates fast with Drag-n-Drop & HTML editor. T
 msgstr "ड्रैग-एन-ड्रॉप और HTML संपादक के साथ तेजी से इंटरैक्टिव ईमेल टेम्पलेट बनाएं। उपयोग के लिए तैयार मॉड्यूल और टेम्प्लेट की निःशुल्क लाइब्रेरी आज़माएँ।"
 
 msgid "Create ABCHTML-valid and ready to be published individual designs or full sets of static or animated marketing visuals, within minutes."
-msgstr "मिनटों के भीतर ABCHTML-मान्य और प्रकाशित होने के लिए तैयार व्यक्तिगत डिज़ाइन या स्थिर या एनिमेटेड मार्केटिंग विज़ुअल के पूर्ण सेट बनाएं।"
+msgstr "मिनटों के भीतर एएमपीएचटीएमएल-मान्य और प्रकाशित होने के लिए तैयार व्यक्तिगत डिज़ाइन या स्थिर या एनिमेटेड मार्केटिंग विज़ुअल के पूर्ण सेट बनाएं।"
 
 msgid "Online ABCHTML banner maker which allows you to easily create ABC ads without prior coding knowledge."
 msgstr "ऑनलाइन एएमपीएचटीएमएल बैनर निर्माता जो आपको पूर्व कोडिंग ज्ञान के बिना आसानी से एएमपी विज्ञापन बनाने की अनुमति देता है।"
@@ -2514,7 +2920,7 @@ msgid "Litmus makes it easy to build, test, and monitor every email for the best
 msgstr "लिटमस सर्वोत्तम परिणामों के लिए प्रत्येक ईमेल का निर्माण, परीक्षण और निगरानी करना आसान बनाता है।"
 
 msgid "Makes authoring ABC easy by validating for errors/warnings as you type within VS Code."
-msgstr "जब आप वीएस कोड में टाइप करते हैं तो त्रुटियों/चेतावनियों को सत्यापित करके एएमपी को लिखना आसान बनाता है।"
+msgstr "जब आप वीएस कोड में टाइप करते हैं तो त्रुटियों/चेतावनियों के लिए सत्यापन करके एएमपी को लिखना आसान बनाता है।"
 
 msgid "React framework that generates ABC and PWA pages from a single codebase."
 msgstr "रिएक्ट फ्रेमवर्क जो एक ही कोडबेस से एएमपी और पीडब्ल्यूए पेज जेनरेट करता है।"
@@ -2568,7 +2974,7 @@ msgid "The ABC Project Roadmap"
 msgstr "एएमपी प्रोजेक्ट रोडमैप"
 
 msgid "This is a high level overview suitable for all audiences. For a more detailed developer view, <a href=\"https://github.com/ampproject/amphtml/projects/43\">head to GitHub.</a>"
-msgstr "यह सभी दर्शकों के लिए उपयुक्त एक उच्च स्तरीय अवलोकन है। अधिक विस्तृत डेवलपर दृश्य के लिए, <a href=\"https://github.com/ampproject/amphtml/projects/43\">GitHub पर जाएं।</a>"
+msgstr "यह सभी दर्शकों के लिए उपयुक्त एक उच्च स्तरीय अवलोकन है। अधिक विस्तृत डेवलपर दृश्य के लिए, <a href=\"https://github.com/ABCproject/ABChtml/projects/43\">GitHub पर जाएं।</a>"
 
 msgid "ABC Story"
 msgstr "एएमपी कहानी"
@@ -2610,7 +3016,7 @@ msgid "Validator"
 msgstr "सत्यापनकर्ता"
 
 msgid "You can often convert your entire archive in days – especially when using common CMS like WordPress or Drupal."
-msgstr "आप अक्सर अपने पूरे संग्रह को दिनों में परिवर्तित कर सकते हैं - खासकर जब वर्डप्रेस या ड्रुपल जैसे सामान्य सीएमएस का उपयोग कर रहे हों।"
+msgstr "आप अक्सर अपने पूरे संग्रह को दिनों में परिवर्तित कर सकते हैं - खासकर जब वर्डप्रेस या ड्रूपल जैसे सामान्य सीएमएस का उपयोग कर रहे हों।"
 
 msgid "All"
 msgstr "सभी"
@@ -2682,7 +3088,7 @@ msgid "Simple Blog"
 msgstr "सरल ब्लॉग"
 
 msgid "Simple Article"
-msgstr "सरल आलेख"
+msgstr "सरल लेख"
 
 msgid "Video"
 msgstr "वीडियो"
@@ -2739,7 +3145,7 @@ msgid "How do Accelerated Mobile Pages work?"
 msgstr "त्वरित मोबाइल पेज कैसे काम करते हैं?"
 
 msgid "<p>Accelerated Mobile Pages are just like any other HTML page, but with a limited set of allowed technical functionality that is defined and governed by the open source ABC spec. Just like all web pages, Accelerated Mobile Pages will load in any modern browser or app webview.</p>\n<p>ABC files take advantage of various technical and architectural approaches that prioritize speed to provide a faster experience for users. ABC developers can use a rich and growing library of web components that offer the ability to embed rich media objects like video and social posts, display advertising, or collect analytics. The goal is not to homogenize how content looks and feels, but instead to build a more common technical core between pages that speeds up load times.</p>\n<p>In addition, ABC files can be cached in the cloud in order to reduce the time content takes to get to a user’s mobile device. By using the ABC format, content producers are making the content in ABC files available to be cached by third parties. Under this type of framework, publishers and advertisers continue to control their content, but platforms can easily cache or mirror the content for optimal delivery speed to users. Google has provided the <a href=\"https://developers.google.com/amp/cache/\">Google ABC Cache</a> that can be used by anyone at no cost, and all ABCs will be cached by the Google ABC Cache. Other companies may build their own ABC cache as well.</p>\n<p>In summary, the goal is that the combination of limited technical functionality with a distribution system built around caching will lead to better performing pages, and increased audience development.</p>"
-msgstr "<p>त्वरित मोबाइल पेज किसी भी अन्य HTML पेज की तरह ही होते हैं, लेकिन अनुमत तकनीकी कार्यक्षमता के एक सीमित सेट के साथ होते हैं जो ओपन सोर्स एएमपी स्पेक द्वारा परिभाषित और नियंत्रित होते हैं। सभी वेब पेजों की तरह, एक्सेलेरेटेड मोबाइल पेज किसी भी आधुनिक ब्राउज़र या ऐप वेबव्यू में लोड होंगे।</p>\n<p>एएमपी फ़ाइलें विभिन्न तकनीकी और वास्तुशिल्प दृष्टिकोणों का लाभ उठाती हैं जो उपयोगकर्ताओं के लिए तेज़ अनुभव प्रदान करने के लिए गति को प्राथमिकता देती हैं। एएमपी डेवलपर्स वेब घटकों की एक समृद्ध और बढ़ती लाइब्रेरी का उपयोग कर सकते हैं जो वीडियो और सामाजिक पोस्ट जैसे समृद्ध मीडिया ऑब्जेक्ट्स को एम्बेड करने, विज्ञापन प्रदर्शित करने या विश्लेषण एकत्र करने की क्षमता प्रदान करते हैं। लक्ष्य यह नहीं है कि सामग्री कैसी दिखती और महसूस होती है, बल्कि पृष्ठों के बीच एक अधिक सामान्य तकनीकी कोर बनाना है जो लोड समय को तेज करता है।</p>\n<p>इसके अलावा, एएमपी फ़ाइलों को क्लाउड में कैश किया जा सकता है उपयोगकर्ता के मोबाइल डिवाइस तक सामग्री पहुंचने में लगने वाले समय को कम करने के लिए। एएमपी प्रारूप का उपयोग करके, सामग्री निर्माता एएमपी फाइलों में सामग्री को तीसरे पक्ष द्वारा कैश किए जाने के लिए उपलब्ध करा रहे हैं। इस प्रकार के ढांचे के तहत, प्रकाशक और विज्ञापनदाता अपनी सामग्री को नियंत्रित करना जारी रखते हैं, लेकिन प्लेटफ़ॉर्म उपयोगकर्ताओं को इष्टतम वितरण गति के लिए सामग्री को आसानी से कैश या मिरर कर सकते हैं। Google ने <a href=\"https://developers.google.com/amp/cache/\">Google ABC कैश</a> प्रदान किया है जिसका उपयोग कोई भी बिना किसी लागत के कर सकता है, और सभी ABC कैश किए जाएंगे Google ABC कैश द्वारा. अन्य कंपनियां भी अपना स्वयं का एएमपी कैश बना सकती हैं।</p>\n<p>संक्षेप में, लक्ष्य यह है कि कैशिंग के आसपास निर्मित वितरण प्रणाली के साथ सीमित तकनीकी कार्यक्षमता के संयोजन से बेहतर प्रदर्शन करने वाले पेज बनेंगे और दर्शकों में वृद्धि होगी विकास.</p>"
+msgstr "<p>त्वरित मोबाइल पेज किसी भी अन्य HTML पेज की तरह ही होते हैं, लेकिन अनुमत तकनीकी कार्यक्षमता के एक सीमित सेट के साथ होते हैं जो ओपन सोर्स एएमपी स्पेक द्वारा परिभाषित और नियंत्रित होते हैं। सभी वेब पेजों की तरह, एक्सेलेरेटेड मोबाइल पेज किसी भी आधुनिक ब्राउज़र या ऐप वेबव्यू में लोड होंगे।</p>\n<p>एएमपी फ़ाइलें विभिन्न तकनीकी और वास्तुशिल्प दृष्टिकोणों का लाभ उठाती हैं जो उपयोगकर्ताओं के लिए तेज़ अनुभव प्रदान करने के लिए गति को प्राथमिकता देती हैं। एएमपी डेवलपर्स वेब घटकों की एक समृद्ध और बढ़ती लाइब्रेरी का उपयोग कर सकते हैं जो वीडियो और सामाजिक पोस्ट जैसे समृद्ध मीडिया ऑब्जेक्ट्स को एम्बेड करने, विज्ञापन प्रदर्शित करने या विश्लेषण एकत्र करने की क्षमता प्रदान करते हैं। लक्ष्य यह नहीं है कि सामग्री कैसी दिखती और महसूस होती है, बल्कि पृष्ठों के बीच एक अधिक सामान्य तकनीकी कोर बनाना है जो लोड समय को तेज करता है।</p>\n<p>इसके अलावा, एएमपी फ़ाइलों को क्लाउड में कैश किया जा सकता है उपयोगकर्ता के मोबाइल डिवाइस तक सामग्री पहुंचने में लगने वाले समय को कम करने के लिए। एएमपी प्रारूप का उपयोग करके, सामग्री निर्माता एएमपी फाइलों में सामग्री को तीसरे पक्ष द्वारा कैश किए जाने के लिए उपलब्ध करा रहे हैं। इस प्रकार के ढांचे के तहत, प्रकाशक और विज्ञापनदाता अपनी सामग्री को नियंत्रित करना जारी रखते हैं, लेकिन प्लेटफ़ॉर्म उपयोगकर्ताओं को इष्टतम वितरण गति के लिए सामग्री को आसानी से कैश या मिरर कर सकते हैं। Google ने <a href=\"https://developers.google.com/ABC/cache/\">Google ABC कैश</a> प्रदान किया है जिसका उपयोग कोई भी बिना किसी लागत के कर सकता है, और सभी ABC कैश किए जाएंगे Google ABC कैश द्वारा. अन्य कंपनियां भी अपना स्वयं का एएमपी कैश बना सकती हैं।</p>\n<p>संक्षेप में, लक्ष्य यह है कि कैशिंग के आसपास निर्मित वितरण प्रणाली के साथ सीमित तकनीकी कार्यक्षमता के संयोजन से बेहतर प्रदर्शन करने वाले पेज बनेंगे और दर्शकों में वृद्धि होगी विकास.</p>"
 
 msgid "Why does the Accelerated Mobile Pages Project take an open source approach?"
 msgstr "एक्सेलरेटेड मोबाइल पेज प्रोजेक्ट ओपन सोर्स दृष्टिकोण क्यों अपनाता है?"
@@ -2757,13 +3163,13 @@ msgid "What are the consequences of using Accelerated Mobile Pages?"
 msgstr "त्वरित मोबाइल पेजों का उपयोग करने के क्या परिणाम होते हैं?"
 
 msgid "<p>By using the ABC format, content producers are making the content in ABC files available to be crawled, indexed &amp; displayed (subject to the robots exclusion protocol) and cached by third parties.</p>"
-msgstr "<p>एएमपी प्रारूप का उपयोग करके, सामग्री निर्माता एएमपी फाइलों में सामग्री को क्रॉल, अनुक्रमित और उपलब्ध कराने के लिए उपलब्ध करा रहे हैं। प्रदर्शित (रोबोट बहिष्करण प्रोटोकॉल के अधीन) और तीसरे पक्ष द्वारा कैश किया गया।</p>"
+msgstr "<p>एएमपी प्रारूप का उपयोग करके, सामग्री निर्माता एएमपी फ़ाइलों में सामग्री को क्रॉल, अनुक्रमित और उपलब्ध कराने के लिए उपलब्ध करा रहे हैं। प्रदर्शित (रोबोट बहिष्करण प्रोटोकॉल के अधीन) और तीसरे पक्ष द्वारा कैश किया गया।</p>"
 
 msgid "What responsibilities do I have when using Accelerated Mobile Pages?"
 msgstr "एक्सेलरेटेड मोबाइल पेज का उपयोग करते समय मेरी क्या जिम्मेदारियाँ हैं?"
 
 msgid "<p>If a publisher or advertiser collects data from users who view its ABC pages, such data collection is governed by their privacy policy.  It is the publisher or advertiser’s responsibility to disclose its privacy policy, ideally by including a link to it within each of their ABC pages.</p>\n<p>Furthermore, the laws in many jurisdictions, such as in the European Union, require a website to give visitors information about cookies and other forms of local storage used on the site (including ABC pages). In many cases, these laws also require that the website obtain consent.  It is the website's responsibility to determine, based on its use of cookies, what type of notice would be appropriate.  Additional information and tools for generating cookie notices can be found at www.cookiechoices.org.  Note that the ABC component <a href=\"/docs/reference/components/amp-user-notification.html\">amp-user-notification</a> provides a way to display a dismissable notification to the user.</p>\n<p>If an ABC page is shown within a viewer on a third party platform, such as a Google ABC Viewer on Google Search, the viewer may be a hybrid environment in which the ABC page and the third party platform may each collect data about the user.  In such a case, data collection by each party is governed by that party’s privacy policy (i.e., in a hybrid viewer environment, data collected by the ABC page is governed by its privacy policy and data collected by the third party platform is governed by the platform’s privacy policy).  It is each party’s responsibility to disclose its privacy policy and comply with relevant data regulations, including European laws relating to its use of cookies.</p>"
-msgstr "<p>यदि कोई प्रकाशक या विज्ञापनदाता उसके एएमपी पेज देखने वाले उपयोगकर्ताओं से डेटा एकत्र करता है, तो ऐसा डेटा संग्रह उनकी गोपनीयता नीति द्वारा नियंत्रित होता है। यह प्रकाशक या विज्ञापनदाता की ज़िम्मेदारी है कि वह अपनी गोपनीयता नीति का खुलासा करे, आदर्श रूप से अपने प्रत्येक एएमपी पृष्ठ में इसका एक लिंक शामिल करके।</p>\n<p>इसके अलावा, कई न्यायालयों में कानून, जैसे कि यूरोपीय संघ में , एक वेबसाइट के लिए आगंतुकों को कुकीज़ और साइट पर उपयोग किए जाने वाले स्थानीय भंडारण के अन्य रूपों (एएमपी पृष्ठों सहित) के बारे में जानकारी देना आवश्यक है। कई मामलों में, इन कानूनों के लिए यह भी आवश्यक है कि वेबसाइट सहमति प्राप्त करे। यह वेबसाइट की ज़िम्मेदारी है कि वह कुकीज़ के उपयोग के आधार पर यह निर्धारित करे कि किस प्रकार का नोटिस उपयुक्त होगा। कुकी नोटिस जनरेट करने के लिए अतिरिक्त जानकारी और उपकरण www.cookiechoices.org पर पाए जा सकते हैं। ध्यान दें कि ABC घटक <a href=\"/docs/reference/components/amp-user-notification.html\">amp-user-notification</a> उपयोगकर्ता को खारिज करने योग्य अधिसूचना प्रदर्शित करने का एक तरीका प्रदान करता है।< /p>\n<p>यदि कोई ABC पृष्ठ किसी तृतीय पक्ष प्लेटफ़ॉर्म पर किसी व्यूअर के भीतर दिखाया जाता है, जैसे कि Google खोज पर Google ABC व्यूअर, तो व्यूअर एक हाइब्रिड वातावरण हो सकता है जिसमें ABC पृष्ठ और तृतीय पक्ष प्लेटफ़ॉर्म प्रत्येक उपयोगकर्ता के बारे में डेटा एकत्र कर सकता है। ऐसे मामले में, प्रत्येक पक्ष द्वारा डेटा संग्रह उस पार्टी की गोपनीयता नीति द्वारा शासित होता है (यानी, हाइब्रिड व्यूअर वातावरण में, एएमपी पेज द्वारा एकत्र किया गया डेटा उसकी गोपनीयता नीति द्वारा नियंत्रित होता है और तीसरे पक्ष प्लेटफ़ॉर्म द्वारा एकत्र किया गया डेटा पार्टी द्वारा नियंत्रित होता है। प्लेटफ़ॉर्म की गोपनीयता नीति)। अपनी गोपनीयता नीति का खुलासा करना और कुकीज़ के उपयोग से संबंधित यूरोपीय कानूनों सहित प्रासंगिक डेटा नियमों का अनुपालन करना प्रत्येक पक्ष की जिम्मेदारी है।</p>"
+msgstr "<p>यदि कोई प्रकाशक या विज्ञापनदाता उसके एएमपी पेज देखने वाले उपयोगकर्ताओं से डेटा एकत्र करता है, तो ऐसा डेटा संग्रह उनकी गोपनीयता नीति द्वारा नियंत्रित होता है। यह प्रकाशक या विज्ञापनदाता की ज़िम्मेदारी है कि वह अपनी गोपनीयता नीति का खुलासा करे, आदर्श रूप से अपने प्रत्येक एएमपी पृष्ठ में इसका एक लिंक शामिल करके।</p>\n<p>इसके अलावा, कई न्यायालयों में कानून, जैसे कि यूरोपीय संघ में , एक वेबसाइट के लिए आगंतुकों को कुकीज़ और साइट पर उपयोग किए जाने वाले स्थानीय भंडारण के अन्य रूपों (एएमपी पृष्ठों सहित) के बारे में जानकारी देना आवश्यक है। कई मामलों में, इन कानूनों के लिए यह भी आवश्यक है कि वेबसाइट सहमति प्राप्त करे। यह वेबसाइट की ज़िम्मेदारी है कि वह कुकीज़ के उपयोग के आधार पर यह निर्धारित करे कि किस प्रकार का नोटिस उपयुक्त होगा। कुकी नोटिस जनरेट करने के लिए अतिरिक्त जानकारी और उपकरण www.cookiechoices.org पर पाए जा सकते हैं। ध्यान दें कि ABC घटक <a href=\"/docs/reference/components/ABC-user-notification.html\">ABC-user-notification</a> उपयोगकर्ता को खारिज करने योग्य अधिसूचना प्रदर्शित करने का एक तरीका प्रदान करता है।< /p>\n<p>यदि कोई ABC पृष्ठ किसी तृतीय पक्ष प्लेटफ़ॉर्म पर किसी व्यूअर के भीतर दिखाया जाता है, जैसे कि Google खोज पर Google ABC व्यूअर, तो व्यूअर एक हाइब्रिड वातावरण हो सकता है जिसमें ABC पृष्ठ और तृतीय पक्ष प्लेटफ़ॉर्म प्रत्येक उपयोगकर्ता के बारे में डेटा एकत्र कर सकता है। ऐसे मामले में, प्रत्येक पक्ष द्वारा डेटा संग्रह उस पार्टी की गोपनीयता नीति द्वारा शासित होता है (यानी, हाइब्रिड व्यूअर वातावरण में, एएमपी पेज द्वारा एकत्र किया गया डेटा उसकी गोपनीयता नीति द्वारा नियंत्रित होता है और तीसरे पक्ष प्लेटफ़ॉर्म द्वारा एकत्र किया गया डेटा पार्टी द्वारा नियंत्रित होता है। प्लेटफ़ॉर्म की गोपनीयता नीति)। अपनी गोपनीयता नीति का खुलासा करना और कुकीज़ के उपयोग से संबंधित यूरोपीय कानूनों सहित प्रासंगिक डेटा नियमों का अनुपालन करना प्रत्येक पक्ष की जिम्मेदारी है।</p>"
 
 msgid "What type of content works best using Accelerated Mobile Pages?"
 msgstr "एक्सेलेरेटेड मोबाइल पेजों का उपयोग करके किस प्रकार की सामग्री सबसे अच्छा काम करती है?"
@@ -2781,7 +3187,7 @@ msgid "How can a publisher or advertiser get content into ABC HTML?"
 msgstr "कोई प्रकाशक या विज्ञापनदाता एएमपी HTML में सामग्री कैसे प्राप्त कर सकता है?"
 
 msgid "<p>Publishers and Content Management System (CMS) providers can develop an integration with their CMS to generate ABC content. Automattic has already published a <a href=\"https://wordpress.org/plugins/amp/\">WordPress ABC plugin</a> and we hope that all content management systems will add support for ABC HTML pages.</p>"
-msgstr "<p>प्रकाशक और सामग्री प्रबंधन प्रणाली (सीएमएस) प्रदाता एएमपी सामग्री उत्पन्न करने के लिए अपने सीएमएस के साथ एक एकीकरण विकसित कर सकते हैं। ऑटोमैटिक ने पहले ही <a href=\"https://wordpress.org/plugins/amp/\">वर्डप्रेस एएमपी प्लगइन</a> प्रकाशित कर दिया है और हमें उम्मीद है कि सभी सामग्री प्रबंधन सिस्टम एएमपी HTML पेजों के लिए समर्थन जोड़ देंगे।< /पी>"
+msgstr "<p>प्रकाशक और सामग्री प्रबंधन प्रणाली (सीएमएस) प्रदाता एएमपी सामग्री उत्पन्न करने के लिए अपने सीएमएस के साथ एक एकीकरण विकसित कर सकते हैं। ऑटोमैटिक ने पहले ही <a href=\"https://wordpress.org/plugins/ABC/\">वर्डप्रेस एएमपी प्लगइन</a> प्रकाशित कर दिया है और हमें उम्मीद है कि सभी सामग्री प्रबंधन सिस्टम एएमपी HTML पेजों के लिए समर्थन जोड़ देंगे।< /पी>"
 
 msgid "Is ABC only for mobile?"
 msgstr "क्या ABC केवल मोबाइल के लिए है?"
@@ -2796,21 +3202,19 @@ msgid "How can a consumer platform get involved in Accelerated Mobile Pages?"
 msgstr "कोई उपभोक्ता प्लेटफ़ॉर्म त्वरित मोबाइल पेजों में कैसे शामिल हो सकता है?"
 
 msgid "<p>The project is open to everyone, and existing members of the project are very enthusiastic to engage with consumer platforms on the initiative. Google has opened its cache for use for free by anyone, including to consumer platforms that would like to display ABC content in their environment. Please get in touch via <a href=\"https://github.com/ampproject/amphtml/issues/new\">GitHub</a> and we will address your questions as quickly as we can.</p>"
-msgstr "<p>परियोजना सभी के लिए खुली है, और परियोजना के मौजूदा सदस्य इस पहल पर उपभोक्ता प्लेटफार्मों के साथ जुड़ने के लिए बहुत उत्साहित हैं। Google ने अपने कैश को किसी भी व्यक्ति के लिए निःशुल्क उपयोग के लिए खोल दिया है, जिसमें उपभोक्ता प्लेटफ़ॉर्म भी शामिल हैं जो अपने परिवेश में ABC सामग्री प्रदर्शित करना चाहते हैं। कृपया <a href=\"https://github.com/ampproject/amphtml/issues/new\">GitHub</a> के माध्यम से संपर्क करें और हम आपके प्रश्नों का यथाशीघ्र समाधान करेंगे।</p>"
+msgstr "<p>परियोजना सभी के लिए खुली है, और परियोजना के मौजूदा सदस्य इस पहल पर उपभोक्ता प्लेटफार्मों के साथ जुड़ने के लिए बहुत उत्साहित हैं। Google ने अपने कैश को किसी भी व्यक्ति के लिए निःशुल्क उपयोग के लिए खोल दिया है, जिसमें उपभोक्ता प्लेटफ़ॉर्म भी शामिल हैं जो अपने परिवेश में ABC सामग्री प्रदर्शित करना चाहते हैं। कृपया <a href=\"https://github.com/ABCproject/ABChtml/issues/new\">GitHub</a> के माध्यम से संपर्क करें और हम आपके प्रश्नों का यथाशीघ्र समाधान करेंगे।</p>"
 
 msgid "How can an advertising or technology vendor get involved in Accelerated Mobile Pages?"
 msgstr "कोई विज्ञापन या प्रौद्योगिकी विक्रेता त्वरित मोबाइल पेजों में कैसे शामिल हो सकता है?"
 
-msgid "<p>Please review the <a href=\"https://github.com/ampproject/amphtml/tree/main/3p
-#ads\">contributing guidelines</a> and get in touch via <a href=\"https://github.com/ampproject/amphtml/issues/new\">GitHub</a>.</p>"
-msgstr "<p>कृपया <a href=\"https://github.com/ampproject/amphtml/tree/main/3p
-#ads\">योगदान दिशानिर्देशों</a> की समीक्षा करें और <a href=\ के माध्यम से संपर्क करें "https://github.com/ampproject/amphtml/issues/new\">GitHub</a>.</p>"
+msgid "<p>Please review the <a href=\"https://github.com/ampproject/amphtml/tree/main/3p#ads\">contributing guidelines</a> and get in touch via <a href=\"https://github.com/ampproject/amphtml/issues/new\">GitHub</a>.</p>"
+msgstr "<p>कृपया <a href=\"https://github.com/ABCproject/ABChtml/tree/main/3p#ads\">योगदान दिशानिर्देशों</a> की समीक्षा करें और <a href=\ के माध्यम से संपर्क करें "https://github.com/ABCproject/ABChtml/issues/new\">GitHub</a>.</p>"
 
 msgid "How does advertising work on Accelerated Mobile Pages?"
 msgstr "त्वरित मोबाइल पेजों पर विज्ञापन कैसे काम करता है?"
 
 msgid "<p>A goal of the Accelerated Mobile Pages Project is to ensure effective ad monetization on the mobile web while embracing a user-centric approach. There is currently support for a comprehensive range of ad formats, ad networks and technologies in Accelerated Mobile Pages. As part of that, those involved with the project are also engaged in crafting Sustainable Ad Practices to ensure that ads in ABC files are fast, safe, compelling and effective for users.</p>"
-msgstr "<p>एक्सीलेरेटेड मोबाइल पेज प्रोजेक्ट का लक्ष्य उपयोगकर्ता-केंद्रित दृष्टिकोण को अपनाते हुए मोबाइल वेब पर प्रभावी विज्ञापन मुद्रीकरण सुनिश्चित करना है। एक्सेलरेटेड मोबाइल पेजों में वर्तमान में विज्ञापन प्रारूपों, विज्ञापन नेटवर्क और प्रौद्योगिकियों की एक विस्तृत श्रृंखला के लिए समर्थन मौजूद है। इसके हिस्से के रूप में, परियोजना से जुड़े लोग यह सुनिश्चित करने के लिए सतत विज्ञापन प्रथाओं को तैयार करने में भी लगे हुए हैं कि एएमपी फ़ाइलों में विज्ञापन उपयोगकर्ताओं के लिए तेज़, सुरक्षित, आकर्षक और प्रभावी हैं।</p>"
+msgstr "<p>एक्सीलेरेटेड मोबाइल पेज प्रोजेक्ट का लक्ष्य उपयोगकर्ता-केंद्रित दृष्टिकोण को अपनाते हुए मोबाइल वेब पर प्रभावी विज्ञापन मुद्रीकरण सुनिश्चित करना है। एक्सेलेरेटेड मोबाइल पेजों में वर्तमान में विज्ञापन प्रारूपों, विज्ञापन नेटवर्क और प्रौद्योगिकियों की एक विस्तृत श्रृंखला के लिए समर्थन मौजूद है। इसके हिस्से के रूप में, परियोजना से जुड़े लोग यह सुनिश्चित करने के लिए सतत विज्ञापन प्रथाओं को तैयार करने में भी लगे हुए हैं कि एएमपी फ़ाइलों में विज्ञापन उपयोगकर्ताओं के लिए तेज़, सुरक्षित, आकर्षक और प्रभावी हैं।</p>"
 
 msgid "Are publishers able to sell their own ad inventory?"
 msgstr "क्या प्रकाशक अपनी स्वयं की विज्ञापन सूची बेचने में सक्षम हैं?"
@@ -2827,10 +3231,8 @@ msgstr "<p>सब्सक्रिप्शन और पेवॉल्स क
 msgid "How are analytics being handled in this ABC format?"
 msgstr "इस एएमपी प्रारूप में एनालिटिक्स को कैसे संभाला जा रहा है?"
 
-msgid "<p>Ensuring publishers are able to get robust analytics insight is a core design goal for the project. ABC currently supports the collection of analytics information using features like amp-analytics, which can integrate with 3rd party systems without compromising the ABC file speed or size. Several analytics providers are <a href=\"/support/faqs/supported-platforms.html
-#analytics\">participating</a> in the project.</p>"
-msgstr "<p>यह सुनिश्चित करना कि प्रकाशक मजबूत एनालिटिक्स अंतर्दृष्टि प्राप्त करने में सक्षम हैं, परियोजना के लिए एक मुख्य डिजाइन लक्ष्य है। एएमपी वर्तमान में एएमपी-एनालिटिक्स जैसी सुविधाओं का उपयोग करके एनालिटिक्स जानकारी के संग्रह का समर्थन करता है, जो एएमपी फ़ाइल की गति या आकार से समझौता किए बिना तीसरे पक्ष के सिस्टम के साथ एकीकृत हो सकता है। कई एनालिटिक्स प्रदाता इस परियोजना में <a href=\"/support/faqs/supported-platforms.html
-#analytics\">भाग ले रहे हैं</a>।</p>"
+msgid "<p>Ensuring publishers are able to get robust analytics insight is a core design goal for the project. ABC currently supports the collection of analytics information using features like amp-analytics, which can integrate with 3rd party systems without compromising the ABC file speed or size. Several analytics providers are <a href=\"/support/faqs/supported-platforms.html#analytics\">participating</a> in the project.</p>"
+msgstr "<p>यह सुनिश्चित करना कि प्रकाशक मजबूत एनालिटिक्स अंतर्दृष्टि प्राप्त करने में सक्षम हैं, परियोजना के लिए एक मुख्य डिजाइन लक्ष्य है। एएमपी वर्तमान में एएमपी-एनालिटिक्स जैसी सुविधाओं का उपयोग करके एनालिटिक्स जानकारी के संग्रह का समर्थन करता है, जो एएमपी फ़ाइल की गति या आकार से समझौता किए बिना तीसरे पक्ष के सिस्टम के साथ एकीकृत हो सकता है। कई एनालिटिक्स प्रदाता इस परियोजना में <a href=\"/support/faqs/supported-platforms.html#analytics\">भाग ले रहे हैं</a>।</p>"
 
 msgid "Do publishers receive credit for the traffic from a measurement perspective?"
 msgstr "क्या माप के दृष्टिकोण से प्रकाशकों को ट्रैफ़िक का श्रेय मिलता है?"
@@ -2842,7 +3244,7 @@ msgid "How do I become a part of this project?"
 msgstr "मैं इस प्रोजेक्ट का हिस्सा कैसे बनूँ?"
 
 msgid "<p>We welcome interested individuals and companies who want to get involved to get in touch via <a href=\"https://github.com/ampproject/amphtml/issues/new\">GitHub</a>, so that we can add you to a distribution list and keep you posted on any new information.</p>"
-msgstr "<p>हम इच्छुक व्यक्तियों और कंपनियों का स्वागत करते हैं जो <a href=\"https://github.com/ampproject/amphtml/issues/new\">GitHub</a> के माध्यम से संपर्क करना चाहते हैं, इसलिए हम आपको वितरण सूची में जोड़ सकते हैं और आपको किसी भी नई जानकारी से अवगत करा सकते हैं।</p>"
+msgstr "<p>हम इच्छुक व्यक्तियों और कंपनियों का स्वागत करते हैं जो <a href=\"https://github.com/ABCproject/ABChtml/issues/new\">GitHub</a> के माध्यम से संपर्क करना चाहते हैं, इसलिए हम आपको वितरण सूची में जोड़ सकते हैं और आपको किसी भी नई जानकारी से अवगत करा सकते हैं।</p>"
 
 msgid "Content Platforms"
 msgstr "सामग्री प्लेटफार्म"
@@ -2881,7 +3283,7 @@ msgid "Serve lightning fast and secure eye-catching creatives."
 msgstr "बिजली की तेजी से और सुरक्षित रूप से आकर्षक क्रिएटिव परोसें।"
 
 msgid "Send emails of the future with personalized dynamic content and interactive elements that engage readers."
-msgstr "वैयक्तिकृत गतिशील सामग्री और पाठकों को संलग्न करने वाले इंटरैक्टिव तत्वों के साथ भविष्य के ईमेल भेजें।"
+msgstr "वैयक्तिकृत गतिशील सामग्री और पाठकों को आकर्षित करने वाले इंटरैक्टिव तत्वों के साथ भविष्य के ईमेल भेजें।"
 
 msgid "The latest news"
 msgstr "ताजा खबर"
@@ -2911,7 +3313,7 @@ msgid "Frameworks and CMSs"
 msgstr "फ्रेमवर्क और सीएमएस"
 
 msgid "Select a ready-to-go framework or integration-enabled CMS to get an ABC valid site up and running, fast. These platforms give you all the benefits of ABC without all the built-from-scratch hassle."
-msgstr "एएमपी वैध साइट को तेजी से चालू करने के लिए रेडी-टू-गो फ्रेमवर्क या एकीकरण-सक्षम सीएमएस का चयन करें। ये प्लेटफ़ॉर्म आपको बिना किसी स्क्रैच परेशानी के एएमपी के सभी लाभ देते हैं।"
+msgstr "एएमपी वैध साइट को तेजी से चालू करने के लिए रेडी-टू-गो फ्रेमवर्क या एकीकरण-सक्षम सीएमएस का चयन करें। ये प्लेटफ़ॉर्म आपको बिना किसी अंतर्निहित परेशानी के एएमपी के सभी लाभ देते हैं।"
 
 msgid "See supported platforms"
 msgstr "समर्थित प्लेटफ़ॉर्म देखें"
