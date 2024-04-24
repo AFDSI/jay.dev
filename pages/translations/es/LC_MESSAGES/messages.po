@@ -2,6 +2,10 @@
 msgid "Knowledge graph applications"
 msgstr "Aplicaciones de gráficos de conocimiento"
 
+#: /content/amp-dev/index-2021.html:6
+msgid "Knowledge graph applications for industry, science and government."
+msgstr "Aplicaciones de gráficos de conocimiento para la industria, la ciencia y el gobierno."
+
 #: /content/amp-dev/index-2021.html:10
 msgid "Electronic Labels"
 msgstr "Etiquetas Electrónicas"
@@ -103,28 +107,28 @@ msgid "Define product identity and impede counterfeits"
 msgstr "Definir la identidad del producto e impedir las falsificaciones"
 
 #: /content/amp-dev/index-2021.html:52
-msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
-msgstr "Utilice la identidad electrónica del producto para impedir reclamaciones y productos falsificados. Cree una nueva etiqueta combinando etiquetas existentes y agregando nueva información. Mejorar la automatización de las máquinas mediante el uso de datos estructurados para controlar las operaciones de las máquinas. Ejemplo: equipos agrícolas calibrados por formulaciones químicas y condiciones ambientales."
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example&#x3a; agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "Utilice la identidad electrónica del producto para impedir reclamaciones y productos falsificados. Cree una nueva etiqueta combinando etiquetas existentes y agregando nueva información. Mejorar la automatización de las máquinas mediante el uso de datos estructurados para controlar las operaciones de las máquinas. Ejemplo&#x3a; equipos agrícolas calibrados por formulaciones químicas y condiciones ambientales."
 
 #: /content/amp-dev/index-2021.html:54
 msgid "Be a friend to Authorities"
 msgstr "Sea amigo de las autoridades"
 
 #: /content/amp-dev/index-2021.html:55
-msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
-msgstr "Product Passport es un complemento electrónico para documentos en papel, como facturas, conocimientos de embarque y hojas de datos de seguridad de materiales. Las autoridades tienen reglas y tarifas locales específicas. Ejemplos: EE.UU./California, Unión Europea, Gran Bretaña, Arabia Saudita, India. Product Passport permite la verificación automatizada de las reglas globales y locales para importaciones y exportaciones."
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples&#x3a; USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "Product Passport es un complemento electrónico para documentos en papel, como facturas, conocimientos de embarque y hojas de datos de seguridad de materiales. Las autoridades tienen reglas y tarifas locales específicas. Ejemplos&#x3a; EE.UU./California, Unión Europea, Gran Bretaña, Arabia Saudita, India. Product Passport permite la verificación automatizada de las reglas globales y locales para importaciones y exportaciones."
 
 #: /content/amp-dev/index-2021.html:57
 msgid "Open standards & open data research"
 msgstr "Estándares abiertos e investigación de datos abiertos"
 
 #: /content/amp-dev/index-2021.html:58
-msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
-msgstr "Transforme datos de estudios científicos individuales en repositorios de datos compartidos. Descubra nuevas soluciones comparando datos de múltiples estudios. Las organizaciones nacionales sincronizan la investigación local e internacional. Ejemplo: FDI-USA comparte datos con FDI-CAN (Canadá), FDI-GBR (Gran Bretaña), FDI-SAU (Arabia Saudita), FDI-IND (India) y otros."
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example&#x3a; FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "Transforme datos de estudios científicos individuales en repositorios de datos compartidos. Descubra nuevas soluciones comparando datos de múltiples estudios. Las organizaciones nacionales sincronizan la investigación local e internacional. Ejemplo&#x3a; FDI-USA comparte datos con FDI-CAN (Canadá), FDI-GBR (Gran Bretaña), FDI-SAU (Arabia Saudita), FDI-IND (India) y otros."
 
 #: /content/amp-dev/index-2021.html:163
-msgid "New technology should aspire to accomplish two goals:"
-msgstr "La nueva tecnología debería aspirar a lograr dos objetivos:"
+msgid "New technology should aspire to accomplish two goals&#x3a;"
+msgstr "La nueva tecnología debería aspirar a lograr dos objetivos&#x3a;"
 
 #: /content/amp-dev/index-2021.html:165
 msgid "Take an existing business process and significantly reduce its total cost of implementation."

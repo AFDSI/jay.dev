@@ -2,6 +2,10 @@
 msgid "Knowledge graph applications"
 msgstr "ज्ञान ग्राफ अनुप्रयोग"
 
+#: /content/amp-dev/index-2021.html:6
+msgid "Knowledge graph applications for industry, science and government."
+msgstr "उद्योग, विज्ञान और सरकार के लिए ज्ञान ग्राफ अनुप्रयोग।"
+
 #: /content/amp-dev/index-2021.html:10
 msgid "Electronic Labels"
 msgstr "इलेक्ट्रॉनिक लेबल"
@@ -103,28 +107,28 @@ msgid "Define product identity and impede counterfeits"
 msgstr "उत्पाद की पहचान परिभाषित करें और नकली उत्पाद को रोकें"
 
 #: /content/amp-dev/index-2021.html:52
-msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
-msgstr "नकली उत्पादों और दावों को रोकने के लिए इलेक्ट्रॉनिक उत्पाद पहचान का उपयोग करें। मौजूदा लेबलों को मिलाकर और नई जानकारी जोड़कर एक नया लेबल बनाएं। मशीन-संचालन को नियंत्रित करने के लिए संरचित डेटा का उपयोग करके मशीन-स्वचालन में सुधार करें। उदाहरण: रासायनिक फॉर्मूलेशन और पर्यावरणीय परिस्थितियों द्वारा अंशांकित कृषि उपकरण।"
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example&#x3a; agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "नकली उत्पादों और दावों को रोकने के लिए इलेक्ट्रॉनिक उत्पाद पहचान का उपयोग करें। मौजूदा लेबलों को मिलाकर और नई जानकारी जोड़कर एक नया लेबल बनाएं। मशीन-संचालन को नियंत्रित करने के लिए संरचित डेटा का उपयोग करके मशीन-स्वचालन में सुधार करें। उदाहरण&#x3a; रासायनिक फॉर्मूलेशन और पर्यावरणीय परिस्थितियों द्वारा अंशांकित कृषि उपकरण।"
 
 #: /content/amp-dev/index-2021.html:54
 msgid "Be a friend to Authorities"
 msgstr "अधिकारियों के मित्र बनें"
 
 #: /content/amp-dev/index-2021.html:55
-msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
-msgstr "उत्पाद पासपोर्ट चालान, बिल ऑफ लीडिंग और सामग्री सुरक्षा डेटा शीट जैसे कागजी दस्तावेजों का एक इलेक्ट्रॉनिक साथी है। अधिकारियों के पास विशिष्ट स्थानीय नियम और टैरिफ हैं। उदाहरण: यूएसए/कैलिफ़ोर्निया, यूरोपीय संघ, ग्रेट ब्रिटेन, सऊदी अरब, भारत। उत्पाद पासपोर्ट आयात और निर्यात के लिए वैश्विक और स्थानीय नियमों के स्वचालित सत्यापन को सक्षम बनाता है।"
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples&#x3a; USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "उत्पाद पासपोर्ट चालान, बिल ऑफ लीडिंग और सामग्री सुरक्षा डेटा शीट जैसे कागजी दस्तावेजों का एक इलेक्ट्रॉनिक साथी है। अधिकारियों के पास विशिष्ट स्थानीय नियम और टैरिफ हैं। उदाहरण&#x3a; यूएसए/कैलिफ़ोर्निया, यूरोपीय संघ, ग्रेट ब्रिटेन, सऊदी अरब, भारत। उत्पाद पासपोर्ट आयात और निर्यात के लिए वैश्विक और स्थानीय नियमों के स्वचालित सत्यापन को सक्षम बनाता है।"
 
 #: /content/amp-dev/index-2021.html:57
 msgid "Open standards & open data research"
 msgstr "खुले मानक और खुला डेटा अनुसंधान"
 
 #: /content/amp-dev/index-2021.html:58
-msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
-msgstr "व्यक्तिगत वैज्ञानिक अध्ययनों से प्राप्त डेटा को साझा डेटा रिपॉजिटरी में परिवर्तित करें। अनेक अध्ययनों के डेटा की तुलना करके नए समाधान खोजें। राष्ट्रीय संगठन स्थानीय और अंतर्राष्ट्रीय अनुसंधान को सिंक्रनाइज़ करते हैं। उदाहरण: FDI-USA FDI-CAN (कनाडा), FDI-GBR (ग्रेट ब्रिटेन), FDI-SAU (सऊदी अरब), FDI-IND (भारत) और अन्य के साथ डेटा साझा करता है।"
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example&#x3a; FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "व्यक्तिगत वैज्ञानिक अध्ययनों से प्राप्त डेटा को साझा डेटा रिपॉजिटरी में परिवर्तित करें। अनेक अध्ययनों के डेटा की तुलना करके नए समाधान खोजें। राष्ट्रीय संगठन स्थानीय और अंतर्राष्ट्रीय अनुसंधान को सिंक्रनाइज़ करते हैं। उदाहरण&#x3a; FDI-USA FDI-CAN (कनाडा), FDI-GBR (ग्रेट ब्रिटेन), FDI-SAU (सऊदी अरब), FDI-IND (भारत) और अन्य के साथ डेटा साझा करता है।"
 
 #: /content/amp-dev/index-2021.html:163
-msgid "New technology should aspire to accomplish two goals:"
-msgstr "नई तकनीक को दो लक्ष्य पूरा करने की आकांक्षा रखनी चाहिए:"
+msgid "New technology should aspire to accomplish two goals&#x3a;"
+msgstr "नई तकनीक को दो लक्ष्य पूरा करने की आकांक्षा रखनी चाहिए&#x3a;"
 
 #: /content/amp-dev/index-2021.html:165
 msgid "Take an existing business process and significantly reduce its total cost of implementation."

@@ -1,3 +1,159 @@
+#: /content/amp-dev/index-2021.html:2
+msgid "Knowledge graph applications"
+msgstr "Aplikasi grafik pengetahuan"
+
+#: /content/amp-dev/index-2021.html:6
+msgid "Knowledge graph applications for industry, science and government."
+msgstr "Aplikasi grafik pengetahuan untuk industri, sains dan pemerintahan."
+
+#: /content/amp-dev/index-2021.html:10
+msgid "Electronic Labels"
+msgstr "Label Elektronik"
+
+#: /content/amp-dev/index-2021.html:11
+msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
+msgstr "Membuat label elektronik dengan informasi produk terperinci dalam format yang dapat dibaca mesin untuk manusia & mesin cerdas lainnya."
+
+#: /content/amp-dev/index-2021.html:12
+msgid "All about Electronic Labels"
+msgstr "Semua tentang Label Elektronik"
+
+#: /content/amp-dev/index-2021.html:15
+msgid "Daily Food"
+msgstr "Makanan Sehari-hari"
+
+#: /content/amp-dev/index-2021.html:16
+msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
+msgstr "Menyajikan informasi rinci tentang makanan dan makanan manusia, makanan hewan dan pakan ternak dalam format yang dapat dibaca mesin. Menyimpan riwayat asupan di Biograf pribadi Anda - pendamping Catatan Kesehatan Elektronik Anda."
+
+#: /content/amp-dev/index-2021.html:17
+msgid "All about Daily Food"
+msgstr "Semua tentang Makanan Sehari-hari"
+
+#: /content/amp-dev/index-2021.html:20
+msgid "Export Import Data"
+msgstr "Ekspor Impor Data"
+
+#: /content/amp-dev/index-2021.html:21
+msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
+msgstr "Membuat Paspor Produk elektronik untuk dipresentasikan kepada organisasi pemerintah yang mengatur kebijakan dan tarif pengendalian perbatasan."
+
+#: /content/amp-dev/index-2021.html:22
+msgid "All about Export Import Data"
+msgstr "Semua tentang Ekspor Impor Data"
+
+#: /content/amp-dev/index-2021.html:25
+msgid "Daily Care"
+msgstr "Perawatan harian"
+
+#: /content/amp-dev/index-2021.html:26
+msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
+msgstr "Menyajikan informasi detail mengenai kosmetik, tekstil, dan bahan kimia rumah tangga dalam format yang dapat dibaca mesin. Menyimpan paparan dan riwayat kontak di Biograf pribadi Anda."
+
+#: /content/amp-dev/index-2021.html:27
+msgid "All about Daily Care"
+msgstr "Semua tentang Perawatan Harian"
+
+#: /content/amp-dev/index-2021.html:30
+msgid "Food Data Institute"
+msgstr "Institut Data Pangan"
+
+#: /content/amp-dev/index-2021.html:31
+msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
+msgstr "Mengembangkan spesifikasi data untuk pangan & pertanian. Melayani repositori untuk mencatat dan membandingkan data penelitian dan menemukan solusi baru."
+
+#: /content/amp-dev/index-2021.html:32
+msgid "All about Food Data Institute"
+msgstr "Semua tentang Institut Data Pangan"
+
+#: /content/amp-dev/index-2021.html:35
+msgid "Ontomatica"
+msgstr "Ontomatika"
+
+#: /content/amp-dev/index-2021.html:36
+msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
+msgstr "Menciptakan informasi yang dapat dibaca mesin tentang makanan, obat-obatan, kosmetik, tekstil, bahan kimia dan komoditas untuk dijual di pasar lokal, nasional dan internasional."
+
+#: /content/amp-dev/index-2021.html:37
+msgid "All about Ontomatica"
+msgstr "Semua tentang Ontomatica"
+
+#: /content/amp-dev/index-2021.html:42
+msgid "Simplify development of knowledge graph applications"
+msgstr "Menyederhanakan pengembangan aplikasi grafik pengetahuan"
+
+#: /content/amp-dev/index-2021.html:43
+msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
+msgstr "Mengembangkan aplikasi menggunakan data terstruktur dan pemrograman fungsional. Bagikan data menggunakan definisi data dan kumpulan data yang dikurasi. Tingkatkan kualitas kumpulan data menggunakan visualisasi dan penalaran mesin. Jaga agar semuanya tetap tersinkronisasi menggunakan Plato (Platform untuk ontologi)."
+
+#: /content/amp-dev/index-2021.html:45
+msgid "Monitor food & drug biochemistry"
+msgstr "Pantau biokimia makanan & obat"
+
+#: /content/amp-dev/index-2021.html:46
+msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
+msgstr "Pantau asupan komponen selama berhari-hari, berminggu-minggu, berbulan-bulan, dan bertahun-tahun menggunakan data elektronik tentang makanan dan obat-obatan. Informasi komposisi dan formulasi kueri yang tidak tersedia pada label tercetak. Pemilik hewan peliharaan memantau makanan dan obat-obatan untuk temannya. Tentukan hubungan antara asupan makanan dan hasil kesehatan."
+
+#: /content/amp-dev/index-2021.html:48
+msgid "Monitor cosmetics, textile & household chemical biochemistry"
+msgstr "Pantau kosmetik, tekstil & biokimia kimia rumah tangga"
+
+#: /content/amp-dev/index-2021.html:49
+msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+msgstr "Pantau penggunaan dan paparan komponen selama berhari-hari, berminggu-minggu, berbulan-bulan, dan bertahun-tahun menggunakan data elektronik tentang kosmetik, tekstil, dan bahan kimia rumah tangga. Menanyakan informasi kimia dan serat yang tidak tersedia pada label tercetak. Tentukan hubungan antara penggunaan/paparan dan hasil kesehatan."
+
+#: /content/amp-dev/index-2021.html:51
+msgid "Define product identity and impede counterfeits"
+msgstr "Tentukan identitas produk dan cegah pemalsuan"
+
+#: /content/amp-dev/index-2021.html:52
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example&#x3a; agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "Gunakan identitas produk elektronik untuk menghalangi produk dan klaim palsu. Buat label baru dengan menggabungkan label yang ada dan menambahkan informasi baru. Tingkatkan otomatisasi mesin dengan menggunakan data terstruktur untuk mengontrol operasi mesin. Contoh&#x3a; peralatan pertanian yang dikalibrasi berdasarkan formulasi kimia dan kondisi lingkungan."
+
+#: /content/amp-dev/index-2021.html:54
+msgid "Be a friend to Authorities"
+msgstr "Jadilah teman bagi Pihak Berwenang"
+
+#: /content/amp-dev/index-2021.html:55
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples&#x3a; USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "Paspor Produk adalah pendamping elektronik untuk dokumen kertas seperti Faktur, Bill of Lading, dan Lembar Data Keamanan Material. Pihak berwenang memiliki peraturan dan tarif lokal yang spesifik. Contoh&#x3a; AS/California, Uni Eropa, Inggris Raya, Arab Saudi, India. Paspor Produk memungkinkan verifikasi otomatis aturan global dan lokal untuk impor dan ekspor."
+
+#: /content/amp-dev/index-2021.html:57
+msgid "Open standards & open data research"
+msgstr "Standar terbuka & penelitian data terbuka"
+
+#: /content/amp-dev/index-2021.html:58
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example&#x3a; FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "Ubah data dari studi ilmiah individual menjadi penyimpanan data bersama. Temukan solusi baru dengan membandingkan data dari berbagai penelitian. Organisasi nasional menyinkronkan penelitian lokal dan internasional. Contoh&#x3a; FDI-USA berbagi data dengan FDI-CAN (Kanada), FDI-GBR (Inggris Raya), FDI-SAU (Arab Saudi), FDI-IND (India), dan lain-lain."
+
+#: /content/amp-dev/index-2021.html:163
+msgid "New technology should aspire to accomplish two goals&#x3a;"
+msgstr "Teknologi baru harus bercita-cita mencapai dua tujuan&#x3a;"
+
+#: /content/amp-dev/index-2021.html:165
+msgid "Take an existing business process and significantly reduce its total cost of implementation."
+msgstr "Ambil proses bisnis yang ada dan kurangi total biaya implementasinya secara signifikan."
+
+#: /content/amp-dev/index-2021.html:168
+msgid "Develop new, productive habits among consumers."
+msgstr "Kembangkan kebiasaan baru yang produktif di kalangan konsumen."
+
+#: /content/amp-dev/index-2021.html:171
+msgid "Consortium members aspire to accomplish both goals."
+msgstr "Anggota konsorsium bercita-cita untuk mencapai kedua tujuan tersebut."
+
+#: /content/amp-dev/index-2021.html:227
+msgid "Learn more about knowledge graph applications"
+msgstr "Pelajari lebih lanjut tentang aplikasi grafik pengetahuan"
+
+#: /content/amp-dev/index-2021.html:228
+msgid "Read case studies from industry, science and government."
+msgstr "Baca studi kasus dari industri, sains, dan pemerintah."
+
+#: /content/amp-dev/index-2021.html:232
+msgid "See all case studies"
+msgstr "Lihat semua studi kasus"
+
 #: /views/partials/case-band.j2:6 /views/partials/case-band.j2:7
 msgid "A screenshot of a website using ABC."
 msgstr "Tangkapan layar situs web yang menggunakan ABC."
@@ -3181,155 +3337,3 @@ msgstr "Sekarang adalah waktunya untuk bertindak."
 
 msgid "The sun is a star."
 msgstr "Matahari adalah bintang."
-
-#: /content/amp-dev/index-2021.html:2
-msgid "Knowledge graph applications"
-msgstr "Aplikasi grafik pengetahuan"
-
-#: /content/amp-dev/index-2021.html:10
-msgid "Electronic Labels"
-msgstr "Label Elektronik"
-
-#: /content/amp-dev/index-2021.html:11
-msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
-msgstr "Membuat label elektronik dengan informasi produk terperinci dalam format yang dapat dibaca mesin untuk manusia & mesin cerdas lainnya."
-
-#: /content/amp-dev/index-2021.html:12
-msgid "All about Electronic Labels"
-msgstr "Semua tentang Label Elektronik"
-
-#: /content/amp-dev/index-2021.html:15
-msgid "Daily Food"
-msgstr "Makanan Sehari-hari"
-
-#: /content/amp-dev/index-2021.html:16
-msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
-msgstr "Menyajikan informasi rinci tentang makanan dan makanan manusia, makanan hewan dan pakan ternak dalam format yang dapat dibaca mesin. Menyimpan riwayat asupan di Biograf pribadi Anda - pendamping Catatan Kesehatan Elektronik Anda."
-
-#: /content/amp-dev/index-2021.html:17
-msgid "All about Daily Food"
-msgstr "Semua tentang Makanan Sehari-hari"
-
-#: /content/amp-dev/index-2021.html:20
-msgid "Export Import Data"
-msgstr "Ekspor Impor Data"
-
-#: /content/amp-dev/index-2021.html:21
-msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
-msgstr "Membuat Paspor Produk elektronik untuk dipresentasikan kepada organisasi pemerintah yang mengatur kebijakan dan tarif pengendalian perbatasan."
-
-#: /content/amp-dev/index-2021.html:22
-msgid "All about Export Import Data"
-msgstr "Semua tentang Ekspor Impor Data"
-
-#: /content/amp-dev/index-2021.html:25
-msgid "Daily Care"
-msgstr "Perawatan harian"
-
-#: /content/amp-dev/index-2021.html:26
-msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
-msgstr "Menyajikan informasi detail mengenai kosmetik, tekstil, dan bahan kimia rumah tangga dalam format yang dapat dibaca mesin. Menyimpan paparan dan riwayat kontak di Biograf pribadi Anda."
-
-#: /content/amp-dev/index-2021.html:27
-msgid "All about Daily Care"
-msgstr "Semua tentang Perawatan Harian"
-
-#: /content/amp-dev/index-2021.html:30
-msgid "Food Data Institute"
-msgstr "Institut Data Pangan"
-
-#: /content/amp-dev/index-2021.html:31
-msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
-msgstr "Mengembangkan spesifikasi data untuk pangan & pertanian. Melayani repositori untuk mencatat dan membandingkan data penelitian dan menemukan solusi baru."
-
-#: /content/amp-dev/index-2021.html:32
-msgid "All about Food Data Institute"
-msgstr "Semua tentang Institut Data Pangan"
-
-#: /content/amp-dev/index-2021.html:35
-msgid "Ontomatica"
-msgstr "Ontomatika"
-
-#: /content/amp-dev/index-2021.html:36
-msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
-msgstr "Menciptakan informasi yang dapat dibaca mesin tentang makanan, obat-obatan, kosmetik, tekstil, bahan kimia dan komoditas untuk dijual di pasar lokal, nasional dan internasional."
-
-#: /content/amp-dev/index-2021.html:37
-msgid "All about Ontomatica"
-msgstr "Semua tentang Ontomatica"
-
-#: /content/amp-dev/index-2021.html:42
-msgid "Simplify development of knowledge graph applications"
-msgstr "Menyederhanakan pengembangan aplikasi grafik pengetahuan"
-
-#: /content/amp-dev/index-2021.html:43
-msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
-msgstr "Mengembangkan aplikasi menggunakan data terstruktur dan pemrograman fungsional. Bagikan data menggunakan definisi data dan kumpulan data yang dikurasi. Tingkatkan kualitas kumpulan data menggunakan visualisasi dan penalaran mesin. Jaga agar semuanya tetap tersinkronisasi menggunakan Plato (Platform untuk ontologi)."
-
-#: /content/amp-dev/index-2021.html:45
-msgid "Monitor food & drug biochemistry"
-msgstr "Pantau biokimia makanan & obat"
-
-#: /content/amp-dev/index-2021.html:46
-msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
-msgstr "Pantau asupan komponen selama berhari-hari, berminggu-minggu, berbulan-bulan, dan bertahun-tahun menggunakan data elektronik tentang makanan dan obat-obatan. Informasi komposisi dan formulasi kueri yang tidak tersedia pada label tercetak. Pemilik hewan peliharaan memantau makanan dan obat-obatan untuk temannya. Tentukan hubungan antara asupan makanan dan hasil kesehatan."
-
-#: /content/amp-dev/index-2021.html:48
-msgid "Monitor cosmetics, textile & household chemical biochemistry"
-msgstr "Pantau kosmetik, tekstil & biokimia kimia rumah tangga"
-
-#: /content/amp-dev/index-2021.html:49
-msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
-msgstr "Pantau penggunaan dan paparan komponen selama berhari-hari, berminggu-minggu, berbulan-bulan, dan bertahun-tahun menggunakan data elektronik tentang kosmetik, tekstil, dan bahan kimia rumah tangga. Menanyakan informasi kimia dan serat yang tidak tersedia pada label tercetak. Tentukan hubungan antara penggunaan/paparan dan hasil kesehatan."
-
-#: /content/amp-dev/index-2021.html:51
-msgid "Define product identity and impede counterfeits"
-msgstr "Tentukan identitas produk dan cegah pemalsuan"
-
-#: /content/amp-dev/index-2021.html:52
-msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
-msgstr "Gunakan identitas produk elektronik untuk menghalangi produk dan klaim palsu. Buat label baru dengan menggabungkan label yang ada dan menambahkan informasi baru. Tingkatkan otomatisasi mesin dengan menggunakan data terstruktur untuk mengontrol operasi mesin. Contoh: peralatan pertanian yang dikalibrasi berdasarkan formulasi kimia dan kondisi lingkungan."
-
-#: /content/amp-dev/index-2021.html:54
-msgid "Be a friend to Authorities"
-msgstr "Jadilah teman bagi Pihak Berwenang"
-
-#: /content/amp-dev/index-2021.html:55
-msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
-msgstr "Paspor Produk adalah pendamping elektronik untuk dokumen kertas seperti Faktur, Bill of Lading, dan Lembar Data Keamanan Material. Pihak berwenang memiliki peraturan dan tarif lokal yang spesifik. Contoh: AS/California, Uni Eropa, Inggris Raya, Arab Saudi, India. Paspor Produk memungkinkan verifikasi otomatis aturan global dan lokal untuk impor dan ekspor."
-
-#: /content/amp-dev/index-2021.html:57
-msgid "Open standards & open data research"
-msgstr "Standar terbuka & penelitian data terbuka"
-
-#: /content/amp-dev/index-2021.html:58
-msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
-msgstr "Ubah data dari studi ilmiah individual menjadi penyimpanan data bersama. Temukan solusi baru dengan membandingkan data dari berbagai penelitian. Organisasi nasional menyinkronkan penelitian lokal dan internasional. Contoh: FDI-USA berbagi data dengan FDI-CAN (Kanada), FDI-GBR (Inggris Raya), FDI-SAU (Arab Saudi), FDI-IND (India), dan lain-lain."
-
-#: /content/amp-dev/index-2021.html:163
-msgid " New technology should aspire to accomplish two goals:"
-msgstr "Teknologi baru harus bercita-cita mencapai dua tujuan:"
-
-#: /content/amp-dev/index-2021.html:165
-msgid " Take an existing business process and significantly reduce its total cost of implementation."
-msgstr "Ambil proses bisnis yang ada dan kurangi total biaya implementasinya secara signifikan."
-
-#: /content/amp-dev/index-2021.html:168
-msgid " Develop new, productive habits among consumers."
-msgstr "Kembangkan kebiasaan baru yang produktif di kalangan konsumen."
-
-#: /content/amp-dev/index-2021.html:171
-msgid " Consortium members aspire to accomplish both goals."
-msgstr "Anggota konsorsium bercita-cita untuk mencapai kedua tujuan tersebut."
-
-#: /content/amp-dev/index-2021.html:227
-msgid " Learn more about knowledge graph applications"
-msgstr "Pelajari lebih lanjut tentang aplikasi grafik pengetahuan"
-
-#: /content/amp-dev/index-2021.html:228
-msgid " Read case studies from industry, science and government."
-msgstr "Baca studi kasus dari industri, sains, dan pemerintah."
-
-#: /content/amp-dev/index-2021.html:232
-msgid " See all case studies"
-msgstr "Lihat semua studi kasus"

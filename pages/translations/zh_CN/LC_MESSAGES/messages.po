@@ -1,3 +1,159 @@
+#: /content/amp-dev/index-2021.html:2
+msgid "Knowledge graph applications"
+msgstr "知识图谱应用"
+
+#: /content/amp-dev/index-2021.html:6
+msgid "Knowledge graph applications for industry, science and government."
+msgstr "工业、科学和政府的知识图应用。"
+
+#: /content/amp-dev/index-2021.html:10
+msgid "Electronic Labels"
+msgstr "电子标签"
+
+#: /content/amp-dev/index-2021.html:11
+msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
+msgstr "以机器可读的格式创建包含详细产品信息的电子标签，供人类和其他智能机器使用。"
+
+#: /content/amp-dev/index-2021.html:12
+msgid "All about Electronic Labels"
+msgstr "关于电子标签"
+
+#: /content/amp-dev/index-2021.html:15
+msgid "Daily Food"
+msgstr "日常饮食"
+
+#: /content/amp-dev/index-2021.html:16
+msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
+msgstr "以机器可读的格式提供有关人类食品和膳食、宠物食品和动物饲料的详细信息。将摄入历史记录存储在您的个人传记中 - 与您的电子健康记录配套。"
+
+#: /content/amp-dev/index-2021.html:17
+msgid "All about Daily Food"
+msgstr "关于日常饮食的一切"
+
+#: /content/amp-dev/index-2021.html:20
+msgid "Export Import Data"
+msgstr "导出导入数据"
+
+#: /content/amp-dev/index-2021.html:21
+msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
+msgstr "创建电子产品护照，以提交给管理边境管制政策和关税的政府组织。"
+
+#: /content/amp-dev/index-2021.html:22
+msgid "All about Export Import Data"
+msgstr "关于导出导入数据的所有信息"
+
+#: /content/amp-dev/index-2021.html:25
+msgid "Daily Care"
+msgstr "日常护理"
+
+#: /content/amp-dev/index-2021.html:26
+msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
+msgstr "以机器可读的格式提供有关化妆品、纺织品和家用化学品的详细信息。将接触史和接触史存储在您的个人传记中。"
+
+#: /content/amp-dev/index-2021.html:27
+msgid "All about Daily Care"
+msgstr "关于日常护理的一切"
+
+#: /content/amp-dev/index-2021.html:30
+msgid "Food Data Institute"
+msgstr "食品数据研究所"
+
+#: /content/amp-dev/index-2021.html:31
+msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
+msgstr "制定粮食和农业数据规范。提供用于记录和比较研究数据并发现新解决方案的存储库。"
+
+#: /content/amp-dev/index-2021.html:32
+msgid "All about Food Data Institute"
+msgstr "关于食品数据研究所"
+
+#: /content/amp-dev/index-2021.html:35
+msgid "Ontomatica"
+msgstr "本体论"
+
+#: /content/amp-dev/index-2021.html:36
+msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
+msgstr "创建有关食品、药品、化妆品、纺织品、化学品和商品的机器可读信息，以便在本地、国家和国际市场上销售。"
+
+#: /content/amp-dev/index-2021.html:37
+msgid "All about Ontomatica"
+msgstr "关于 Ontomatica"
+
+#: /content/amp-dev/index-2021.html:42
+msgid "Simplify development of knowledge graph applications"
+msgstr "简化知识图应用的开发"
+
+#: /content/amp-dev/index-2021.html:43
+msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
+msgstr "使用结构化数据和函数式编程开发应用程序。使用精选的数据定义和数据集共享数据。使用可视化和机器推理提高数据集质量。使用 Plato（本体平台）保持一切同步。"
+
+#: /content/amp-dev/index-2021.html:45
+msgid "Monitor food & drug biochemistry"
+msgstr "监测食品和药物生物化学"
+
+#: /content/amp-dev/index-2021.html:46
+msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
+msgstr "使用食品和药物的电子数据监测数天、数周、数月和数年的成分摄入量。查询打印标签上没有的成分和配方信息。宠物主人会监控同伴的食物和药物。确定食物摄入量和健康结果之间的联系。"
+
+#: /content/amp-dev/index-2021.html:48
+msgid "Monitor cosmetics, textile & household chemical biochemistry"
+msgstr "监测化妆品、纺织和家用化学生物化学"
+
+#: /content/amp-dev/index-2021.html:49
+msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+msgstr "使用有关化妆品、纺织品和家用化学品的电子数据，监控数天、数周、数月和数年的组件使用和暴露情况。查询打印标签上没有的化学和纤维信息。确定使用/暴露与健康结果之间的联系。"
+
+#: /content/amp-dev/index-2021.html:51
+msgid "Define product identity and impede counterfeits"
+msgstr "定义产品标识并阻止假冒"
+
+#: /content/amp-dev/index-2021.html:52
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example&#x3a; agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "使用电子产品身份来阻止假冒产品和索赔。通过组合现有标签并添加新信息来创建新标签。通过使用结构化数据控制机器操作来提高机器自动化。示例：通过化学配方和环境条件校准的农业设备。"
+
+#: /content/amp-dev/index-2021.html:54
+msgid "Be a friend to Authorities"
+msgstr "成为当局的朋友"
+
+#: /content/amp-dev/index-2021.html:55
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples&#x3a; USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "产品护照是发票、提单和材料安全数据表等纸质文档的电子伴侣。当局有具体的当地规则和关税。示例：美国/加利福尼亚、欧盟、英国、沙特阿拉伯、印度。 Product Passport 可自动验证全球和本地进出口规则。"
+
+#: /content/amp-dev/index-2021.html:57
+msgid "Open standards & open data research"
+msgstr "开放标准和开放数据研究"
+
+#: /content/amp-dev/index-2021.html:58
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example&#x3a; FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "将个人科学研究的数据转换为共享数据存储库。通过比较多项研究的数据发现新的解决方案。国家组织同步本地和国际研究。示例：FDI-USA 与 FDI-CAN（加拿大）、FDI-GBR（英国）、FDI-SAU（沙特阿拉伯）、FDI-IND（印度）等共享数据。"
+
+#: /content/amp-dev/index-2021.html:163
+msgid "New technology should aspire to accomplish two goals&#x3a;"
+msgstr "新技术应该致力于实现两个目标："
+
+#: /content/amp-dev/index-2021.html:165
+msgid "Take an existing business process and significantly reduce its total cost of implementation."
+msgstr "采用现有的业务流程并显着降低其实施总成本。"
+
+#: /content/amp-dev/index-2021.html:168
+msgid "Develop new, productive habits among consumers."
+msgstr "在消费者中培养新的、高效的习惯。"
+
+#: /content/amp-dev/index-2021.html:171
+msgid "Consortium members aspire to accomplish both goals."
+msgstr "联盟成员渴望实现这两个目标。"
+
+#: /content/amp-dev/index-2021.html:227
+msgid "Learn more about knowledge graph applications"
+msgstr "了解更多知识图谱应用"
+
+#: /content/amp-dev/index-2021.html:228
+msgid "Read case studies from industry, science and government."
+msgstr "阅读来自工业、科学和政府的案例研究。"
+
+#: /content/amp-dev/index-2021.html:232
+msgid "See all case studies"
+msgstr "查看所有案例研究"
+
 #: /views/partials/case-band.j2:6 /views/partials/case-band.j2:7
 msgid "A screenshot of a website using ABC."
 msgstr "一张使用 ABC 的网站的屏幕截图。"
@@ -3174,155 +3330,3 @@ msgstr "现在是行动的时候了。"
 
 msgid "The sun is a star."
 msgstr "太阳是一颗星星。"
-
-#: /content/amp-dev/index-2021.html:2
-msgid "Knowledge graph applications"
-msgstr "知识图谱应用"
-
-#: /content/amp-dev/index-2021.html:10
-msgid "Electronic Labels"
-msgstr "电子标签"
-
-#: /content/amp-dev/index-2021.html:11
-msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
-msgstr "以机器可读的格式创建包含详细产品信息的电子标签，供人类和其他智能机器使用。"
-
-#: /content/amp-dev/index-2021.html:12
-msgid "All about Electronic Labels"
-msgstr "关于电子标签"
-
-#: /content/amp-dev/index-2021.html:15
-msgid "Daily Food"
-msgstr "日常饮食"
-
-#: /content/amp-dev/index-2021.html:16
-msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
-msgstr "以机器可读的格式提供有关人类食品和膳食、宠物食品和动物饲料的详细信息。将摄入历史记录存储在您的个人传记中 - 与您的电子健康记录配套。"
-
-#: /content/amp-dev/index-2021.html:17
-msgid "All about Daily Food"
-msgstr "关于日常饮食的一切"
-
-#: /content/amp-dev/index-2021.html:20
-msgid "Export Import Data"
-msgstr "导出导入数据"
-
-#: /content/amp-dev/index-2021.html:21
-msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
-msgstr "创建电子产品护照，以提交给管理边境管制政策和关税的政府组织。"
-
-#: /content/amp-dev/index-2021.html:22
-msgid "All about Export Import Data"
-msgstr "关于导出导入数据的所有信息"
-
-#: /content/amp-dev/index-2021.html:25
-msgid "Daily Care"
-msgstr "日常护理"
-
-#: /content/amp-dev/index-2021.html:26
-msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
-msgstr "以机器可读的格式提供有关化妆品、纺织品和家用化学品的详细信息。将接触史和接触史存储在您的个人传记中。"
-
-#: /content/amp-dev/index-2021.html:27
-msgid "All about Daily Care"
-msgstr "关于日常护理的一切"
-
-#: /content/amp-dev/index-2021.html:30
-msgid "Food Data Institute"
-msgstr "食品数据研究所"
-
-#: /content/amp-dev/index-2021.html:31
-msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
-msgstr "制定粮食和农业数据规范。提供用于记录和比较研究数据并发现新解决方案的存储库。"
-
-#: /content/amp-dev/index-2021.html:32
-msgid "All about Food Data Institute"
-msgstr "关于食品数据研究所"
-
-#: /content/amp-dev/index-2021.html:35
-msgid "Ontomatica"
-msgstr "本体论"
-
-#: /content/amp-dev/index-2021.html:36
-msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
-msgstr "创建有关食品、药品、化妆品、纺织品、化学品和商品的机器可读信息，以便在本地、国家和国际市场上销售。"
-
-#: /content/amp-dev/index-2021.html:37
-msgid "All about Ontomatica"
-msgstr "关于 Ontomatica"
-
-#: /content/amp-dev/index-2021.html:42
-msgid "Simplify development of knowledge graph applications"
-msgstr "简化知识图应用的开发"
-
-#: /content/amp-dev/index-2021.html:43
-msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
-msgstr "使用结构化数据和函数式编程开发应用程序。使用精选的数据定义和数据集共享数据。使用可视化和机器推理提高数据集质量。使用 Plato（本体平台）保持一切同步。"
-
-#: /content/amp-dev/index-2021.html:45
-msgid "Monitor food & drug biochemistry"
-msgstr "监测食品和药物生物化学"
-
-#: /content/amp-dev/index-2021.html:46
-msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
-msgstr "使用食品和药物的电子数据监测数天、数周、数月和数年的成分摄入量。查询打印标签上没有的成分和配方信息。宠物主人会监控同伴的食物和药物。确定食物摄入量和健康结果之间的联系。"
-
-#: /content/amp-dev/index-2021.html:48
-msgid "Monitor cosmetics, textile & household chemical biochemistry"
-msgstr "监测化妆品、纺织和家用化学生物化学"
-
-#: /content/amp-dev/index-2021.html:49
-msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
-msgstr "使用有关化妆品、纺织品和家用化学品的电子数据，监控数天、数周、数月和数年的组件使用和暴露情况。查询打印标签上没有的化学和纤维信息。确定使用/暴露与健康结果之间的联系。"
-
-#: /content/amp-dev/index-2021.html:51
-msgid "Define product identity and impede counterfeits"
-msgstr "定义产品标识并阻止假冒"
-
-#: /content/amp-dev/index-2021.html:52
-msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
-msgstr "使用电子产品身份来阻止假冒产品和索赔。通过组合现有标签并添加新信息来创建新标签。通过使用结构化数据控制机器操作来提高机器自动化。示例：通过化学配方和环境条件校准的农业设备。"
-
-#: /content/amp-dev/index-2021.html:54
-msgid "Be a friend to Authorities"
-msgstr "成为当局的朋友"
-
-#: /content/amp-dev/index-2021.html:55
-msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
-msgstr "产品护照是发票、提单和材料安全数据表等纸质文档的电子伴侣。当局有具体的当地规则和关税。示例：美国/加利福尼亚、欧盟、英国、沙特阿拉伯、印度。 Product Passport 可自动验证全球和本地进出口规则。"
-
-#: /content/amp-dev/index-2021.html:57
-msgid "Open standards & open data research"
-msgstr "开放标准和开放数据研究"
-
-#: /content/amp-dev/index-2021.html:58
-msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
-msgstr "将个人科学研究的数据转换为共享数据存储库。通过比较多项研究的数据发现新的解决方案。国家组织同步本地和国际研究。示例：FDI-USA 与 FDI-CAN（加拿大）、FDI-GBR（英国）、FDI-SAU（沙特阿拉伯）、FDI-IND（印度）等共享数据。"
-
-#: /content/amp-dev/index-2021.html:163
-msgid " New technology should aspire to accomplish two goals:"
-msgstr "新技术应该致力于实现两个目标："
-
-#: /content/amp-dev/index-2021.html:165
-msgid " Take an existing business process and significantly reduce its total cost of implementation."
-msgstr "采用现有的业务流程并显着降低其实施总成本。"
-
-#: /content/amp-dev/index-2021.html:168
-msgid " Develop new, productive habits among consumers."
-msgstr "在消费者中培养新的、高效的习惯。"
-
-#: /content/amp-dev/index-2021.html:171
-msgid " Consortium members aspire to accomplish both goals."
-msgstr "联盟成员渴望实现这两个目标。"
-
-#: /content/amp-dev/index-2021.html:227
-msgid " Learn more about knowledge graph applications"
-msgstr "了解更多知识图谱应用"
-
-#: /content/amp-dev/index-2021.html:228
-msgid " Read case studies from industry, science and government."
-msgstr "阅读来自工业、科学和政府的案例研究。"
-
-#: /content/amp-dev/index-2021.html:232
-msgid " See all case studies"
-msgstr "查看所有案例研究"

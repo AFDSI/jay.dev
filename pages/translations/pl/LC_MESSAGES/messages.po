@@ -1,3 +1,159 @@
+#: /content/amp-dev/index-2021.html:2
+msgid "Knowledge graph applications"
+msgstr "Aplikacje oparte na grafach wiedzy"
+
+#: /content/amp-dev/index-2021.html:6
+msgid "Knowledge graph applications for industry, science and government."
+msgstr "Aplikacje wykresów wiedzy dla przemysłu, nauki i rządu."
+
+#: /content/amp-dev/index-2021.html:10
+msgid "Electronic Labels"
+msgstr "Etykiety elektroniczne"
+
+#: /content/amp-dev/index-2021.html:11
+msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
+msgstr "Tworzenie etykiet elektronicznych zawierających szczegółowe informacje o produkcie w formacie do odczytu maszynowego dla ludzi i innych inteligentnych maszyn."
+
+#: /content/amp-dev/index-2021.html:12
+msgid "All about Electronic Labels"
+msgstr "Wszystko o etykietach elektronicznych"
+
+#: /content/amp-dev/index-2021.html:15
+msgid "Daily Food"
+msgstr "Codzienne jedzenie"
+
+#: /content/amp-dev/index-2021.html:16
+msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
+msgstr "Udostępnianie szczegółowych informacji na temat żywności i posiłków dla ludzi, karmy dla zwierząt domowych i pasz dla zwierząt w formacie do odczytu maszynowego. Przechowywanie historii spożycia w Twoim osobistym Biografie – towarzyszu Twojej Elektronicznej Dokumentacji Zdrowia."
+
+#: /content/amp-dev/index-2021.html:17
+msgid "All about Daily Food"
+msgstr "Wszystko o codziennym jedzeniu"
+
+#: /content/amp-dev/index-2021.html:20
+msgid "Export Import Data"
+msgstr "Eksportuj Importuj dane"
+
+#: /content/amp-dev/index-2021.html:21
+msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
+msgstr "Tworzenie elektronicznych paszportów produktów do prezentacji organizacjom rządowym zarządzającym polityką kontroli granicznej i taryfami."
+
+#: /content/amp-dev/index-2021.html:22
+msgid "All about Export Import Data"
+msgstr "Wszystko na temat eksportu importu danych"
+
+#: /content/amp-dev/index-2021.html:25
+msgid "Daily Care"
+msgstr "Codzienna opieka"
+
+#: /content/amp-dev/index-2021.html:26
+msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
+msgstr "Udostępnianie szczegółowych informacji na temat kosmetyków, tekstyliów i chemii gospodarczej w formacie do odczytu maszynowego. Przechowywanie historii ekspozycji i kontaktów w Twojej osobistej biografii."
+
+#: /content/amp-dev/index-2021.html:27
+msgid "All about Daily Care"
+msgstr "Wszystko o codziennej pielęgnacji"
+
+#: /content/amp-dev/index-2021.html:30
+msgid "Food Data Institute"
+msgstr "Instytut Danych o Żywności"
+
+#: /content/amp-dev/index-2021.html:31
+msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
+msgstr "Opracowywanie specyfikacji danych dla żywności i rolnictwa. Obsługa repozytoriów umożliwiających rejestrację i porównywanie danych badawczych oraz odkrywanie nowych rozwiązań."
+
+#: /content/amp-dev/index-2021.html:32
+msgid "All about Food Data Institute"
+msgstr "Wszystko o Instytucie Danych o Żywności"
+
+#: /content/amp-dev/index-2021.html:35
+msgid "Ontomatica"
+msgstr "Ontomatica"
+
+#: /content/amp-dev/index-2021.html:36
+msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
+msgstr "Tworzenie czytelnych maszynowo informacji o żywności, lekach, kosmetykach, tekstyliach, chemikaliach i towarach do sprzedaży na rynkach lokalnych, krajowych i międzynarodowych."
+
+#: /content/amp-dev/index-2021.html:37
+msgid "All about Ontomatica"
+msgstr "Wszystko o Ontomatice"
+
+#: /content/amp-dev/index-2021.html:42
+msgid "Simplify development of knowledge graph applications"
+msgstr "Uprość tworzenie aplikacji wykorzystujących wykresy wiedzy"
+
+#: /content/amp-dev/index-2021.html:43
+msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
+msgstr "Twórz aplikacje z wykorzystaniem danych strukturalnych i programowania funkcjonalnego. Udostępniaj dane, korzystając z wybranych definicji danych i zestawów danych. Popraw jakość zbioru danych za pomocą wizualizacji i rozumowania maszynowego. Synchronizuj wszystko za pomocą Plato (platforma ontologii)."
+
+#: /content/amp-dev/index-2021.html:45
+msgid "Monitor food & drug biochemistry"
+msgstr "Monitoruj biochemię żywności i leków"
+
+#: /content/amp-dev/index-2021.html:46
+msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
+msgstr "Monitoruj spożycie składników w ciągu dni, tygodni, miesięcy i lat, korzystając z elektronicznych danych o żywności i lekach. Zapytaj o informacje dotyczące składu i receptury, które nie są dostępne na drukowanych etykietach. Właściciele zwierząt monitorują żywność i leki dla swoich towarzyszy. Określenie powiązań między spożyciem żywności a wynikami zdrowotnymi."
+
+#: /content/amp-dev/index-2021.html:48
+msgid "Monitor cosmetics, textile & household chemical biochemistry"
+msgstr "Monitoruj biochemię kosmetyków, tekstyliów i chemii gospodarczej"
+
+#: /content/amp-dev/index-2021.html:49
+msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+msgstr "Monitoruj użycie i narażenie na składniki w ciągu dni, tygodni, miesięcy i lat, korzystając z elektronicznych danych o kosmetykach, tekstyliach i chemii gospodarczej. Zapytaj o informacje dotyczące substancji chemicznych i włókien, które nie są dostępne na drukowanej etykiecie. Określ powiązania między stosowaniem/narażeniem a skutkami zdrowotnymi."
+
+#: /content/amp-dev/index-2021.html:51
+msgid "Define product identity and impede counterfeits"
+msgstr "Zdefiniuj tożsamość produktu i zapobiegaj podróbkom"
+
+#: /content/amp-dev/index-2021.html:52
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example&#x3a; agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "Używaj elektronicznej identyfikacji produktów, aby utrudniać podrabianie produktów i zgłaszanie roszczeń. Utwórz nową etykietę, łącząc istniejące etykiety i dodając nowe informacje. Ulepsz automatyzację maszyn, wykorzystując ustrukturyzowane dane do kontrolowania operacji maszyn. Przykład&#x3a; sprzęt rolniczy skalibrowany na podstawie składów chemicznych i warunków środowiskowych."
+
+#: /content/amp-dev/index-2021.html:54
+msgid "Be a friend to Authorities"
+msgstr "Bądź przyjacielem władz"
+
+#: /content/amp-dev/index-2021.html:55
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples&#x3a; USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "Paszport produktu jest elektronicznym uzupełnieniem dokumentów papierowych, takich jak faktura, list przewozowy i karta charakterystyki materiału. Władze mają określone lokalne zasady i taryfy. Przykłady&#x3a; USA/Kalifornia, Unia Europejska, Wielka Brytania, Arabia Saudyjska, Indie. Paszport Produktu umożliwia automatyczną weryfikację globalnych i lokalnych zasad importu i eksportu."
+
+#: /content/amp-dev/index-2021.html:57
+msgid "Open standards & open data research"
+msgstr "Otwarte standardy i badania otwartych danych"
+
+#: /content/amp-dev/index-2021.html:58
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example&#x3a; FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "Przekształcaj dane z indywidualnych badań naukowych we wspólne repozytoria danych. Odkryj nowe rozwiązania, porównując dane z wielu badań. Organizacje krajowe synchronizują badania lokalne i międzynarodowe. Przykład&#x3a; FDI-USA udostępnia dane FDI-CAN (Kanada), FDI-GBR (Wielka Brytania), FDI-SAU (Arabia Saudyjska), FDI-IND (Indie) i innym."
+
+#: /content/amp-dev/index-2021.html:163
+msgid "New technology should aspire to accomplish two goals&#x3a;"
+msgstr "Nowa technologia powinna dążyć do osiągnięcia dwóch celów&#x3a;"
+
+#: /content/amp-dev/index-2021.html:165
+msgid "Take an existing business process and significantly reduce its total cost of implementation."
+msgstr "Wykorzystaj istniejący proces biznesowy i znacznie obniż całkowity koszt jego wdrożenia."
+
+#: /content/amp-dev/index-2021.html:168
+msgid "Develop new, productive habits among consumers."
+msgstr "Rozwijaj nowe, produktywne nawyki wśród konsumentów."
+
+#: /content/amp-dev/index-2021.html:171
+msgid "Consortium members aspire to accomplish both goals."
+msgstr "Członkowie konsorcjum dążą do osiągnięcia obu celów."
+
+#: /content/amp-dev/index-2021.html:227
+msgid "Learn more about knowledge graph applications"
+msgstr "Dowiedz się więcej o aplikacjach wykorzystujących wykresy wiedzy"
+
+#: /content/amp-dev/index-2021.html:228
+msgid "Read case studies from industry, science and government."
+msgstr "Przeczytaj studia przypadków z branży, nauki i rządu."
+
+#: /content/amp-dev/index-2021.html:232
+msgid "See all case studies"
+msgstr "Zobacz wszystkie studia przypadków"
+
 #: /views/partials/case-band.j2:6 /views/partials/case-band.j2:7
 msgid "A screenshot of a website using ABC."
 msgstr "Zrzut ekranu witryny internetowej korzystającej z ABC."
@@ -3174,155 +3330,3 @@ msgstr "Teraz jest czas na działania."
 
 msgid "The sun is a star."
 msgstr "Słońce jest gwiazdą."
-
-#: /content/amp-dev/index-2021.html:2
-msgid "Knowledge graph applications"
-msgstr "Aplikacje oparte na grafach wiedzy"
-
-#: /content/amp-dev/index-2021.html:10
-msgid "Electronic Labels"
-msgstr "Etykiety elektroniczne"
-
-#: /content/amp-dev/index-2021.html:11
-msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
-msgstr "Tworzenie etykiet elektronicznych zawierających szczegółowe informacje o produkcie w formacie do odczytu maszynowego dla ludzi i innych inteligentnych maszyn."
-
-#: /content/amp-dev/index-2021.html:12
-msgid "All about Electronic Labels"
-msgstr "Wszystko o etykietach elektronicznych"
-
-#: /content/amp-dev/index-2021.html:15
-msgid "Daily Food"
-msgstr "Codzienne jedzenie"
-
-#: /content/amp-dev/index-2021.html:16
-msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
-msgstr "Udostępnianie szczegółowych informacji na temat żywności i posiłków dla ludzi, karmy dla zwierząt domowych i pasz dla zwierząt w formacie do odczytu maszynowego. Przechowywanie historii spożycia w Twoim osobistym Biografie – towarzyszu Twojej Elektronicznej Dokumentacji Zdrowia."
-
-#: /content/amp-dev/index-2021.html:17
-msgid "All about Daily Food"
-msgstr "Wszystko o codziennym jedzeniu"
-
-#: /content/amp-dev/index-2021.html:20
-msgid "Export Import Data"
-msgstr "Eksportuj Importuj dane"
-
-#: /content/amp-dev/index-2021.html:21
-msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
-msgstr "Tworzenie elektronicznych paszportów produktów do prezentacji organizacjom rządowym zarządzającym polityką kontroli granicznej i taryfami."
-
-#: /content/amp-dev/index-2021.html:22
-msgid "All about Export Import Data"
-msgstr "Wszystko na temat eksportu importu danych"
-
-#: /content/amp-dev/index-2021.html:25
-msgid "Daily Care"
-msgstr "Codzienna opieka"
-
-#: /content/amp-dev/index-2021.html:26
-msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
-msgstr "Udostępnianie szczegółowych informacji na temat kosmetyków, tekstyliów i chemii gospodarczej w formacie do odczytu maszynowego. Przechowywanie historii ekspozycji i kontaktów w Twojej osobistej biografii."
-
-#: /content/amp-dev/index-2021.html:27
-msgid "All about Daily Care"
-msgstr "Wszystko o codziennej pielęgnacji"
-
-#: /content/amp-dev/index-2021.html:30
-msgid "Food Data Institute"
-msgstr "Instytut Danych o Żywności"
-
-#: /content/amp-dev/index-2021.html:31
-msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
-msgstr "Opracowywanie specyfikacji danych dla żywności i rolnictwa. Obsługa repozytoriów umożliwiających rejestrację i porównywanie danych badawczych oraz odkrywanie nowych rozwiązań."
-
-#: /content/amp-dev/index-2021.html:32
-msgid "All about Food Data Institute"
-msgstr "Wszystko o Instytucie Danych o Żywności"
-
-#: /content/amp-dev/index-2021.html:35
-msgid "Ontomatica"
-msgstr "Ontomatica"
-
-#: /content/amp-dev/index-2021.html:36
-msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
-msgstr "Tworzenie czytelnych maszynowo informacji o żywności, lekach, kosmetykach, tekstyliach, chemikaliach i towarach do sprzedaży na rynkach lokalnych, krajowych i międzynarodowych."
-
-#: /content/amp-dev/index-2021.html:37
-msgid "All about Ontomatica"
-msgstr "Wszystko o Ontomatice"
-
-#: /content/amp-dev/index-2021.html:42
-msgid "Simplify development of knowledge graph applications"
-msgstr "Uprość tworzenie aplikacji wykorzystujących wykresy wiedzy"
-
-#: /content/amp-dev/index-2021.html:43
-msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
-msgstr "Twórz aplikacje z wykorzystaniem danych strukturalnych i programowania funkcjonalnego. Udostępniaj dane, korzystając z wybranych definicji danych i zestawów danych. Popraw jakość zbioru danych za pomocą wizualizacji i rozumowania maszynowego. Synchronizuj wszystko za pomocą Plato (platforma ontologii)."
-
-#: /content/amp-dev/index-2021.html:45
-msgid "Monitor food & drug biochemistry"
-msgstr "Monitoruj biochemię żywności i leków"
-
-#: /content/amp-dev/index-2021.html:46
-msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
-msgstr "Monitoruj spożycie składników w ciągu dni, tygodni, miesięcy i lat, korzystając z elektronicznych danych o żywności i lekach. Zapytaj o informacje dotyczące składu i receptury, które nie są dostępne na drukowanych etykietach. Właściciele zwierząt monitorują żywność i leki dla swoich towarzyszy. Określenie powiązań między spożyciem żywności a wynikami zdrowotnymi."
-
-#: /content/amp-dev/index-2021.html:48
-msgid "Monitor cosmetics, textile & household chemical biochemistry"
-msgstr "Monitoruj biochemię kosmetyków, tekstyliów i chemii gospodarczej"
-
-#: /content/amp-dev/index-2021.html:49
-msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
-msgstr "Monitoruj użycie i narażenie na składniki w ciągu dni, tygodni, miesięcy i lat, korzystając z elektronicznych danych o kosmetykach, tekstyliach i chemii gospodarczej. Zapytaj o informacje dotyczące substancji chemicznych i włókien, które nie są dostępne na drukowanej etykiecie. Określ powiązania między stosowaniem/narażeniem a skutkami zdrowotnymi."
-
-#: /content/amp-dev/index-2021.html:51
-msgid "Define product identity and impede counterfeits"
-msgstr "Zdefiniuj tożsamość produktu i zapobiegaj podróbkom"
-
-#: /content/amp-dev/index-2021.html:52
-msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
-msgstr "Używaj elektronicznej identyfikacji produktów, aby utrudniać podrabianie produktów i zgłaszanie roszczeń. Utwórz nową etykietę, łącząc istniejące etykiety i dodając nowe informacje. Ulepsz automatyzację maszyn, wykorzystując ustrukturyzowane dane do kontrolowania operacji maszyn. Przykład: sprzęt rolniczy skalibrowany na podstawie składów chemicznych i warunków środowiskowych."
-
-#: /content/amp-dev/index-2021.html:54
-msgid "Be a friend to Authorities"
-msgstr "Bądź przyjacielem władz"
-
-#: /content/amp-dev/index-2021.html:55
-msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
-msgstr "Paszport produktu jest elektronicznym uzupełnieniem dokumentów papierowych, takich jak faktura, list przewozowy i karta charakterystyki materiału. Władze mają określone lokalne zasady i taryfy. Przykłady: USA/Kalifornia, Unia Europejska, Wielka Brytania, Arabia Saudyjska, Indie. Paszport Produktu umożliwia automatyczną weryfikację globalnych i lokalnych zasad importu i eksportu."
-
-#: /content/amp-dev/index-2021.html:57
-msgid "Open standards & open data research"
-msgstr "Otwarte standardy i badania otwartych danych"
-
-#: /content/amp-dev/index-2021.html:58
-msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
-msgstr "Przekształcaj dane z indywidualnych badań naukowych we wspólne repozytoria danych. Odkryj nowe rozwiązania, porównując dane z wielu badań. Organizacje krajowe synchronizują badania lokalne i międzynarodowe. Przykład: FDI-USA udostępnia dane FDI-CAN (Kanada), FDI-GBR (Wielka Brytania), FDI-SAU (Arabia Saudyjska), FDI-IND (Indie) i innym."
-
-#: /content/amp-dev/index-2021.html:163
-msgid " New technology should aspire to accomplish two goals:"
-msgstr "Nowa technologia powinna dążyć do osiągnięcia dwóch celów:"
-
-#: /content/amp-dev/index-2021.html:165
-msgid " Take an existing business process and significantly reduce its total cost of implementation."
-msgstr "Wykorzystaj istniejący proces biznesowy i znacznie obniż całkowity koszt jego wdrożenia."
-
-#: /content/amp-dev/index-2021.html:168
-msgid " Develop new, productive habits among consumers."
-msgstr "Rozwijaj nowe, produktywne nawyki wśród konsumentów."
-
-#: /content/amp-dev/index-2021.html:171
-msgid " Consortium members aspire to accomplish both goals."
-msgstr "Członkowie konsorcjum dążą do osiągnięcia obu celów."
-
-#: /content/amp-dev/index-2021.html:227
-msgid " Learn more about knowledge graph applications"
-msgstr "Dowiedz się więcej o aplikacjach wykorzystujących wykresy wiedzy"
-
-#: /content/amp-dev/index-2021.html:228
-msgid " Read case studies from industry, science and government."
-msgstr "Przeczytaj studia przypadków z branży, nauki i rządu."
-
-#: /content/amp-dev/index-2021.html:232
-msgid " See all case studies"
-msgstr "Zobacz wszystkie studia przypadków"

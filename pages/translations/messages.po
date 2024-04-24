@@ -2,6 +2,10 @@
 msgid "Knowledge graph applications"
 msgstr ""
 
+#: /content/amp-dev/index-2021.html:6
+msgid "Knowledge graph applications for industry, science and government."
+msgstr ""
+
 #: /content/amp-dev/index-2021.html:10
 msgid "Electronic Labels"
 msgstr ""
@@ -103,7 +107,7 @@ msgid "Define product identity and impede counterfeits"
 msgstr ""
 
 #: /content/amp-dev/index-2021.html:52
-msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example&#x3a; agriculture equipment calibrated by chemical formulations and environmental conditions."
 msgstr ""
 
 #: /content/amp-dev/index-2021.html:54
@@ -111,7 +115,7 @@ msgid "Be a friend to Authorities"
 msgstr ""
 
 #: /content/amp-dev/index-2021.html:55
-msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples&#x3a; USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
 msgstr ""
 
 #: /content/amp-dev/index-2021.html:57
@@ -119,11 +123,11 @@ msgid "Open standards & open data research"
 msgstr ""
 
 #: /content/amp-dev/index-2021.html:58
-msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example&#x3a; FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
 msgstr ""
 
 #: /content/amp-dev/index-2021.html:163
-msgid "New technology should aspire to accomplish two goals:"
+msgid "New technology should aspire to accomplish two goals&#x3a;"
 msgstr ""
 
 #: /content/amp-dev/index-2021.html:165

@@ -1,3 +1,159 @@
+#: /content/amp-dev/index-2021.html:2
+msgid "Knowledge graph applications"
+msgstr "Ứng dụng đồ thị tri thức"
+
+#: /content/amp-dev/index-2021.html:6
+msgid "Knowledge graph applications for industry, science and government."
+msgstr "Ứng dụng đồ thị tri thức cho ngành công nghiệp, khoa học và chính phủ."
+
+#: /content/amp-dev/index-2021.html:10
+msgid "Electronic Labels"
+msgstr "Nhãn điện tử"
+
+#: /content/amp-dev/index-2021.html:11
+msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
+msgstr "Tạo nhãn điện tử với thông tin chi tiết về sản phẩm ở định dạng mà con người và các máy thông minh khác có thể đọc được bằng máy."
+
+#: /content/amp-dev/index-2021.html:12
+msgid "All about Electronic Labels"
+msgstr "Tất cả về Nhãn điện tử"
+
+#: /content/amp-dev/index-2021.html:15
+msgid "Daily Food"
+msgstr "Thức ăn hàng ngày"
+
+#: /content/amp-dev/index-2021.html:16
+msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
+msgstr "Cung cấp thông tin chi tiết về thức ăn và bữa ăn của con người, thức ăn cho vật nuôi và thức ăn chăn nuôi ở định dạng có thể đọc được bằng máy. Lưu trữ lịch sử tiếp nhận trong Tiểu sử cá nhân của bạn - đồng hành với Hồ sơ sức khỏe điện tử của bạn."
+
+#: /content/amp-dev/index-2021.html:17
+msgid "All about Daily Food"
+msgstr "Tất cả về thực phẩm hàng ngày"
+
+#: /content/amp-dev/index-2021.html:20
+msgid "Export Import Data"
+msgstr "Xuất nhập dữ liệu"
+
+#: /content/amp-dev/index-2021.html:21
+msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
+msgstr "Tạo Hộ chiếu Sản phẩm điện tử để trình bày cho các tổ chức chính phủ quản lý các chính sách và thuế quan kiểm soát biên giới."
+
+#: /content/amp-dev/index-2021.html:22
+msgid "All about Export Import Data"
+msgstr "Tất cả về Xuất nhập dữ liệu"
+
+#: /content/amp-dev/index-2021.html:25
+msgid "Daily Care"
+msgstr "Chăm sóc hàng ngày"
+
+#: /content/amp-dev/index-2021.html:26
+msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
+msgstr "Cung cấp thông tin chi tiết về mỹ phẩm, dệt may và hóa chất gia dụng ở định dạng có thể đọc được bằng máy. Lưu trữ lịch sử tiếp xúc và liên hệ trong Tiểu sử cá nhân của bạn."
+
+#: /content/amp-dev/index-2021.html:27
+msgid "All about Daily Care"
+msgstr "Tất cả về Chăm sóc hàng ngày"
+
+#: /content/amp-dev/index-2021.html:30
+msgid "Food Data Institute"
+msgstr "Viện dữ liệu thực phẩm"
+
+#: /content/amp-dev/index-2021.html:31
+msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
+msgstr "Phát triển thông số kỹ thuật dữ liệu cho thực phẩm và nông nghiệp. Phục vụ các kho lưu trữ để ghi chép, so sánh dữ liệu nghiên cứu và khám phá các giải pháp mới."
+
+#: /content/amp-dev/index-2021.html:32
+msgid "All about Food Data Institute"
+msgstr "Tất cả về Viện dữ liệu thực phẩm"
+
+#: /content/amp-dev/index-2021.html:35
+msgid "Ontomatica"
+msgstr "Bản thể học"
+
+#: /content/amp-dev/index-2021.html:36
+msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
+msgstr "Tạo thông tin có thể đọc được bằng máy về thực phẩm, thuốc, mỹ phẩm, dệt may, hóa chất và hàng hóa để bán tại thị trường địa phương, quốc gia và quốc tế."
+
+#: /content/amp-dev/index-2021.html:37
+msgid "All about Ontomatica"
+msgstr "Tất cả về Ontomatica"
+
+#: /content/amp-dev/index-2021.html:42
+msgid "Simplify development of knowledge graph applications"
+msgstr "Đơn giản hóa việc phát triển các ứng dụng đồ thị tri thức"
+
+#: /content/amp-dev/index-2021.html:43
+msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
+msgstr "Phát triển các ứng dụng sử dụng dữ liệu có cấu trúc và lập trình chức năng. Chia sẻ dữ liệu bằng cách sử dụng các định nghĩa và bộ dữ liệu được quản lý. Cải thiện chất lượng tập dữ liệu bằng cách sử dụng trực quan hóa và lý luận máy. Giữ mọi thứ được đồng bộ hóa bằng Plato (Nền tảng cho ontology)."
+
+#: /content/amp-dev/index-2021.html:45
+msgid "Monitor food & drug biochemistry"
+msgstr "Giám sát sinh hóa thực phẩm và thuốc"
+
+#: /content/amp-dev/index-2021.html:46
+msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
+msgstr "Theo dõi lượng thành phần tiêu thụ theo ngày, tuần, tháng và năm bằng cách sử dụng dữ liệu điện tử về thực phẩm và thuốc. Truy vấn thông tin về thành phần và công thức không có sẵn trên nhãn in. Chủ vật nuôi giám sát thức ăn và thuốc men cho bạn đồng hành của họ. Xác định mối liên hệ giữa lượng thức ăn ăn vào và kết quả sức khỏe."
+
+#: /content/amp-dev/index-2021.html:48
+msgid "Monitor cosmetics, textile & household chemical biochemistry"
+msgstr "Giám sát hóa sinh mỹ phẩm, dệt may và hóa chất gia dụng"
+
+#: /content/amp-dev/index-2021.html:49
+msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+msgstr "Giám sát việc sử dụng và tiếp xúc với các thành phần trong nhiều ngày, tuần, tháng và năm bằng cách sử dụng dữ liệu điện tử về mỹ phẩm, dệt may và hóa chất gia dụng. Truy vấn thông tin về hóa chất và chất xơ không có trên nhãn in. Xác định mối liên hệ giữa việc sử dụng/tiếp xúc và kết quả sức khỏe."
+
+#: /content/amp-dev/index-2021.html:51
+msgid "Define product identity and impede counterfeits"
+msgstr "Xác định danh tính sản phẩm và ngăn chặn hàng giả"
+
+#: /content/amp-dev/index-2021.html:52
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example&#x3a; agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "Sử dụng nhận dạng sản phẩm điện tử để ngăn chặn các sản phẩm giả mạo và khiếu nại. Tạo nhãn mới bằng cách kết hợp các nhãn hiện có và thêm thông tin mới. Cải thiện khả năng tự động hóa máy bằng cách sử dụng dữ liệu có cấu trúc để kiểm soát hoạt động của máy. Ví dụ&#x3a; thiết bị nông nghiệp được hiệu chuẩn theo công thức hóa học và điều kiện môi trường."
+
+#: /content/amp-dev/index-2021.html:54
+msgid "Be a friend to Authorities"
+msgstr "Làm bạn với chính quyền"
+
+#: /content/amp-dev/index-2021.html:55
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples&#x3a; USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "Product Passport là người bạn đồng hành điện tử với các tài liệu giấy như Hóa đơn, Vận đơn và Bảng dữ liệu an toàn vật liệu. Chính quyền có các quy tắc và thuế quan cụ thể của địa phương. Ví dụ&#x3a; Hoa Kỳ/California, Liên minh Châu Âu, Anh, Ả Rập Saudi, Ấn Độ. Hộ chiếu Sản phẩm cho phép xác minh tự động các quy tắc toàn cầu và địa phương đối với hàng nhập khẩu và xuất khẩu."
+
+#: /content/amp-dev/index-2021.html:57
+msgid "Open standards & open data research"
+msgstr "Tiêu chuẩn mở và nghiên cứu dữ liệu mở"
+
+#: /content/amp-dev/index-2021.html:58
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example&#x3a; FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "Chuyển đổi dữ liệu từ các nghiên cứu khoa học riêng lẻ thành kho dữ liệu dùng chung. Khám phá các giải pháp mới bằng cách so sánh dữ liệu từ nhiều nghiên cứu. Các tổ chức quốc gia đồng bộ hóa nghiên cứu trong nước và quốc tế. Ví dụ&#x3a; FDI-USA chia sẻ dữ liệu với FDI-CAN (Canada), FDI-GBR (Anh), FDI-SAU (Saudi Arabia), FDI-IND (Ấn Độ) và các quốc gia khác."
+
+#: /content/amp-dev/index-2021.html:163
+msgid "New technology should aspire to accomplish two goals&#x3a;"
+msgstr "Công nghệ mới cần đạt được hai mục tiêu&#x3a;"
+
+#: /content/amp-dev/index-2021.html:165
+msgid "Take an existing business process and significantly reduce its total cost of implementation."
+msgstr "Sử dụng quy trình kinh doanh hiện có và giảm đáng kể tổng chi phí thực hiện."
+
+#: /content/amp-dev/index-2021.html:168
+msgid "Develop new, productive habits among consumers."
+msgstr "Phát triển những thói quen mới, hiệu quả ở người tiêu dùng."
+
+#: /content/amp-dev/index-2021.html:171
+msgid "Consortium members aspire to accomplish both goals."
+msgstr "Các thành viên của Consortium mong muốn đạt được cả hai mục tiêu."
+
+#: /content/amp-dev/index-2021.html:227
+msgid "Learn more about knowledge graph applications"
+msgstr "Tìm hiểu thêm về các ứng dụng đồ thị tri thức"
+
+#: /content/amp-dev/index-2021.html:228
+msgid "Read case studies from industry, science and government."
+msgstr "Đọc các nghiên cứu điển hình từ ngành công nghiệp, khoa học và chính phủ."
+
+#: /content/amp-dev/index-2021.html:232
+msgid "See all case studies"
+msgstr "Xem tất cả các nghiên cứu điển hình"
+
 #: /views/partials/case-band.j2:6 /views/partials/case-band.j2:7
 msgid "A screenshot of a website using ABC."
 msgstr "Ảnh chụp màn hình của một website sử dụng ABC."
@@ -3175,155 +3331,3 @@ msgstr "Bây giờ là lúc để hành động."
 
 msgid "The sun is a star."
 msgstr "Mặt trời là một ngôi sao."
-
-#: /content/amp-dev/index-2021.html:2
-msgid "Knowledge graph applications"
-msgstr "Ứng dụng đồ thị tri thức"
-
-#: /content/amp-dev/index-2021.html:10
-msgid "Electronic Labels"
-msgstr "Nhãn điện tử"
-
-#: /content/amp-dev/index-2021.html:11
-msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
-msgstr "Tạo nhãn điện tử với thông tin chi tiết về sản phẩm ở định dạng mà con người và các máy thông minh khác có thể đọc được bằng máy."
-
-#: /content/amp-dev/index-2021.html:12
-msgid "All about Electronic Labels"
-msgstr "Tất cả về Nhãn điện tử"
-
-#: /content/amp-dev/index-2021.html:15
-msgid "Daily Food"
-msgstr "Thức ăn hàng ngày"
-
-#: /content/amp-dev/index-2021.html:16
-msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
-msgstr "Cung cấp thông tin chi tiết về thức ăn và bữa ăn của con người, thức ăn cho vật nuôi và thức ăn chăn nuôi ở định dạng có thể đọc được bằng máy. Lưu trữ lịch sử tiếp nhận trong Tiểu sử cá nhân của bạn - đồng hành với Hồ sơ sức khỏe điện tử của bạn."
-
-#: /content/amp-dev/index-2021.html:17
-msgid "All about Daily Food"
-msgstr "Tất cả về thực phẩm hàng ngày"
-
-#: /content/amp-dev/index-2021.html:20
-msgid "Export Import Data"
-msgstr "Xuất nhập dữ liệu"
-
-#: /content/amp-dev/index-2021.html:21
-msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
-msgstr "Tạo Hộ chiếu Sản phẩm điện tử để trình bày cho các tổ chức chính phủ quản lý các chính sách và thuế quan kiểm soát biên giới."
-
-#: /content/amp-dev/index-2021.html:22
-msgid "All about Export Import Data"
-msgstr "Tất cả về Xuất nhập dữ liệu"
-
-#: /content/amp-dev/index-2021.html:25
-msgid "Daily Care"
-msgstr "Chăm sóc hàng ngày"
-
-#: /content/amp-dev/index-2021.html:26
-msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
-msgstr "Cung cấp thông tin chi tiết về mỹ phẩm, dệt may và hóa chất gia dụng ở định dạng có thể đọc được bằng máy. Lưu trữ lịch sử tiếp xúc và liên hệ trong Tiểu sử cá nhân của bạn."
-
-#: /content/amp-dev/index-2021.html:27
-msgid "All about Daily Care"
-msgstr "Tất cả về Chăm sóc hàng ngày"
-
-#: /content/amp-dev/index-2021.html:30
-msgid "Food Data Institute"
-msgstr "Viện dữ liệu thực phẩm"
-
-#: /content/amp-dev/index-2021.html:31
-msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
-msgstr "Phát triển thông số kỹ thuật dữ liệu cho thực phẩm và nông nghiệp. Phục vụ các kho lưu trữ để ghi chép, so sánh dữ liệu nghiên cứu và khám phá các giải pháp mới."
-
-#: /content/amp-dev/index-2021.html:32
-msgid "All about Food Data Institute"
-msgstr "Tất cả về Viện dữ liệu thực phẩm"
-
-#: /content/amp-dev/index-2021.html:35
-msgid "Ontomatica"
-msgstr "Bản thể học"
-
-#: /content/amp-dev/index-2021.html:36
-msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
-msgstr "Tạo thông tin có thể đọc được bằng máy về thực phẩm, thuốc, mỹ phẩm, dệt may, hóa chất và hàng hóa để bán tại thị trường địa phương, quốc gia và quốc tế."
-
-#: /content/amp-dev/index-2021.html:37
-msgid "All about Ontomatica"
-msgstr "Tất cả về Ontomatica"
-
-#: /content/amp-dev/index-2021.html:42
-msgid "Simplify development of knowledge graph applications"
-msgstr "Đơn giản hóa việc phát triển các ứng dụng đồ thị tri thức"
-
-#: /content/amp-dev/index-2021.html:43
-msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
-msgstr "Phát triển các ứng dụng sử dụng dữ liệu có cấu trúc và lập trình chức năng. Chia sẻ dữ liệu bằng cách sử dụng các định nghĩa và bộ dữ liệu được quản lý. Cải thiện chất lượng tập dữ liệu bằng cách sử dụng trực quan hóa và lý luận máy. Giữ mọi thứ được đồng bộ hóa bằng Plato (Nền tảng cho ontology)."
-
-#: /content/amp-dev/index-2021.html:45
-msgid "Monitor food & drug biochemistry"
-msgstr "Giám sát sinh hóa thực phẩm và thuốc"
-
-#: /content/amp-dev/index-2021.html:46
-msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
-msgstr "Theo dõi lượng thành phần tiêu thụ theo ngày, tuần, tháng và năm bằng cách sử dụng dữ liệu điện tử về thực phẩm và thuốc. Truy vấn thông tin về thành phần và công thức không có sẵn trên nhãn in. Chủ vật nuôi giám sát thức ăn và thuốc men cho bạn đồng hành của họ. Xác định mối liên hệ giữa lượng thức ăn ăn vào và kết quả sức khỏe."
-
-#: /content/amp-dev/index-2021.html:48
-msgid "Monitor cosmetics, textile & household chemical biochemistry"
-msgstr "Giám sát hóa sinh mỹ phẩm, dệt may và hóa chất gia dụng"
-
-#: /content/amp-dev/index-2021.html:49
-msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
-msgstr "Giám sát việc sử dụng và tiếp xúc với các thành phần trong nhiều ngày, tuần, tháng và năm bằng cách sử dụng dữ liệu điện tử về mỹ phẩm, dệt may và hóa chất gia dụng. Truy vấn thông tin về hóa chất và chất xơ không có trên nhãn in. Xác định mối liên hệ giữa việc sử dụng/tiếp xúc và kết quả sức khỏe."
-
-#: /content/amp-dev/index-2021.html:51
-msgid "Define product identity and impede counterfeits"
-msgstr "Xác định danh tính sản phẩm và ngăn chặn hàng giả"
-
-#: /content/amp-dev/index-2021.html:52
-msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
-msgstr "Sử dụng nhận dạng sản phẩm điện tử để ngăn chặn các sản phẩm giả mạo và khiếu nại. Tạo nhãn mới bằng cách kết hợp các nhãn hiện có và thêm thông tin mới. Cải thiện khả năng tự động hóa máy bằng cách sử dụng dữ liệu có cấu trúc để kiểm soát hoạt động của máy. Ví dụ: thiết bị nông nghiệp được hiệu chuẩn theo công thức hóa học và điều kiện môi trường."
-
-#: /content/amp-dev/index-2021.html:54
-msgid "Be a friend to Authorities"
-msgstr "Làm bạn với chính quyền"
-
-#: /content/amp-dev/index-2021.html:55
-msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
-msgstr "Product Passport là người bạn đồng hành điện tử với các tài liệu giấy như Hóa đơn, Vận đơn và Bảng dữ liệu an toàn vật liệu. Chính quyền có các quy tắc và thuế quan cụ thể của địa phương. Ví dụ: Hoa Kỳ/California, Liên minh Châu Âu, Anh, Ả Rập Saudi, Ấn Độ. Hộ chiếu Sản phẩm cho phép xác minh tự động các quy tắc toàn cầu và địa phương đối với hàng nhập khẩu và xuất khẩu."
-
-#: /content/amp-dev/index-2021.html:57
-msgid "Open standards & open data research"
-msgstr "Tiêu chuẩn mở và nghiên cứu dữ liệu mở"
-
-#: /content/amp-dev/index-2021.html:58
-msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
-msgstr "Chuyển đổi dữ liệu từ các nghiên cứu khoa học riêng lẻ thành kho dữ liệu dùng chung. Khám phá các giải pháp mới bằng cách so sánh dữ liệu từ nhiều nghiên cứu. Các tổ chức quốc gia đồng bộ hóa nghiên cứu trong nước và quốc tế. Ví dụ: FDI-USA chia sẻ dữ liệu với FDI-CAN (Canada), FDI-GBR (Anh), FDI-SAU (Saudi Arabia), FDI-IND (Ấn Độ) và các quốc gia khác."
-
-#: /content/amp-dev/index-2021.html:163
-msgid " New technology should aspire to accomplish two goals:"
-msgstr "Công nghệ mới cần đạt được hai mục tiêu:"
-
-#: /content/amp-dev/index-2021.html:165
-msgid " Take an existing business process and significantly reduce its total cost of implementation."
-msgstr "Sử dụng quy trình kinh doanh hiện có và giảm đáng kể tổng chi phí thực hiện."
-
-#: /content/amp-dev/index-2021.html:168
-msgid " Develop new, productive habits among consumers."
-msgstr "Phát triển những thói quen mới, hiệu quả ở người tiêu dùng."
-
-#: /content/amp-dev/index-2021.html:171
-msgid " Consortium members aspire to accomplish both goals."
-msgstr "Các thành viên của Consortium mong muốn đạt được cả hai mục tiêu."
-
-#: /content/amp-dev/index-2021.html:227
-msgid " Learn more about knowledge graph applications"
-msgstr "Tìm hiểu thêm về các ứng dụng đồ thị tri thức"
-
-#: /content/amp-dev/index-2021.html:228
-msgid " Read case studies from industry, science and government."
-msgstr "Đọc các nghiên cứu điển hình từ ngành công nghiệp, khoa học và chính phủ."
-
-#: /content/amp-dev/index-2021.html:232
-msgid " See all case studies"
-msgstr "Xem tất cả các nghiên cứu điển hình"

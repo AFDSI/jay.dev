@@ -1,3 +1,159 @@
+#: /content/amp-dev/index-2021.html:2
+msgid "Knowledge graph applications"
+msgstr "지식 그래프 애플리케이션"
+
+#: /content/amp-dev/index-2021.html:6
+msgid "Knowledge graph applications for industry, science and government."
+msgstr "산업, 과학, 정부를 위한 지식 그래프 애플리케이션입니다."
+
+#: /content/amp-dev/index-2021.html:10
+msgid "Electronic Labels"
+msgstr "전자 라벨"
+
+#: /content/amp-dev/index-2021.html:11
+msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
+msgstr "인간 및 기타 지능형 기계가 읽을 수 있는 형식으로 자세한 제품 정보가 포함된 전자 라벨을 생성합니다."
+
+#: /content/amp-dev/index-2021.html:12
+msgid "All about Electronic Labels"
+msgstr "전자 라벨에 관한 모든 것"
+
+#: /content/amp-dev/index-2021.html:15
+msgid "Daily Food"
+msgstr "매일의 음식"
+
+#: /content/amp-dev/index-2021.html:16
+msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
+msgstr "사람이 먹는 음식과 식사, 애완동물 사료, 동물 사료에 대한 자세한 정보를 기계가 읽을 수 있는 형식으로 제공합니다. 전자 건강 기록과 함께 개인 전기에 섭취 기록을 저장합니다."
+
+#: /content/amp-dev/index-2021.html:17
+msgid "All about Daily Food"
+msgstr "일일식품의 모든 것"
+
+#: /content/amp-dev/index-2021.html:20
+msgid "Export Import Data"
+msgstr "가져오기 데이터 내보내기"
+
+#: /content/amp-dev/index-2021.html:21
+msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
+msgstr "국경 통제 정책 및 관세를 관리하는 정부 기관에 제출할 전자 제품 여권을 만듭니다."
+
+#: /content/amp-dev/index-2021.html:22
+msgid "All about Export Import Data"
+msgstr "가져오기 데이터 내보내기에 관한 모든 것"
+
+#: /content/amp-dev/index-2021.html:25
+msgid "Daily Care"
+msgstr "데일리 케어"
+
+#: /content/amp-dev/index-2021.html:26
+msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
+msgstr "화장품, 직물, 가정용 화학물질에 대한 자세한 정보를 기계가 읽을 수 있는 형식으로 제공합니다. 개인 전기에 노출 및 접촉 기록을 저장합니다."
+
+#: /content/amp-dev/index-2021.html:27
+msgid "All about Daily Care"
+msgstr "데일리 케어의 모든 것"
+
+#: /content/amp-dev/index-2021.html:30
+msgid "Food Data Institute"
+msgstr "식품데이터연구소"
+
+#: /content/amp-dev/index-2021.html:31
+msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
+msgstr "식품 및 농업에 대한 데이터 사양을 개발합니다. 연구 데이터를 기록 및 비교하고 새로운 솔루션을 발견하기 위한 저장소를 제공합니다."
+
+#: /content/amp-dev/index-2021.html:32
+msgid "All about Food Data Institute"
+msgstr "식품데이터연구소의 모든 것"
+
+#: /content/amp-dev/index-2021.html:35
+msgid "Ontomatica"
+msgstr "온토마티카"
+
+#: /content/amp-dev/index-2021.html:36
+msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
+msgstr "지역, 국내 및 국제 시장에서 판매하기 위한 식품, 의약품, 화장품, 섬유, 화학 물질 및 상품에 대한 기계 판독 가능 정보를 생성합니다."
+
+#: /content/amp-dev/index-2021.html:37
+msgid "All about Ontomatica"
+msgstr "온토마티카에 대한 모든 것"
+
+#: /content/amp-dev/index-2021.html:42
+msgid "Simplify development of knowledge graph applications"
+msgstr "지식 그래프 애플리케이션 개발 단순화"
+
+#: /content/amp-dev/index-2021.html:43
+msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
+msgstr "구조화된 데이터와 함수형 프로그래밍을 사용하여 애플리케이션을 개발합니다. 선별된 데이터 정의 및 데이터 세트를 사용하여 데이터를 공유합니다. 시각화 및 기계 추론을 사용하여 데이터세트 품질을 향상합니다. Plato(온톨로지용 플랫폼)를 사용하여 모든 것을 동기화된 상태로 유지하세요."
+
+#: /content/amp-dev/index-2021.html:45
+msgid "Monitor food & drug biochemistry"
+msgstr "식품 및 약물 생화학 모니터링"
+
+#: /content/amp-dev/index-2021.html:46
+msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
+msgstr "식품 및 약물에 대한 전자 데이터를 사용하여 며칠, 몇 주, 몇 달, 몇 년 동안 성분 섭취량을 모니터링합니다. 인쇄된 라벨에서 확인할 수 없는 구성 및 공식 정보를 쿼리합니다. 애완동물 주인은 애완동물을 위해 음식과 약을 모니터링합니다. 음식 섭취와 건강 결과 사이의 연관성을 확인합니다."
+
+#: /content/amp-dev/index-2021.html:48
+msgid "Monitor cosmetics, textile & household chemical biochemistry"
+msgstr "화장품, 섬유 및 가정용 화학 생화학 모니터링"
+
+#: /content/amp-dev/index-2021.html:49
+msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
+msgstr "화장품, 직물 및 가정용 화학 물질에 대한 전자 데이터를 사용하여 며칠, 몇 주, 몇 달, 몇 년 동안 구성 요소의 사용 및 노출을 모니터링합니다. 인쇄된 라벨에는 없는 화학 물질 및 섬유 정보를 검색해 보세요. 사용/노출과 건강 결과 사이의 연관성을 결정합니다."
+
+#: /content/amp-dev/index-2021.html:51
+msgid "Define product identity and impede counterfeits"
+msgstr "제품 정체성을 정의하고 위조를 방지합니다."
+
+#: /content/amp-dev/index-2021.html:52
+msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example&#x3a; agriculture equipment calibrated by chemical formulations and environmental conditions."
+msgstr "전자 제품 ID를 사용하여 위조 제품 및 청구를 방해합니다. 기존 라벨을 결합하고 새 정보를 추가하여 새 라벨을 만듭니다. 구조화된 데이터를 사용하여 기계 작동을 제어함으로써 기계 자동화를 개선합니다. 예&#x3a; 화학 제제 및 환경 조건에 따라 보정된 농업 장비."
+
+#: /content/amp-dev/index-2021.html:54
+msgid "Be a friend to Authorities"
+msgstr "당국의 친구가 되어주세요"
+
+#: /content/amp-dev/index-2021.html:55
+msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples&#x3a; USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
+msgstr "Product Passport는 송장, 선하증권, 물질안전보건자료와 같은 종이 문서의 전자적 동반자입니다. 당국에는 구체적인 현지 규칙과 관세가 있습니다. 예&#x3a; 미국/캘리포니아, 유럽 연합, 영국, 사우디아라비아, 인도. Product Passport를 사용하면 수입 및 수출에 대한 글로벌 및 로컬 규칙을 자동으로 확인할 수 있습니다."
+
+#: /content/amp-dev/index-2021.html:57
+msgid "Open standards & open data research"
+msgstr "개방형 표준 및 개방형 데이터 연구"
+
+#: /content/amp-dev/index-2021.html:58
+msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example&#x3a; FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
+msgstr "개별 과학 연구의 데이터를 공유 데이터 저장소로 변환합니다. 여러 연구의 데이터를 비교하여 새로운 솔루션을 찾아보세요. 국가 기관은 지역 및 국제 연구를 동기화합니다. 예&#x3a; FDI-USA는 FDI-CAN(캐나다), FDI-GBR(영국), FDI-SAU(사우디아라비아), FDI-IND(인도) 등과 데이터를 공유합니다."
+
+#: /content/amp-dev/index-2021.html:163
+msgid "New technology should aspire to accomplish two goals&#x3a;"
+msgstr "새로운 기술은 두 가지 목표를 달성하기 위해 노력해야 합니다."
+
+#: /content/amp-dev/index-2021.html:165
+msgid "Take an existing business process and significantly reduce its total cost of implementation."
+msgstr "기존 비즈니스 프로세스를 활용하여 총 구현 비용을 대폭 절감합니다."
+
+#: /content/amp-dev/index-2021.html:168
+msgid "Develop new, productive habits among consumers."
+msgstr "소비자들 사이에 새롭고 생산적인 습관을 개발하십시오."
+
+#: /content/amp-dev/index-2021.html:171
+msgid "Consortium members aspire to accomplish both goals."
+msgstr "컨소시엄 구성원은 두 가지 목표를 모두 달성하기를 열망합니다."
+
+#: /content/amp-dev/index-2021.html:227
+msgid "Learn more about knowledge graph applications"
+msgstr "지식 그래프 애플리케이션에 대해 자세히 알아보기"
+
+#: /content/amp-dev/index-2021.html:228
+msgid "Read case studies from industry, science and government."
+msgstr "업계, 과학, 정부의 사례 연구를 읽어보세요."
+
+#: /content/amp-dev/index-2021.html:232
+msgid "See all case studies"
+msgstr "모든 사례 연구 보기"
+
 #: /views/partials/case-band.j2:6 /views/partials/case-band.j2:7
 msgid "A screenshot of a website using ABC."
 msgstr "ABC를 사용 중인 웹사이트 스크린샷"
@@ -3174,155 +3330,3 @@ msgstr "이제 행동을 취할 때입니다."
 
 msgid "The sun is a star."
 msgstr "태양은 별이다."
-
-#: /content/amp-dev/index-2021.html:2
-msgid "Knowledge graph applications"
-msgstr "지식 그래프 애플리케이션"
-
-#: /content/amp-dev/index-2021.html:10
-msgid "Electronic Labels"
-msgstr "전자 라벨"
-
-#: /content/amp-dev/index-2021.html:11
-msgid "Creating electronic labels with detailed product information in machine-readable format for humans & other intelligent machines."
-msgstr "인간 및 기타 지능형 기계가 읽을 수 있는 형식으로 자세한 제품 정보가 포함된 전자 라벨을 생성합니다."
-
-#: /content/amp-dev/index-2021.html:12
-msgid "All about Electronic Labels"
-msgstr "전자 라벨에 관한 모든 것"
-
-#: /content/amp-dev/index-2021.html:15
-msgid "Daily Food"
-msgstr "매일의 음식"
-
-#: /content/amp-dev/index-2021.html:16
-msgid "Serving detailed information about human food and meals, pet food and animal feed in machine-readable format. Storing intake history in your personal Biograph - companion to your Electronic Health Record."
-msgstr "사람이 먹는 음식과 식사, 애완동물 사료, 동물 사료에 대한 자세한 정보를 기계가 읽을 수 있는 형식으로 제공합니다. 전자 건강 기록과 함께 개인 전기에 섭취 기록을 저장합니다."
-
-#: /content/amp-dev/index-2021.html:17
-msgid "All about Daily Food"
-msgstr "일일식품의 모든 것"
-
-#: /content/amp-dev/index-2021.html:20
-msgid "Export Import Data"
-msgstr "가져오기 데이터 내보내기"
-
-#: /content/amp-dev/index-2021.html:21
-msgid "Creating electronic Product Passports for presentation to government organizations administering border control policies and tariffs."
-msgstr "국경 통제 정책 및 관세를 관리하는 정부 기관에 제출할 전자 제품 여권을 만듭니다."
-
-#: /content/amp-dev/index-2021.html:22
-msgid "All about Export Import Data"
-msgstr "가져오기 데이터 내보내기에 관한 모든 것"
-
-#: /content/amp-dev/index-2021.html:25
-msgid "Daily Care"
-msgstr "데일리 케어"
-
-#: /content/amp-dev/index-2021.html:26
-msgid "Serving detailed information about cosmetics, textiles, and household chemicals in machine&#x2010;readable format. Storing exposure and contact history in your personal Biograph."
-msgstr "화장품, 직물, 가정용 화학물질에 대한 자세한 정보를 기계가 읽을 수 있는 형식으로 제공합니다. 개인 전기에 노출 및 접촉 기록을 저장합니다."
-
-#: /content/amp-dev/index-2021.html:27
-msgid "All about Daily Care"
-msgstr "데일리 케어의 모든 것"
-
-#: /content/amp-dev/index-2021.html:30
-msgid "Food Data Institute"
-msgstr "식품데이터연구소"
-
-#: /content/amp-dev/index-2021.html:31
-msgid "Developing data specifications for food & agriculture. Serving repositories for recording and comparing research data and discovering new solutions."
-msgstr "식품 및 농업에 대한 데이터 사양을 개발합니다. 연구 데이터를 기록 및 비교하고 새로운 솔루션을 발견하기 위한 저장소를 제공합니다."
-
-#: /content/amp-dev/index-2021.html:32
-msgid "All about Food Data Institute"
-msgstr "식품데이터연구소의 모든 것"
-
-#: /content/amp-dev/index-2021.html:35
-msgid "Ontomatica"
-msgstr "온토마티카"
-
-#: /content/amp-dev/index-2021.html:36
-msgid "Creating machine-readable information about foods, drugs, cosmetics, textiles, chemicals and commodities for selling in local, national and international markets."
-msgstr "지역, 국내 및 국제 시장에서 판매하기 위한 식품, 의약품, 화장품, 섬유, 화학 물질 및 상품에 대한 기계 판독 가능 정보를 생성합니다."
-
-#: /content/amp-dev/index-2021.html:37
-msgid "All about Ontomatica"
-msgstr "온토마티카에 대한 모든 것"
-
-#: /content/amp-dev/index-2021.html:42
-msgid "Simplify development of knowledge graph applications"
-msgstr "지식 그래프 애플리케이션 개발 단순화"
-
-#: /content/amp-dev/index-2021.html:43
-msgid "Develop applications using structured data and functional programming. Share data using curated data definitions and datasets. Improve dataset quality using visualization and machine-reasoning. Keep everything synchronized using Plato (Platform for ontologies)."
-msgstr "구조화된 데이터와 함수형 프로그래밍을 사용하여 애플리케이션을 개발합니다. 선별된 데이터 정의 및 데이터 세트를 사용하여 데이터를 공유합니다. 시각화 및 기계 추론을 사용하여 데이터세트 품질을 향상합니다. Plato(온톨로지용 플랫폼)를 사용하여 모든 것을 동기화된 상태로 유지하세요."
-
-#: /content/amp-dev/index-2021.html:45
-msgid "Monitor food & drug biochemistry"
-msgstr "식품 및 약물 생화학 모니터링"
-
-#: /content/amp-dev/index-2021.html:46
-msgid "Monitor component intake over days, weeks, months, and years using electronic data about food and drugs. Query composition and formulation information that is not available on printed labels. Pet owners monitor food and medicine for their companions. Determine links between food intake and health outcomes."
-msgstr "식품 및 약물에 대한 전자 데이터를 사용하여 며칠, 몇 주, 몇 달, 몇 년 동안 성분 섭취량을 모니터링합니다. 인쇄된 라벨에서 확인할 수 없는 구성 및 공식 정보를 쿼리합니다. 애완동물 주인은 애완동물을 위해 음식과 약을 모니터링합니다. 음식 섭취와 건강 결과 사이의 연관성을 확인합니다."
-
-#: /content/amp-dev/index-2021.html:48
-msgid "Monitor cosmetics, textile & household chemical biochemistry"
-msgstr "화장품, 섬유 및 가정용 화학 생화학 모니터링"
-
-#: /content/amp-dev/index-2021.html:49
-msgid "Monitor use and exposure to components over days, weeks, months, and years using electronic data about cosmetics, textiles and household chemicals. Query chemical and fiber information that is not available on a printed label. Determine links between use/exposure and health outcomes."
-msgstr "화장품, 직물 및 가정용 화학 물질에 대한 전자 데이터를 사용하여 며칠, 몇 주, 몇 달, 몇 년 동안 구성 요소의 사용 및 노출을 모니터링합니다. 인쇄된 라벨에는 없는 화학 물질 및 섬유 정보를 검색해 보세요. 사용/노출과 건강 결과 사이의 연관성을 결정합니다."
-
-#: /content/amp-dev/index-2021.html:51
-msgid "Define product identity and impede counterfeits"
-msgstr "제품 정체성을 정의하고 위조를 방지합니다."
-
-#: /content/amp-dev/index-2021.html:52
-msgid "Use electronic product identity to impede counterfeit products and claims. Create a new label by combining existing labels and adding new information. Improve machine-automation by using structured data to control machine-operations. Example: agriculture equipment calibrated by chemical formulations and environmental conditions."
-msgstr "전자 제품 ID를 사용하여 위조 제품 및 청구를 방해합니다. 기존 라벨을 결합하고 새 정보를 추가하여 새 라벨을 만듭니다. 구조화된 데이터를 사용하여 기계 작동을 제어함으로써 기계 자동화를 개선합니다. 예: 화학 제제 및 환경 조건에 따라 보정된 농업 장비."
-
-#: /content/amp-dev/index-2021.html:54
-msgid "Be a friend to Authorities"
-msgstr "당국의 친구가 되어주세요"
-
-#: /content/amp-dev/index-2021.html:55
-msgid "Product Passport is an electronic companion to paper documents such as an Invoice, Bill of Lading, and Material Safety Data Sheet. Authorities have specific local rules and tariffs. Examples: USA/California, European Union, Great Britain, Saudi Arabia, India. Product Passport enables automated verification of global and local rules for imports and exports."
-msgstr "Product Passport는 송장, 선하증권, 물질안전보건자료와 같은 종이 문서의 전자적 동반자입니다. 당국에는 구체적인 현지 규칙과 관세가 있습니다. 예: 미국/캘리포니아, 유럽 연합, 영국, 사우디아라비아, 인도. Product Passport를 사용하면 수입 및 수출에 대한 글로벌 및 로컬 규칙을 자동으로 확인할 수 있습니다."
-
-#: /content/amp-dev/index-2021.html:57
-msgid "Open standards & open data research"
-msgstr "개방형 표준 및 개방형 데이터 연구"
-
-#: /content/amp-dev/index-2021.html:58
-msgid "Transform data from individual scientific studies into shared data repositories. Discover new solutions by comparing data from multiple studies. National organizations synchronize local and international research. Example: FDI-USA shares data with FDI-CAN (Canada), FDI-GBR (Great Britain), FDI-SAU (Saudi Arabia), FDI-IND (India), and others."
-msgstr "개별 과학 연구의 데이터를 공유 데이터 저장소로 변환합니다. 여러 연구의 데이터를 비교하여 새로운 솔루션을 찾아보세요. 국가 기관은 지역 및 국제 연구를 동기화합니다. 예: FDI-USA는 FDI-CAN(캐나다), FDI-GBR(영국), FDI-SAU(사우디아라비아), FDI-IND(인도) 등과 데이터를 공유합니다."
-
-#: /content/amp-dev/index-2021.html:163
-msgid " New technology should aspire to accomplish two goals:"
-msgstr "새로운 기술은 두 가지 목표를 달성하기 위해 노력해야 합니다."
-
-#: /content/amp-dev/index-2021.html:165
-msgid " Take an existing business process and significantly reduce its total cost of implementation."
-msgstr "기존 비즈니스 프로세스를 활용하여 총 구현 비용을 대폭 절감합니다."
-
-#: /content/amp-dev/index-2021.html:168
-msgid " Develop new, productive habits among consumers."
-msgstr "소비자들 사이에 새롭고 생산적인 습관을 개발하십시오."
-
-#: /content/amp-dev/index-2021.html:171
-msgid " Consortium members aspire to accomplish both goals."
-msgstr "컨소시엄 구성원은 두 가지 목표를 모두 달성하기를 열망합니다."
-
-#: /content/amp-dev/index-2021.html:227
-msgid " Learn more about knowledge graph applications"
-msgstr "지식 그래프 애플리케이션에 대해 자세히 알아보기"
-
-#: /content/amp-dev/index-2021.html:228
-msgid " Read case studies from industry, science and government."
-msgstr "업계, 과학, 정부의 사례 연구를 읽어보세요."
-
-#: /content/amp-dev/index-2021.html:232
-msgid " See all case studies"
-msgstr "모든 사례 연구 보기"
