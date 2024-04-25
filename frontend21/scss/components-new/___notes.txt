@@ -1,0 +1,10 @@
+
+these items include statements that fail SCSS validation
+
+  p {
+    @include txt;
+  }
+
+  &-large p {
+    @include txt-1;
+  }
