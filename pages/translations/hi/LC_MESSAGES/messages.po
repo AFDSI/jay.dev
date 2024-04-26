@@ -1,3 +1,59 @@
+#: /content/amp-dev/about/rdf-in-fifty.html:26
+msgid "RDF in Fifty Words or Less"
+msgstr "RDF पचास या उससे कम शब्दों में"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:36
+msgid "Okay, so maybe this is a bit more than fifty words, but the key points are pretty simple (and put into <b>bold text</b> for you manager&#x2013;types who just want to get straight to the point). The <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework"><i>Resource Description Framework</i></a>, or &#x201C;RDF&#x201D;, is really two things."
+msgstr "&#x920;&#x940;&#x915;&#x20;&#x939;&#x948;&#x2c;&#x20;&#x936;&#x93e;&#x92f;&#x926;&#x20;&#x92f;&#x939;&#x20;&#x92a;&#x91a;&#x93e;&#x938;&#x20;&#x936;&#x92c;&#x94d;&#x926;&#x94b;&#x902;&#x20;&#x938;&#x947;&#x20;&#x925;&#x94b;&#x921;&#x93c;&#x93e;&#x20;&#x905;&#x927;&#x93f;&#x915;&#x20;&#x939;&#x948;&#x2c;&#x20;&#x932;&#x947;&#x915;&#x93f;&#x928;&#x20;&#x92e;&#x941;&#x916;&#x94d;&#x92f;&#x20;&#x92c;&#x93f;&#x902;&#x926;&#x941;&#x20;&#x92c;&#x939;&#x941;&#x924;&#x20;&#x938;&#x930;&#x932;&#x20;&#x939;&#x948;&#x902;&#x20;&#x28;&#x914;&#x930;&#x20;&#x906;&#x92a;&#x20;&#x915;&#x947;&#x20;&#x932;&#x93f;&#x90f;&#x20;<b>&#x92c;&#x94b;&#x932;&#x94d;&#x921;&#x20;&#x92a;&#x93e;&#x920;</b>&#x20;&#x92e;&#x947;&#x902;&#x20;&#x926;&#x93f;&#x92f;&#x93e;&#x20;&#x917;&#x92f;&#x93e;&#x20;&#x939;&#x948;&#x20;&#x91c;&#x94b;&#x20;&#x92a;&#x94d;&#x930;&#x92c;&#x902;&#x927;&#x915;&#x2d;&#x92a;&#x94d;&#x930;&#x915;&#x93e;&#x930;&#x20;&#x939;&#x948;&#x902;&#x20;&#x91c;&#x94b;&#x20;&#x938;&#x93f;&#x930;&#x94d;&#x92b;&#x20;&#x938;&#x940;&#x927;&#x947;&#x20;&#x915;&#x93e;&#x92e;&#x20;&#x915;&#x940;&#x20;&#x92c;&#x93e;&#x924;&#x20;&#x915;&#x930;&#x928;&#x93e;&#x20;&#x91a;&#x93e;&#x939;&#x924;&#x947;&#x20;&#x939;&#x948;&#x902;&#x29;&#x964;&#x20; &#x935;&#x93e;&#x938;&#x94d;&#x924;&#x935;&#x20;&#x92e;&#x947;&#x902;&#x20; <a href="https://hi.wikipedia.org/wiki/%E0%A4%86%E0%A4%82%E0%A4%9F%E0%A4%B2%E0%A4%9C%E0%A5%80" ><i>Resource Description Framework</i></a> &#x2c;&#x20;&#x92f;&#x93e;&#x20;&#x22;&#x52;&#x44;&#x46;&#x22;&#x2c;&#x20;&#x20;&#x926;&#x94b;&#x20;&#x91a;&#x940;&#x91c;&#x947;&#x902;&#x20;&#x939;&#x948;&#x902;&#x964;"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:42
+msgid "First, RDF is a graph&#x2013;based model for describing Internet <i>resources</i> (like web pages and email messages), and how these resources relate to one another."
+msgstr "पहला, RDF एक ग्राफ-आधारित मॉडल है जो इंटरनेट संसाधनों (जैसे कि वेब पेज और ईमेल संदेश), और यह संसाधन एक दूसरे से कैसे संबंधित हैं इनका वर्णन करने के लिए है। "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:48
+msgid "But what does that mean, <i>really</i>? To a developer, it means that the RDF data model (the &#x201C;graph&#x201D;) can be used as a mechanism for integrating and organizing Internet resources."
+msgstr "लेकिन वास्तव में इसका क्या मतलब है? डेवलपर के लिए, इसका मतलब है कि RDF डेटा मॉडल ("ग्राफ") को इंटरनेट संसाधनों को एकीकृत और व्यवस्थित करने के लिए एक तंत्र के रूप में इस्तेमाल किया जा सकता है।"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:51
+msgid "Let&#x0027;s look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
+msgstr "चलिए एक उदाहरण देखते हैं: बुकमार्क। इस समय, अधिकांश वेब ब्राउज़र आपको अपने बुकमार्क को फ़ोल्डर में व्यवस्थित करने देते हैं। प्रत्येक बुकमार्क एक वेब पेज का एक संकेतक होता है जिसे URI (Uniform Resource Identifier) कहा जाता है।"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:54
+msgid "But a web page is just one kind of Internet resource. There are tons of others, including email messages, reddit articles, RSS feeds, and search results from your favorite web crawler, just to name a few. And fundamentally, there&#x0027;s no reason that you shouldn&#x0027;t be able to treat these as &#x201C;bookmarks&#x201D; as well, grouping them together into folders as you please, or maybe even creating &#x201C;smart&#x201D; folders that, when you open them, dynamically generate their contents by running common search that you define."
+msgstr "लेकिन एक वेब पेज सिर्फ एक प्रकार का इंटरनेट संसाधन है। ईमेल संदेश, रेडिट लेख, आरएसएस फ़ीड और आपके पसंदीदा वेब क्रॉलर से खोज परिणाम सहित कई अन्य चीजें हैं, बस कुछ के नाम बताएं। और बुनियादी तौर पर, ऐसा कोई कारण नहीं है कि आप इन्हें &#x201C;बुकमार्क&#x201D; साथ ही, उन्हें अपनी इच्छानुसार फ़ोल्डरों में एक साथ समूहीकृत करना, या शायद &#x201C;स्मार्ट&#x201D; बनाना भी; फ़ोल्डर्स, जब आप उन्हें खोलते हैं, तो आपके द्वारा परिभाषित सामान्य खोज चलाकर गतिशील रूप से उनकी सामग्री उत्पन्न करते हैं।"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:57
+msgid "And a &#x201C;bookmark&#x201D; could really have arbitrary properties associated with it: you might want to invent your own &#x201C;classification&#x201D; scheme for a bookmark <i>a la</i> Macintosh&#x0027;s &#x201C;hot&#x201D;, &#x201C;warm&#x201D;, &#x201C;cool&#x201D; color coding. Or you might want to relate a bookmark to another bookmark, or keep it in multiple &#x201C;folders&#x201D; at once."
+msgstr "और वास्तव में एक "बुकमार्क" के साथ इसके स्वेच्छित गुण हो सकते हैं: हो सकता है कि आप बुकमार्क के लिए अपनी "वर्गीकरण" योजना का आविष्कार करना चाहें एक ला मैकिंटोश की "हॉट", "वार्म", "कूल" रंग वाली कोडिंग। या फिर आप किसी एक बुकमार्क को अन्य किसी बुकमार्क से संबंधित करना चाहते हैं, या एक बार में इसे कई "फ़ोल्डर" में रख सकते हैं। "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:60
+msgid "The RDF graph provides a perfect data model upon which to build a &#x201C;universal&#x201D; bookmarking service as described above: the graph can contain pointers to arbitrary resources and can group them in just about any way that you can imagine."
+msgstr "RDF ग्राफ एक आदर्श डेटा मॉडल प्रदान करता है जिस पर एक "सार्वभौमिक" बुकमार्क सेवा तैयार की जा रही है जैसा कि ऊपर वर्णित है: ग्राफ में स्वेच्छित संसाधनों के लिए संकेतक शामिल हो सकते हैं और उनको किसी भी तरह से समूह में जोड़ सकते हैं जिसकी आप कल्पना कर सकते हैं। "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:62
+msgid "But wait, there&#x0027;s more..."
+msgstr "लेकिन रुको, और भी है... "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:68
+msgid "Second, RDF is a serialization syntax. This syntax allows the graph&#x2013;like model to be communicated between &#x201C;agents&#x201D;."
+msgstr "दूसरा, RDF एक सीरियललाइज्ड सिंटेक्स है। यह सिंटेक्स ग्राफ़-जैसे मॉडल को "एजेंटों" के बीच संचारित करने की अनुमति देता है।"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:74
+msgid "Okay, what the heck does <i>that</i> mean? Fundamentally, it means that parts of the RDF data model can be communicated across network boundaries, and the contents of the graph can dynamically change as information arrives from a remote service."
+msgstr "ठीक है, इसका क्या मतलब है? मूल रूप से, इसका मतलब है कि RDF डेटा मॉडल के कुछ हिस्सों को नेटवर्क की सीमाओं में संचारित किया जा सकता है, और जैसे ही जानकारी एक दूरस्थ सेवा से आती है ग्राफ़ की सामग्री गतिशील रूप से बदल सकती है।"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:77
+msgid "Let&#x0027;s go back to our bookmark example. Say that one of my bookmark &#x201C;folders&#x201D; is really a pointer to my email inbox: when I open that folder, &#x76;&#x6f;&#x69;&#x6c;&#xe0;! All the messages that I&#x0027;ve received over night appear."
+msgstr "हम वापिस हमारे बुकमार्क उदाहरण पर जाते हैं। मान लो कि मेरा एक बुकमार्क "फ़ोल्डर्स" वास्तव में मेरे ईमेल इनबॉक्स का सूचक है: जब मैं उस फ़ोल्डर को खोलता हूँ, देखो! सभी संदेश देखें जो रात भर में मेरे द्वारा प्राप्त हुए हैं।"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:80
+msgid "But how did that happen? The inbox &#x201C;folder&#x201D; was really just a pointer to an Internet resource that contains more RDF that extends the graph. That &#x201C;Internet resource&#x201D; was a URI that pointed to a CGI script (say, &lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&amp;folder=inbox</span>&lt;/code&gt;). The CGI script actually generates <i>serialized RDF</i>, which is basically just a way of formatting a graph into <a href="https://en.wikipedia.org/wiki/Extensible_Markup_Language">XML</a>:"
+msgstr "&#x932;&#x947;&#x915;&#x93f;&#x928;&#x20;&#x92f;&#x939;&#x20;&#x915;&#x948;&#x938;&#x947;&#x20;&#x939;&#x941;&#x906;&#x3f;&#x20;&#x935;&#x93e;&#x938;&#x94d;&#x924;&#x935;&#x20;&#x92e;&#x947;&#x902;&#x20;&#x907;&#x928;&#x92c;&#x949;&#x915;&#x94d;&#x938;&#x20;&#x22;&#x92b;&#x93c;&#x94b;&#x932;&#x94d;&#x921;&#x930;&#x22;&#x20;&#x907;&#x902;&#x91f;&#x930;&#x928;&#x947;&#x91f;&#x20;&#x938;&#x902;&#x938;&#x93e;&#x927;&#x928;&#x20;&#x915;&#x947;&#x20;&#x932;&#x93f;&#x90f;&#x20;&#x915;&#x947;&#x935;&#x932;&#x20;&#x90f;&#x915;&#x20;&#x938;&#x902;&#x915;&#x947;&#x924;&#x915;&#x20;&#x939;&#x94b;&#x924;&#x93e;&#x20;&#x939;&#x948;&#x20;&#x91c;&#x93f;&#x938;&#x92e;&#x947;&#x902;&#x20;&#x905;&#x927;&#x93f;&#x915;&#x20;&#x52;&#x44;&#x46;&#x20;&#x936;&#x93e;&#x92e;&#x93f;&#x932;&#x20;&#x939;&#x94b;&#x924;&#x93e;&#x20;&#x939;&#x948;&#x20;&#x91c;&#x94b;&#x20;&#x917;&#x94d;&#x930;&#x93e;&#x92b;&#x20;&#x915;&#x94b;&#x20;&#x92b;&#x948;&#x932;&#x924;&#x93e;&#x20;&#x939;&#x948;&#x964;&#x20;&#x92f;&#x939;&#x20;&#x22;&#x907;&#x902;&#x91f;&#x930;&#x928;&#x947;&#x91f;&#x20;&#x938;&#x902;&#x938;&#x93e;&#x927;&#x928;&#x22;&#x20;&#x90f;&#x915;&#x20;&#x55;&#x52;&#x49;&#x20;&#x925;&#x93e;&#x20;&#x91c;&#x94b;&#x20;&#x915;&#x93f;&#x20;&#x43;&#x47;&#x49;&#x20;&#x938;&#x94d;&#x915;&#x94d;&#x930;&#x93f;&#x92a;&#x94d;&#x91f;&#x20;&#x92a;&#x930;&#x20;&#x915;&#x947;&#x902;&#x926;&#x94d;&#x930;&#x93f;&#x924;&#x20;&#x925;&#x93e;&#x20;&#x28;&#x92e;&#x93e;&#x928;&#x20;&#x932;&#x94b;&#x2c;&#x20;&#x3c;&#x63;&#x6f;&#x64;&#x65;&#x3e;&#x68;&#x74;&#x74;&#x70;&#x3a;&#x2f;&#x2f;&#x77;&#x77;&#x77;&#x2e;&#x6d;&#x6f;&#x7a;&#x69;&#x6c;&#x6c;&#x61;&#x2e;&#x6f;&#x72;&#x67;&#x2f;&#x73;&#x6d;&#x61;&#x72;&#x74;&#x2d;&#x6d;&#x61;&#x69;&#x6c;&#x2f;&#x67;&#x65;&#x74;&#x2d;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x67;&#x69;&#x3f;&#x75;&#x73;&#x65;&#x72;&#x3d;&#x77;&#x61;&#x74;&#x65;&#x72;&#x73;&#x6f;&#x6e;&#x26;&#x66;&#x6f;&#x6c;&#x64;&#x65;&#x72;&#x3d;&#x69;&#x6e;&#x62;&#x6f;&#x78;&#x3c;&#x2f;&#x63;&#x6f;&#x64;&#x65;&#x3e;&#x29;&#x2e;&#x20;&#x935;&#x93e;&#x938;&#x94d;&#x924;&#x935;&#x20;&#x92e;&#x947;&#x902;&#x20;&#x938;&#x940;&#x91c;&#x940;&#x906;&#x908;&#x20;&#x938;&#x94d;&#x915;&#x94d;&#x930;&#x93f;&#x92a;&#x94d;&#x91f;&#x20;&#x938;&#x940;&#x930;&#x93f;&#x92f;&#x932;&#x932;&#x93e;&#x907;&#x91c;&#x94d;&#x921;&#x20;&#x52;&#x44;&#x46;&#x20;&#x909;&#x924;&#x94d;&#x92a;&#x928;&#x94d;&#x928;&#x20;&#x915;&#x930;&#x924;&#x940;&#x20;&#x939;&#x948;&#x2c;&#x20;&#x91c;&#x94b;&#x20;&#x92e;&#x942;&#x932;&#x20;&#x930;&#x942;&#x92a;&#x20;&#x938;&#x947;&#x20;&#x90f;&#x915;&#x20;&#x917;&#x94d;&#x930;&#x93e;&#x92b;&#x93c;&#x20;&#x915;&#x94b;&#x20; <a href="https://hi.wikipedia.org/wiki/%E0%A4%8F%E0%A4%95%E0%A5%8D%E0%A4%B8%E0%A5%B0%E0%A4%8F%E0%A4%AE%E0%A5%B0%E0%A4%8F%E0%A4%B2%E0%A5%B0">&#x58;&#x4d;&#x4c;</a>&#x20;&#x92e;&#x947;&#x902;&#x20;&#x938;&#x94d;&#x935;&#x930;&#x942;&#x92a;&#x93f;&#x924;&#x20;&#x915;&#x930;&#x928;&#x947;&#x20;&#x915;&#x93e;&#x20;&#x90f;&#x915;&#x20;&#x924;&#x930;&#x940;&#x915;&#x93e;&#x20;&#x939;&#x948;&#x3a;"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:94
+msgid "Upon receipt of the above monstrosity, the RDF engine folds the RDF into the graph at the appropriate place, and the tree control that actually implements the UI to the bookmarks is notified that it should begin drawing some icons for the latest message about Banana Bread from Aunt Helga."
+msgstr "ऊपर की अपरूपता प्राप्त होने पर, RDF इंजन RDF को उचित जगह पर ग्राफ़ में तह करता है, और ट्री नियंत्रण जो कि UI को बुकमार्क्स में लागू करता है, को सूचित किया जाता है कि चाची हेल्गा से केला रोटी के बारे में नवीनतम संदेश के लिए कुछ आइकन खींचना शुरू कर देना चाहिए।"
+
 #: /content/amp-dev/index-2021.html:2
 msgid "Knowledge graph applications"
 msgstr "ज्ञान ग्राफ अनुप्रयोग"

@@ -1,3 +1,59 @@
+#: /content/amp-dev/about/rdf-in-fifty.html:26
+msgid "RDF in Fifty Words or Less"
+msgstr "&#12398;&#36092;&#35501;&#12434;&#38283;&#22987;&#12375;&#12414;&#12375;&#12383;&#12290;"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:36
+msgid "Okay, so maybe this is a bit more than fifty words, but the key points are pretty simple (and put into <b>bold text</b> for you manager&#x2013;types who just want to get straight to the point). The <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework"><i>Resource Description Framework</i></a>, or &#x201C;RDF&#x201D;, is really two things."
+msgstr "さて、これは 50 語を少し超えるかもしれませんが、重要なポイントは非常にシンプルです (そして、すぐに本題に入りたいマネージャータイプのために<b>太字</b>にしています) 。 <a href="https://ja.wikipedia.org/wiki/Resource_Description_Framework"><i>リソース記述フレームワーク</i></a>、つまり &#x201C;RDF&#x201D; には、実際には 2 つの要素があります。 。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:42
+msgid "First, RDF is a graph&#x2013;based model for describing Internet <i>resources</i> (like web pages and email messages), and how these resources relate to one another."
+msgstr "１番目：RDF は インターネット上の （Web ページ、メールメッセージなどの）資源 （<span style="color: darkgreen; background: #ef9;">【訳注: resource の訳語。 リソースとカタカナで書かれることもあります。このページでは上位文書にならい、“資源“を使います。】</span>）を記述するためのグラフベースモデルです。 （<span style="color: darkgreen; background: #ef9;">【訳注: ここでいうグラフというのは、辺と点で構成された、グラフ構造のことだと思われます。 訳者は大学の情報数学で習いました。】</span>） また、これらの<i>資源</i>が他の資源とどのような関係にあるかをも 記述します。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:48
+msgid "But what does that mean, <i>really</i>? To a developer, it means that the RDF data model (the &#x201C;graph&#x201D;) can be used as a mechanism for integrating and organizing Internet resources."
+msgstr "<i>実際には</i>どういう意味なのでしょうか？ の開発者にとっては、 RDF データモデル（グラフ）を、インターネット上の資源を集め、融合するための メカニズムとして使用できるということを意味します。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:51
+msgid "Let&#x0027;s look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
+msgstr "例として、ブックマークを取り上げましょう。最近では、ほとんどの Web ブラウザで ブックマークをフォルダに入れて、階層管理することができます。 それぞれのブックマークは １つの Web ページへの <i>ポインタ</i>、つまりは <b>URL</b> です。 （近頃では、このようなポインタを "URI"<i>uniform resource identifier</i> と呼ぶのが正確なようですが、言葉の法律家 が取り上げるためだけの些細な違い です）"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:54
+msgid "But a web page is just one kind of Internet resource. There are tons of others, including email messages, reddit articles, RSS feeds, and search results from your favorite web crawler, just to name a few. And fundamentally, there&#x0027;s no reason that you shouldn&#x0027;t be able to treat these as &#x201C;bookmarks&#x201D; as well, grouping them together into folders as you please, or maybe even creating &#x201C;smart&#x201D; folders that, when you open them, dynamically generate their contents by running common search that you define."
+msgstr "しかし、Web ページはインターネット リソースの一種にすぎません。ほんの数例を挙げると、電子メール メッセージ、reddit 記事、RSS フィード、お気に入りの Web クローラーからの検索結果など、他にもたくさんあります。そして基本的に、これらを「ブックマーク」として扱うことができない理由はありません。また、必要に応じてそれらをフォルダーにグループ化したり、「スマート」なフォルダーを作成したりすることもできます。フォルダーを開くと、定義した共通検索を実行することによってその内容が動的に生成されます。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:57
+msgid "And a &#x201C;bookmark&#x201D; could really have arbitrary properties associated with it: you might want to invent your own &#x201C;classification&#x201D; scheme for a bookmark <i>a la</i> Macintosh&#x0027;s &#x201C;hot&#x201D;, &#x201C;warm&#x201D;, &#x201C;cool&#x201D; color coding. Or you might want to relate a bookmark to another bookmark, or keep it in multiple &#x201C;folders&#x201D; at once."
+msgstr "それぞれの“ブックマーク“には、任意のプロパティを持たせることができます。 あなた自身の“分類法“ を発明しても構いません。Macintosh で使われている 色分類 "hot", "warm", "cool" のように。 また、ブックマークを他のブックマークと関連づけたり、同時に複数の フォルダに含まれるようにすることもできます。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:60
+msgid "The RDF graph provides a perfect data model upon which to build a &#x201C;universal&#x201D; bookmarking service as described above: the graph can contain pointers to arbitrary resources and can group them in just about any way that you can imagine."
+msgstr "RDF グラフは、上で述べたような“汎用“ブックマークサービス を構築するのに必要な完璧なデータモデルを提供します。 グラフは、任意の資源に対するポインタを含むことができ、 また、あなたが思いつく限りの方法でグループ化することができます。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:62
+msgid "But wait, there&#x0027;s more..."
+msgstr "しかし、それだけではありません。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:68
+msgid "Second, RDF is a serialization syntax. This syntax allows the graph&#x2013;like model to be communicated between &#x201C;agents&#x201D;."
+msgstr "２番目： RDF は 直列化文法です。 この文法に従って、“エージェント“は、グラフモデルをやりとりすることができます。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:74
+msgid "Okay, what the heck does <i>that</i> mean? Fundamentally, it means that parts of the RDF data model can be communicated across network boundaries, and the contents of the graph can dynamically change as information arrives from a remote service."
+msgstr "<i>それが</i> 何を意味するのでしょうか？ 基本的には、RDF データモデルの一部をネットワークの境界を越えてやりとりできること、 また、グラフの内容がリモートサービスから到着するまでに動的に変化することがありえることを 示しています。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:77
+msgid "Let&#x0027;s go back to our bookmark example. Say that one of my bookmark &#x201C;folders&#x201D; is really a pointer to my email inbox: when I open that folder, &#x76;&#x6f;&#x69;&#x6c;&#xe0;! All the messages that I&#x0027;ve received over night appear."
+msgstr "ブックマークの例に戻りましょう。 例えば、私のブックマークのフォルダの１つを、メールの受信ボックスへのポインタにしておきます。 そして、そのフォルダを開くと、ほら！夜の間に届いたメッセージがすべて表示されます。"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:80
+msgid "But how did that happen? The inbox &#x201C;folder&#x201D; was really just a pointer to an Internet resource that contains more RDF that extends the graph. That &#x201C;Internet resource&#x201D; was a URI that pointed to a CGI script (say, &lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&amp;folder=inbox</span>&lt;/code&gt;). The CGI script actually generates <i>serialized RDF</i>, which is basically just a way of formatting a graph into <a href="https://en.wikipedia.org/wiki/Extensible_Markup_Language">XML</a>:"
+msgstr "一体何が起きたのでしょう？ 受信ボックスへのポインタにしたフォルダは、ただ単に１つのインターネット資源を指しているだけです。 この資源が、グラフを拡張する別の RDF を含んでいます。 そのインターネット資源とは、あるCGI スクリプトを指す URL でした。 (例： &lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&amp;folder=inbox</span>&lt;/code&gt;). この CGI スクリプトは、実際には <i>直列化された RDF</i> を生成します。 これは、基本的にグラフを XML に変換する一つの方法にすぎません。 <a href="https://ja.wikipedia.org/wiki/Extensible_Markup_Language">XML</a>:"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:94
+msgid "Upon receipt of the above monstrosity, the RDF engine folds the RDF into the graph at the appropriate place, and the tree control that actually implements the UI to the bookmarks is notified that it should begin drawing some icons for the latest message about Banana Bread from Aunt Helga."
+msgstr "上のような巨大な RDF の塊を受け取ると、RDF エンジンは RDF を適切な場所に配置し 、グラフを構成します。そして、ブックマークの UI を実装する tree control が通知を受け、 Yam Soup についての Helga おばさんからのメッセージにアイコンを表示するために、描画を開始します。"
+
 #: /content/amp-dev/index-2021.html:2
 msgid "Knowledge graph applications"
 msgstr "ナレッジグラフアプリケーション"

@@ -1,3 +1,59 @@
+#: /content/amp-dev/about/rdf-in-fifty.html:26
+msgid "RDF in Fifty Words or Less"
+msgstr "RDF dalam Lima Puluh Kata atau Kurang"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:36
+msgid "Okay, so maybe this is a bit more than fifty words, but the key points are pretty simple (and put into <b>bold text</b> for you manager&#x2013;types who just want to get straight to the point). The <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework"><i>Resource Description Framework</i></a>, or &#x201C;RDF&#x201D;, is really two things."
+msgstr "Oke, jadi mungkin ini lebih dari lima puluh kata, tapi poin utamanya cukup sederhana (dan ditulis dalam <b>teks tebal</b> untuk Anda tipe manajer yang hanya ingin langsung ke pokok permasalahan) . <a href="https://id.wikipedia.org/wiki/Rekomendasi_W3C"><i>Resource Description Framework</i></a>, atau &#x201C;RDF&#x201D;, sebenarnya terdiri dari dua hal ."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:42
+msgid "First, RDF is a graph&#x2013;based model for describing Internet <i>resources</i> (like web pages and email messages), and how these resources relate to one another."
+msgstr "Pertama, RDF adalah model berbasis grafik untuk menggambarkan <i>sumber daya</i> Internet (seperti halaman web dan pesan email), dan bagaimana sumber daya ini berhubungan satu sama lain."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:48
+msgid "But what does that mean, <i>really</i>? To a developer, it means that the RDF data model (the &#x201C;graph&#x201D;) can be used as a mechanism for integrating and organizing Internet resources."
+msgstr "Tapi apa maksudnya, <i>benarkah</i>? Bagi pengembang, ini berarti model data RDF (&#x201C;grafik&#x201D;) dapat digunakan sebagai mekanisme untuk mengintegrasikan dan mengatur sumber daya Internet."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:51
+msgid "Let&#x0027;s look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
+msgstr "Mari kita lihat contohnya: <i>bookmark</i>. Saat ini, sebagian besar browser web memungkinkan Anda mengatur bookmark secara hierarki ke dalam <i>folder</i>. Setiap bookmark adalah <i>penunjuk</i> ke halaman web yang disebut <b>URI</b> (<b>U</b>niform <b>R</b>sumber daya <b>I< /b>pengidentifikasi)."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:54
+msgid "But a web page is just one kind of Internet resource. There are tons of others, including email messages, reddit articles, RSS feeds, and search results from your favorite web crawler, just to name a few. And fundamentally, there&#x0027;s no reason that you shouldn&#x0027;t be able to treat these as &#x201C;bookmarks&#x201D; as well, grouping them together into folders as you please, or maybe even creating &#x201C;smart&#x201D; folders that, when you open them, dynamically generate their contents by running common search that you define."
+msgstr "Namun halaman web hanyalah salah satu jenis sumber daya Internet. Masih banyak lagi lainnya, termasuk pesan email, artikel reddit, RSS feed, dan hasil pencarian dari web crawler favorit Anda, hanyalah beberapa di antaranya. Dan pada dasarnya, tidak ada alasan Anda tidak dapat memperlakukan ini sebagai &#x201C;bookmark&#x201D; juga, mengelompokkannya ke dalam folder sesuka Anda, atau bahkan mungkin membuat folder &#x201C;pintar&#x201D; folder yang, ketika Anda membukanya, secara dinamis menghasilkan isinya dengan menjalankan pencarian umum yang Anda tentukan."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:57
+msgid "And a &#x201C;bookmark&#x201D; could really have arbitrary properties associated with it: you might want to invent your own &#x201C;classification&#x201D; scheme for a bookmark <i>a la</i> Macintosh&#x0027;s &#x201C;hot&#x201D;, &#x201C;warm&#x201D;, &#x201C;cool&#x201D; color coding. Or you might want to relate a bookmark to another bookmark, or keep it in multiple &#x201C;folders&#x201D; at once."
+msgstr "Dan &#x201C;bookmark&#x201D; bisa saja memiliki properti sewenang-wenang yang terkait dengannya: Anda mungkin ingin membuat &#x201C;klasifikasi&#x201D; skema untuk penanda <i>a la</i> Macintosh  &#x0027;panas &#x0027;,  &#x0027;hangat &#x0027;,  &#x0027;dingin &#x0027;; kode warna. Atau Anda mungkin ingin menghubungkan suatu bookmark dengan bookmark lain, atau menyimpannya di beberapa  &#x0027;folder &#x0027;. sekaligus."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:60
+msgid "The RDF graph provides a perfect data model upon which to build a &#x201C;universal&#x201D; bookmarking service as described above: the graph can contain pointers to arbitrary resources and can group them in just about any way that you can imagine."
+msgstr "Grafik RDF memberikan model data yang sempurna untuk membangun model data &#x201C;universal&#x201D; layanan bookmark seperti dijelaskan di atas: grafik dapat berisi petunjuk ke sumber daya arbitrer dan dapat mengelompokkannya dengan cara apa pun yang dapat Anda bayangkan."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:62
+msgid "But wait, there&#x0027;s more..."
+msgstr "Tapi tunggu, masih ada lagi..."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:68
+msgid "Second, RDF is a serialization syntax. This syntax allows the graph&#x2013;like model to be communicated between &#x201C;agents&#x201D;."
+msgstr "Kedua, RDF adalah sintaks serialisasi. Sintaks ini memungkinkan model seperti grafik untuk dikomunikasikan antar  &#x0027;agen &#x0027;."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:74
+msgid "Okay, what the heck does <i>that</i> mean? Fundamentally, it means that parts of the RDF data model can be communicated across network boundaries, and the contents of the graph can dynamically change as information arrives from a remote service."
+msgstr "Oke, apa maksudnya <i>itu</i>? Pada dasarnya, ini berarti bahwa bagian dari model data RDF dapat dikomunikasikan melintasi batas-batas jaringan, dan konten grafik dapat berubah secara dinamis seiring dengan masuknya informasi dari layanan jarak jauh."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:77
+msgid "Let&#x0027;s go back to our bookmark example. Say that one of my bookmark &#x201C;folders&#x201D; is really a pointer to my email inbox: when I open that folder, &#x76;&#x6f;&#x69;&#x6c;&#xe0;! All the messages that I&#x0027;ve received over night appear."
+msgstr "Mari kembali ke contoh bookmark kita. Katakanlah salah satu &#x201C;folder&#x201D; benar-benar merupakan penunjuk ke kotak masuk email saya: ketika saya membuka folder itu, &#x76;&#x6f;&#x69;&#x6c;&#xe0;! Semua pesan yang saya terima semalaman muncul."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:80
+msgid "But how did that happen? The inbox &#x201C;folder&#x201D; was really just a pointer to an Internet resource that contains more RDF that extends the graph. That &#x201C;Internet resource&#x201D; was a URI that pointed to a CGI script (say, &lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&amp;folder=inbox</span>&lt;/code&gt;). The CGI script actually generates <i>serialized RDF</i>, which is basically just a way of formatting a graph into <a href="https://en.wikipedia.org/wiki/Extensible_Markup_Language">XML</a>:"
+msgstr "Tapi bagaimana hal itu bisa terjadi? &#x201C;folder&#x201D; sebenarnya hanyalah penunjuk ke sumber daya Internet yang berisi lebih banyak RDF yang memperluas grafik. &#x201C;Sumber daya Internet&#x201D; adalah URI yang menunjuk ke skrip CGI (misalnya, &lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&amp;folder=inbox</span> &lt;/kode&gt;). Skrip CGI sebenarnya menghasilkan <i>RDF berseri</i>, yang pada dasarnya hanyalah cara memformat grafik menjadi <a href="https://id.wikipedia.org/wiki/XML">XML</a >:"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:94
+msgid "Upon receipt of the above monstrosity, the RDF engine folds the RDF into the graph at the appropriate place, and the tree control that actually implements the UI to the bookmarks is notified that it should begin drawing some icons for the latest message about Banana Bread from Aunt Helga."
+msgstr "Setelah menerima keburukan di atas, mesin RDF melipat RDF ke dalam grafik di tempat yang sesuai, dan kontrol pohon yang benar-benar mengimplementasikan UI ke bookmark diberitahu bahwa ia harus mulai menggambar beberapa ikon untuk pesan terbaru tentang Roti Pisang dari Bibi Helga."
+
 #: /content/amp-dev/index-2021.html:2
 msgid "Knowledge graph applications"
 msgstr "Aplikasi grafik pengetahuan"

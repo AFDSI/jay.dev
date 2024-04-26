@@ -1,3 +1,59 @@
+#: /content/amp-dev/about/rdf-in-fifty.html:26
+msgid "RDF in Fifty Words or Less"
+msgstr "RDF w pi&#x0119;&#x0107;dziesi&#x0119;ciu s&#x0142;owach lub mniej"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:36
+msgid "Okay, so maybe this is a bit more than fifty words, but the key points are pretty simple (and put into <b>bold text</b> for you manager&#x2013;types who just want to get straight to the point). The <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework"><i>Resource Description Framework</i></a>, or &#x201C;RDF&#x201D;, is really two things."
+msgstr "No dobrze, mo&#x017C;e w nieco wi&#x0119;cej ni&#x017C; pi&#x0119;&#x0107;dziesi&#x0119;ciu, ale g&#x0142;&#x00F3;wne za&#x0142;o&#x017C;enia s&#x0105; dosy&#x0107; proste (i <b>wyr&#x00F3;&#x017C;nione</b> dla tych, kt&#x00F3;rzy od razu chcieliby przej&#x015B;&#x0107; do sedna sprawy). <a href="https://pl.wikipedia.org/wiki/Resource_Description_Framework"><i>Resource Description Framework</i></a>, lub &#x201C;RDF&#x201C;, to tak naprawd&#x0119; dwie rzeczy."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:42
+msgid "First, RDF is a graph&#x2013;based model for describing Internet <i>resources</i> (like web pages and email messages), and how these resources relate to one another."
+msgstr "Po pierwsze, RDF to model stworzony w oparciu o wykres w celu opisywania zasob&#x00F3;w sieci (takich jak strony internetowe i wiadomo&#x015B;ci e-mail) i sposobu w jaki te zasoby s&#x0105; ze sob&#x0105; powi&#x0105;zane."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:48
+msgid "But what does that mean, <i>really</i>? To a developer, it means that the RDF data model (the &#x201C;graph&#x201D;) can be used as a mechanism for integrating and organizing Internet resources."
+msgstr "Ale co to tak naprawd&#x0119; oznacza? Dla dewelopera oznacza to, &#x017C;e model danych RDF (&#x201C;wykres&#x201C;) mo&#x017C;e by&#x0107; wykorzystany jako mechanizm integracji i organizacji zasob&#x00F3;w sieci."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:51
+msgid "Let&#x0027;s look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
+msgstr "We&#x017A;my za przyk&#x0142;ad <i>zak&#x0142;adki</i>. Obecnie wi&#x0119;kszo&#x015B;&#x0107; przegl&#x0105;darek internetowych pozwala na organizacj&#x0119; zak&#x0142;adek w folderach. Ka&#x017C;da zak&#x0142;adka jest odno&#x015B;nikiem do strony internetowej zwanej <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:54
+msgid "But a web page is just one kind of Internet resource. There are tons of others, including email messages, reddit articles, RSS feeds, and search results from your favorite web crawler, just to name a few. And fundamentally, there&#x0027;s no reason that you shouldn&#x0027;t be able to treat these as &#x201C;bookmarks&#x201D; as well, grouping them together into folders as you please, or maybe even creating &#x201C;smart&#x201D; folders that, when you open them, dynamically generate their contents by running common search that you define."
+msgstr "Jednak strona internetowa to tylko jeden z rodzajów zasobów internetowych. Istnieje mnóstwo innych, w tym wiadomości e-mail, artykuły na Reddicie, kanały RSS i wyniki wyszukiwania z Twojego ulubionego robota indeksującego, żeby wymienić tylko kilka. Zasadniczo nie ma powodu, dla którego nie można byłoby traktować ich jako „zakładek”; możesz także grupować je w foldery według własnego uznania, a może nawet tworzyć „inteligentne”; foldery, które po ich otwarciu dynamicznie generują swoją zawartość poprzez uruchomienie zdefiniowanego przez Ciebie wspólnego wyszukiwania."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:57
+msgid "And a &#x201C;bookmark&#x201D; could really have arbitrary properties associated with it: you might want to invent your own &#x201C;classification&#x201D; scheme for a bookmark <i>a la</i> Macintosh&#x0027;s &#x201C;hot&#x201D;, &#x201C;warm&#x201D;, &#x201C;cool&#x201D; color coding. Or you might want to relate a bookmark to another bookmark, or keep it in multiple &#x201C;folders&#x201D; at once."
+msgstr "&#x201C;Zak&#x0142;adka&#x201C; mo&#x017C;e mie&#x0107; dowolne w&#x0142;a&#x015B;ciwo&#x015B;ci&#x003A; mo&#x017C;esz stworzy&#x0107; sw&#x00F3;j w&#x0142;asny system klasyfikacji zak&#x0142;adek poprzez oznaczenie ich  &#x201C;gor&#x0105;cymi&#x201C;, &#x201C;ciep&#x0142;ymi&#x201C; i &#x201C;ch&#x0142;odnymi&#x201C; kolorami, w stylu Macintosh. Mo&#x017C;esz te&#x017C; po&#x0142;&#x0105;czy&#x0107; zak&#x0142;adk&#x0119; z inn&#x0105; zak&#x0142;adk&#x0105; lub przechowywa&#x0107; je w kilku &#x201C;folderach&#x201C; jednocze&#x015B;nie."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:60
+msgid "The RDF graph provides a perfect data model upon which to build a &#x201C;universal&#x201D; bookmarking service as described above: the graph can contain pointers to arbitrary resources and can group them in just about any way that you can imagine."
+msgstr "Wykres RDF jest doskona&#x0142;ym modelem danych, na kt&#x00F3;rym zbudowa&#x0107; mo&#x017C;na &#x201C;uniwersaln&#x0105;&#x201C; us&#x0142;ug&#x0119; zak&#x0142;adek, tak jak opisano to powy&#x017C;ej. Wykres mo&#x017C;e zawiera&#x0107; odno&#x015B;niki do dowolnych zasob&#x00F3;w sieciowych i grupowa&#x0107; je w ka&#x017C;dy mo&#x017C;liwy spos&#x00F3;b."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:62
+msgid "But wait, there&#x0027;s more..."
+msgstr "Ale chwila, to nie wszystko..."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:68
+msgid "Second, RDF is a serialization syntax. This syntax allows the graph&#x2013;like model to be communicated between &#x201C;agents&#x201D;."
+msgstr "Po drugie, RDF to mechanizm serializacji. Pozwala on na przekazywanie modelu pomi&#x0119;dzy &#x201C;agentami&#x201C;."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:74
+msgid "Okay, what the heck does <i>that</i> mean? Fundamentally, it means that parts of the RDF data model can be communicated across network boundaries, and the contents of the graph can dynamically change as information arrives from a remote service."
+msgstr "W porz&#x0105;dku, ale co to oznacza? Zasadniczo to, &#x017C;e cz&#x0119;&#x015B;ci modelu danych RDF mog&#x0105; by&#x0107; przekazywane pomi&#x0119;dzy granicami sieci, a zawarto&#x015B;&#x0107; wykresu mo&#x017C;e dynamicznie ulega&#x0107; zmianie wraz z przybywaniem informacji ze zdalnego serwisu."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:77
+msgid "Let&#x0027;s go back to our bookmark example. Say that one of my bookmark &#x201C;folders&#x201D; is really a pointer to my email inbox: when I open that folder, &#x76;&#x6f;&#x69;&#x6c;&#xe0;! All the messages that I&#x0027;ve received over night appear."
+msgstr "Powr&#x00F3;&#x0107;my do naszego przyk&#x0142;adu z zak&#x0142;adkami. Za&#x0142;&#x00F3;&#x017C;my, &#x017C;e jeden z moich &#x201C;folder&#x00F3;w&#x201C; zak&#x0142;adek jest tak naprawd&#x0119; odno&#x015B;nikiem do mojej skrzynki mailowej&#x003A; kiedy otworz&#x0119; ten folder, voil&#x00E1;&#x0021; Uka&#x017C;&#x0105; mi si&#x0119; wszystkie wiadomo&#x015B;ci, kt&#x00F3;re otrzyma&#x0142;em w ci&#x0105;gu nocy."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:80
+msgid "But how did that happen? The inbox &#x201C;folder&#x201D; was really just a pointer to an Internet resource that contains more RDF that extends the graph. That &#x201C;Internet resource&#x201D; was a URI that pointed to a CGI script (say, &lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&amp;folder=inbox</span>&lt;/code&gt;). The CGI script actually generates <i>serialized RDF</i>, which is basically just a way of formatting a graph into <a href="https://en.wikipedia.org/wiki/Extensible_Markup_Language">XML</a>:"
+msgstr "Ale jak to si&#x0119; sta&#x0142;o&#x003F; &#x201C;Folder&#x201C; skrzynki odbiorczej by&#x0142; tak naprawd&#x0119; odno&#x015B;nikiem do zasobu sieci, kt&#x00F3;ry zawiera wi&#x0119;cej RDF i powoduje rozszerzenie wykresu. Tym &#x201C;zasobem sieci&#x201C; by&#x0142; URI, kt&#x00F3;ry pe&#x0142;ni&#x0142; rol&#x0119; odno&#x015B;nika do skryptu CGI (na przyk&#x0142;ad, &lt;code&gt;<span> http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&folder=inbox</span>&lt;/code&gt;). Skrypt CGI generuje tak naprawd&#x0119; zserializowany RDF, kt&#x00F3;ry jest po prostu sposobem formatowania wykresu do XML&#x003A; <a href="https://pl.wikipedia.org/wiki/Extensible_Markup_Language">XML</a> zu formatieren&#x003A;"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:94
+msgid "Upon receipt of the above monstrosity, the RDF engine folds the RDF into the graph at the appropriate place, and the tree control that actually implements the UI to the bookmarks is notified that it should begin drawing some icons for the latest message about Banana Bread from Aunt Helga."
+msgstr "Po otrzymaniu powy&#x017C;szej potworno&#x015B;ci, mechanizm RDF zmienia RDF w wykres w odpowiednim miejscu, a drzewko kontroli, kt&#x00F3;re tak naprawd&#x0119; wprowadza UI do zak&#x0142;adek, otrzymuje polecenie rysowania ikon dla najnowszej wiadomo&#x015B;ci o chlebie bananowym od Ciotki Helgi."
+
 #: /content/amp-dev/index-2021.html:2
 msgid "Knowledge graph applications"
 msgstr "Aplikacje oparte na grafach wiedzy"

@@ -1,3 +1,59 @@
+#: /content/amp-dev/about/rdf-in-fifty.html:26
+msgid "RDF in Fifty Words or Less"
+msgstr "RDF في خمسين كلمة أو أقل "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:36
+msgid "Okay, so maybe this is a bit more than fifty words, but the key points are pretty simple (and put into <b>bold text</b> for you manager&#x2013;types who just want to get straight to the point). The <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework"><i>Resource Description Framework</i></a>, or &#x201C;RDF&#x201D;, is really two things."
+msgstr "&#x62d;&#x633;&#x646;&#x627;&#x60c;&#x20;&#x631;&#x628;&#x645;&#x627;&#x20;&#x20;&#x642;&#x62f;&#x20;&#x64a;&#x633;&#x62a;&#x63a;&#x631;&#x642;&#x20;&#x647;&#x630;&#x627;&#x20;&#x623;&#x643;&#x62b;&#x631;&#x20;&#x642;&#x644;&#x64a;&#x644;&#x627;&#x20;&#x645;&#x646;&#x20;&#x62e;&#x645;&#x633;&#x64a;&#x646;&#x20;&#x643;&#x644;&#x645;&#x629;&#x60c;&#x20;&#x648;&#x644;&#x643;&#x646;&#x20;&#x627;&#x644;&#x646;&#x642;&#x627;&#x637;&#x20;&#x627;&#x644;&#x631;&#x626;&#x64a;&#x633;&#x64a;&#x629;&#x20;&#x647;&#x64a;&#x20;&#x628;&#x633;&#x64a;&#x637;&#x629;&#x20;&#x62c;&#x62f;&#x627; &#x28;&#x648;&#x645;&#x643;&#x62a;&#x648;&#x628;&#x629; <b> &#x628;&#x627;&#x644;&#x646;&#x635;&#x20;&#x627;&#x644;&#x639;&#x631;&#x64a;&#x636;</b> &#x645;&#x646;&#x20;&#x627;&#x62c;&#x644;&#x20;&#x627;&#x644;&#x623;&#x634;&#x62e;&#x627;&#x635;&#x20;&#x623;&#x645;&#x62b;&#x627;&#x644;&#x643;&#x20;&#x627;&#x644;&#x630;&#x64a;&#x646;&#x20;&#x644;&#x62f;&#x64a;&#x647;&#x645;&#x20;&#x639;&#x642;&#x644;&#x64a;&#x629;&#x20;&#x627;&#x644;&#x645;&#x62f;&#x631;&#x627;&#x621;&#x20;&#x648;&#x20;&#x64a;&#x631;&#x64a;&#x62f;&#x648;&#x646;&#x20;&#x627;&#x644;&#x648;&#x635;&#x648;&#x644;&#x20;&#x645;&#x628;&#x627;&#x634;&#x631;&#x629;&#x20;&#x641;&#x64a;&#x20;&#x635;&#x644;&#x628;&#x20;&#x627;&#x644;&#x645;&#x648;&#x636;&#x648;&#x639;&#x29;&#x2e;&#x20;&#x628; <a href="https://ar.wikipedia.org/wiki/إطار_توصيف_الموارد"><i>Resource Description Framework</i></a> &#x28;&#x625;&#x637;&#x627;&#x631;&#x20;&#x644;&#x648;&#x635;&#x641;&#x20;&#x627;&#x644;&#x645;&#x648;&#x627;&#x631;&#x62f;&#x29;&#x20;&#x623;&#x648;&#x20;&#x22;&#x20;&#x52;&#x44;&#x46;&#x22;&#x60c;&#x20;&#x646;&#x639;&#x646;&#x64a;&#x20;&#x62d;&#x642;&#x627;&#x20;&#x623;&#x645;&#x631;&#x64a;&#x646;&#x2e;"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:42
+msgid "First, RDF is a graph&#x2013;based model for describing Internet <i>resources</i> (like web pages and email messages), and how these resources relate to one another."
+msgstr "أولا, RDF هو نموذج يستند إلى الرسم البياني لوصف موارد الإنترنت (مثل صفحات الويب ورسائل البريد الإلكتروني)، وكيفية ارتباط هذه الموارد ببعضها البعض. "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:48
+msgid "But what does that mean, <i>really</i>? To a developer, it means that the RDF data model (the &#x201C;graph&#x201D;) can be used as a mechanism for integrating and organizing Internet resources."
+msgstr "ولكن ماذا يعني ذلك، حقا؟ بالنسبة لمطور مواقع، هذا يعني أن نموذج البيانات RDF ("الرسم البياني") يمكن أن يستخدم كآلية لدمج وتنظيم موارد الإنترنت. "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:51
+msgid "Let&#x0027;s look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
+msgstr "لنلق نظرة على مثال:الإشارات المرجعية.في الوقت الحالي، تتيح لك معظم متصفحات الويب تنظيم الإشارات المرجعية بشكل هرمي في المجلدات. كل إشارة مرجعية إلى صفحة ويب تسمى URI (معرف الموارد الموحد - Uniform Resource Identifier ). "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:54
+msgid "But a web page is just one kind of Internet resource. There are tons of others, including email messages, reddit articles, RSS feeds, and search results from your favorite web crawler, just to name a few. And fundamentally, there&#x0027;s no reason that you shouldn&#x0027;t be able to treat these as &#x201C;bookmarks&#x201D; as well, grouping them together into folders as you please, or maybe even creating &#x201C;smart&#x201D; folders that, when you open them, dynamically generate their contents by running common search that you define."
+msgstr "لكن صفحة الويب هي مجرد نوع واحد من موارد الإنترنت. هناك الكثير من الأشياء الأخرى، بما في ذلك رسائل البريد الإلكتروني ومقالات reddit وموجزات RSS ونتائج البحث من زاحف الويب المفضل لديك، على سبيل المثال لا الحصر. وبشكل أساسي، لا يوجد سبب يمنعك من التعامل مع هذه الإشارات على أنها "إشارات مرجعية"؛ بالإضافة إلى ذلك، قم بتجميعها معًا في مجلدات كما تريد، أو ربما حتى إنشاء ملفات "ذكية"؛ المجلدات التي، عند فتحها، تقوم بإنشاء محتوياتها ديناميكيًا عن طريق تشغيل البحث المشترك الذي تحدده."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:57
+msgid "And a &#x201C;bookmark&#x201D; could really have arbitrary properties associated with it: you might want to invent your own &#x201C;classification&#x201D; scheme for a bookmark <i>a la</i> Macintosh&#x0027;s &#x201C;hot&#x201D;, &#x201C;warm&#x201D;, &#x201C;cool&#x201D; color coding. Or you might want to relate a bookmark to another bookmark, or keep it in multiple &#x201C;folders&#x201D; at once."
+msgstr "و "علامة المرجعية" يمكن حقا أن تكون خصائص عشوائيه مرتبطة به: قد ترغب في اختراع مخطط "تصنيف" خاص بك لاشاره مرجعيه كالترميز اللوني "ساخن"، "دافئ"، "بارد" المستخدم في جهاز الماكينتوش.أو قد ترغب في ربط إشارة إلى إشارة أخرى أو الاحتفاظ بها في "مجلدات" متعددة في آن واحد. "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:60
+msgid "The RDF graph provides a perfect data model upon which to build a &#x201C;universal&#x201D; bookmarking service as described above: the graph can contain pointers to arbitrary resources and can group them in just about any way that you can imagine."
+msgstr "يوفر الرسم البياني RDF نموذج البيانات المثالي لبناء خدمة علامات مرجعية "عالمية" كما هو موضح أعلاه: الرسم البياني يمكن أن يحتوي على مؤشرات إلى موارد عشوائيه ويمكن تجميعها تقريبا بأي طريقة يمكنك أن تتخيلها. "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:62
+msgid "But wait, there&#x0027;s more..."
+msgstr "ولكن انتظر هناك المزيد... "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:68
+msgid "Second, RDF is a serialization syntax. This syntax allows the graph&#x2013;like model to be communicated between &#x201C;agents&#x201D;."
+msgstr "ثانيا، RDF هو صيغة تسلسلية. تسمح هذه الصيغة بناء نموذج تشبه الرسم البياني بين "العملاء". "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:74
+msgid "Okay, what the heck does <i>that</i> mean? Fundamentally, it means that parts of the RDF data model can be communicated across network boundaries, and the contents of the graph can dynamically change as information arrives from a remote service."
+msgstr "حسنا،و ذلك ماذا يعني؟هذا يعني في الأساس أنه يمكن توصيل أجزاء من نموذج بيانات RDF عبر حدود الشبكة، ويمكن لمحتويات الرسم البياني أن تتغير ديناميكيا كلما توصل معلومات اضافية من خدمة عن بعد. "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:77
+msgid "Let&#x0027;s go back to our bookmark example. Say that one of my bookmark &#x201C;folders&#x201D; is really a pointer to my email inbox: when I open that folder, &#x76;&#x6f;&#x69;&#x6c;&#xe0;! All the messages that I&#x0027;ve received over night appear."
+msgstr "لنعود إلى مثال الإشارة المرجعية.لنفترض أن أحد "مجلدات" الإشارات المرجعية الخاصة بي هو حقا ليس سواء مؤشر لصندوق البريد الإلكتروني الخاص بي: عند فتح هذا المجلد، يتم الأمر فورا!تظهر جميع الرسائل التي تلقيتها بين عشية وضحاها. "
+
+#: /content/amp-dev/about/rdf-in-fifty.html:80
+msgid "But how did that happen? The inbox &#x201C;folder&#x201D; was really just a pointer to an Internet resource that contains more RDF that extends the graph. That &#x201C;Internet resource&#x201D; was a URI that pointed to a CGI script (say, &lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&amp;folder=inbox</span>&lt;/code&gt;). The CGI script actually generates <i>serialized RDF</i>, which is basically just a way of formatting a graph into <a href="https://en.wikipedia.org/wiki/Extensible_Markup_Language">XML</a>:"
+msgstr "&#x648;&#x644;&#x643;&#x646;&#x20;&#x643;&#x64a;&#x641;&#x20;&#x62d;&#x62f;&#x62b;&#x20;&#x630;&#x644;&#x643;&#x61f;&#x643;&#x627;&#x646;&#x20;&#x22;&#x645;&#x62c;&#x644;&#x62f;&#x22;&#x20;&#x635;&#x646;&#x62f;&#x648;&#x642;&#x20;&#x627;&#x644;&#x648;&#x627;&#x631;&#x62f;&#x20;&#x62d;&#x642;&#x627;&#x20;&#x645;&#x62c;&#x631;&#x62f;&#x20;&#x645;&#x624;&#x634;&#x631;&#x20;&#x644;&#x645;&#x648;&#x631;&#x62f;&#x20;&#x625;&#x646;&#x62a;&#x631;&#x646;&#x62a;&#x20;&#x64a;&#x62d;&#x62a;&#x648;&#x64a;&#x20;&#x639;&#x644;&#x649;&#x20;&#x627;&#x644;&#x645;&#x632;&#x64a;&#x62f;&#x20;&#x645;&#x646;&#x20;&#x627;&#x644;&#x52;&#x44;&#x46;&#x20;&#x20;&#x627;&#x644;&#x630;&#x64a;&#x20;&#x64a;&#x648;&#x633;&#x639;&#x20;&#x627;&#x644;&#x631;&#x633;&#x645;&#x20;&#x627;&#x644;&#x628;&#x64a;&#x627;&#x646;&#x64a;&#x2e;&#x20;&#x623;&#x646;&#x20;&#x22;&#x645;&#x648;&#x631;&#x62f;&#x20;&#x627;&#x644;&#x625;&#x646;&#x62a;&#x631;&#x646;&#x62a;&#x22;&#x20;&#x630;&#x644;&#x643;&#x20;&#x647;&#x648;&#x20;&#x639;&#x646;&#x648;&#x627;&#x646;&#x20;&#x55;&#x52;&#x49;&#x20;&#x64a;&#x634;&#x64a;&#x631;&#x20;&#x625;&#x644;&#x649;&#x20;&#x646;&#x635;&#x20;&#x628;&#x631;&#x645;&#x62c;&#x64a;&#x20;&#x43;&#x47;&#x49; (&#x639;&#x644;&#x649;&#x20;&#x633;&#x628;&#x64a;&#x644;&#x20;&#x627;&#x644;&#x645;&#x62b;&#x627;&#x644;&#x60c;<br><span style=&#x0027;font-size: 14px;&#x0027; dir=&#x0027;ltr&#x0027;>&lt;code&gt;http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&folder=inbox&lt;/code&gt;</span><br>). &#x627;&#x644;&#x628;&#x631;&#x646;&#x627;&#x645;&#x62c;&#x20;&#x627;&#x644;&#x646;&#x635;&#x64a;&#x20;&#x43;&#x47;&#x49;&#x20;&#x20;&#x641;&#x64a;&#x20;&#x627;&#x644;&#x648;&#x642;&#x639;&#x20;&#x64a;&#x642;&#x648;&#x645;&#x20;&#x628;&#x627;&#x646;&#x634;&#x627;&#x621;&#x20;RDF <i> &#x645;&#x62a;&#x633;&#x644;&#x633;&#x644;&#x627;&#x60c; </i> &#x20;&#x648;&#x647;&#x648;&#x20;&#x641;&#x64a;&#x20;&#x627;&#x644;&#x623;&#x633;&#x627;&#x633;&#x20;&#x645;&#x62c;&#x631;&#x62f;&#x20;&#x648;&#x633;&#x64a;&#x644;&#x629;&#x20;&#x62a;&#x634;&#x643;&#x64a;&#x644;&#x20;&#x627;&#x644;&#x631;&#x633;&#x645;&#x20;&#x627;&#x644;&#x628;&#x64a;&#x627;&#x646;&#x64a;&#x20;&#x625;&#x644;&#x649;&#x20; <a href="https://ar.wikipedia.org/wiki/لغة_التوصيف_القابلة_للتوسعة"> &#x58;&#x4d;&#x4c;&#x3a;</a> &#x0a;"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:94
+msgid "Upon receipt of the above monstrosity, the RDF engine folds the RDF into the graph at the appropriate place, and the tree control that actually implements the UI to the bookmarks is notified that it should begin drawing some icons for the latest message about Banana Bread from Aunt Helga."
+msgstr "عند استلامك للشئ الفظيع أعلاه، يقوم محرك RDF بدمج الRDF في الرسم البياني في المكان المناسب، ويتم إخطار عنصرالتحكم المتشعب الذي يطبق واجهة المستخدم بالإشارات المرجعية أنه يجب أن يبدأ في رسم بعض الرموز للحصول على أحدث رسالة حول فطيره العمة هيلغا. "
+
 #: /content/amp-dev/index-2021.html:2
 msgid "Knowledge graph applications"
 msgstr "تطبيقات الرسم البياني المعرفي"

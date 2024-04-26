@@ -1,3 +1,59 @@
+#: /content/amp-dev/about/rdf-in-fifty.html:26
+msgid "RDF in Fifty Words or Less"
+msgstr "RDF in f&#x00FC;nfzig W&#x00F6;rtern oder weniger"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:36
+msgid "Okay, so maybe this is a bit more than fifty words, but the key points are pretty simple (and put into <b>bold text</b> for you manager&#x2013;types who just want to get straight to the point). The <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework"><i>Resource Description Framework</i></a>, or &#x201C;RDF&#x201D;, is really two things."
+msgstr "Okay, vielleicht sind es mehr als f&#x00FC;nfzig W&#x00F6;rter, aber die wesentlichen Punkte sind leicht verst&#x00E4;ndlich (und in <b>fetter Schrift</b> gedruckt, f&#x00FC;r euch Managertypen, die gleich zur Sache kommen wollen). Das <a href="https://de.wikipedia.org/wiki/Resource_Description_Framework"><i>Resource Description Framework</i></a>, &#x201C;RDF&#x201C;, besteht aus zwei Dingen."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:42
+msgid "First, RDF is a graph&#x2013;based model for describing Internet <i>resources</i> (like web pages and email messages), and how these resources relate to one another."
+msgstr "Erstens ist RDF ein auf grafischen Darstellungen basierendes Model, das Internetressourcen beschreibt (sowie Webseiten und E&#x2013;Mail&#x2013;Nachrichten), und wie diese zusammenh&#x00E4;ngen."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:48
+msgid "But what does that mean, <i>really</i>? To a developer, it means that the RDF data model (the &#x201C;graph&#x201D;) can be used as a mechanism for integrating and organizing Internet resources."
+msgstr "Aber was bedeutet das <i>wirklich</i>&#x003F; F&#x00FC;r einen Entwickler bedeutet es, dass das RDF&#x2013;Datenmodel (die &#x201C;grafische Darstellung&#x201C;) als ein Mechanismus benutzt werden kann, um Intersetressourcen zu integrieren und zu organisieren."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:51
+msgid "Let&#x0027;s look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
+msgstr "Sehen wir uns ein Beispiel an&#x003A; <i>Lesezeichen</i>. Im Moment erm&#x00F6;glichen die meisten Webbrowser Ihnen, Lesezeichen hierarchisch in <i>Ordnern</i> zu organisieren. Jedes Lesezeichen ist ein <i>Zeiger</i>, der auf eine Webseite zeigt und <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier) genannt wird."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:54
+msgid "But a web page is just one kind of Internet resource. There are tons of others, including email messages, reddit articles, RSS feeds, and search results from your favorite web crawler, just to name a few. And fundamentally, there&#x0027;s no reason that you shouldn&#x0027;t be able to treat these as &#x201C;bookmarks&#x201D; as well, grouping them together into folders as you please, or maybe even creating &#x201C;smart&#x201D; folders that, when you open them, dynamically generate their contents by running common search that you define."
+msgstr "Eine Webseite ist jedoch nur eine Art Internetressource. Es gibt jede Menge andere, darunter E-Mail-Nachrichten, Reddit-Artikel, RSS-Feeds und Suchergebnisse Ihres bevorzugten Webcrawlers, um nur einige zu nennen. Und grundsätzlich gibt es keinen Grund, warum Sie diese nicht als „Lesezeichen“ behandeln sollten. Sie können sie auch nach Belieben in Ordnern gruppieren oder vielleicht sogar „intelligente“ Dateien erstellen. Ordner, deren Inhalt beim Öffnen dynamisch generiert wird, indem eine von Ihnen definierte allgemeine Suche ausgeführt wird."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:57
+msgid "And a &#x201C;bookmark&#x201D; could really have arbitrary properties associated with it: you might want to invent your own &#x201C;classification&#x201D; scheme for a bookmark <i>a la</i> Macintosh&#x0027;s &#x201C;hot&#x201D;, &#x201C;warm&#x201D;, &#x201C;cool&#x201D; color coding. Or you might want to relate a bookmark to another bookmark, or keep it in multiple &#x201C;folders&#x201D; at once."
+msgstr "Und ein &#x201C;Lesezeichen&#x201C; k&#x00F6;nnte wirklich mit beliebigen Eigenschaften assoziiert sein&#x003A; Sie k&#x00F6;nnen Ihr eigenes &#x201C;Klassifizierungschema&#x201C; erfinden f&#x00FC;r Lesezeichen im Stile von Macintosh&#x0027;s Farbcodierungen &#x201C;heiß&#x201C;, &#x201C;warm&#x201C; und &#x201C;k&#x00FC;hl&#x201C;. Sie k&#x00F6;nnen auch Lesezeichen miteinander verbinden oder sie in mehreren &#x201C;Ordnern&#x201C; gleichzeitig aufbewahren."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:60
+msgid "The RDF graph provides a perfect data model upon which to build a &#x201C;universal&#x201D; bookmarking service as described above: the graph can contain pointers to arbitrary resources and can group them in just about any way that you can imagine."
+msgstr "Die grafische RDF&#x2013;Darstellung bietet ein perfektes Datenmodell, um einen &#x201C;universalen&#x201C; Lesezeichenservice wie oben beschrieben zu erstellen&#x003A; die Darstellung kann Zeiger beinhalten, die auf beliebige Ressourcen zeigen und die auf beinahe jede erdenkliche Weise gruppiert werden k&#x00F6;nnen."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:62
+msgid "But wait, there&#x0027;s more..."
+msgstr "Aber warten Sie, es gibt noch mehr..."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:68
+msgid "Second, RDF is a serialization syntax. This syntax allows the graph&#x2013;like model to be communicated between &#x201C;agents&#x201D;."
+msgstr "Zweitens ist RDF eine Serialisierungssyntax. Diese Syntax erm&#x00F6;glicht das Kommunizieren der grafischen Darstellung zwischen &#x201C;Agenten&#x201C;."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:74
+msgid "Okay, what the heck does <i>that</i> mean? Fundamentally, it means that parts of the RDF data model can be communicated across network boundaries, and the contents of the graph can dynamically change as information arrives from a remote service."
+msgstr "Okay, was zum Teufel soll <i>das</i> bedeuten&#x003F; Grunds&#x00E4;tzlich bedeutet es, dass Teile des RDF&#x2013;Datenmodells netzwerk&#x00FC;bergreifend kommuniziert werden und die Inhalte der Darstellung sich dynamisch ver&#x00E4;ndern k&#x00F6;nnen, w&#x00E4;hrend Informationen von externen Serven eingehen."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:77
+msgid "Let&#x0027;s go back to our bookmark example. Say that one of my bookmark &#x201C;folders&#x201D; is really a pointer to my email inbox: when I open that folder, &#x76;&#x6f;&#x69;&#x6c;&#xe0;! All the messages that I&#x0027;ve received over night appear."
+msgstr "Sehen wir uns nochmals unser Lesezeichen&#x2013;Beispiel an. Sagen wir, dass einer meiner Lesezeichen&#x2013;Ordner wirklich auf meinen E&#x2013;Mail&#x2013;Posteingang zeigt&#x003A; wenn ich diesen Ordner &#x00F6;ffne, voilá&#x0021; Alle Nachrichten, die in der Nacht eingegangen sind, werden angezeigt."
+
+#: /content/amp-dev/about/rdf-in-fifty.html:80
+msgid "But how did that happen? The inbox &#x201C;folder&#x201D; was really just a pointer to an Internet resource that contains more RDF that extends the graph. That &#x201C;Internet resource&#x201D; was a URI that pointed to a CGI script (say, &lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&amp;folder=inbox</span>&lt;/code&gt;). The CGI script actually generates <i>serialized RDF</i>, which is basically just a way of formatting a graph into <a href="https://en.wikipedia.org/wiki/Extensible_Markup_Language">XML</a>:"
+msgstr "Aber wie ist das passiert&#x003F; Der Posteingang&#x2013;&#x201C;Ordner&#x201C; war eigentlich nur ein Zeiger, der auf eine Internetressource zeigt, die mehr RDF beinhaltet, welche die Darstellung erweitert. Diese &#x201C;Internetressource&#x201C; war ein URI, der auf ein CGI&#x2013;Skript gezeigt hat (zum Beispiel,&lt;code&gt;<span>http://www.mozilla.org/smart-mail/get-mail.cgi?user=waterson&folder=inbox</span>&lt;/code&gt;) . Das CGI&#x2013;Skript generiert tats&#x00E4;chlich ein <i>serialisiertes RDF</i>, das eigentlich nur eine Art ist, um eine grafische Darstellung in <a href="https://de.wikipedia.org/wiki/Extensible_Markup_Language">XML</a> zu formatieren&#x003A;"
+
+#: /content/amp-dev/about/rdf-in-fifty.html:94
+msgid "Upon receipt of the above monstrosity, the RDF engine folds the RDF into the graph at the appropriate place, and the tree control that actually implements the UI to the bookmarks is notified that it should begin drawing some icons for the latest message about Banana Bread from Aunt Helga."
+msgstr "Nach Erhalt der obigen Monstrosit&#x00E4;t, f&#x00FC;gt die RDF&#x2013;Maschine das RDF an der passenden Stelle in die grafische Darstellung ein. Die Tree Control, die das UI in die Lesezeichen implementiert, wird aufgefordert ein paar Ikone f&#x00FC;r die letzte Nachricht von Tante Helga &#x00FC;ber Bananenbrot zu zeichnen."
+
 #: /content/amp-dev/index-2021.html:2
 msgid "Knowledge graph applications"
 msgstr "Anwendungen für Wissensgraphen"
