@@ -59,9 +59,7 @@ flyout:
         <p>{{ _('But wait, there&#x0027;s more...') }}
         </p>
       </div>
-    </div>
 
-    <div class="ap-text-aside-item">
       <div class="ap-text-block" amp-fx="fade-in fly-in-left" data-margin-start="5%" data-duration="1s" data-fly-in-distance="5%">
         <h2>
         {{ _('Second, RDF is a serialization syntax. This syntax allows the graph&#x2013;like model to be communicated between &#x201C;agents&#x201D;.') }}
@@ -85,13 +83,11 @@ flyout:
           {% set showcase_code_path = "/shared/components-showcase/amp-recipe.html" %}
             <div class="ap-code-snippet">
               {% set code_snippet = g.doc(showcase_code_path).content %}
-              {{ doc.pod.markdown.convert('```html\n' + code_snippet + '\n```')|safe }}
+              {{ doc.pod.markdown.convert('```xml\n' + code_snippet + '\n```')|safe }}
             </div>
         </div>
       </div>
-    </div>
 
-    <div class="ap-text-aside-item">
       <div class="ap-text-block" amp-fx="fade-in fly-in-left" data-margin-start="5%" data-duration="1s" data-fly-in-distance="5%">
         <p>
         {{ _('Upon receipt of the above monstrosity, the RDF engine folds the RDF into the graph at the appropriate place, and the tree control that actually implements the UI to the bookmarks is notified that it should begin drawing some icons for the latest message about Banana Bread from Aunt Helga.') }}

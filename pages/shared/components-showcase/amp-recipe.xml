@@ -8,51 +8,29 @@
       <sm:recipient>Chris Waterson "waterson@google.com"</sm:recipient>
       <sm:sender>Aunt Helga "helga@ancestry.net"</sm:sender>
       <sm:received-by>x-wing.mcom.com</sm:received-by>
-      <sm:subject>
-          Great recipe for Banana Bread
-      </sm:subject>
+      <sm:subject>Great recipe for Banana Bread</sm:subject>
       <sm:body>
         <rdf:Description rdf:nodeID="n-201">
-          <schema:name>
-              Aunt Helga\'s World Famous Banana Bread
-          </schema:name>
+          <schema:name>Aunt Helga\'s World Famous Banana Bread</schema:name>
           <schema:recipeInstructions>
               Preheat the oven to 350 degrees. Mix in the ingredients in a bowl.
               Add the flour last.
               Pour the mixture into a loaf pan and bake for one hour.
             </schema:recipeInstructions>
-          <schema:recipeIngredient>
-              3 or 4 ripe bananas, smashed.
-            </schema:recipeIngredient>
-          <schema:recipeIngredient>
-              1 egg
-          </schema:recipeIngredient>
-          <schema:recipeIngredient>
-              3/4 cup of sugar
-          </schema:recipeIngredient>
-          <schema:suitableForDiet>
-              http://schema.org/LowFatDiet
-          </schema:suitableForDiet>
-          <schema:cookTime>
-              PT1H
-          </schema:cookTime>
-          <schema:recipeYield>
-              1 loaf
-          </schema:recipeYield>
-          <schema:prepTime>
-              PT15M
-          </schema:prepTime>
+          <schema:recipeIngredient>3 or 4 ripe bananas, smashed.</schema:recipeIngredient>
+          <schema:recipeIngredient>1 egg</schema:recipeIngredient>
+          <schema:recipeIngredient>3/4 cup of sugar</schema:recipeIngredient>
+          <schema:suitableForDiet>http://schema.org/LowFatDiet</schema:suitableForDiet>
+          <schema:cookTime>PT1H</schema:cookTime>
+          <schema:recipeYield>1 loaf</schema:recipeYield>
+          <schema:prepTime>PT15M</schema:prepTime>
           <rdf:type rdf:resource="http://schema.org/Recipe"/>
           <schema:nutrition rdf:nodeID="n-202"/>
         </rdf:Description>
         <rdf:Description rdf:nodeID="n-301">
           <rdf:type rdf:resource="http://schema.org/NutritionInformation"/>
-          <schema:fatContent>
-              9 grams fat
-          </schema:fatContent>
-          <schema:calories>
-              240 calories
-          </schema:calories>
+          <schema:fatContent>9 grams fat</schema:fatContent>
+          <schema:calories>240 calories</schema:calories>
         </rdf:Description>
       </sm:body>
     </sm:message>
