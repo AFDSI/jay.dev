@@ -1,9 +1,10 @@
 $title@: Guidance
-$view: /views/2021/base.html
 $path: /sambo/{base}.html
+$view: /views/default.j2
 $localization:
   path: /{locale}/sambo/{base}.html
 $order: 1
 
 flyout:
+    - /content/amp-dev/sambo/index.html
     - /content/amp-dev/sambo/guide-tutorial/index.html
