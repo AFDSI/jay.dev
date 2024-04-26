@@ -83,7 +83,7 @@ flyout:
           {% set showcase_code_path = "/shared/components-showcase/amp-recipe.html" %}
             <div class="ap-code-snippet">
               {% set code_snippet = g.doc(showcase_code_path).content %}
-              {{ doc.pod.markdown.convert('```xml\n' + code_snippet + '\n```')|safe }}
+              {{ doc.pod.markdown.convert('```html\n' + code_snippet + '\n```')|safe }}
             </div>
         </div>
       </div>
