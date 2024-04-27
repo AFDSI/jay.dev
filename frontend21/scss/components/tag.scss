@@ -18,9 +18,11 @@
   &.--email {
     @include ci-e-mails;
   }
+
   &.--code-architecture {
     @include ci-code-architecture;
   }
+
   &.--general {
     color: color('white');
     background: color('blue-ribbon');

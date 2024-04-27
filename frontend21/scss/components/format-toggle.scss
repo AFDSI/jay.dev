@@ -91,4 +91,11 @@
       @include ci-e-mails;
     }
   }
+
+  &-link:hover,
+  &-selected {
+    &.--code-architecture {
+      @include ci-code-architecture;
+    }
+  }
 }
