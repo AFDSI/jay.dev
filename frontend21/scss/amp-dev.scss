@@ -151,7 +151,8 @@ p code {
   font-family: $fontFamilyCode;
   font-weight: 500;
   word-break: normal;
-  color: color('black');
+  /* color: color('black'); */
+  color: color('white');
   font-size: 0.9em;
 }
 
