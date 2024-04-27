@@ -94,8 +94,8 @@
 
   &-link:hover,
   &-selected {
-    &.--code-architecture {
-      @include ci-code-architecture;
+    &.--ontomatica {
+      @include ci-ontomatica;
     }
   }
 }

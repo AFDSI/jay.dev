@@ -199,8 +199,8 @@
               fill: url('#gradient-email') color('black');
             }
 
-            .code-architecture & {
-              fill: url('#gradient-code-architecture') color('black');
+            .ontomatica & {
+              fill: url('#gradient-ontomatica') color('black');
             }
           }
         }
@@ -304,8 +304,8 @@
             }
           }
 
-          &.code-architecture {
-            @include gradient-code-architecture;
+          &.ontomatica {
+            @include gradient-ontomatica;
           }
         }
       }
