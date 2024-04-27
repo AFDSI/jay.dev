@@ -198,6 +198,9 @@
             .email & {
               fill: url('#gradient-email') color('black');
             }
+            .code-architecture & {
+              fill: url('#gradient-code-architecture') color('black');
+            }
           }
         }
 
@@ -299,6 +302,20 @@
               fill: color('charade');
             }
           }
+
+          &.code-architecture {
+            @include gradient-code-architecture;
+
+            #{$header}-flyout-item-description,
+            #{$header}-flyout-item-title {
+              color: color('charade');
+            }
+
+            svg {
+              fill: color('charade');
+            }
+          }
+
         }
       }
     }
