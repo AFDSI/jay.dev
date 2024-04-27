@@ -198,6 +198,7 @@
             .email & {
               fill: url('#gradient-email') color('black');
             }
+
             .code-architecture & {
               fill: url('#gradient-code-architecture') color('black');
             }
@@ -303,9 +304,9 @@
             }
           }
 
-          /* &.code-architecture { */
-            /* @include gradient-code-architecture; */
-          /* } */
+          &.code-architecture {
+            @include gradient-code-architecture;
+          }
         }
       }
     }
