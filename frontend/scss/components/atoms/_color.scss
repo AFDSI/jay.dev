@@ -28,12 +28,14 @@ It has multiple size modifiers (more could be added below).
 @mixin color-ads { color: color('white'); }
 @mixin color-e-mails { color: color('charade'); }
 @mixin color-overview { color: color('charade'); }
+@mixin color-ontomatica { color: color('white'); }
 
 @mixin fill-websites { fill: color('white'); }
 @mixin fill-stories { fill: color('charade'); }
 @mixin fill-ads { fill: color('white'); }
 @mixin fill-e-mails { fill: color('charade'); }
 @mixin fill-overview { fill: color('charade'); }
+@mixin fill-ontomatica { fill: color('white'); }
 
 @mixin gradient-dark { background: linear-gradient(45deg, color('river-bed'), color('charade')); }
 @mixin gradient-websites { background: linear-gradient(225deg, color('robins-egg') 0%, color('blue-ribbon') 75%); }
