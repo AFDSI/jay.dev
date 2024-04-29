@@ -19,8 +19,8 @@
 @import '../../mixins';
 @import '../../variables';
 
-@import '../components/atoms/_headline.scss';
-@import '../components/atoms/_text.scss';
+@import 'components/atoms/_headline.scss';
+@import 'components/atoms/_text.scss';
 
 .#{utility('card-grid')} {
   display: flex;
