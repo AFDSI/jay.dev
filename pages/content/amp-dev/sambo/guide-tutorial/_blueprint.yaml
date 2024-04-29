@@ -1,7 +1,0 @@
-$title@: Guides
-$path: /sambo/guide-tutorial/{base}.html
-$view: /views/detail/docs-detail.j2
-$localization:
-  path: /{locale}/sambo/guide-tutorial/{base}.html
-$order: 1
-
