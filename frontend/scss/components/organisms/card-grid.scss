@@ -6,7 +6,6 @@
 
 */
 
-
 /* @import '_extends.scss'; */
 /* @import '_functions.scss'; */
 /* @import '_mixins.scss'; */
@@ -14,6 +13,14 @@
 
 /* @import 'components/atoms/_headline.scss'; */
 /* @import 'components/atoms/_text.scss'; */
+
+@import '../../extends';
+@import '../../functions';
+@import '../../mixins';
+@import '../../variables';
+
+@import '../components/atoms/_headline.scss';
+@import '../components/atoms/_text.scss';
 
 .#{utility('card-grid')} {
   display: flex;
