@@ -1,4 +1,20 @@
-{% extends '/views/2021/base.html' %}
+{% extends '/layouts/default.j2' %}
+
+{% block styles %}
+{{ super() }}
+
+{% do doc.styles.addCssFile('css/components/molecules/table.css') %}
+{% do doc.styles.addCssFile('css/components/molecules/code-snippet.css') %}
+
+{% if doc.has_inline_preview %}
+  {% do doc.styles.addCssFile('css/components/atoms/fab.css') %}
+  {% do doc.styles.addCssFile('css/components/organisms/code-preview.css') %}
+  {% do doc.icons.useIcon('icons/reload.svg') %}
+  {% do doc.icons.useIcon('icons/orientation-toggle.svg') %}
+{% endif %}
+
+{% do doc.styles.addCssFile('css/components/templates/docs-detail.css') %}
+{% endblock %}
 
 {% block main %}
 {% include 'views/partials/sidebar-toggle-observer.j2' %}
