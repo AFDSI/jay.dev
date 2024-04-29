@@ -10,6 +10,7 @@ ATTRIBUTE_PATTERN = re.compile(r'(\w+)=(?:\"|\')(.*?)(?:\"|\')')
 FILTER_END_TAG_PATTERN = '[/filter]'
 
 DEFAULT_FORMATS = 'websites, ads, stories, email'
+DEFAULT_NATIONS = 'usa, can, gbr, mex'
 DEFAULT_LEVEL = 'beginner, advanced'
 
 def trigger(original_body, content):
@@ -24,7 +25,7 @@ def _transform(content):
         attributes = _get_attributes(match)
 
         #prepare replacement
-        replacement = '{% call filter(formats=\'' + attributes['formats'] + '\' , level=\'' + attributes['level'] + '\') %}\n'
+        replacement = '{% call filter(formats=\'' + attributes['formats'] + '\' , nations=\'' + attributes['nations'] + '\' , level=\'' + attributes['level'] + '\') %}\n'
 
         # Then also replace end tags
         content = content.replace(FILTER_END_TAG_PATTERN, '\n<!-- filter -->{% endcall %}')
@@ -38,6 +39,7 @@ def _get_attributes(match):
     # Set reasonable defaults
     attributes = {
     'formats': DEFAULT_FORMATS,
+    'nations': DEFAULT_NATIONS,
     'level': DEFAULT_LEVEL
     }
     for match in matches:
@@ -74,6 +76,7 @@ def filter_toc(doc, content=''):
 
 def _get_ssr_filter_tags(attributes):
   levels = attributes.get('levels', DEFAULT_LEVEL).replace(' ', '').split(',')
+  nations = attributes.get('nations', DEFAULT_NATIONS).replace(' ', '').split(',')
   formats = attributes.get('formats', DEFAULT_FORMATS).replace(' ', '').split(',')
 
   return (
