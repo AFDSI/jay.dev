@@ -1,4 +1,10 @@
-{% extends '/views/2021/base.html' %}
+{% extends '/layouts/default.j2' %}
+
+{% block styles %}
+{{ super() }}
+
+{% do doc.styles.addCssFile('css/components/templates/docs-guides-overview.css') %}
+{% endblock %}
 
 {% block main %}
 {% include 'views/partials/sidebar-toggle-observer.j2' %}
