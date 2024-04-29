@@ -19,8 +19,7 @@
 
 @import '../templates/_default.scss';
 
-/* @import 'components/molecules/_teaser.scss'; */
-@import '../molecules/_teaser.scss';
+@import 'components/molecules/_teaser.scss';
 
 .#{template('docs-guides-overview')} {
   top: 0;
