@@ -2,15 +2,15 @@
 @import '../../frontend/scss/_mixins.scss';
 @import '../../frontend/scss/components/atoms/_icon.scss';
 @import '../../frontend/scss/components/atoms/_color.scss';
-@import '../../frontend/scss/components/atoms/_button.scss';
-@import '../../frontend/scss/components/molecules/table.scss';
-@import '../../frontend/scss/components/molecules/tip.scss';
+/* @import '../../frontend/scss/components/atoms/_button.scss'; */
 @import '../../frontend/scss/components/molecules/format-filter-hint.scss';
 @import '../../frontend/scss/components/molecules/info-button.scss';
 @import '../../frontend/scss/components/molecules/level-toggle.scss';
+@import '../../frontend/scss/components/molecules/table.scss';
+@import '../../frontend/scss/components/molecules/tip.scss';
 @import '../../frontend/scss/components/organisms/card-grid.scss';
-@import '../../frontend/scss/components/templates/docs-guides-overview.scss';
 @import '../../frontend/scss/components/templates/docs-detail.scss';
+@import '../../frontend/scss/components/templates/docs-guides-overview.scss';
 
 @import 'variables.scss';
 @import 'functions.scss';
@@ -44,7 +44,7 @@
 @import 'components/content/logo-stage.scss';
 @import 'components/extra/documentation/text-aside.scss';
 @import 'components/content/link.scss';
-@import 'components/extra/home/newsletter.scss';
+/* @import 'components/extra/home/newsletter.scss'; */
 
 html,
 body {
