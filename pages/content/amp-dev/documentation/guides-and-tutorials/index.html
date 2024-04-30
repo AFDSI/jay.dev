@@ -78,13 +78,13 @@ guides:
 
 ---
 <main>
-<section class="ap--section">
+<section class="ap-section">
   <h1>{{ doc.title }}</h1>
   <p>Here you can find everything you need to build ABC experiences. The sidebar on the left shows you all resources for building <strong>ABC [= format if format !== 'email' else 'emails' =].</strong></p>
 </section>
 
 {# {% do doc.styles.addCssFile('/css/components/organisms/card-grid.css') %} #}
-<section class="ap--card-grid">
+<section class="ap-card-grid">
   <h2 class="ap-o-card-grid-text">ABC's development workflow</h2>
 
   [% if format == 'websites' %]
@@ -313,8 +313,8 @@ guides:
   </div>
   [% endif %]
 
-{% do doc.styles.addCssFile('css/components/molecules/teaser-highlight-guides.css') %}
-<section class="ap--section">
+{# {% do doc.styles.addCssFile('css/components/molecules/teaser-highlight-guides.css') %} #}
+<section class="ap-section">
   <div class="ap-m-teaser-highlight-guides">
     <h2>Highlighted Guides & Tutorials</h2>
     <div class="ap-m-teaser-container">
@@ -339,7 +339,7 @@ guides:
   </div>
 </section>
 {% if doc.recent_guides %}
-<section class="ap--section">
+<section class="ap-section">
   <div class="ap-m-teaser-highlight-guides ap-m-teaser-highlight-guides-recent">
     <h2>Recent Guides & Tutorials</h2>
 
@@ -366,8 +366,8 @@ guides:
 </section>
 {% endif %}
 
-{% do doc.styles.addCssFile('/css/components/organisms/video-slider.css') %}
-<section class="ap--video-slider">
+{# {% do doc.styles.addCssFile('/css/components/organisms/video-slider.css') %} #}
+<section class="ap-video-slider">
   <h2 class="ap-o-video-slider-text">Featured Videos</h2>
   <p class="ap-o-video-slider-text">See the latest videos about ABC and find out more on our <a href="https://www.youtube.com/channel/UCXPBsjgKKG2HqsKBhWA4uQw">YouTube Channel.</a></p>
   [% set youTubeChannelPosts = []|importYouTubeChannel %]
