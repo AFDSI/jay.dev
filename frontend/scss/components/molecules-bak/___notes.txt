@@ -1,0 +1,3 @@
+
+original table.scss may have been lost
+check with origin
