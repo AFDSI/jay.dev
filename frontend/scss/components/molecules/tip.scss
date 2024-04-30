@@ -10,13 +10,21 @@ The tip molecule shows text alongside a contextual icon
 
 */
 
-@import 'extends';
-@import 'functions';
-@import 'mixins';
-@import 'variables';
+/* @import 'extends'; */
+/* @import 'functions'; */
+/* @import 'mixins'; */
+/* @import 'variables'; */
 
-@import 'components/atoms/_text.scss';
-@import 'components/atoms/_icon.scss';
+/* @import 'components/atoms/_text.scss'; */
+/* @import 'components/atoms/_icon.scss'; */
+
+@import '../../extends';
+@import '../../mixins';
+@import '../../functions';
+@import '../../variables';
+
+@import '../atoms/_text.scss';
+@import '../atoms/_icon.scss';
 
 .#{molecule('tip')} {
   display: flex;
