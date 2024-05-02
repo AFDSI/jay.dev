@@ -60,7 +60,7 @@
 {% set title_prefix = _('Success Story: ') %}
 {% endif %}
 
-{# <title>{{title_prefix|e}}{{title|e}} - amp.dev</title> #}
+{# <title>{{title_prefix|e}}{{title|e}} - benetta</title> #}
 <title>{{title_prefix|e}}{{title|e}}</title>
 
 {% if description %}
@@ -72,7 +72,7 @@
   "@context": "http://schema.org",
   "@type": "Webpage",
   "url": "{{ canonical}} ",
-  "name": "amp.dev",
+  "name": "benetta.net",
   "headline":"{{ title_prefix }}{{ title }}",
   {% if description %}
   "description":"{{ description }}",
@@ -83,7 +83,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AMP Project",
+    "name": "Benetta Project",
     "logo": {
         "url": "{{ base_url }}/static/img/icons/icon-512x512.png",
         "width": 512,
@@ -105,8 +105,8 @@
 <meta name="twitter:description" content="{{ description }}">
 {% endif %}
 <meta name="twitter:title" content="{{ title_prefix|e }}{{ title|replace('<', '')|replace('>', '')|e }}">
-<meta name="twitter:creator" content="@ampproject">
-<meta name="twitter:site" content="@ampproject">
+<meta name="twitter:creator" content="@benetta">
+<meta name="twitter:site" content="@benetta">
 <meta name="twitter:image" content="{{ base_url }}{{ sharing_images.wide }}">
 
 <meta property="og:title" content="{{ title_prefix }}{{ title }}">
