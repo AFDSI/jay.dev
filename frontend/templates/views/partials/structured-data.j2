@@ -60,7 +60,8 @@
 {% set title_prefix = _('Success Story: ') %}
 {% endif %}
 
-<title>{{title_prefix|e}}{{title|e}} - amp.dev</title>
+{# <title>{{title_prefix|e}}{{title|e}} - amp.dev</title> #}
+<title>{{title_prefix|e}}{{title|e}}</title>
 
 {% if description %}
 <meta name="description" content="{{ description }}">
