@@ -1,12 +1,27 @@
-{% extends '/views/2021/base.html' %}
+{% extends '/layouts/default.j2' %}
+
+{% block styles %}
+{{ super() }}
+
+{% do doc.styles.addCssFile('css/components/molecules/table.css') %}
+{% do doc.styles.addCssFile('css/components/molecules/code-snippet.css') %}
+
+{% if doc.has_inline_preview %}
+  {% do doc.styles.addCssFile('css/components/atoms/fab.css') %}
+  {% do doc.styles.addCssFile('css/components/organisms/code-preview.css') %}
+  {% do doc.icons.useIcon('icons/reload.svg') %}
+  {% do doc.icons.useIcon('icons/orientation-toggle.svg') %}
+{% endif %}
+
+{% do doc.styles.addCssFile('css/components/templates/docs-detail.css') %}
+{% endblock %}
 
 {% block main %}
-{# {% include 'views/partials/sidebar-toggle-observer.j2' %} #}
+{% include 'views/partials/sidebar-toggle-observer.j2' %}
 {% include 'views/partials/format-filter-hint.j2' %}
 <main class="ap--main ap-t-docs-detail">
   <div class="ap--container">
-    {# {% include 'views/partials/sidebar-toggle.j2' %} #}
-    {% include 'views/2021/partials/sidebar-toggle.j2' %}
+    {% include 'views/partials/sidebar-toggle.j2' %}
     <span id="ap--sidebar-content" class="ap--sidebar"></span>
     {% include 'views/partials/content.j2' %}
 
@@ -20,7 +35,7 @@
         {% set next_document = doc.next(docs=document_list) %}
 
         {% if not previous_document and next_document %}
-        {# {% do doc.styles.addCssFile('css/components/atoms/button.css') %} #}
+        {% do doc.styles.addCssFile('css/components/atoms/button.css') %}
         <a href="{{ next_document.url.path }}" class="ap-a-btn">
           {{ _('Get started') }}
         </a>
@@ -52,6 +67,5 @@
 
   </div>
 </main>
-{# {% include 'views/partials/sidebar.j2' %} #}
-{% include 'views/2021/partials/sidebar.j2' %}
+{% include 'views/partials/sidebar.j2' %}
 {% endblock %}
