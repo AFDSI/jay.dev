@@ -4,7 +4,7 @@ const SUPPORTED_FORMATS = [
   'stories',
   'ads',
   'email',
-  'nation-usa'
+  'nation-usa',
 ];
 const DEFAULT_FORMAT = SUPPORTED_FORMATS[0];
 
