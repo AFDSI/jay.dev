@@ -10,7 +10,7 @@
   <h1>{{ doc.title }}</h1>
   {% endif %}
 
-  {% set formats = ['ads', 'email', 'stories', 'websites'] %}
+  {% set formats = ['ads', 'email', 'stories', 'websites, nation-usa'] %}
   {% if (doc.formats|sort or formats) != formats %}
   {% do doc.styles.addCssFile('css/components/molecules/tip.css') %}
   [% set availableFormats = {{ doc.formats|tojson }} %]

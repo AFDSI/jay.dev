@@ -9,7 +9,7 @@ FILTER_TAG_PATTERN = re.compile(r'\[filter .*?\](?!\()', re.MULTILINE)
 ATTRIBUTE_PATTERN = re.compile(r'(\w+)=(?:\"|\')(.*?)(?:\"|\')')
 FILTER_END_TAG_PATTERN = '[/filter]'
 
-DEFAULT_FORMATS = 'websites, ads, stories, email'
+DEFAULT_FORMATS = 'websites, ads, stories, email, nation-usa'
 DEFAULT_LEVEL = 'beginner, advanced'
 
 def trigger(original_body, content):

@@ -12,17 +12,10 @@ FORMAT_TYPE_IDS = {
   'email',
   'ads',
   'stories',
-}
-
-NATION_TYPE_IDS = {
-  'usa',
-  'can',
-  'gbr',
-  'mex',
+  'nation-usa',
 }
 
 DEFAULT_FORMAT = 'websites'
-DEFAULT_NATION = 'usa'
 
 PREVIEW_INLINE = 'inline'
 PREVIEW_TOP_FRAME = 'top-frame'
