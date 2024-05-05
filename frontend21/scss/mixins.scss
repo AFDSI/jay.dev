@@ -171,6 +171,19 @@
   }
 }
 
+@mixin ci-nation-usa {
+  background: linear-gradient(
+    225deg,
+    color('japan-laurel') 0%,
+    color('confetti') 75%
+  );
+  color: color('white');
+
+  svg {
+    fill: currentColor;
+  }
+}
+
 @mixin scrollbar {
   &::-webkit-scrollbar {
     width: 6px;
