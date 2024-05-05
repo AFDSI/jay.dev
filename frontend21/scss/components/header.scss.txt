@@ -202,6 +202,7 @@
             .ontomatica & {
               fill: url('#gradient-ontomatica') color('black');
             }
+
           }
         }
 
@@ -264,7 +265,6 @@
             #{$header}-flyout-item-title {
               color: color('white');
             }
-
             svg {
               fill: color('white');
             }
@@ -281,7 +281,6 @@
             #{$header}-flyout-item-title {
               color: color('charade');
             }
-
             svg {
               fill: color('charade');
             }
@@ -298,7 +297,6 @@
             #{$header}-flyout-item-title {
               color: color('charade');
             }
-
             svg {
               fill: color('charade');
             }
@@ -307,6 +305,7 @@
           &.ontomatica {
             @include gradient-ontomatica;
           }
+
         }
       }
     }
