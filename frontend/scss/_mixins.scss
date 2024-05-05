@@ -2,12 +2,12 @@
 @import '_variables.scss';
 
 @mixin default-section-padding {
-	padding-left: 30px;
-	padding-right: 30px;
-	@media (min-width: 768px) {
-		padding-left: 0;
-		padding-right: 0;
-	}
+  padding-left: 30px;
+  padding-right: 30px;
+  @media (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @mixin box-shadow {
@@ -51,11 +51,11 @@ box-shadow: 0 25px 50px 0 rgba(0,0,0,0.21);
 }
 
 @mixin jumpto-list-shadow {
-	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.07);
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.07);
 }
 
 @mixin agenda-list-shadow {
-	box-shadow: 0 25px 25px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 25px 25px 0 rgba(0,0,0,0.15);
 }
 
 @mixin roadshow-video-shadow {
@@ -83,65 +83,65 @@ box-shadow: 0 25px 50px 0 rgba(0,0,0,0.21);
 }
 
 @mixin heroEnterAnimation {
-	@keyframes growDown {
-		from {
-			padding-top: 0%;
-		}
-		to {
-			padding-top: 45%;
-		}
-	}
+  @keyframes growDown {
+    from {
+      padding-top: 0%;
+    }
+    to {
+      padding-top: 45%;
+    }
+  }
 }
 
 @mixin rollingAnimation {
-	@keyframes roll {
+  @keyframes roll {
 
-		0% {
-			opacity: 0;
-			transform: translateY(-100%);
-		}
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
 
-		6% {
-			opacity: 1;
-			transform: translateY(0%);
-		}
+    6% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
 
-		24% {
-			opacity: 1;
-			transform: translateY(0);
-		}
+    24% {
+      opacity: 1;
+      transform: translateY(0);
+    }
 
-		32% {
-			opacity: 1;
-			transform: translateY(100%);
-		}
+    32% {
+      opacity: 1;
+      transform: translateY(100%);
+    }
 
-		42% {
-			opacity: 0;
-			transform: translateY(100%);
-		}
+    42% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
 
-		100% {
-			opacity: 0;
-			transform: translateY(100%);
-		}
+    100% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
   }
 }
 
 @mixin levitateAnimation {
-	@keyframes levitate {
-	  0% {
-	    transform: translate3d(0, -2.3%, 0);
-	  }
+  @keyframes levitate {
+    0% {
+      transform: translate3d(0, -2.3%, 0);
+    }
 
-	  50% {
-	    transform: translate3d(0, 2.3%, 0);
-	  }
+    50% {
+      transform: translate3d(0, 2.3%, 0);
+    }
 
-	  100% {
-	    transform: translate3d(0, -2.3%, 0);
-	  }
-	}
+    100% {
+      transform: translate3d(0, -2.3%, 0);
+    }
+  }
 }
 
 @mixin scrollbar {
