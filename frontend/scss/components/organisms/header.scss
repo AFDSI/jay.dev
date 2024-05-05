@@ -241,6 +241,10 @@
           &.email {
             @include fill-e-mails;
           }
+
+          &.ontomatica {
+            @include fill-ontomatica;
+          }
         }
 
         &.websites {
@@ -292,6 +296,9 @@
           }
           &.email {
             fill: url(#gradient-email) #000;
+          }
+          &.ontomatica {
+            fill: url(#gradient-ontomatica) #000;
           }
         }
       }
