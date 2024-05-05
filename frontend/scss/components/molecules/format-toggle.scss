@@ -104,6 +104,13 @@
     }
   }
 
+  &-link-ontomatica {
+    &:hover, &.#{molecule('format-toggle')}-selected {
+      @include gradient-ontomatica; color: color('white');
+      .#{atom('ico')} { fill: color('white'); }
+    }
+  }
+
   &-angle {
     margin-right: 0;
     margin-left: auto;
