@@ -23,10 +23,6 @@
     @include ci-ontomatica;
   }
 
-  &.--nation-usa {
-    @include ci-nation-usa;
-  }
-
   &.--general {
     color: color('white');
     background: color('blue-ribbon');
