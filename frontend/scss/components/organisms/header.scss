@@ -258,6 +258,11 @@
         &.email {
           @include gradient-e-mails;
         }
+
+        &.ontomatica {
+          @include gradient-ontomatica;
+        }
+
       }
 
       &-link {
