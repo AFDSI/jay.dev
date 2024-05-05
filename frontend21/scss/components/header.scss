@@ -311,6 +311,11 @@
           &.ontomatica {
             @include gradient-ontomatica;
           }
+
+          &.nation-usa {
+            @include gradient-nation-usa;
+          }
+
         }
       }
     }
