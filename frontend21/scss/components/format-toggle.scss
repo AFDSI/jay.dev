@@ -99,4 +99,11 @@
     }
   }
 
+  &-link:hover,
+  &-selected {
+    &.--nation-usa {
+      @include ci-nation-usa;
+    }
+  }
+
 }
