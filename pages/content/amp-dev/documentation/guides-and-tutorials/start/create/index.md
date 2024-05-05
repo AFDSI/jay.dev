@@ -4,6 +4,7 @@ $order: 0
 description: 'In this tutorial, we’ll introduce you to the basics of an AMP page!'
 formats:
   - websites
+  - nation-usa
 
 numbered: 0
 $hidden: true
