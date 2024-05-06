@@ -2,7 +2,7 @@
 <div class="ap-o-component-intro">
 
   {% if doc.bentoPath and not doc.bento %}
-  {% do doc.icons.useIcon('icons/speech-bubble.svg') %}
+  {% do doc.icons.useIcon('icons/speech-bubble.svg') %}
   {% do doc.styles.addCssFile('css/components/molecules/tip.css') %}
   <div class="ap-m-tip">
     <div class="ap-a-ico ap-m-tip-icon">
@@ -18,7 +18,7 @@
     <h4 class="ap-o-component-intro-headline">{{ _('Description') }}</h4>
     <p class="ap-o-component-intro-text">{{ doc.teaser.text }}</p>
   </div>
-  {% endif %}
+  {% endif %}
 
   {% if doc.scripts %}
   <div class="ap-o-component-intro-row ap-o-component-intro-row-inline">
@@ -54,11 +54,11 @@
     {% if doc.bento %}
     <div id="bento-script" class="ap-a-copy-script" hidden>
       <pre>{{ bentoScript|e }}</pre>
-<amp-iframe width="24"
-    height="24"
-    layout="fixed"
-    sandbox="allow-scripts"
-    src="{{ podspec.base_urls.platform }}/shared/copy-script/#{{ bentoScript|safe|urlencode }}">
+      <amp-iframe width="24"
+        height="24"
+        layout="fixed"
+        sandbox="allow-scripts"
+        src="{{ podspec.base_urls.platform }}/shared/copy-script/#{{ bentoScript|safe|urlencode }}">
         <div placeholder></div>
       </amp-iframe>
     </div>
