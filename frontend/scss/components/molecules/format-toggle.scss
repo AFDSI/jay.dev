@@ -104,9 +104,9 @@
     }
   }
 
-  &-link-nation-usa {
+  &-link-ontomatica {
     &:hover, &.#{molecule('format-toggle')}-selected {
-      @include gradient-nation-usa; color: color('white');
+      @include gradient-ontomatica; color: color('white');
       .#{atom('ico')} { fill: color('white'); }
     }
   }
