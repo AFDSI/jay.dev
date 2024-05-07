@@ -41,30 +41,6 @@
     }
   }
 
-/* addition
-  select {
-    height: 100%;
-    padding: 0 15px 0 5px;
-    font-family: $fontFamilyHeadline;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  &-after {
-    content: '';
-    position: absolute;
-    top: calc(50% - 4px);
-    right: 5px;
-    width: 8px;
-    height: 8px;
-    background: color('white');
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='%2320202A'%3E%3Cpath d='M59.863 17.14l4.137 5.488-32 24.232-32-24.232 4.137-5.488 27.863 21.108z'%3E%3C/path%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-    pointer-events: none;
-  }
-*/
-
   &-toggle {
     position: absolute;
     left: 0;
@@ -88,8 +64,6 @@
   }
 
   &-list {
-    font-size: 16px;
-    font-weight: bold;
     list-style: none;
     display: none;
     position: absolute;
@@ -97,7 +71,7 @@
     margin: 0;
     padding: 2px 8px;
     background: color('white');
-    /* box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.07); */
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.07);
 
     @media (max-width: $minDeviceWidth) {
       overflow: auto;
