@@ -15,8 +15,7 @@
 
 .#{molecule('language-selector')} {
   position: relative;
-  /* margin-right: 20px; */
-  margin-right: 0px;
+  margin-right: 20px;
   padding-bottom: 10px;
   display: none;
 
@@ -68,7 +67,7 @@
     list-style: none;
     display: none;
     position: absolute;
-    right: 15%;
+    /* right: 15%; */
     margin: 0;
     padding: 2px 8px;
     background: color('white');
