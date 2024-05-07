@@ -102,10 +102,6 @@
           {% for kpi in doc.kpis %}
             <div class="ap-m-kpi ap-m-kpi-websites">
               <div class="ap-m-kpi-content">
-                {# addition #}
-                {% if kpi.icon %}
-                  <span class="ap-m-kpi-icon">{{kpi.icon}}</span>
-                {% endif %}
                 {% if kpi.value %}
                   <span class="ap-m-kpi-number">{{kpi.value|safe}}</span>
                 {% endif %}
