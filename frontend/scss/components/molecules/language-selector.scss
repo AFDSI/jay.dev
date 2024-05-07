@@ -32,9 +32,10 @@
   &-label {
     display: flex;
     align-items: center;
-    font-size: 11px;
+    font-size: 16px;
     border: none;
     background: none;
+    font-weight: bold;
 
     &:hover {
       color: color('blue-ribbon');
