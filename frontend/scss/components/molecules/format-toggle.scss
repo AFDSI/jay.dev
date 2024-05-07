@@ -111,6 +111,13 @@
     }
   }
 
+  &-link-nation-usa {
+    &:hover, &.#{molecule('format-toggle')}-selected {
+      @include gradient-nation-usa; color: color('charade');
+      .#{atom('ico')} { fill: color('charade'); }
+    }
+  }
+
   &-angle {
     margin-right: 0;
     margin-left: auto;
