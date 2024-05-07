@@ -11,7 +11,7 @@
 @import '_mixins.scss';
 @import '_variables.scss';
 
-@import 'components/atoms/_text.scss';
+/* @import 'components/atoms/_text.scss'; */
 
 .#{molecule('language-selector')} {
   position: relative;
@@ -24,8 +24,6 @@
   }
 
   @media (min-width: 1024px) {
-    font-size: 16px;
-    font-weight: bold;
     margin-right: 0;
     padding-right: 30px;
     display: block;
@@ -34,7 +32,8 @@
   &-label {
     display: flex;
     align-items: center;
-    font-size: 11px;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
     background: none;
 
