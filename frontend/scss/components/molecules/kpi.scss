@@ -10,7 +10,8 @@
   display: block;
   flex: 1 0 20em;
   margin: 0 1.875rem 2.125em 0;
-  padding-top: 25%;
+  /* padding-top: 25%; */
+  padding-top: 5%;
   transition: transform .3s cubic-bezier(.25,.1,.25,1);
 
   @media (min-width: 768px) {
