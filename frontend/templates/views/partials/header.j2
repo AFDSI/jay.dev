@@ -95,7 +95,16 @@
     {% else %}
     {{ doc.pod.amp_dev.template_cache.get(cache_key)|safe }}
     {% endif %}
+<!--
+test
+-->
+    {# blog.amp.dev shares the header with amp.dev but isn't localized.
+       Therefore it's nice to have a way to turn off the language selector #}
+    {% if language_selector != False %}
+    {% include '/views/partials/language-selector.j2' %}
+    {% endif %}
 
+<!--
     {# blog.amp.dev shares the header with amp.dev but isn't localized.
        Therefore it's nice to have a way to turn off the language selector #}
     {% if language_selector != False %}
@@ -116,7 +125,7 @@
       </div>
     </div>
     {% endif %}
-
+-->
     {% do doc.styles.addCssFile('/css/components/molecules/search-trigger.css') %}
     {% do doc.icons.useIcon('/icons/magnifier.svg') %}
     <div id="searchTriggerOpen" class="ap-m-search-trigger" on="tap:searchLightbox" role="button" aria-label="{{ _('Search') }}"  tabindex="0">
