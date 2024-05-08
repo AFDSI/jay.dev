@@ -50,15 +50,13 @@ stage:
 
 kpis:
   - value: value
-    icon: code-architecture
+    icon: fast-loading
     text: Wafer cheesecake lollipop fruitcake danish powder. Pudding croissant biscuit icing. Gummi bears fruitcake cake wafer cake cookie caramels marshmallow bonbon.
 
   - value: expense
-    icon: fast-loading
     text: Jelly jujubes marshmallow donut. Pudding croissant biscuit icing. Gummi bears fruitcake cake wafer cake cookie caramels marshmallow bonbon.
 
   - value: coordinate
-    icon: interaction
     text: Wafer cheesecake lollipop fruitcake danish powder. Pudding croissant biscuit icing. Gummi bears fruitcake cake wafer cake cookie caramels marshmallow bonbon.
 
 contents:

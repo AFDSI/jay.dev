@@ -42,7 +42,8 @@ The size of the icon should be 2 (small), the headline should be h1 (xxlarge) an
 }
 
 @mixin kpi-icon {
-  @include ico-2;
+  /* @include ico-2; */
+  @include ico-4;
   @include ico-white;
 }
 
