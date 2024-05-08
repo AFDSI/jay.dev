@@ -12,20 +12,20 @@
   }
 
   &:first-child {
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    margin-top: 40px;
 
     @include respond-to('large') {
-      margin-top: 140px;
+      /* margin-top: 140px; */
+      margin-top: 20px;
     }
   }
 
   &:last-child {
-    /* margin-bottom: 100px; */
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
     @include respond-to('large') {
-      /* margin-bottom: 150px; */
-      margin-bottom: 50px;
+      margin-bottom: 150px;
     }
   }
 
