@@ -20,10 +20,12 @@
   }
 
   &:last-child {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    margin-bottom: 50px;
 
     @include respond-to('large') {
-      margin-bottom: 150px;
+      /* margin-bottom: 150px; */
+      margin-bottom: 50px;
     }
   }
 
