@@ -55,6 +55,7 @@ The size of the icon should be 2 (small), the headline should be h1 (xxlarge) an
   display: block;
   font-size: 3em;
   line-height: 1em;
+  vertical-align: text-top;
 }
 
 @mixin kpi-text {
