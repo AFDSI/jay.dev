@@ -1,0 +1,4 @@
+
+Errors:
+- There's a missing closing brace (`}`) after the `@mixin container-nogap` mixin.
+- There's a missing closing brace (`}`) after the `@mixin toc-white-bg` mixin.

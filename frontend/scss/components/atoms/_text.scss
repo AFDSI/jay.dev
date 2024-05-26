@@ -102,3 +102,145 @@ TODO: mono (inline, block)
 @mixin txt-uppercase {
 	text-transform: uppercase;
 }
+
+/*
+
+##################
+### ATOM: icon ###
+##################
+
+### INFO:
+
+An icon could have fice different sizes and multiple (background)colors.
+New colors can be added below.
+
+### MODIFIERS:
+
+sizes
+  Selector names of the sizes could be changed globally in variables.
+
+colors
+  Color of icons are based on original color names.
+
+square
+  Gaves the icon a square shape with background color (default is transparent).
+
+*/
+
+@mixin ico {
+  display: flex;
+  font-size: initial;
+  box-sizing: initial;
+  justify-content: center;
+}
+
+@mixin ico-1 {
+  width: 1em;
+  height: 1em;
+}
+
+@mixin ico-2 {
+  width: 1.375em;
+  height: 1.375em;
+}
+
+@mixin ico-3 {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+@mixin ico-4 {
+  width: 4em;
+  height: 4em;
+}
+
+@mixin ico-5 {
+  width: 5em;
+  height: 5em;
+}
+
+@mixin ico-10 {
+  max-width: 10em;
+  max-height: 10em;
+  height: auto;
+  width: 100%;
+}
+
+@mixin ico-blue-ribbon {
+  fill: color('blue-ribbon');
+}
+
+@mixin ico-white {
+  fill: color('white');
+}
+
+@mixin ico-stories {
+  fill: color('school-bus');
+}
+
+@mixin ico-ads {
+  fill: color('electric-violet');
+}
+
+@mixin ico-e-mails {
+  fill: color('japan-laurel');
+}
+
+@mixin ico-river-bed {
+  fill: color('river-bed');
+}
+
+@mixin ico-square {
+  fill: color('white');
+  background-color: color('blue-ribbon');
+}
+
+@import '../../extends';
+@import '../../functions';
+@import '../../mixins';
+@import '../../variables';
+
+/*
+
+###################
+### ATOM: color ###
+###################
+
+### INFO:
+
+Text atom could be used almost everywhere.
+It has multiple size modifiers (more could be added below).
+
+*/
+@mixin bg-docs { background-color: color('whisper'); }
+
+@mixin color-black { color: color('black'); }
+@mixin color-blue-ribbon { color: color('blue-ribbon'); }
+@mixin color-silver { color: color('iron'); }
+@mixin color-gray-chateau { color: color('oslo-gray'); }
+@mixin color-white { color: color('white'); }
+
+@mixin color-websites { color: color('white'); }
+@mixin color-stories { color: color('charade'); }
+@mixin color-ads { color: color('white'); }
+@mixin color-e-mails { color: color('charade'); }
+@mixin color-overview { color: color('charade'); }
+@mixin color-ontomatica { color: color('white'); }
+@mixin color-nation-usa { color: color('charade'); }
+
+@mixin fill-websites { fill: color('white'); }
+@mixin fill-stories { fill: color('charade'); }
+@mixin fill-ads { fill: color('white'); }
+@mixin fill-e-mails { fill: color('charade'); }
+@mixin fill-overview { fill: color('charade'); }
+@mixin fill-ontomatica { fill: color('white'); }
+@mixin fill-nation-usa { fill: color('charade'); }
+
+@mixin gradient-dark { background: linear-gradient(45deg, color('river-bed'), color('charade')); }
+@mixin gradient-websites { background: linear-gradient(225deg, color('robins-egg') 0%, color('blue-ribbon') 75%); }
+@mixin gradient-stories { background: linear-gradient(225deg, color('clementine') 0%, color('school-bus') 75%); }
+@mixin gradient-ads { background: linear-gradient(225deg, color('lav-magenta') 0%, color('electric-violet') 75%); }
+@mixin gradient-e-mails { background: linear-gradient(225deg, color('japan-laurel') 0%, color('confetti') 75%); }
+@mixin gradient-ontomatica { background: linear-gradient(142deg, color('peach-orange') 0%, color('guardsman-red') 75%); }
+@mixin gradient-nation-usa { background: linear-gradient(225deg, color('japan-laurel') 0%, color('confetti') 75%); }
+
