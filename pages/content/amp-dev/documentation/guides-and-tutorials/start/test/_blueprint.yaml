@@ -1,0 +1,11 @@
+$path: /documentation/guides-and-tutorials/start/test/{base}.html
+$view: /views/2021/base.html
+$order: 5
+$localization:
+  path: /{locale}/documentation/guides-and-tutorials/start/test/{base}.html
+$title@: testing HTML
+chaptered: true
+tutorial: true
+
+formats:
+  - websites
