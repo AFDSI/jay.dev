@@ -73,13 +73,13 @@ The catalogue has been broken down into a number of separate
 chapters. Each chapter collects together patterns that have a
 common theme.
 
--  :ref:`Chapter 2, Identifier Patterns <chap2>`
--  :ref:`Chapter 3, Modelling Patterns <chap3>`
--  :ref:`Chapter 4, Publishing Patterns <chap4>`
--  :ref:`Chapter 6, Application Patterns <chap6>`
+-  Chapter 2, Identifier Patterns
+-  Chapter 3, Modelling Patterns
+-  Chapter 4, Publishing Patterns
+-  Chapter 6, Application Patterns
 
 The catalogue also includes a few patterns that arguably aren't
-patterns at all, they're similar features of the RDF model; :ref:`Typed Literal <typed-literal>`
+patterns at all, they're similar features of the RDF model; `Typed Literal <typed-literal>`
 for example. We decided to include
 these for the sake of helping to document best practices. There
 are plenty of examples and material on some of these basic
@@ -104,7 +104,7 @@ example to focus on the particular usage being demonstrated.
 Unless otherwise stated, assume that when you're looking at some
 Turtle we've declared the following prefixes:
 
-[sourcecode:json]
+[sourcecode:html]
    @prefix ex: <http://www.example.org/>
    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -116,6 +116,6 @@ Turtle we've declared the following prefixes:
    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 [/sourcecode]
 
-In the :ref:`chap5` section of the book, a number of the examples use the
+In the `chap5` section of the book, a number of the examples use the
 [TRiG](http://www4.wiwiss.fu-berlin.de/bizer/trig/) syntax,
 which is an extension of Turtle that supports Named Graphs.
