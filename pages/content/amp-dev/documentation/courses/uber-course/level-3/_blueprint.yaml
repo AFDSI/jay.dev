@@ -1,0 +1,15 @@
+$title@: from linked data
+$view: /views/detail/docs-detail.j2
+$path: /documentation/courses/uber-course/level-3/{base}.html
+$localization:
+  path: /{locale}/documentation/courses/uber-course/level-3/{base}.html
+$order: 1
+toc: true
+
+chaptered: true
+tutorial: true
+formats:
+  - websites
+  - stories
+  - ads
+  - email

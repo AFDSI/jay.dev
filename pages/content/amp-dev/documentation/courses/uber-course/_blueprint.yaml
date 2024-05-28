@@ -1,0 +1,15 @@
+$title@: Uber Course
+$view: /views/detail/docs-detail.j2
+$path: /documentation/courses/uber-course/{base}.html
+$localization:
+  path: /{locale}/documentation/courses/uber-course/{base}.html
+$order: 5
+toc: false
+
+chaptered: true
+tutorial: true
+formats:
+  - websites
+  - stories
+  - ads
+  - email
