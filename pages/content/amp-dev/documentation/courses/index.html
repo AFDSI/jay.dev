@@ -1,8 +1,8 @@
 ---
-$title: Learn ABC with free courses
+$title: Learn Linked Data with free courses
 $titles:
   navigation: Courses
-  sidebar: Learn ABC
+  sidebar: Learn Linked Data
   teaser: Courses
 $view: /views/overview/courses.j2
 $path: /documentation/courses/index.html
@@ -10,16 +10,16 @@ $localization:
   path: /{locale}/documentation/courses/index.html
 $order: 0
 
-description: "Learn ABC by taking these courses. Or, if you're an instructor, use these free resources to run your own class!"
+description: "Learn Linked Data by taking these courses. Or, if you're an instructor, use these free resources to run your own class!"
 flyout:
-  description: Learn ABC with free courses
+  description: Learn Linked Data with free courses
   icon: learn
 ---
 {% do doc.styles.addCssFile('css/components/templates/courses-overview.css') %}
 {% do doc.styles.addCssFile('css/components/molecules/copy.css') %}
 
 <section class="ap--section ap--intro">
-  <h1>{{ _('Learn Web Development with ABC') }}</h1>
+  <h1>{{ _('Learn Linked Data') }}</h1>
   <p>
   {{ _('ABC can help you create fast websites more quickly!') }}
     <ul>
@@ -42,7 +42,7 @@ flyout:
         g.doc('/content/amp-dev/documentation/courses/beginning-course/index.md', locale=doc.locale),
         g.doc('/content/amp-dev/documentation/courses/intermediate-course/index.md', locale=doc.locale),
         g.doc('/content/amp-dev/documentation/courses/advanced-course/index.md', locale=doc.locale),
-        g.doc('/content/amp-dev/documentation/courses/uber-course/index.md', locale=doc.locale),
+        g.doc('/content/amp-dev/documentation/courses/introduction/index.md', locale=doc.locale),
         ] %}
       {% include '/views/partials/teaser.j2' %}
       {% endfor %}
