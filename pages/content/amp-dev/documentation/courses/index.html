@@ -10,7 +10,7 @@ $localization:
   path: /{locale}/documentation/courses/index.html
 $order: 0
 
-description: "Learn Linked Data by taking these courses. Or, if you're an instructor, use these free resources to run your own class!"
+description: "Learn Linked Data by taking these courses."
 flyout:
   description: Learn Linked Data with free courses
   icon: learn
@@ -43,7 +43,6 @@ flyout:
         g.doc('/content/amp-dev/documentation/courses/intermediate-course/index.md', locale=doc.locale),
         g.doc('/content/amp-dev/documentation/courses/advanced-course/index.md', locale=doc.locale),
         g.doc('/content/amp-dev/documentation/courses/chapter-1/index.md', locale=doc.locale),
-        g.doc('/content/amp-dev/documentation/courses/chapter-2/index.md', locale=doc.locale),
         ] %}
       {% include '/views/partials/teaser.j2' %}
       {% endfor %}
@@ -67,35 +66,6 @@ flyout:
   </div>
 </section>
 
-<!--
-{% do doc.styles.addCssFile('/css/components/organisms/card-grid.css') %}
-<section class="ap--card-grid">
-
-{% with %}
-{% set card_grid_items = [
-  {
-    "icon_name": "students",
-    "headline": "Students",
-    "button": {
-      "url": g.doc('/content/amp-dev/documentation/courses/beginning-course/index.md', locale=doc.locale).url.path,
-      "text": "Learn ABC"
-    }
-  },
-  {
-    "icon_name": "teachers",
-    "headline": "Teachers",
-    "button": {
-      "url": g.doc('/content/amp-dev/documentation/courses/teachers.md', locale=doc.locale).url.path,
-      "text": "Teach ABC"
-    }
-  }
-]
-%}
-{% include '/views/partials/card-grid.j2' %}
-{% endwith %}
-
-</section>
--->
 <section class="ap--requirements">
   <div class="ap--section">
     <h4>{{ _('Requirements') }}</h4>
