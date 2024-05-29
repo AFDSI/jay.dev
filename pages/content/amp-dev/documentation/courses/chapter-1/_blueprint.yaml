@@ -1,0 +1,15 @@
+$title@: Introduction
+$view: /views/detail/docs-detail.j2
+$path: /documentation/courses/chapter-1/{base}.html
+$localization:
+  path: /{locale}/documentation/courses/chapter-1/{base}.html
+$order: 5
+toc: false
+
+chaptered: true
+tutorial: true
+formats:
+  - websites
+  - stories
+  - ads
+  - email
