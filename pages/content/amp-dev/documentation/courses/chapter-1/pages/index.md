@@ -15,11 +15,8 @@ Design patterns have a number of benefits:
   * Patterns encourage discussion of related and complementary approaches. Design decisions are rarely clear cut. A focus on specifics is useful for understanding trade-offs
   * Patterns provide a name for a particular design decision or solution. Collectively they build a lexicon that encourages clearer communication between practitioners
 
-[filter level="beginner"]
 The authors have successfully applied design patterns in their software development activities. The approach seemed well suited to teasing out some of the experiences and lessons they have learnt through working with Semantic Web technologies; the rigor of a pattern approach also helped the authoring.
-[/filter]
 
-[filter level="advanced"]
 ## ...And Why a Book? Why Not a Blog or a Wiki?
 
 This is something that we wrestled with for a long time. Our goal is that this book should ultimately reflective the collective experience of the Linked Data community and we want to encourage participation and feedback. You can use the [dataincubator.org](http://dataincubator.org/) mailing list to discuss the book and debates its contents. We're also hoping to include your submissions, corrections and edits in the future.
@@ -27,7 +24,6 @@ This is something that we wrestled with for a long time. Our goal is that this b
 But while we want this book to grow as a participatory activity we (particularly Leigh) felt that an editorial layer would be a useful addition to this process. Helping firm up the naming, communication and organisation of the pattern catalogue as it develops.
 
 We also encourage the community, if they find a design pattern approach to be useful, to publish and share their own patterns using whatever mechanism feels right for them. A thousand flowers, etc. The [OntologyDesignPatterns.org](http://ontologydesignpatterns.org/) wiki provides one forum for helping to contribute to this effort.
-[/filter]
 
 ## What's Not Covered?
 
@@ -41,10 +37,11 @@ Ontologist](http://workingontologist.org/). It's a great book that will give you
 The catalogue has been broken down into a number of separate chapters. Each chapter collects together patterns that have a
 common theme.
 
-  -  Chapter 2, Identifier Patterns
-  -  Chapter 3, Modelling Patterns
-  -  Chapter 4, Publishing Patterns
-  -  Chapter 6, Application Patterns
+  - Chapter 2, Identifier Patterns
+  - Chapter 3, Modelling Patterns
+  - Chapter 4, Publishing Patterns
+  - Chapter 5, Data Management Patterns
+  - Chapter 6, Application Patterns
 
 The catalog also includes a few patterns that arguably aren't patterns at all, they're similar features of the RDF model; `Typed Literal <typed-literal>` for example. We decided to include these for the sake of helping to document best practices. There are plenty of examples and material on some of these basic features but they're often overlooked by both experienced and new practitioners. So we've opted to document these as patterns to help draw attention to them.
 
@@ -66,7 +63,6 @@ Unless otherwise stated, assume that when you're looking at some Turtle we've de
    @prefix dc: <http://purl.org/dc/elements/1.1/> .
    @prefix owl: <http://www.w3.org/2002/07/owl#> .
    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-   @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-[/sourcecode]
+   @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .[/sourcecode]
 
 In the `chap5` section of the book, a number of the examples use the [TRiG](http://www4.wiwiss.fu-berlin.de/bizer/trig/) syntax, which is an extension of Turtle that supports Named Graphs.

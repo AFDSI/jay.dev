@@ -1,8 +1,8 @@
 $title@: Introduction
 $view: /views/detail/docs-detail.j2
-$path: /documentation/courses/intoduction/{base}.html
+$path: /documentation/courses/chapter-1/{base}.html
 $localization:
-  path: /{locale}/documentation/courses/intoduction/{base}.html
+  path: /{locale}/documentation/courses/chapter-1/{base}.html
 $order: 5
 toc: false
 

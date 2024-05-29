@@ -1,10 +1,10 @@
 $title@: Overview
 $view: /views/detail/docs-detail.j2
-$path: /documentation/courses/intoduction/overview/{base}.html
+$path: /documentation/courses/chapter-1/pages/{base}.html
 $localization:
-  path: /{locale}/documentation/courses/intoduction/overview/{base}.html
+  path: /{locale}/documentation/courses/chapter-1/pages/{base}.html
 $order: 1
-toc: true
+toc: false
 
 chaptered: true
 tutorial: true
