@@ -6,8 +6,8 @@ $localization:
 $order: 5
 toc: false
 
-chaptered: true
-tutorial: true
+chaptered: false
+tutorial: false
 formats:
   - websites
   - stories

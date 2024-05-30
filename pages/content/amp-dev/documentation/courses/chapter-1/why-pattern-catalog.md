@@ -5,8 +5,6 @@ $order: 2
 leveled: false
 ---
 
-## Why A Pattern Catalog?
-
 Design patterns have a number of benefits:
 
   * Patterns have a well-defined structure that encourages focus on the essential knowledge being communicated. This makes them accessible and easy to consume.

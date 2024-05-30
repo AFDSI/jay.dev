@@ -7,7 +7,7 @@ $order: 6
 toc: false
 
 chaptered: false
-tutorial: true
+tutorial: false
 formats:
   - websites
   - stories
