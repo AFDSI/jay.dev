@@ -1,10 +1,8 @@
 ---
 $title: Patterned URIs
-$order: 4
+$order: 5
 leveled: false
 ---
-
-# Patterned URIs
 
   *How can we create more predictable, human-readable URIs?*
 

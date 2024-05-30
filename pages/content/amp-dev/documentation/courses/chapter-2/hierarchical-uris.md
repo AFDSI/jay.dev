@@ -1,10 +1,8 @@
 ---
 $title: Hierarchical URIs
-$order: 1
+$order: 2
 leveled: false
 ---
-
-# Hierarchical URIs
 
   *How should URIs be assigned to a group of resources that form a natural hierarchy?*
 

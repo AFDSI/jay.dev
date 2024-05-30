@@ -1,10 +1,8 @@
 ---
 $title: Natural Keys
-$order: 3
+$order: 4
 leveled: false
 ---
-
-# Natural Keys
 
   *How can we create unique URIs from data that already has unique identifiers?*
 

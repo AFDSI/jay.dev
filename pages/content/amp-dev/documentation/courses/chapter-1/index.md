@@ -10,8 +10,6 @@ $order: 1
 leveled: false
 ---
 
-# Abstract
-
 There are many ways to help spread the adoption of a technology, and to share skills and experience amongst a community of practitioners.
 Different approaches work well for communicating different kinds of knowledge.
 And we all individually have a preferred means of acquiring new skills, or getting help with a specific problem.

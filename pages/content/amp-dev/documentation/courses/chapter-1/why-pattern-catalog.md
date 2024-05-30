@@ -1,7 +1,7 @@
 ---
 $title: Why A Pattern Catalog?
 description: 'Learn to create advanced user interactions and use server content.'
-$order: 1
+$order: 2
 leveled: false
 ---
 

@@ -1,4 +1,4 @@
-$title@: Identifier Patterns
+$title@: Patterns
 $view: /views/detail/docs-detail.j2
 $path: /documentation/courses/chapter-2/{base}.html
 $localization:
@@ -6,7 +6,7 @@ $localization:
 $order: 6
 toc: false
 
-chaptered: true
+chaptered: false
 tutorial: true
 formats:
   - websites

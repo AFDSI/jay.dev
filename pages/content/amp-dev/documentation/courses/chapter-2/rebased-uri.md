@@ -1,10 +1,8 @@
 ---
 $title: Rebased URI
-$order: 6
+$order: 7
 leveled: false
 ---
-
-# Rebased URI
 
   *How can we construct one URI based on another?*
 

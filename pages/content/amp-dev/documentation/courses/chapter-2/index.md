@@ -6,11 +6,9 @@ teaser:
   icon: airplane
   label: Chapter 2
 description: Learn chapter 2.
-$order: 0
+$order: 1
 leveled: false
 ---
-
-## Abstract
 
 The single most important part of the Linked Data approach is the adoption of web-scale identifiers (URIs) to identify things of interest: people, events, places, statistical observations, colours. Anything that we want to publish data about on the web needs to have a URI, allowing it to be referenced, browsed and linked using existing web tools. The existing tools of the web of documents are already designed to work well with things that have URIs. We can "like" them, discuss them, and refer to them in documents. 
 

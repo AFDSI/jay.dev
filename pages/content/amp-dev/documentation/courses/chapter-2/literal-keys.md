@@ -1,10 +1,8 @@
 ---
 $title: Literal Keys
-$order: 2
+$order: 3
 leveled: false
 ---
-
-# Literal Keys
 
   *How do we publish non-global identifiers in RDF?*
 

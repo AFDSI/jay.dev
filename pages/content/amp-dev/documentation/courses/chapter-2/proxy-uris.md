@@ -1,10 +1,8 @@
 ---
 $title: Proxy URIs
-$order: 5
+$order: 6
 leveled: false
 ---
-
-# Proxy URIs
 
   *How do we deal with lack of standard identifiers for third-party resources?*
 

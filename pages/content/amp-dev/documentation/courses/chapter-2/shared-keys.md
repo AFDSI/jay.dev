@@ -1,10 +1,8 @@
 ---
 $title: Shared Keys
-$order: 7
+$order: 8
 leveled: false
 ---
-
-# Shared Keys
 
   *How do we simplify the inter-linking of datasets?*
 

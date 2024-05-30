@@ -1,10 +1,8 @@
 ---
 $title: URL Slug
-$order: 8
+$order: 9
 leveled: false
 ---
-
-# URL Slug
 
   *How can we create URLs from arbitrary text or keywords?*
 
