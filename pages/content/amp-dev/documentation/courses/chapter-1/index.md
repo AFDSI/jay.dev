@@ -1,11 +1,11 @@
 ---
-$title: Introduction
+$title: Abstract
 $titles:
   teaser: Introduction to Linked Data
 teaser:
   icon: airplane
   label: Start now
-description: Learn to model, publish, and consume Linked Data.
+description: 'Learn to model, publish, and consume Linked Data.'
 $order: 1
 leveled: false
 ---
