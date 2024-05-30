@@ -5,13 +5,13 @@ leveled: true
 ---
 
 [filter level="beginner"]
-## Navigating the ABC Component Documentation
+## Navigating the AMP Component Documentation
 
 So far, the components we’ve used have been fairly straightforward. For `<amp-img>` and `<amp-youtube>`, it was sufficient to visit the documentation, look at an example, and copy that to our site. For more advanced features of these components, or for more complicated components, we will need to read and absorb more information from the documentation.
 
-In order to develop ABC sites effectively, it’s important to learn how to navigate the ABC component documentation. We will practice this skill extensively throughout each of the trainings in this series.
+In order to develop AMP sites effectively, it’s important to learn how to navigate the AMP component documentation. We will practice this skill extensively throughout each of the trainings in this series.
 
-Next, we want to add a collection of images of cheese bike products for our users to scroll through. For this, we’ll use an image carousel component. A **carousel** is an element containing a set of items that can be swiped through like a slideshow. The ABC implementation of a carousel is the component: `<amp-carousel>`. This component is not built in, so you will need to add its script in the page's `<head>`.
+Next, we want to add a collection of images of cheese bike products for our users to scroll through. For this, we’ll use an image carousel component. A **carousel** is an element containing a set of items that can be swiped through like a slideshow. The AMP implementation of a carousel is the component: `<amp-carousel>`. This component is not built in, so you will need to add its script in the page's `<head>`.
 
 When we look at the [documentation](../../../documentation/components/reference/amp-carousel.md) for `<amp-carousel>`, we’re looking for answers to questions such as:
 
@@ -27,7 +27,7 @@ When we look at the [documentation](../../../documentation/components/reference/
 
 - What layouts does this component support?
 
-{{ image('/static/img/courses/beginner/image25.png', 512, 386, caption='ABC documentation page for <amp‑carousel>.') }}
+{{ image('/static/img/courses/beginner/image25.png', 512, 386, caption='AMP documentation page for <amp‑carousel>.') }}
 
 Look at the following items in the [documentation](../../../documentation/components/reference/amp-carousel.md) of `<amp-carousel>`:
 
@@ -35,7 +35,7 @@ Look at the following items in the [documentation](../../../documentation/compon
 
 - **The behavior section** - This section explains how the component works. It usually provides both some sample code as well as a preview of what the component looks like.
 
-- **The list of attributes** - We talked about custom attributes in the previous section on web components. These allow us to customize our ABC component in certain ways. This section contains the list of different attributes, their possible values, and what the attributes control.
+- **The list of attributes** - We talked about custom attributes in the previous section on web components. These allow us to customize our AMP component in certain ways. This section contains the list of different attributes, their possible values, and what the attributes control.
 
 - **The styling section** - This section explains how to use CSS to change the appearance of this component. Beyond styling by tag name or ID, many components provide additional CSS classes that can be used to change the appearance of the component in certain states. For example, `<amp-carousel>` provides the class `.amp-carousel-button`, which allows developers to restyle the buttons that change the carousel slide.
 
@@ -43,7 +43,7 @@ Look at the following items in the [documentation](../../../documentation/compon
 
 - **The supported layouts** - We discussed the [layout](../../../documentation/guides-and-tutorials/learn/amp-html-layout/layouts_demonstrated.html) attribute in a previous section. It controls the way the element is rendered on the screen. This section explains which layouts are valid for this component.
 
-These items are listed in the documentation for almost all ABC components. Let’s explore the documentation using one of its examples:
+These items are listed in the documentation for almost all AMP components. Let’s explore the documentation using one of its examples:
 
 [sourcecode:html]
 {% raw %}<amp-carousel id="carousel-with-preview"
@@ -69,7 +69,7 @@ These items are listed in the documentation for almost all ABC components. Let�
 </amp-carousel>
 {% endraw %}[/sourcecode]
 
-This carousel contains three images for users to slide through. The attributes of this carousel component instance (`id`, `width`, `height`, `layout`, and `type`) are split into three groups: [attributes common to all HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes) (`id`), [attributes common to all ABC components](../../../documentation/guides-and-tutorials/learn/common_attributes.md) (`width`, `height`, and `layout`), and attributes unique to the carousel component (`type`).
+This carousel contains three images for users to slide through. The attributes of this carousel component instance (`id`, `width`, `height`, `layout`, and `type`) are split into three groups: [attributes common to all HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes) (`id`), [attributes common to all AMP components](../../../documentation/guides-and-tutorials/learn/common_attributes.md) (`width`, `height`, and `layout`), and attributes unique to the carousel component (`type`).
 
 In the documentation for `<amp-carousel>`, we see that the component can have a `type` attribute. It shows that the valid inputs for `type` include `slides` and `carousel`.
 
@@ -79,7 +79,7 @@ This means that if you don’t specify a `type`, the default will be `carousel`.
 **Tip**: Some attributes do not require a value at all. These are called [boolean attributes](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes). In these cases, the attribute has a default value of `false` and a value of `true` when attached to an element or component.
 [/tip]
 
-Many other custom attributes can be used with the `<amp-carousel>` component. When using an ABC component for the first time, look through the documentation to get a feel for all the ways that you can customize the appearance or behavior of the component through attributes.
+Many other custom attributes can be used with the `<amp-carousel>` component. When using an AMP component for the first time, look through the documentation to get a feel for all the ways that you can customize the appearance or behavior of the component through attributes.
 
 ## Exercise 5: Creating an Image Slideshow
 
@@ -126,23 +126,23 @@ Remember to include the `<amp-carousel>` script in the `<head>`:
 
 ## Discovering New Components
 
-As we continue to develop our cheese bike site, we won’t always know the name of the ABC component we want to add to implement some desired new feature. The ABC community has produced a large collection of components that handle many different types of functionality: ads and analytics, dynamic content, layout, media, presentation, and social. It’s typical when developing an ABC site to be given a set of requirements for a new feature, and then to search through the lists of ABC components in search of a component that fulfills those requirements.
+As we continue to develop our cheese bike site, we won’t always know the name of the AMP component we want to add to implement some desired new feature. The AMP community has produced a large collection of components that handle many different types of functionality: ads and analytics, dynamic content, layout, media, presentation, and social. It’s typical when developing an AMP site to be given a set of requirements for a new feature, and then to search through the lists of AMP components in search of a component that fulfills those requirements.
 
-The first way to discover new ABC components is to use your favorite search engine or the search functionality on the ABC project [site](https://amp.dev/). This is an effective way to go directly to the documentation for a component that you already know by name. Additionally, you can search for descriptions of components you’re interested in to find results. Searching “YouTube videos,” for example, will bring up `<amp-youtube>` as the first result. Similarly, searching “collapsible content” will bring up the `<amp-accordion>` component as the first result.
+The first way to discover new AMP components is to use your favorite search engine or the search functionality on the AMP project [site](https://amp.dev/). This is an effective way to go directly to the documentation for a component that you already know by name. Additionally, you can search for descriptions of components you’re interested in to find results. Searching “YouTube videos,” for example, will bring up `<amp-youtube>` as the first result. Similarly, searching “collapsible content” will bring up the `<amp-accordion>` component as the first result.
 
-Another way to find components is to use the [ABC Components Reference](../../../documentation/components/index.html) page. It contains a list of the components supported by ABC. Each component entry includes the name of the component and a short description of what functionality the component provides. We can access the documentation for a component by clicking on its name. As we learned earlier, the documentation will go even deeper into the behavior of the component. Based on these bits of information, we should be able to determine whether the component will fulfill our needs or whether we need to search for a different component. In a future training, we will discuss what to do if no single component meets all of our requirements.
+Another way to find components is to use the [AMP Components Reference](../../../documentation/components/index.html) page. It contains a list of the components supported by AMP. Each component entry includes the name of the component and a short description of what functionality the component provides. We can access the documentation for a component by clicking on its name. As we learned earlier, the documentation will go even deeper into the behavior of the component. Based on these bits of information, we should be able to determine whether the component will fulfill our needs or whether we need to search for a different component. In a future training, we will discuss what to do if no single component meets all of our requirements.
 
-{{ image('/static/img/courses/beginner/image3.png', 512, 271, caption='The ABC Component Reference page.') }}
+{{ image('/static/img/courses/beginner/image3.png', 512, 271, caption='The AMP Component Reference page.') }}
 
-Finally, we might still have questions about how the component would act on our site, or we may be unclear about how to use the component in more complex ways. The [ABC By Example](../../../documentation/examples/index.html) section on amp.dev has pages showcasing many ABC components, showing a variety of ways to configure those components to meet common use cases in modern websites. Usually, you can get to the corresponding ABC By Example page for a component directly from its documentation.
+Finally, we might still have questions about how the component would act on our site, or we may be unclear about how to use the component in more complex ways. The [AMP By Example](../../../documentation/examples/index.html) section on amp.dev has pages showcasing many AMP components, showing a variety of ways to configure those components to meet common use cases in modern websites. Usually, you can get to the corresponding AMP By Example page for a component directly from its documentation.
 
-{{ image('/static/img/courses/beginner/image7.png', 512, 350, caption='ABC By Example page for the <amp‑carousel> component.') }}
+{{ image('/static/img/courses/beginner/image7.png', 512, 350, caption='AMP By Example page for the <amp‑carousel> component.') }}
 
 ## Exercise 6: Adding Social Sharing Links
 
-Social media links are common in modern web pages. ABC provides us with ready-made link buttons that allow users to share your page on their social media with a single click, thereby helping you grow your user engagement.
+Social media links are common in modern web pages. AMP provides us with ready-made link buttons that allow users to share your page on their social media with a single click, thereby helping you grow your user engagement.
 
-Using the ABC documentation, add buttons below the `<amp-youtube>` component that let the user **share** our page with a single click. However, you will need to navigate and search within the [ABC Components Reference](../../../documentation/components/index.html) to find the relevant ABC component. (**Hint**: The title of this section should help you find what you’re looking for.)
+Using the AMP documentation, add buttons below the `<amp-youtube>` component that let the user **share** our page with a single click. However, you will need to navigate and search within the [AMP Components Reference](../../../documentation/components/index.html) to find the relevant AMP component. (**Hint**: The title of this section should help you find what you’re looking for.)
 
 Once you have located the correct component, click the name of the component to access its documentation. Use that documentation to add components that:
 
@@ -150,9 +150,9 @@ Once you have located the correct component, click the name of the component to 
 
 Recommended style guidelines:
 
-- Wrap the ABC components in a `div` with a `social-bar` class.
+- Wrap the AMP components in a `div` with a `social-bar` class.
 
-- Give each ABC component a `width` and `height` of `44`.
+- Give each AMP component a `width` and `height` of `44`.
 
 After you have completed this task, your page should contain buttons for the user to share your site:
 
@@ -176,9 +176,9 @@ Remember to include the `<amp-social-share>` script in the `<head>`:
 ```
 [/filter]
 [filter level="advanced"]
-## Navigating the ABC Component Documentation
+## Navigating the AMP Component Documentation
 
-Next, we want to add a collection of images of cheese bike products for our users to scroll through. For this, we’ll use an image carousel component. The ABC implementation of a carousel is the component: `<amp-carousel>`. This component is not built in, so you will need to add its script in the page's `<head>`.
+Next, we want to add a collection of images of cheese bike products for our users to scroll through. For this, we’ll use an image carousel component. The AMP implementation of a carousel is the component: `<amp-carousel>`. This component is not built in, so you will need to add its script in the page's `<head>`.
 
 When we look at the [documentation]({{g.doc('/content/amp-dev/documentation/components/reference/amp-carousel.md', locale=doc.locale).url.path}}) for `<amp-carousel>`, we’re looking for answers to questions such as:
 
@@ -194,7 +194,7 @@ When we look at the [documentation]({{g.doc('/content/amp-dev/documentation/comp
 
 - What layouts does this component support?
 
-{{ image('/static/img/courses/beginner/image25.webp', 1024, 771, caption='ABC documentation page for <amp‑carousel>.') }}
+{{ image('/static/img/courses/beginner/image25.webp', 1024, 771, caption='AMP documentation page for <amp‑carousel>.') }}
 
 Look at the following items in the [documentation]({{g.doc('/content/amp-dev/documentation/components/reference/amp-carousel.md', locale=doc.locale).url.path}}) of `<amp-carousel>`:
 
@@ -202,7 +202,7 @@ Look at the following items in the [documentation]({{g.doc('/content/amp-dev/doc
 
 - **The behavior section** - This section explains how the component works. It usually provides both some sample code as well as a preview of what the component looks like.
 
-- **The list of attributes** - We talked about custom attributes in the previous section on web components. These allow us to customize our ABC component in certain ways. This section contains the list of different attributes, their possible values, and what the attributes control.
+- **The list of attributes** - We talked about custom attributes in the previous section on web components. These allow us to customize our AMP component in certain ways. This section contains the list of different attributes, their possible values, and what the attributes control.
 
 - **The styling section** - This section explains how to use CSS to change the appearance of this component. Beyond styling by tag name or ID, many components provide additional CSS classes that can be used to change the appearance of the component in certain states. For example, `<amp-carousel>` provides the class `.amp-carousel-button`, which allows developers to restyle the buttons that change the carousel slide.
 
@@ -210,7 +210,7 @@ Look at the following items in the [documentation]({{g.doc('/content/amp-dev/doc
 
 - **The supported layouts** - We discussed the [layout]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/amp-html-layout/layouts_demonstrated.html', locale=doc.locale).url.path}}) attribute in a previous section. It controls the way the element is rendered on the screen. This section explains which layouts are valid for this component.
 
-These items are listed in the documentation for almost all ABC components. Let’s explore the documentation using one of its examples:
+These items are listed in the documentation for almost all AMP components. Let’s explore the documentation using one of its examples:
 
 [sourcecode:html]
 {% raw %}<amp-carousel id="carousel-with-preview"
@@ -236,7 +236,7 @@ These items are listed in the documentation for almost all ABC components. Let�
 </amp-carousel>
 {% endraw %}[/sourcecode]
 
-This carousel contains three images for users to slide through. The attributes of this carousel component instance (`id`, `width`, `height`, `layout`, and `type`) are split into three groups: [attributes common to all HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes) (`id`), [attributes common to all ABC components]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/common_attributes.md', locale=doc.locale).url.path}}) (`width`, `height`, and `layout`), and attributes unique to the carousel component (`type`).
+This carousel contains three images for users to slide through. The attributes of this carousel component instance (`id`, `width`, `height`, `layout`, and `type`) are split into three groups: [attributes common to all HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes) (`id`), [attributes common to all AMP components]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/common_attributes.md', locale=doc.locale).url.path}}) (`width`, `height`, and `layout`), and attributes unique to the carousel component (`type`).
 
 In the documentation for `<amp-carousel>`, we see that the component can have a `type` attribute. It shows that the valid inputs for `type` include `slides` and `carousel`.
 
@@ -246,7 +246,7 @@ This means that if you don’t specify a `type`, the default will be `carousel`.
 **Tip**: Some attributes do not require a value at all. These are called [boolean attributes](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes). In these cases, the attribute has a default value of `false` and a value of `true` when attached to an element or component.
 [/tip]
 
-Many other custom attributes can be used with the `<amp-carousel>` component. When using an ABC component for the first time, look through the documentation to get a feel for all the ways that you can customize the appearance or behavior of the component through attributes.
+Many other custom attributes can be used with the `<amp-carousel>` component. When using an AMP component for the first time, look through the documentation to get a feel for all the ways that you can customize the appearance or behavior of the component through attributes.
 
 ## Exercise 5: Creating an Image Slideshow
 
@@ -293,24 +293,24 @@ Remember to include the `<amp-carousel>` script in the `<head>`:
 
 ## Discovering New Components
 
-As we continue to develop our cheese bike site, we won’t always know the name of the ABC component we want to add to implement some desired new feature. The ABC community has produced a large collection of components that handle many different types of functionality: ads and analytics, dynamic content, layout, media, presentation, and social. The [ABC Components Reference]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) page contains a list of ABC components:
+As we continue to develop our cheese bike site, we won’t always know the name of the AMP component we want to add to implement some desired new feature. The AMP community has produced a large collection of components that handle many different types of functionality: ads and analytics, dynamic content, layout, media, presentation, and social. The [AMP Components Reference]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) page contains a list of AMP components:
 
-{{ image('/static/img/courses/beginner/image3.webp', 1024, 541, caption='The ABC Component Reference page.') }}
+{{ image('/static/img/courses/beginner/image3.webp', 1024, 541, caption='The AMP Component Reference page.') }}
 
-We might still have questions about how the component would act on our site, or we may be unclear about how to use the component in more complex ways. The [ABC By Example]({{g.doc('/content/amp-dev/documentation/examples/index.html', locale=doc.locale).url.path}}) section on amp.dev has pages showcasing many ABC components, showing a variety of ways to configure those components to meet common use cases in modern websites. It also features coding playgrounds where you can run your own experiments.
+We might still have questions about how the component would act on our site, or we may be unclear about how to use the component in more complex ways. The [AMP By Example]({{g.doc('/content/amp-dev/documentation/examples/index.html', locale=doc.locale).url.path}}) section on amp.dev has pages showcasing many AMP components, showing a variety of ways to configure those components to meet common use cases in modern websites. It also features coding playgrounds where you can run your own experiments.
 
-{{ image('/static/img/courses/beginner/image7.webp', 1024, 699, caption='ABC By Example page for the `<amp-carousel>` component.') }}
+{{ image('/static/img/courses/beginner/image7.webp', 1024, 699, caption='AMP By Example page for the `<amp-carousel>` component.') }}
 
 ## Exercise 6: Adding Social Sharing Links
 
-The ABC component library includes components for social sharing. Let's add some of those to our site now!
-Navigate and search within the [ABC Components Reference]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) to find the relevant ABC component, then place it under the `<amp-youtube>` element. Use the documentation to add components that gives the user the option to share your page via Email, LinkedIn, Tumblr, and Twitter.
+The AMP component library includes components for social sharing. Let's add some of those to our site now!
+Navigate and search within the [AMP Components Reference]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}) to find the relevant AMP component, then place it under the `<amp-youtube>` element. Use the documentation to add components that gives the user the option to share your page via Email, LinkedIn, Tumblr, and Twitter.
 
 Recommended style guidelines:
 
-- Wrap the ABC components in a `div` with a `social-bar` class.
+- Wrap the AMP components in a `div` with a `social-bar` class.
 
-- Give each ABC component a `width` and `height` of `44`.
+- Give each AMP component a `width` and `height` of `44`.
 
 After you have completed this task, your page should contain buttons for the user to share your site:
 

@@ -25,7 +25,7 @@ Based on this feedback, our product manager at Chico's Cheese Bikes has come up 
 
 Ultimately, we're adding a few thumbnail images below the carousel. Those thumbnails will match up with the carousel, just like our testers wanted.
 
-We will implement these requirements one at a time. Along the way, we'll bring in additional ABC components and connect them with events and actions. We will also learn how to build more elaborate user interface designs by combining components and making them work together.
+We will implement these requirements one at a time. Along the way, we'll bring in additional AMP components and connect them with events and actions. We will also learn how to build more elaborate user interface designs by combining components and making them work together.
 
 ## Exercise 5: Adding Thumbnail Previews
 
@@ -100,9 +100,9 @@ Once you are done, your page should look like this:
 
 ## Exercise 6: Tracking The Selected Thumbnail
 
-Next, we want the thumbnail the user has selected to look different than the others, so that they know what they've selected. This isn't possible with what we've built so far, because there's no way to keep track of what slide the main carousel is on. In order to fulfill this requirement, we need an ABC component that lets a user make a selection from a list and keeps track of their choice.
+Next, we want the thumbnail the user has selected to look different than the others, so that they know what they've selected. This isn't possible with what we've built so far, because there's no way to keep track of what slide the main carousel is on. In order to fulfill this requirement, we need an AMP component that lets a user make a selection from a list and keeps track of their choice.
 
-The [`<amp-selector>`](../../../documentation/components/reference/amp-selector.md) component presents a menu of options and lets the user select from among them. Any HTML or other ABC components can be contained and deeply nested within an `<amp-selector>` component (except another `<amp-selector>` component). The selectable options are determined by the elements and/or components that have an `option` attribute. Whenever an option is selected, that element or component is also given a `selected` attribute. The `selected` attribute is targetable by CSS, so we can use it to add a unique style to the currently selected image.
+The [`<amp-selector>`](../../../documentation/components/reference/amp-selector.md) component presents a menu of options and lets the user select from among them. Any HTML or other AMP components can be contained and deeply nested within an `<amp-selector>` component (except another `<amp-selector>` component). The selectable options are determined by the elements and/or components that have an `option` attribute. Whenever an option is selected, that element or component is also given a `selected` attribute. The `selected` attribute is targetable by CSS, so we can use it to add a unique style to the currently selected image.
 
 If we were to implement the `<amp-selector>` right now, we'd notice that the selected thumbnail doesn't change if the user manually changes the slide on the larger carousel. We need a way to detect when the slide changes on the larger carousel and use that as a trigger to set the selected thumbnail in the `<amp-selector>` component. "Detect when the slide changes" sounds like an event. "Set the selected thumbnail" sounds like an action. In the [documentation](../../../documentation/guides-and-tutorials/learn/amp-actions-and-events.md), we see that `<amp-carousel>` lets you use a `slideChange` event for carousels of type `slides` where the index of the new slide is `event.index`. This lets you know when the carousel has moved to a given slide.
 
@@ -223,7 +223,7 @@ So we're going to make the following improvements to our image carousel:
 
 - Clicking on the carousel image slide should make an enlarged version of the image appear in a pop-up.
 
-We will implement these requirements one at a time. Along the way, we'll bring in additional ABC components and connect them with events and actions. We will also learn how to build more elaborate user interface designs by combining components and making them work together.
+We will implement these requirements one at a time. Along the way, we'll bring in additional AMP components and connect them with events and actions. We will also learn how to build more elaborate user interface designs by combining components and making them work together.
 
 ## Exercise 5: Adding Thumbnail Previews
 
@@ -299,9 +299,9 @@ Once you are done, your page should look like this:
 
 ## Exercise 6: Tracking The Selected Thumbnail
 
-Next, we want the thumbnail the user has selected to look different than the others, so that they know what they've selected. This isn't possible with what we've built so far, because there's no way to keep track of what slide the main carousel is on. In order to fulfill this requirement, we need an ABC component that lets a user make a selection from a list and keeps track of their choice.
+Next, we want the thumbnail the user has selected to look different than the others, so that they know what they've selected. This isn't possible with what we've built so far, because there's no way to keep track of what slide the main carousel is on. In order to fulfill this requirement, we need an AMP component that lets a user make a selection from a list and keeps track of their choice.
 
-The [`<amp-selector>`]({{g.doc('/content/amp-dev/documentation/components/reference/amp-selector.md', locale=doc.locale).url.path}}) component presents a menu of options and lets the user select from among them. Any HTML or other ABC components can be contained and deeply nested within an `<amp-selector>` component (except another `<amp-selector>` component). The selectable options are determined by the elements and/or components that have an `option` attribute. Whenever an option is selected, that element or component is also given a `selected` attribute. The `selected` attribute is targetable by CSS, so we can use it to add a unique style to the currently selected image.
+The [`<amp-selector>`]({{g.doc('/content/amp-dev/documentation/components/reference/amp-selector.md', locale=doc.locale).url.path}}) component presents a menu of options and lets the user select from among them. Any HTML or other AMP components can be contained and deeply nested within an `<amp-selector>` component (except another `<amp-selector>` component). The selectable options are determined by the elements and/or components that have an `option` attribute. Whenever an option is selected, that element or component is also given a `selected` attribute. The `selected` attribute is targetable by CSS, so we can use it to add a unique style to the currently selected image.
 
 Next, we need a way to detect when the slide changes on the larger carousel, and use that as a trigger to set the selected thumbnail in the `<amp-selector>` component. The `<amp-carousel>` component lets you use a `slideChange` event for carousels of type `slides`, where the index of the new slide is `event.index`.
 

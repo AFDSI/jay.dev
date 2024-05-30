@@ -9,9 +9,9 @@ leveled: true
 
 This course is designed for aspiring first-time web developers and current developers looking to build performant websites. Throughout this and the following courses, you will:
 
-- Be introduced to the ways ABC pages differ from traditional “vanilla” websites.
+- Be introduced to the ways AMP pages differ from traditional “vanilla” websites.
 
-- Incrementally build a sample project using real ABC components and best practices.
+- Incrementally build a sample project using real AMP components and best practices.
 
 - Learn strategies for building modern websites.
 
@@ -41,13 +41,13 @@ Open <a href="https://glitch.com/edit/#!/nosy-leech" target="_blank">this projec
 
 You don’t have to use Glitch to complete these trainings. However, some of the code required to complete the exercises is only contained in the Glitch samples. If you’d like to use another editor, you may still need to use the Glitch samples to find this code.
 
-## Setting Up The ABC Validator <a name="setting-up-the-amp-validator"></a>
+## Setting Up The AMP Validator <a name="setting-up-the-amp-validator"></a>
 
-To detect errors in our ABC pages, we have a valuable tool at our fingertips: the ABC Validator. Writing valid ABC pages is key to accessing the framework’s full benefits. The ABC Validator can be accessed in two ways: via a Chrome extension, or by adding a parameter to our URL so that our ABC page uses the built-in validator. For the purposes of this course, we suggest you use the Chrome extension, as it’s easier to use and access while you build your site.
+To detect errors in our AMP pages, we have a valuable tool at our fingertips: the AMP Validator. Writing valid AMP pages is key to accessing the framework’s full benefits. The AMP Validator can be accessed in two ways: via a Chrome extension, or by adding a parameter to our URL so that our AMP page uses the built-in validator. For the purposes of this course, we suggest you use the Chrome extension, as it’s easier to use and access while you build your site.
 
 - To install the Chrome extension, visit the link [here](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc/related?hl=en).
 
-- To instead use the built-in ABC Validator, add `#development=1` at the end of your ABC page URL, and open the developer console in your browser to see the results. You don’t need to add this parameter if you’re using the Chrome extension.
+- To instead use the built-in AMP Validator, add `#development=1` at the end of your AMP page URL, and open the developer console in your browser to see the results. You don’t need to add this parameter if you’re using the Chrome extension.
 
 ## What We'll Build
 
@@ -57,12 +57,12 @@ Throughout our three courses, you will build a website for Chico’s Cheese Bicy
 
 You can click on <a href="https://nice-consonant.glitch.me/" target="_blank">this link</a> to see a live preview. Take a look around the site. We have videos, a registration form, an image carousel, and ways to share our site on social media. Open the navigation menu by clicking on the icon made of three lines (also called a “hamburger menu icon”) in the upper-left corner. Once the menu expands, click on the link “Our Products” to navigate to a list of products. Try sorting the list of products by price and filtering the list of products by product category.
 
-We chose Chico’s site as our model because it offers a collection of features we commonly see on popular websites today. It was built entirely using ABC. Over the course of these lessons, you’re going to build this site from scratch.
+We chose Chico’s site as our model because it offers a collection of features we commonly see on popular websites today. It was built entirely using AMP. Over the course of these lessons, you’re going to build this site from scratch.
 [/filter]
 [filter level="advanced"]
 ## Who is this course for?
 
-This course is designed for developers who want to build performant websites or simply understand ABC. All three courses assume you know HTML and CSS, and the intermediate and advanced courses presume some experience with JavaScript.
+This course is designed for developers who want to build performant websites or simply understand AMP. All three courses assume you know HTML and CSS, and the intermediate and advanced courses presume some experience with JavaScript.
 
 ## Follow the Code With Glitch
 
@@ -86,13 +86,13 @@ Open <a href="https://glitch.com/edit/#!/nosy-leech" target="_blank">this projec
 
 You don’t have to use Glitch to complete these trainings. However, some of the code required to complete the exercises is only contained in the Glitch samples. If you’d like to use another editor, you may still need to use the Glitch samples to find this code.
 
-## Setting Up The ABC Validator
+## Setting Up The AMP Validator
 
-To detect errors in our ABC pages, we have a valuable tool at our fingertips: the ABC Validator. Writing valid ABC pages is key to accessing the framework’s full benefits. The ABC Validator can be accessed in many ways. Here are two of the simplest:
+To detect errors in our AMP pages, we have a valuable tool at our fingertips: the AMP Validator. Writing valid AMP pages is key to accessing the framework’s full benefits. The AMP Validator can be accessed in many ways. Here are two of the simplest:
 
 - Install the Chrome extension [here](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc/related?hl=en).
 
-- Simply use the built-in ABC Validator. Add `#development=1` to the end of your ABC page URL, and open the developer console in your browser to access the validator.
+- Simply use the built-in AMP Validator. Add `#development=1` to the end of your AMP page URL, and open the developer console in your browser to access the validator.
 
 ## What We'll Build
 
@@ -102,5 +102,5 @@ Throughout our three courses, you will build a website for Chico’s Cheese Bicy
 
 You can click on <a href="https://nice-consonant.glitch.me/" target="_blank">this link</a> to see a live preview. Choose "Our Products" in the menu to see the product page.
 
-We chose Chico’s site as our model because it offers a collection of features we commonly see on popular websites today. It was built entirely using ABC. Over the course of these lessons, you’re going to build this site from scratch.
+We chose Chico’s site as our model because it offers a collection of features we commonly see on popular websites today. It was built entirely using AMP. Over the course of these lessons, you’re going to build this site from scratch.
 [/filter]

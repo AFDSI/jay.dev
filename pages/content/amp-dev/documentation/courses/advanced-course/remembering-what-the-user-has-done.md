@@ -19,22 +19,22 @@ We can do something similar with our websites. We can store information in varia
 
 So, for our carousel example, we could create a variable containing the currently selected slide. Whenever a user changes the slide on one of the carousels, we update the variable's value. Finally, we rework each carousel to update their selected slide whenever the variable we created is updated. In our "Expand All Sections" example, we could cause the button press to update a variable, and we could update each accordion to be open whenever the variable was updated.
 
-These types of variables are called "state variables," and the process of updating a component when a state variable is changed is called "binding." Fittingly, developers manage state variables in ABC using the `<amp-state>` [component](../../../documentation/components/reference/amp-bind.md#state), and update components when state variables change using the `<amp-bind>` [component](../../../documentation/components/reference/amp-bind.md).
+These types of variables are called "state variables," and the process of updating a component when a state variable is changed is called "binding." Fittingly, developers manage state variables in AMP using the `<amp-state>` [component](../../../documentation/components/reference/amp-bind.md#state), and update components when state variables change using the `<amp-bind>` [component](../../../documentation/components/reference/amp-bind.md).
 
 ## Storing Information in Application State
 
 State variables are updated in response to user actions. We could use them to track the number of times a user clicked a button, the text a user entered into a form field, information about the account a user logged into, or what slide an image carousel is set to.
 
-But how do we set the value of a state variable? As we learned in the intermediate course, we respond to user actions through events and event handlers. To synchronize our two image carousels, we used an action (`goToSlide`) on the carousel components to change the selected slide. Similarly, the ABC runtime provides an action called `setState` that allows us to set our state variables. The `ABC.setState` action takes a JSON object representing the state variables to store. So, for example, the following code sets the `wasPressed` state variable to the value of `true`:
+But how do we set the value of a state variable? As we learned in the intermediate course, we respond to user actions through events and event handlers. To synchronize our two image carousels, we used an action (`goToSlide`) on the carousel components to change the selected slide. Similarly, the AMP runtime provides an action called `setState` that allows us to set our state variables. The `AMP.setState` action takes a JSON object representing the state variables to store. So, for example, the following code sets the `wasPressed` state variable to the value of `true`:
 
 [sourcecode:html]
-{% raw %}<button on="tap:ABC.setState({wasPressed: true})">
+{% raw %}<button on="tap:AMP.setState({wasPressed: true})">
     Press Me
 </button>
 {% endraw %}[/sourcecode]
 
 [tip type="read-on"]
-**Note**: If your state contains more than one state variable, you only need to pass the `setState` method to the variable(s) that you want to update. ABC will intelligently merge the given JSON object into the existing state, so there's no need to try to merge the values yourself or pass every state variable each time. If you're interested, you can read more about how ABC merges these values in the [appendix](appendix.md).
+**Note**: If your state contains more than one state variable, you only need to pass the `setState` method to the variable(s) that you want to update. AMP will intelligently merge the given JSON object into the existing state, so there's no need to try to merge the values yourself or pass every state variable each time. If you're interested, you can read more about how AMP merges these values in the [appendix](appendix.md).
 [/tip]
 
 It's possible to set initial values for your state variables. To do this, create an `<amp-state>` component with a particular ID. State we create in that `<amp-state>` component is stored as an object with that ID as a key. Next, inside of that `<amp-state>` component, add a script tag with a type of `application/json`. Then, you can add to that script tag a JSON object which represents the state's initial values.
@@ -49,7 +49,7 @@ The example below shows how to set initial state. Notice how we use the ID of th
         }
     </script>
 <amp-state>
-<button on="tap:ABC.setState({ accordionState: { isOpen: !accordionState.isOpen }})">
+<button on="tap:AMP.setState({ accordionState: { isOpen: !accordionState.isOpen }})">
     Open/Close All Sections
 </button>
 {% endraw %}[/sourcecode]
@@ -64,12 +64,12 @@ The above code matches the earlier "Expand All Sections" example. We created a s
 
 Bindings are the means by which changes to our state variables can cause visible updates to our websites. In other words, bindings are the connections between properties on components and state variables.
 
-In ABC, we define a bound property by surrounding it with brackets. We set that property equal to an expression. Whenever the value of a state variable in that expression is changed, the expression is evaluated against those new values, and the property is updated.
+In AMP, we define a bound property by surrounding it with brackets. We set that property equal to an expression. Whenever the value of a state variable in that expression is changed, the expression is evaluated against those new values, and the property is updated.
 
-For example, if we want to control an element's text, we can bind to the `text` property of an element. In the code below, pressing the button will cause the paragraph tag to contain the text "Hello ABC!":
+For example, if we want to control an element's text, we can bind to the `text` property of an element. In the code below, pressing the button will cause the paragraph tag to contain the text "Hello AMP!":
 
 [sourcecode:html]
-{% raw %}<button on="tap:ABC.setState({message: ‘Hello ABC!’})">
+{% raw %}<button on="tap:AMP.setState({message: ‘Hello AMP!’})">
     Say Hello!
 </button>
 <p [text]="message"></p>
@@ -77,17 +77,17 @@ For example, if we want to control an element's text, we can bind to the `text` 
 
 The `[text]` is the bound property that will be changed whenever the state variable `message` is changed. In this case, the expression simply sets the text of the paragraph element to the value of the `message` variable.
 
-The `text` attribute is bindable on any element or component that supports text content. Other such attributes include `width`, `height`, `hidden`, and `class`. Most ABC components also provide custom properties that can be bound to state variables. For example, we can bind to the `slides` property of the `<amp-carousel>` component to control the active slide, the `selected` property of the `<amp-selector>` component to control the selected item, and the `src` property of the `<amp-img>` component to change the displayed image. The complete list of bindable properties can be found in the `<amp-bind>` [documentation](../../../documentation/components/reference/amp-bind.md).
+The `text` attribute is bindable on any element or component that supports text content. Other such attributes include `width`, `height`, `hidden`, and `class`. Most AMP components also provide custom properties that can be bound to state variables. For example, we can bind to the `slides` property of the `<amp-carousel>` component to control the active slide, the `selected` property of the `<amp-selector>` component to control the selected item, and the `src` property of the `<amp-img>` component to change the displayed image. The complete list of bindable properties can be found in the `<amp-bind>` [documentation](../../../documentation/components/reference/amp-bind.md).
 
-It’s important to note that bindings don't change until the values of state variables do. Bindings are not evaluated when the page is first loaded. In the previous "Hello ABC" example, the paragraph was empty on the initial page load, even if we loaded an initial value for the `message` state variable using an `<amp-state>` component. Therefore, to make sure your components look reasonable on page load, always include a default value for a bound property.
+It’s important to note that bindings don't change until the values of state variables do. Bindings are not evaluated when the page is first loaded. In the previous "Hello AMP" example, the paragraph was empty on the initial page load, even if we loaded an initial value for the `message` state variable using an `<amp-state>` component. Therefore, to make sure your components look reasonable on page load, always include a default value for a bound property.
 
 To add a default value for a bound property, include the property both with and without the brackets around it. When the page loads, it will use the default property. Whenever the binding is triggered by changes to relevant state variables, the default property will be overriden. For example, in the following code, the color of the text will be blue on initial page load, but change to red after the button is pressed.
 
 [sourcecode:html]
-{% raw %}<button on="tap:ABC.setState({messageClass: ‘text-color-red’})">
+{% raw %}<button on="tap:AMP.setState({messageClass: ‘text-color-red’})">
     Change to Red!
 </button>
-<p [class]="messageClass" class="text-color-blue">Hello ABC!</p>
+<p [class]="messageClass" class="text-color-blue">Hello AMP!</p>
 {% endraw %}[/sourcecode]
 
 So far, we’ve used basic expressions that directly referenced a single state variable, but we can get more elaborate. Expressions are a subset of JavaScript. They can include static values such as numbers or strings, state variables, and a set of allow-listed functions. The [documentation](../../../documentation/components/reference/amp-bind.md#expressions) gives a rundown of the values that can be added to an expression.
@@ -96,9 +96,9 @@ The value of a bound property is set to the value that's returned when an expres
 
 [sourcecode:html]
 {% raw %}<input type="text" placeholder="Password"
-    on="change:ABC.setState({ firstPassword: event.value })" />
+    on="change:AMP.setState({ firstPassword: event.value })" />
 <input type="text" placeholder="Re-Enter Password"
-    on="change:ABC.setState({ secondPassword: event.value })" />
+    on="change:AMP.setState({ secondPassword: event.value })" />
 <p hidden [hidden]="firstPassword == secondPassword">
     The passwords don't match!
 </p>
@@ -147,7 +147,7 @@ The portion of the page containing the carousel should look like this:
         }
     </script>
 </amp-state>
-<amp-carousel on="slideChange:ABC.setState({carousel: {selectedSlide:event.index}})"
+<amp-carousel on="slideChange:AMP.setState({carousel: {selectedSlide:event.index}})"
     [slide]="carousel.selectedSlide" lightbox id="imageSlides" layout="responsive"
     width="412" height="309" type="slides" loop>
     <amp-img src="https://cdn.glitch.com/d7f46a57-0ca4-4cca-ab0f-69068dec6631%2Fcheddar-chaser.jpg?1540228205366"
@@ -158,7 +158,7 @@ The portion of the page containing the carousel should look like this:
         width="412" height="309" layout="responsive"></amp-img>
 </amp-carousel>
 <amp-selector id="ampSelector" [selected]="carousel.selectedSlide"
-    on="select:ABC.setState({carousel: {selectedSlide:event.targetOption}})">
+    on="select:AMP.setState({carousel: {selectedSlide:event.targetOption}})">
     <amp-carousel layout="fixed-height" height="78" class="thumbnail-carousel">
         <amp-img src="https://cdn.glitch.com/d7f46a57-0ca4-4cca-ab0f-69068dec6631%2Fcheddar-chaser-thumb.jpg?1540228250623"
             option="0" selected role="button" tabindex="1" width="96" height="72" layout="fixed"></amp-img>
@@ -268,18 +268,18 @@ The solution can be found in this Glitch example. The portion of the page contai
     <h2>Tina's T-Shirts</h2>
     <div class="filter-sort-selectors">
         <p>Product Fit:</p>
-        <select class="product-selector" on="change:ABC.setState({optionsData: { fit: event.value }})">
+        <select class="product-selector" on="change:AMP.setState({optionsData: { fit: event.value }})">
             <option value="Men">Men's</option>
             <option value="Women">Women's</option>
         </select>
         <p>Product Size:</p>
-        <select class="product-selector" on="change:ABC.setState({optionsData: { size: event.value }})">
+        <select class="product-selector" on="change:AMP.setState({optionsData: { size: event.value }})">
             <option value="Small">Small</option>
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>
         </select>
         <p>Product Color:</p>
-        <select class="product-selector" on="change:ABC.setState({optionsData: { color: event.value }})">
+        <select class="product-selector" on="change:AMP.setState({optionsData: { color: event.value }})">
             <option value="Red">Red</option>
             <option value="Green">Green</option>
             <option value="Blue">Blue</option>
@@ -313,22 +313,22 @@ Recall that we built two image carousels that were linked together with events a
 
 In programming, when we need to use the same value in multiple places, we use a variable. We can do something similar with our websites. We can store information in variables and reference them throughout our page. As we update those variables, the page will be updated with the new values.
 
-These types of variables are called "state variables," and the process of updating a component when a state variable is changed is called "binding." Fittingly, developers manage state variables in ABC using the `<amp-state>` [component]({{g.doc('/content/amp-dev/documentation/components/reference/amp-bind.md', locale=doc.locale).url.path}}#state), and update components when state variables change using the `<amp-bind>` [component]({{g.doc('/content/amp-dev/documentation/components/reference/amp-bind.md', locale=doc.locale).url.path}}).
+These types of variables are called "state variables," and the process of updating a component when a state variable is changed is called "binding." Fittingly, developers manage state variables in AMP using the `<amp-state>` [component]({{g.doc('/content/amp-dev/documentation/components/reference/amp-bind.md', locale=doc.locale).url.path}}#state), and update components when state variables change using the `<amp-bind>` [component]({{g.doc('/content/amp-dev/documentation/components/reference/amp-bind.md', locale=doc.locale).url.path}}).
 
 ## Storing Information in Application State
 
 State variables are updated in response to user actions. We could use them to track the number of times a user clicked a button, the text a user entered into a form field, information about the account a user logged into, or what slide an image carousel is set to.
 
-But how do we set the value of a state variable? The ABC runtime provides an action called `setState` that allows us to set our state variables. The `ABC.setState` action takes a JSON object representing the state variables to store. So, for example, the following code sets the `wasPressed` state variable to the value of `true`:
+But how do we set the value of a state variable? The AMP runtime provides an action called `setState` that allows us to set our state variables. The `AMP.setState` action takes a JSON object representing the state variables to store. So, for example, the following code sets the `wasPressed` state variable to the value of `true`:
 
 [sourcecode:html]
-{% raw %}<button on="tap:ABC.setState({wasPressed: true})">
+{% raw %}<button on="tap:AMP.setState({wasPressed: true})">
     Press Me
 </button>
 {% endraw %}[/sourcecode]
 
 [tip type="read-on"]
-**Note**: If your state contains more than one state variable, you only need to pass the variable(s) that you want to update. ABC will intelligently merge the given JSON object into the existing state, so there's no need to try to merge the values yourself or pass every state variable each time. If you're interested, you can read more about how ABC merges these values in the [appendix]({{g.doc('/content/amp-dev/documentation/courses/advanced-course/appendix.md', locale=doc.locale).url.path}}).
+**Note**: If your state contains more than one state variable, you only need to pass the variable(s) that you want to update. AMP will intelligently merge the given JSON object into the existing state, so there's no need to try to merge the values yourself or pass every state variable each time. If you're interested, you can read more about how AMP merges these values in the [appendix]({{g.doc('/content/amp-dev/documentation/courses/advanced-course/appendix.md', locale=doc.locale).url.path}}).
 [/tip]
 
 It's possible to set initial values for your state variables. (If you don't, they'll start out as `undefined`.) To do this, create an `<amp-state>` component with a particular ID. State we create in that `<amp-state>` component is stored as an object with that ID as a key. The example below shows how to set initial state. Notice how we use the ID of the `<amp-state>` component when setting the state variable:
@@ -341,7 +341,7 @@ It's possible to set initial values for your state variables. (If you don't, the
         }
     </script>
 <amp-state>
-<button on="tap:ABC.setState({ accordionState: { isOpen: !accordionState.isOpen }})">
+<button on="tap:AMP.setState({ accordionState: { isOpen: !accordionState.isOpen }})">
     Open/Close All Sections
 </button>
 {% endraw %}[/sourcecode]
@@ -356,12 +356,12 @@ The above code matches the earlier “Expand All Sections” example. We created
 
 Bindings are the means by which changes to our state variables can cause visible updates to our websites. In other words, bindings are the connections between properties on components and state variables.
 
-In ABC, we define a bound property by surrounding it with brackets. We set that property equal to an expression. Whenever the value of a state variable in that expression is changed, the expression is evaluated against those new values, and the property is updated.
+In AMP, we define a bound property by surrounding it with brackets. We set that property equal to an expression. Whenever the value of a state variable in that expression is changed, the expression is evaluated against those new values, and the property is updated.
 
-For example, if we want to control an element's text, we can bind to the `text` property of an element. In the code below, pressing the button will cause the paragraph tag to contain the text “Hello ABC!”:
+For example, if we want to control an element's text, we can bind to the `text` property of an element. In the code below, pressing the button will cause the paragraph tag to contain the text “Hello AMP!”:
 
 [sourcecode:html]
-{% raw %}<button on="tap:ABC.setState({message: ‘Hello ABC!’})">
+{% raw %}<button on="tap:AMP.setState({message: ‘Hello AMP!’})">
     Say Hello!
 </button>
 <p [text]="message"></p>
@@ -369,17 +369,17 @@ For example, if we want to control an element's text, we can bind to the `text` 
 
 The `[text]` is the bound property that will be changed whenever the state variable `message` is changed. In this case, the expression simply sets the text of the paragraph element to the value of the `message` variable.
 
-The `text` attribute is bindable on any element or component that supports text content. Other such attributes include `width`, `height`, `hidden`, and `class`. Most ABC components also provide custom properties that can be bound to state variables. For example, we can bind to the `slides` property of the `<amp-carousel>` component to control the active slide, the `selected` property of the `<amp-selector>` component to control the selected item, and the `src` property of the `<amp-img>` component to change the displayed image. The complete list of bindable properties can be found in the `<amp-bind>` [documentation]({{g.doc('/content/amp-dev/documentation/components/reference/amp-bind.md', locale=doc.locale).url.path}}).
+The `text` attribute is bindable on any element or component that supports text content. Other such attributes include `width`, `height`, `hidden`, and `class`. Most AMP components also provide custom properties that can be bound to state variables. For example, we can bind to the `slides` property of the `<amp-carousel>` component to control the active slide, the `selected` property of the `<amp-selector>` component to control the selected item, and the `src` property of the `<amp-img>` component to change the displayed image. The complete list of bindable properties can be found in the `<amp-bind>` [documentation]({{g.doc('/content/amp-dev/documentation/components/reference/amp-bind.md', locale=doc.locale).url.path}}).
 
-It's important to note that bindings don't change until the values of state variables do. Bindings are not evaluated when the page is first loaded. In the previous "Hello ABC" example, the paragraph was empty on the initial page load, even if we loaded an initial value for the `message` state variable using an `<amp-state>` component. Therefore, to make sure your components look reasonable on page load, always include a default value for a bound property.
+It's important to note that bindings don't change until the values of state variables do. Bindings are not evaluated when the page is first loaded. In the previous "Hello AMP" example, the paragraph was empty on the initial page load, even if we loaded an initial value for the `message` state variable using an `<amp-state>` component. Therefore, to make sure your components look reasonable on page load, always include a default value for a bound property.
 
 To add a default value for a bound property, include the property both with and without the brackets around it. When the page loads, it will use the default property. Whenever the binding is triggered by changes to relevant state variables, the default property will be overriden. For example, in the following code, the color of the text will be blue on initial page load, but change to red after the button is pressed.
 
 [sourcecode:html]
-{% raw %}<button on="tap:ABC.setState({messageClass: ‘text-color-red’})">
+{% raw %}<button on="tap:AMP.setState({messageClass: ‘text-color-red’})">
     Change to Red!
 </button>
-<p [class]="messageClass" class="text-color-blue">Hello ABC!</p>
+<p [class]="messageClass" class="text-color-blue">Hello AMP!</p>
 {% endraw %}[/sourcecode]
 
 So far, we've used basic expressions that directly referenced a single state variable, but we can get more elaborate. Expressions are a subset of JavaScript. They can include static values such as numbers or strings, state variables, and a set of allow-listed functions. The [documentation]({{g.doc('/content/amp-dev/documentation/components/reference/amp-bind.md', locale=doc.locale).url.path}}#expressions) gives a rundown of the values that can be added to an expression.
@@ -388,9 +388,9 @@ For example, this code shows how to create an error message during account creat
 
 [sourcecode:html]
 {% raw %}<input type="text" placeholder="Password"
-    on="change:ABC.setState({ firstPassword: event.value })" />
+    on="change:AMP.setState({ firstPassword: event.value })" />
 <input type="text" placeholder="Re-Enter Password"
-    on="change:ABC.setState({ secondPassword: event.value })" />
+    on="change:AMP.setState({ secondPassword: event.value })" />
 <p hidden [hidden]="firstPassword == secondPassword">
     The passwords don't match!
 </p>
@@ -433,7 +433,7 @@ The portion of the page containing the carousel should look like this:
         }
     </script>
 </amp-state>
-<amp-carousel on="slideChange:ABC.setState({carousel: {selectedSlide:event.index}})"
+<amp-carousel on="slideChange:AMP.setState({carousel: {selectedSlide:event.index}})"
     [slide]="carousel.selectedSlide" lightbox id="imageSlides" layout="responsive"
     width="412" height="309" type="slides" loop>
     <amp-img src="https://cdn.glitch.com/d7f46a57-0ca4-4cca-ab0f-69068dec6631%2Fcheddar-chaser.jpg?1540228205366"
@@ -444,7 +444,7 @@ The portion of the page containing the carousel should look like this:
         width="412" height="309" layout="responsive"></amp-img>
 </amp-carousel>
 <amp-selector id="ampSelector" [selected]="carousel.selectedSlide"
-    on="select:ABC.setState({carousel: {selectedSlide:event.targetOption}})">
+    on="select:AMP.setState({carousel: {selectedSlide:event.targetOption}})">
     <amp-carousel layout="fixed-height" height="78" class="thumbnail-carousel">
         <amp-img src="https://cdn.glitch.com/d7f46a57-0ca4-4cca-ab0f-69068dec6631%2Fcheddar-chaser-thumb.jpg?1540228250623"
             option="0" selected role="button" tabindex="1" width="96" height="72" layout="fixed"></amp-img>
@@ -548,18 +548,18 @@ The solution can be found in [this Glitch example](https://glitch.com/edit/#!/ni
     <h2>Tina's T-Shirts</h2>
     <div class="filter-sort-selectors">
         <p>Product Fit:</p>
-        <select class="product-selector" on="change:ABC.setState({optionsData: { fit: event.value }})">
+        <select class="product-selector" on="change:AMP.setState({optionsData: { fit: event.value }})">
             <option value="Men">Men's</option>
             <option value="Women">Women's</option>
         </select>
         <p>Product Size:</p>
-        <select class="product-selector" on="change:ABC.setState({optionsData: { size: event.value }})">
+        <select class="product-selector" on="change:AMP.setState({optionsData: { size: event.value }})">
             <option value="Small">Small</option>
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>
         </select>
         <p>Product Color:</p>
-        <select class="product-selector" on="change:ABC.setState({optionsData: { color: event.value }})">
+        <select class="product-selector" on="change:AMP.setState({optionsData: { color: event.value }})">
             <option value="Red">Red</option>
             <option value="Green">Green</option>
             <option value="Blue">Blue</option>

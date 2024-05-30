@@ -7,13 +7,13 @@ leveled: true
 [filter level="beginner"]
 ## Adicionando recursos ao nosso site
 
-Até agora, convertemos nosso site HTML básico em um site ABC básico. Há apenas um erro de validação restante em nosso site, e vamos corrigi-lo usando um componente `<amp-img>` em vez de uma tag `<img>`. Conforme corrigimos esse último erro de validação, aprenderemos o que são os componentes de ABC, por que algumas tags HTML foram substituídas ou não permitidas em ABC e como adicionar componentes ao nosso site.
+Até agora, convertemos nosso site HTML básico em um site AMP básico. Há apenas um erro de validação restante em nosso site, e vamos corrigi-lo usando um componente `<amp-img>` em vez de uma tag `<img>`. Conforme corrigimos esse último erro de validação, aprenderemos o que são os componentes de AMP, por que algumas tags HTML foram substituídas ou não permitidas em AMP e como adicionar componentes ao nosso site.
 
 Depois disso, é hora de adicionar funcionalidades adicionais ao nosso site. Para completar a versão inicial da página inicial da Chico’s Cheese Bike, vamos adicionar algum conteúdo de marketing adicional. A equipe decidiu adicionar um vídeo no YouTube sobre como fazer nossas bicicletas de queijo, um carrossel de imagens de nossos vários produtos de bicicletas de queijo e alguns links de mídia social que ajudarão os usuários a compartilhar nosso site com suas redes sociais favoritas.
 
 Pode parecer assustador adicionar tantas peças ao nosso site tão rapidamente. Precisaríamos criar HTML, CSS e JavaScript para cumprir muitos dos requisitos para os recursos que queremos adicionar (como alterar o slide ativo do carrossel). Depois, teríamos que considerar como fazer todo o site ter um bom desempenho.
 
-Mas essa é a beleza do ABC. Com ABC, não precisamos nos preocupar com todos esses detalhes! Os autores da biblioteca ABC nos forneceram blocos de construção que nos fornecem esses recursos e ajudam a cuidar de qualidades como desempenho, acessibilidade e segurança. Esses blocos são chamados de **componentes** e são a chave para criar sites de sucesso com ABC.
+Mas essa é a beleza do AMP. Com AMP, não precisamos nos preocupar com todos esses detalhes! Os autores da biblioteca AMP nos forneceram blocos de construção que nos fornecem esses recursos e ajudam a cuidar de qualidades como desempenho, acessibilidade e segurança. Esses blocos são chamados de **componentes** e são a chave para criar sites de sucesso com AMP.
 
 ## O que são Web Components?
 
@@ -27,31 +27,31 @@ Os componentes são blocos de construção para a web. Eles representam a combin
 
 Opcionalmente, os componentes também têm "filhos". Aqui, "filhos" refere-se ao conteúdo (como texto, tags HTML ou outros componentes) que é colocado entre as tags de abertura e fechamento do componente. A maneira como esses filhos são exibidos na página é diferente para cada componente.
 
-O sistema de componentes do ABC ajuda você a criar rapidamente recursos eficientes e responsivos em suas páginas com o mínimo de esforço. A biblioteca ABC fornece uma lista abrangente de componentes para você usar. Existem componentes para construir formulários e carrosséis, para integrar a análise de página, para fazer solicitações XHR para servidores e muito mais. As possibilidades são virtualmente infinitas. Você pode ver a lista completa de componentes disponíveis na referência de componentes de ABC [aqui]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}).
+O sistema de componentes do AMP ajuda você a criar rapidamente recursos eficientes e responsivos em suas páginas com o mínimo de esforço. A biblioteca AMP fornece uma lista abrangente de componentes para você usar. Existem componentes para construir formulários e carrosséis, para integrar a análise de página, para fazer solicitações XHR para servidores e muito mais. As possibilidades são virtualmente infinitas. Você pode ver a lista completa de componentes disponíveis na referência de componentes de AMP [aqui]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}).
 
-Por exemplo, aqui estão três componentes ABC que podemos usar em nosso site:
+Por exemplo, aqui estão três componentes AMP que podemos usar em nosso site:
 
-| componentes ABC                                                                            | Como ele é renderizado em nosso site                                        |
+| componentes AMP                                                                            | Como ele é renderizado em nosso site                                        |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | `<amp-img src="IMG-URL" layout="responsive" width="640" height="480"></amp-img>`             | {{ image('/static/img/courses/beginner/image14.png', 311, 550) }} |
 | `<amp-twitter width="486" height="657" layout="responsive" data-tweetid="ID"></amp-twitter>` | {{ image('/static/img/courses/beginner/image19.png', 311, 550) }} |
 | `<amp-youtube data-videoid="ID" layout="responsive" width="480" height="270"></amp-youtube>` | {{ image('/static/img/courses/beginner/image15.png', 311, 550) }} |
 
-O objetivo ao criar seus sites ABC é usar componentes ABC sempre que possível. Os componentes maximizam os benefícios de desempenho da construção com ABC, porque você não precisa criar algo que já existe, aproveitando assim o trabalho dos autores da biblioteca ABC.
+O objetivo ao criar seus sites AMP é usar componentes AMP sempre que possível. Os componentes maximizam os benefícios de desempenho da construção com AMP, porque você não precisa criar algo que já existe, aproveitando assim o trabalho dos autores da biblioteca AMP.
 
-Quase todos os componentes ABC são executados por pelo menos algum JavaScript. Para alguns componentes ABC (como `<amp-img>`), o JavaScript é construído diretamente no script do runtime do ABC que você incluiu na parte superior da sua página no boilerplate. Para a maioria dos componentes ABC, você precisará incluir uma tag de script separada. E há um bom motivo para isso: você só inclui os scripts que realmente usa em seu site. Então, os usuários só precisam baixar o código necessário para navegar em sua página. Menos código para baixar significa que seu site carregará mais rápido!
+Quase todos os componentes AMP são executados por pelo menos algum JavaScript. Para alguns componentes AMP (como `<amp-img>`), o JavaScript é construído diretamente no script do runtime do AMP que você incluiu na parte superior da sua página no boilerplate. Para a maioria dos componentes AMP, você precisará incluir uma tag de script separada. E há um bom motivo para isso: você só inclui os scripts que realmente usa em seu site. Então, os usuários só precisam baixar o código necessário para navegar em sua página. Menos código para baixar significa que seu site carregará mais rápido!
 
 ## Exercício 3: Nosso primeiro componente - `<amp-img>`
 
-A maioria das tags HTML pode ser usada diretamente em ABC, mas certas tags, como a tag `<img>`, devem ser substituídas por componentes ABC equivalentes. Esses componentes incorporam as melhores práticas integradas em acessibilidade, capacidade de resposta e desempenho.
+A maioria das tags HTML pode ser usada diretamente em AMP, mas certas tags, como a tag `<img>`, devem ser substituídas por componentes AMP equivalentes. Esses componentes incorporam as melhores práticas integradas em acessibilidade, capacidade de resposta e desempenho.
 
-Por exemplo, no caso de `<amp-img>`, ABC exige que especifiquemos as dimensões da imagem. O ABC precisa entender o layout da página antes do carregamento dos recursos (como imagens). Isso melhora a experiência do usuário quando sua página está carregando, mas antes que os ativos de imagem tenham sido baixados. Quando as imagens são baixadas, elas podem ser inseridas na página sem que nenhum conteúdo existente na página se mova. Isso dá ao runtime do ABC margem para decidir quando carregar ativos de imagem com base nos recursos do dispositivo do usuário e na conexão com a Internet.
+Por exemplo, no caso de `<amp-img>`, AMP exige que especifiquemos as dimensões da imagem. O AMP precisa entender o layout da página antes do carregamento dos recursos (como imagens). Isso melhora a experiência do usuário quando sua página está carregando, mas antes que os ativos de imagem tenham sido baixados. Quando as imagens são baixadas, elas podem ser inseridas na página sem que nenhum conteúdo existente na página se mova. Isso dá ao runtime do AMP margem para decidir quando carregar ativos de imagem com base nos recursos do dispositivo do usuário e na conexão com a Internet.
 
 [tip type="note"]
-**Note**: Se você quiser saber mais sobre as otimizações automáticas de ABC, leia sobre o lazy-loading em ABC no [apêndice]({{g.doc('/content/amp-dev/documentation/courses/beginning-course/appendix.md', locale=doc.locale).url.path}}).
+**Note**: Se você quiser saber mais sobre as otimizações automáticas de AMP, leia sobre o lazy-loading em AMP no [apêndice]({{g.doc('/content/amp-dev/documentation/courses/beginning-course/appendix.md', locale=doc.locale).url.path}}).
 [/tip]
 
-Para usar o componente e resolver o erro de validação `<amp-img>` anterior, substitua a tag img existente em nossa página pelo equivalente de ABC. Dica: em vez de `<img…>`, escreva `<amp-img…>` e atribua dimensões fixas à imagem. Dê à imagem uma `largura` de` 640` e uma `altura` de` 480`.
+Para usar o componente e resolver o erro de validação `<amp-img>` anterior, substitua a tag img existente em nossa página pelo equivalente de AMP. Dica: em vez de `<img…>`, escreva `<amp-img…>` e atribua dimensões fixas à imagem. Dê à imagem uma `largura` de` 640` e uma `altura` de` 480`.
 
 Se necessário, consulte a documentação para `<amp-img>` [aqui]({{g.doc('/content/amp-dev/documentation/components/reference/amp-img.md', locale=doc.locale).url.path}}).
 
@@ -64,7 +64,7 @@ A parte da página que contém a imagem deve ter a seguinte aparência:
 {% endraw %}[/sourcecode]
 
 [tip type="note"]
-**Nota**: Verifique a extensão do Validador de ABC. Se você concluiu este exercício com sucesso, o ícone da extensão deve estar verde. Se sim, parabéns! Sua página agora é ABC válida!
+**Nota**: Verifique a extensão do Validador de AMP. Se você concluiu este exercício com sucesso, o ícone da extensão deve estar verde. Se sim, parabéns! Sua página agora é AMP válida!
 [/tip]
 
 ## Organização e dimensionamento de componentes
@@ -73,7 +73,7 @@ O próximo problema que precisamos solucionar tem a ver com a aparência de noss
 
 {{ image('/static/img/courses/beginner/image23.png', 311, 550,  align='center third', caption='A imagem da bicicleta sai da borda da tela') }}
 
-A imagem que adicionamos à página não encolhe para caber em telas menores; apenas derrama para o lado. Se não especificarmos uma estratégia para dispor a imagem e redimensioná-la, o padrão será uma largura e altura fixas, conforme especificamos em nosso código. Felizmente, podemos corrigir esse problema usando o sistema de layout de ABC.
+A imagem que adicionamos à página não encolhe para caber em telas menores; apenas derrama para o lado. Se não especificarmos uma estratégia para dispor a imagem e redimensioná-la, o padrão será uma largura e altura fixas, conforme especificamos em nosso código. Felizmente, podemos corrigir esse problema usando o sistema de layout de AMP.
 
 Vamos dar à nossa imagem um `layout` do tipo` responsive` para que ela seja dimensionada automaticamente conforme a janela é redimensionada. O layout responsivo faz com que a imagem assuma as dimensões do contêiner pai, ao mesmo tempo que respeita a proporção original. Se o contêiner pai tiver apenas 320 pixels de largura, a imagem manterá sua proporção e será redimensionada para 320 x 240 (em vez de 640 x 480).
 
@@ -90,7 +90,7 @@ Depois de fazer a alteração, dê uma olhada em sua página. A imagem tem a pro
 Existem outros tipos de layout além do responsivo (pelo menos 8 no total, na verdade).
 Por exemplo, o layout `fixed` indica que o componente nunca deve ser redimensionado da altura e largura atribuídas a ele. O layout `intrinsic` é semelhante ao layout `responsive`, exceto que tem o conceito de altura e largura intrínsecas que não podem ser excedidas pelo componente. Alguns layouts só podem ser aplicados a determinados componentes. A documentação de cada componente especificará quais layouts são válidos para aquele componente. Você pode ler sobre o resto dos tipos de layout [aqui]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/amp-html-layout/layouts_demonstrated.html', locale=doc.locale).url.path}}).
 
-Se você deseja se tornar um desenvolvedor de ABC de sucesso, aprender a usar o sistema de layout é fundamental. Todos os layouts fornecidos pelo ABC podem ser implementados usando CSS simples, mas geralmente podem ser complicados ou ter casos extremos complicados que exigem conhecimento profundo para serem solucionados. O ABC simplifica o processo e expõe muitas dessas opções de layout para serem usadas em qualquer elemento da página ABC. Confira o
+Se você deseja se tornar um desenvolvedor de AMP de sucesso, aprender a usar o sistema de layout é fundamental. Todos os layouts fornecidos pelo AMP podem ser implementados usando CSS simples, mas geralmente podem ser complicados ou ter casos extremos complicados que exigem conhecimento profundo para serem solucionados. O AMP simplifica o processo e expõe muitas dessas opções de layout para serem usadas em qualquer elemento da página AMP. Confira o
 [documentação oficial]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/amp-html-layout/index.md', locale=doc.locale).url.path}}) para obter mais informações sobre o sistema de layout.
 
 [tip type="tip"]
@@ -135,7 +135,7 @@ Lembre-se de incluir o script `<amp-youtube>` no `<head>`:
 ```
 
 [tip type="note"]
-**Nota**: ABC também inclui suporte para outros players de vídeo. Confira "[Integrando Vídeos em ABC e Visão Geral](https://ampbyexample.com/advanced/integrating_videos_in_amp_an_overview/)" em ABC por exemplos.[/tip]
+**Nota**: AMP também inclui suporte para outros players de vídeo. Confira "[Integrando Vídeos em AMP e Visão Geral](https://ampbyexample.com/advanced/integrating_videos_in_amp_an_overview/)" em AMP por exemplos.[/tip]
 [/filter]
 [filter level="advanced"]
 Há apenas um erro de validação restante em nosso site, e vamos corrigi-lo usando um **componente** `<amp-img>` em vez de uma tag `<img>`.
@@ -152,31 +152,31 @@ Os componentes são blocos de construção para a web. Eles combinam estrutura (
 
 Os componentes podem ter filhos, assim como a maioria das outras tags HTML.
 
-O sistema de componentes do ABC ajuda você a criar rapidamente recursos eficientes e responsivos em suas páginas com o mínimo de esforço. A biblioteca ABC fornece componentes para a construção de formulários e carrosséis, para integração de análise de página, para fazer solicitações XHR a servidores e muito mais. Você pode ver a lista completa de componentes disponíveis na referência de componentes de ABC [aqui]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}).
+O sistema de componentes do AMP ajuda você a criar rapidamente recursos eficientes e responsivos em suas páginas com o mínimo de esforço. A biblioteca AMP fornece componentes para a construção de formulários e carrosséis, para integração de análise de página, para fazer solicitações XHR a servidores e muito mais. Você pode ver a lista completa de componentes disponíveis na referência de componentes de AMP [aqui]({{g.doc('/content/amp-dev/documentation/components/index.html', locale=doc.locale).url.path}}).
 
-Por exemplo, aqui estão três componentes ABC que podemos usar em nosso site:
+Por exemplo, aqui estão três componentes AMP que podemos usar em nosso site:
 
-| Componente ABC                                                                                 | Como ele é renderizado em nosso site                                        |
+| Componente AMP                                                                                 | Como ele é renderizado em nosso site                                        |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | `<amp-img src="IMG-URL" layout="responsive" width="640" height="480"></amp-img>`             | {{ image('/static/img/courses/beginner/image14.png', 311, 550) }} |
 | `<amp-twitter width="486" height="657" layout="responsive" data-tweetid="ID"></amp-twitter>` | {{ image('/static/img/courses/beginner/image19.png', 311, 550) }} |
 | `<amp-youtube data-videoid="ID" layout="responsive" width="480" height="270"></amp-youtube>` | {{ image('/static/img/courses/beginner/image15.png', 311, 550) }} |
 
-O objetivo ao criar seus sites ABC é usar componentes ABC sempre que possível. Os componentes maximizam os benefícios de desempenho da construção com ABC, porque você não precisa criar algo que já existe, aproveitando assim o trabalho dos autores da biblioteca ABC.
+O objetivo ao criar seus sites AMP é usar componentes AMP sempre que possível. Os componentes maximizam os benefícios de desempenho da construção com AMP, porque você não precisa criar algo que já existe, aproveitando assim o trabalho dos autores da biblioteca AMP.
 
-Quase todos os componentes ABC são movidos por um pequeno código de JavaScript. Para alguns componentes ABC, como `<amp-img>`, isso está incluído no script do runtime do ABC. No entanto, a maioria dos componentes ABC precisa de uma tag de script separada incluída no cabeçalho da página. E há um bom motivo para isso: você só inclui os scripts que realmente usa em seu site. Então, os usuários só precisam baixar o código necessário para navegar em sua página.
+Quase todos os componentes AMP são movidos por um pequeno código de JavaScript. Para alguns componentes AMP, como `<amp-img>`, isso está incluído no script do runtime do AMP. No entanto, a maioria dos componentes AMP precisa de uma tag de script separada incluída no cabeçalho da página. E há um bom motivo para isso: você só inclui os scripts que realmente usa em seu site. Então, os usuários só precisam baixar o código necessário para navegar em sua página.
 
 ## Exercício 3: Nosso primeiro componente - `<amp-img>`
 
-A maioria das tags HTML pode ser usada diretamente em ABC, mas certas tags, como a tag `<img>`, devem ser substituídas por componentes ABC equivalentes. Esses componentes incorporam as melhores práticas integradas em acessibilidade, capacidade de resposta e desempenho.
+A maioria das tags HTML pode ser usada diretamente em AMP, mas certas tags, como a tag `<img>`, devem ser substituídas por componentes AMP equivalentes. Esses componentes incorporam as melhores práticas integradas em acessibilidade, capacidade de resposta e desempenho.
 
-Por exemplo, no caso de `<amp-img>`, o ABC exige que especifiquemos as dimensões da imagem e fechemos a tag com `</amp-img>`. O ABC precisa entender o layout da página antes do download dos recursos. Isso melhora a experiência do usuário quando sua página está carregando, mas antes que os ativos de imagem tenham sido baixados. Quando as imagens são baixadas, elas podem ser inseridas na página sem que nenhum conteúdo existente na página se mova. Isso dá ao ABC tempo de execução para decidir quando carregar ativos de imagem com base nos recursos do dispositivo do usuário e na conexão com a Internet.
+Por exemplo, no caso de `<amp-img>`, o AMP exige que especifiquemos as dimensões da imagem e fechemos a tag com `</amp-img>`. O AMP precisa entender o layout da página antes do download dos recursos. Isso melhora a experiência do usuário quando sua página está carregando, mas antes que os ativos de imagem tenham sido baixados. Quando as imagens são baixadas, elas podem ser inseridas na página sem que nenhum conteúdo existente na página se mova. Isso dá ao AMP tempo de execução para decidir quando carregar ativos de imagem com base nos recursos do dispositivo do usuário e na conexão com a Internet.
 
 [tip type="note"]
-**Nota**: Se você quiser saber mais sobre as otimizações automáticas de ABC, leia sobre o lazy-loading em ABC no [apêndice]({{g.doc('/content/amp-dev/documentation/courses/beginning-course/appendix.md', locale=doc.locale).url.path}}).
+**Nota**: Se você quiser saber mais sobre as otimizações automáticas de AMP, leia sobre o lazy-loading em AMP no [apêndice]({{g.doc('/content/amp-dev/documentation/courses/beginning-course/appendix.md', locale=doc.locale).url.path}}).
 [/tip]
 
-Para usar o componente e resolver o erro de validação `<amp-img>`, substitua a tag img existente em nossa página pelo equivalente de ABC.
+Para usar o componente e resolver o erro de validação `<amp-img>`, substitua a tag img existente em nossa página pelo equivalente de AMP.
 Em vez de `<img…>`, escreva `<amp-img…>` e dê à sua imagem uma largura fixa de 640 e uma altura de 480.
 Se necessário, consulte a documentação para `<amp-img>` [aqui]({{g.doc('/content/amp-dev/documentation/components/reference/amp-img.md', locale=doc.locale).url.path}}).
 
@@ -189,7 +189,7 @@ A parte da página que contém a imagem deve ter a seguinte aparência:
 {% endraw %}[/sourcecode]
 
 [tip type="note"]
-**Nota**: Verifique a extensão do Validador de ABC. Se você concluiu este exercício com sucesso, o ícone da extensão deve estar verde. Se sim, parabéns! Sua página agora é ABC válida!
+**Nota**: Verifique a extensão do Validador de AMP. Se você concluiu este exercício com sucesso, o ícone da extensão deve estar verde. Se sim, parabéns! Sua página agora é AMP válida!
 [/tip]
 
 ## Organização e dimensionamento de componentes
@@ -198,7 +198,7 @@ O próximo problema que precisamos solucionar tem a ver com a aparência de noss
 
 {{ image('/static/img/courses/beginner/image23.png', 311, 550,  align='center third', caption='A imagem da bicicleta sai da borda da tela') }}
 
-A imagem que adicionamos à página não encolhe para caber em telas menores; apenas derrama para o lado. Se não especificarmos uma estratégia para definir o layout da imagem e redimensioná-la, o padrão será a largura e altura fixas que especificamos em nosso código. Felizmente, podemos corrigir esse problema usando o sistema de layout de ABC.
+A imagem que adicionamos à página não encolhe para caber em telas menores; apenas derrama para o lado. Se não especificarmos uma estratégia para definir o layout da imagem e redimensioná-la, o padrão será a largura e altura fixas que especificamos em nosso código. Felizmente, podemos corrigir esse problema usando o sistema de layout de AMP.
 
 Vamos dar à nossa imagem um `layout` do tipo` responsive` para que ela seja dimensionada automaticamente conforme a janela é redimensionada. O layout responsivo faz com que a imagem assuma as dimensões do contêiner pai, ao mesmo tempo que respeita a proporção original. Se o contêiner pai tiver apenas 320 pixels de largura, a imagem manterá sua proporção e será redimensionada para 320 x 240 (em vez de 640 x 480).
 
@@ -216,7 +216,7 @@ Existem outros tipos de layout além do responsivo (pelo menos 8 no total).
 
 Por exemplo, o layout `fixed` indica que o componente nunca deve ser redimensionado da altura e largura atribuídas a ele. O layout `intrinsic` é semelhante ao layout `responsive`, exceto que tem o conceito de altura e largura intrínsecas que não podem ser excedidas pelo componente. Alguns layouts só podem ser aplicados a determinados componentes. A documentação de cada componente especificará quais layouts são válidos para aquele componente. Você pode ler sobre o resto dos tipos de layout [aqui]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/amp-html-layout/layouts_demonstrated.html', locale=doc.locale).url.path}}).
 
-Todos os layouts fornecidos pelo ABC podem ser implementados usando CSS simples, mas geralmente podem ser complicados ou ter casos extremos complicados que exigem conhecimento profundo para serem solucionados. O ABC simplifica o processo e expõe muitas dessas opções de layout para serem usadas em qualquer elemento da página ABC. Confira a [documentação oficial]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/amp-html-layout/index.md', locale=doc.locale).url.path}}) para obter mais informações sobre o sistema de layout.
+Todos os layouts fornecidos pelo AMP podem ser implementados usando CSS simples, mas geralmente podem ser complicados ou ter casos extremos complicados que exigem conhecimento profundo para serem solucionados. O AMP simplifica o processo e expõe muitas dessas opções de layout para serem usadas em qualquer elemento da página AMP. Confira a [documentação oficial]({{g.doc('/content/amp-dev/documentation/guides-and-tutorials/learn/amp-html-layout/index.md', locale=doc.locale).url.path}}) para obter mais informações sobre o sistema de layout.
 
 [tip type="tip"]
 **Dica**: Tente selecionar diferentes dispositivos móveis no menu suspenso (veja a captura de tela abaixo) para ver como a imagem se adapta a diferentes tamanhos de tela. É uma boa prática testar seu site em tamanhos de tela diferentes. Navegadores em dispositivos móveis reais podem se comportar de maneira diferente, então, quando possível, teste sua página da web em dispositivos reais também.
@@ -260,5 +260,5 @@ Lembre-se de incluir o script `<amp-youtube>` no `<head>`:
 ```
 
 [tip type="note"]
-**Nota**: ABC também inclui suporte para outros players de vídeo. Confira "[Integrando Vídeos em ABC e Visão Geral](https://ampbyexample.com/advanced/integrating_videos_in_amp_an_overview/)" em ABC por exemplo.[/tip]
+**Nota**: AMP também inclui suporte para outros players de vídeo. Confira "[Integrando Vídeos em AMP e Visão Geral](https://ampbyexample.com/advanced/integrating_videos_in_amp_an_overview/)" em AMP por exemplo.[/tip]
 [/filter]
