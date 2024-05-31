@@ -175,12 +175,12 @@ templates:
     <div class="ap-o-benefits-overview-list ap-o-benefits-overview-list-developers">
 
       {% for benefit in doc.benefits.stories.developer %}
+
         <div class="ap-m-benefit">
           <div class="ap-m-benefit-icon">
             {% do doc.icons.useIcon('icons/'+ benefit.icon + '.svg') %}
             <svg class="ap-m-benefit-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ benefit.icon }}"></use></svg>
           </div>
-          {% raw %}
           <div class="ap-m-benefit-text">
             <span class="ap-m-benefit-text-headline">{{ _(benefit.headline) }}</span>
             {% for i in range(1, 5) %} 
@@ -190,12 +190,10 @@ templates:
               {% endif %}
             {% endfor %}
           </div>
-          {% endraw %}
         </div>
       {% endfor %}
 
     <div class="ap-o-benefits-overview-list ap-o-benefits-overview-list-business">
-
 
       {% for benefit in doc.benefits.stories.business %}
 
