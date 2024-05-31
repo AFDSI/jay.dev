@@ -184,7 +184,7 @@ templates:
           <div class="ap-m-benefit-text">
             <span class="ap-m-benefit-text-headline">{{ _(benefit.headline) }}</span>
             <span class="ap-m-benefit-text-copy"> {{ _(benefit.text) }} </span>
-            {% if benefit.text-2 %}<span class="ap-m-benefit-text-copy"> {{ _(benefit.text-2) }}</span>{% endif %}
+            <span class="ap-m-benefit-text-copy">{% if benefit.text-2 %} {{ _(benefit.text-2) }} {% endif %}</span>
           </div>
         </div>
 
