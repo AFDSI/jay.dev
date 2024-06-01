@@ -4,7 +4,7 @@ $order: 3
 leveled: false
 ---
 
-  *How do we publish non-global identifiers in RDF?*
+*How do we publish non-global identifiers in RDF?*
 
 ## Context
 

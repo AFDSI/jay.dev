@@ -1,0 +1,14 @@
+Custom Datatype
+Index Resources
+Label Everything
+Link Not Label
+Multi-Lingual Literal
+N-Ary Relation
+Ordered List
+Ordering Relation
+Preferred Label
+Qualified Relation
+Reified Statement
+Repeated Property
+Topic Relation
+Typed Literal
