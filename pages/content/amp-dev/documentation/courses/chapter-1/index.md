@@ -4,7 +4,7 @@ $titles:
   teaser: Introduction to Linked Data
 teaser:
   icon: airplane
-  label: Start now
+  label: Chapter 1
 description: 'Learn to model, publish, and consume Linked Data.'
 $order: 1
 leveled: false

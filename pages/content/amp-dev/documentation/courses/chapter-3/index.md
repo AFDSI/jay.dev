@@ -1,7 +1,7 @@
 ---
-$title: Modelling Patterns
+$title: Abstract
 $titles:
-  teaser: Modelling Patterns
+  teaser: Modeling Patterns
 teaser:
   icon: airplane
   label: Chapter 3

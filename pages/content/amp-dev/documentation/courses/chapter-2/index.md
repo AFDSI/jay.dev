@@ -1,5 +1,5 @@
 ---
-$title: Identifier Patterns
+$title: Abstract
 $titles:
   teaser: Identifier Patterns
 teaser:

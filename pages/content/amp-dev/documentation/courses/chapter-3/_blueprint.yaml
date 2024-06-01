@@ -1,9 +1,9 @@
-$title@: Modelling Patterns
+$title@: Modeling Patterns
 $view: /views/detail/docs-detail.j2
 $path: /documentation/courses/chapter-3/{base}.html
 $localization:
   path: /{locale}/documentation/courses/chapter-3/{base}.html
-$order: 6
+$order: 7
 toc: false
 
 chaptered: false
