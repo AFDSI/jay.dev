@@ -46,6 +46,8 @@ flyout:
         g.doc('/content/amp-dev/documentation/courses/chapter-2/index.md', locale=doc.locale),
         g.doc('/content/amp-dev/documentation/courses/chapter-3/index.md', locale=doc.locale),
         g.doc('/content/amp-dev/documentation/courses/chapter-4/index.md', locale=doc.locale),
+        g.doc('/content/amp-dev/documentation/courses/chapter-5/index.md', locale=doc.locale),
+        g.doc('/content/amp-dev/documentation/courses/chapter-6/index.md', locale=doc.locale),
         ] %}
       {% include '/views/partials/teaser.j2' %}
       {% endfor %}
@@ -53,6 +55,7 @@ flyout:
   </div>
 </section>
 
+<!--
 <section class="ap--result">
   <div class="ap--section">
     <amp-img alt="Screenshot of the site you'll build"
@@ -68,6 +71,7 @@ flyout:
     <p>{{ _('During this course, you’ll build a sample site for Chico’s famous, and fictional, Cheese Bicycles.') }}</p>
   </div>
 </section>
+-->
 
 {% do doc.styles.addCssFile('/css/components/organisms/card-grid.css') %}
 <section class="ap--card-grid">
