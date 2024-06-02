@@ -1,0 +1,15 @@
+$title@: Data Management Patterns
+$view: /views/detail/docs-detail.j2
+$path: /documentation/courses/chapter-5/{base}.html
+$localization:
+  path: /{locale}/documentation/courses/chapter-5/{base}.html
+$order: 8
+toc: false
+
+chaptered: false
+tutorial: false
+formats:
+  - websites
+  - stories
+  - ads
+  - email
