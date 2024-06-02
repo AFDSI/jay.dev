@@ -57,7 +57,7 @@ A simple example:
    <http://example.org/category/sparql>
      rdfs:label "SPARQL".
 
-   ## Categories could later be related to other sources
+   <!-- Categories could later be related to other sources -->
    <http://example.org/category/rdf>
      owl:sameAs <http://id.loc.gov/authorities/sh2003010124#concept>;
      owl:sameAs <http://rdf.freebase.com/ns/authority.us.gov.loc.sh.sh2003010124>.
