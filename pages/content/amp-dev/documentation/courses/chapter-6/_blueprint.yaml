@@ -1,0 +1,15 @@
+$title@: Application Patterns
+$view: /views/detail/docs-detail.j2
+$path: /documentation/courses/chapter-6/{base}.html
+$localization:
+  path: /{locale}/documentation/courses/chapter-6/{base}.html
+$order: 10
+toc: false
+
+chaptered: false
+tutorial: false
+formats:
+  - websites
+  - stories
+  - ads
+  - email
