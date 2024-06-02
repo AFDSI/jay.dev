@@ -4,7 +4,7 @@ $order: 2
 leveled: false
 ---
 
-  *How should URIs be assigned to a group of resources that form a natural hierarchy?*
+*How should URIs be assigned to a group of resources that form a natural hierarchy?*
 
 ## Context
 
@@ -15,19 +15,22 @@ It is often the case that a collection of resources may form a natural hierarchy
 Where a natural hierarchy exists between a set of resources use :ref:`Patterned URIs <patterned-uris>` that conform to the following pattern:
 
 [sourcecode:html]
-   :collection/:item/:sub-collection/:item[/sourcecode]
+   :collection/:item/:sub-collection/:item
+[/sourcecode]
 
 E.g. in a system which is publishing data about individual books and their chapters, we might use the following identifier for chapter 1 of a specific book:
 
 [sourcecode:html]
-   /books/12345/chapters/1[/sourcecode]
+   /books/12345/chapters/1
+[/sourcecode]
 
 ## Example(s)
 
 The discogs dataset in data-incubator uses hierarchical uris of the form:
 
 [sourcecode:html]
-   http://discogs.dataincubator.org/release/22530/track/1-01[/sourcecode]
+   http://discogs.dataincubator.org/release/22530/track/1-01
+[/sourcecode]
 
 ## Discussion
 
