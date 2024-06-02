@@ -1,6 +1,6 @@
 ---
 $title: Dataset Autodiscovery
-$order: 3
+$order: 4
 leveled: false
 ---
 

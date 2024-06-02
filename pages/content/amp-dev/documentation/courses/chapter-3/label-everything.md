@@ -17,7 +17,6 @@ Ensure that every resource in a dataset has an ``rdfs:label`` property
 ## Example(s)
 
 [sourcecode:html]
-            
    ex:Book
      rdfs:label "War and Peace".
 

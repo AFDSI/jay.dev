@@ -1,6 +1,6 @@
 ---
 $title: Document Type
-$order: 4
+$order: 5
 leveled: false
 ---
 

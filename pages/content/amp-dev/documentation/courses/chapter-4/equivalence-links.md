@@ -1,6 +1,6 @@
 ---
 $title: Equivalence Links
-$order: 7
+$order: 8
 leveled: false
 ---
 

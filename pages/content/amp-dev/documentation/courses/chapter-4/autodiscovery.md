@@ -1,6 +1,6 @@
 ---
 $title: Autodiscovery
-$order: 2
+$order: 3
 leveled: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 $title: Progressive Enrichment
-$order: 11
+$order: 12
 leveled: false
 ---
 

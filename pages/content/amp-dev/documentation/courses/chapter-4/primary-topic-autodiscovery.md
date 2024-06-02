@@ -1,6 +1,6 @@
 ---
 $title: Primary Topic Autodiscovery
-$order: 10
+$order: 11
 leveled: false
 ---
 

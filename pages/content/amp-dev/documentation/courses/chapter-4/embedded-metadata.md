@@ -1,6 +1,6 @@
 ---
 $title: Embedded Metadata
-$order: 6
+$order: 7
 leveled: false
 ---
 

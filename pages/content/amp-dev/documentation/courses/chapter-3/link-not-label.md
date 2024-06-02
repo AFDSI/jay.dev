@@ -34,7 +34,6 @@ Example of potential resources that might get overlooked:
 A simple example:
 
 [sourcecode:html]
-
    <!-- Rather than this: -->
    <http://www.example.org/book/1>
      dc:format "Hardback";

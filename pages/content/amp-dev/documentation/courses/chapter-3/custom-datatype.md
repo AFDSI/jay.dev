@@ -17,13 +17,13 @@ Create a URI to identify the custom datatype and use that URI when creating `Typ
 ## Example(s)
 
 [sourcecode:html]
-   #Define a URI for different forms of shipping codes
+   <!-- Define a URI for different forms of shipping codes -->
    <http:www.example.org/datatype/FedexShippingCode>
      rdfs:label "Fedex Shipping Code".
    <http:www.example.org/datatype/UPSShippingCode>
      rdfs:label "UPS Shipping Code".
 
-   #Indicate the form of shipping code with a Typed Literal
+   <!-- Indicate the form of shipping code with a Typed Literal -->
    _:delivery1
      ex:shippingCode "1234-568"^^<http:www.example.org/datatype/FedexShippingCode>.
 
@@ -45,7 +45,7 @@ Note that a typed literal with a custom datatype can also be modelled as a sub-p
      rdfs:subPropertyOf <http:www.example.org/def/post/shippingCode>
      rdfs:label "Fedex Shipping Code".
 
-   #Use the derived property:
+   <!-- Use the derived property: -->
    _:delivery1
      ex:fedexShippingCode "1234-568".
 [/sourcecode]
