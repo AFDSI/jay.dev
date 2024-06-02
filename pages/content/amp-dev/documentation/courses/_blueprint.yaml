@@ -1,4 +1,4 @@
-$title@: Web Development With ABC
+$title@: Structured Data Development With ABC
 $view: /views/detail/docs-detail.j2
 $path: /documentation/courses/{base}.html
 $localization:

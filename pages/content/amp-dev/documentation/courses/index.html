@@ -1,8 +1,8 @@
 ---
-$title: Learn ABC with free courses
+$title: Learn Structured Data with free courses
 $titles:
   navigation: Courses
-  sidebar: Learn ABC
+  sidebar: Learn Structured Data
   teaser: Courses
 $view: /views/overview/courses.j2
 $path: /documentation/courses/index.html
@@ -10,28 +10,28 @@ $localization:
   path: /{locale}/documentation/courses/index.html
 $order: 0
 
-description: "Learn ABC by taking these courses. Or, if you're an instructor, use these free resources to run your own class!"
+description: "Learn Structured Data by taking these courses."
 flyout:
-  description: Learn ABC with free courses
+  description: Learn Structured Data with free courses
   icon: learn
 ---
 {% do doc.styles.addCssFile('css/components/templates/courses-overview.css') %}
 {% do doc.styles.addCssFile('css/components/molecules/copy.css') %}
 
 <section class="ap--section ap--intro">
-  <h1>{{ _('Learn Web Development with ABC') }}</h1>
+  <h1>{{ _('Learn Structured Data with ABC') }}</h1>
   <p>
-  {{ _('ABC can help you create fast websites more quickly!') }}
+  {{ _('ABC can help you create structured data more quickly!') }}
     <ul>
       <li>{{ _('If you’re <b>an experienced web developer</b>, you can create rich, fast sites with less code.') }}</li>
       <li>{{ _('If you’re <b>a new web developer</b>, ABC helps you learn web development. If you know some HTML and CSS, you can use ABC to make an interactive website!') }}</li>
     </ul>
   </p>
-  <div class="ap-m-copy ap-m-copy-center">
-    <a href="/documentation/courses/beginning-course/course-introduction/?format=websites&amp;level=beginner" class="ap-a-btn">
-      {{ _('Get started') }}
-    </a>
-  </div>
+  <!-- <div class="ap-m-copy ap-m-copy-center"> -->
+    <!-- <a href="/documentation/courses/beginning-course/course-introduction/?format=websites&amp;level=beginner" class="ap-a-btn"> -->
+      <!-- {{ _('Get started') }} -->
+    <!-- </a> -->
+  <!-- </div> -->
 </section>
 
 {% do doc.styles.addCssFile('/css/components/organisms/teaser-grid.css') %}
@@ -64,11 +64,10 @@ flyout:
   </div>
   <div class="ap--section">
     <h2>{{ _('About the courses') }}</h2>
-    <p>{{ _('These three free courses are in use in schools and training programs around the world. Now you can take them here, online, on our site. Suitable for beginners and experienced web developers alike, they will take you from zero to ABC!') }}</p>
+    <p>{{ _('These three free courses are in use in schools and training programs around the world. Now you can take them here, online, on our site.') }}</p>
     <p>{{ _('During this course, you’ll build a sample site for Chico’s famous, and fictional, Cheese Bicycles.') }}</p>
   </div>
 </section>
-
 
 {% do doc.styles.addCssFile('/css/components/organisms/card-grid.css') %}
 <section class="ap--card-grid">
@@ -98,6 +97,7 @@ flyout:
 
 </section>
 
+<!--
 <section class="ap--requirements">
   <div class="ap--section">
     <h4>{{ _('Requirements') }}</h4>
@@ -116,8 +116,9 @@ flyout:
     </ul>
   </div>
 </section>
+-->
 
-
+<!--
 {% do doc.styles.addCssFile('/css/components/organisms/video-slider.css') %}
 <section class="ap--video-slider">
   <h2 class="ap-o-video-slider-text">{{ _('Take the Video Courses') }}</h2>
@@ -132,3 +133,4 @@ flyout:
   {% include '/views/partials/video-carousel.j2' %}
   {% endwith %}
 </section>
+-->
