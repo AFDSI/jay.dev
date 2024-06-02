@@ -4,10 +4,10 @@ $path: /documentation/courses/chapter-2/{base}.html
 $localization:
   path: /{locale}/documentation/courses/chapter-2/{base}.html
 $order: 6
-toc: false
+toc: true
 
 chaptered: false
-tutorial: false
+tutorial: true
 formats:
   - websites
   - stories
