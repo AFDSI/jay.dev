@@ -12,7 +12,7 @@ It is often the case that a collection of resources may form a natural hierarchy
 
 ## Solution
 
-Where a natural hierarchy exists between a set of resources use `Patterned URIs <patterned-uris>` that conform to the following pattern:
+Where a natural hierarchy exists between a set of resources use [`Patterned URIs`](../patterned-uris.md) that conform to the following pattern:
 
 [sourcecode:html]
 :collection/:item/:sub-collection/:item
@@ -40,4 +40,4 @@ The same applies to circumstances where the hierarchy may change over time.
 
 ## Related
 
-- `Patterned URIs <patterned-uris>`
+- [`Patterned URIs`](../patterned-uris.md)
