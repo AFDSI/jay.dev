@@ -40,4 +40,5 @@ The same applies to circumstances where the hierarchy may change over time.
 
 ## Related
 
-- [`Patterned URIs`](../websites/chapter-2/patterned-uris)
+- [`Patterned URIs`](../chapter-2/patterned-uris)
+
