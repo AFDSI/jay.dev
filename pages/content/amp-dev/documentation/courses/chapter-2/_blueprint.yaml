@@ -8,3 +8,5 @@ toc: true
 
 chaptered: false
 tutorial: true
+formats:
+  - websites
