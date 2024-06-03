@@ -1,5 +1,5 @@
 ---
-$title: Literal Keys
+$title@: Literal Keys
 $order: 3
 leveled: false
 ---
@@ -8,7 +8,7 @@ leveled: false
 
 ## Context
 
-The `Natural Keys <natural-keys>` pattern encourages the creation of URIs from existing non-global identifiers. While this provides a way to begin identifying a resource so that we can describe it in RDF, it does not address the issue of how to publish these existing identifiers. Nor does it address situations where natural keys change over time, e.g. the move from ISBN-10 to ISBN-13 in the publishing world.
+The [`Natural Keys`](../chapter-2/natural-keys) pattern encourages the creation of URIs from existing non-global identifiers. While this provides a way to begin identifying a resource so that we can describe it in RDF, it does not address the issue of how to publish these existing identifiers. Nor does it address situations where natural keys change over time, e.g. the move from ISBN-10 to ISBN-13 in the publishing world.
 
 ## Solution
 
@@ -16,7 +16,7 @@ Create a custom property, as a sub-class of the dc:identifier property for relat
 
 ## Example(s)
 
-The nasa dataset in data-incubator uses `Patterned URIs <patterned-uris>` based on the NSSDC international designator, but includes these as literal values associated with each spacecraft using a custom property.
+The nasa dataset in data-incubator uses [`Patterned URIs`](../chapter-2/patterned-uris) based on the NSSDC international designator, but includes these as literal values associated with each spacecraft using a custom property.
 
 ## Discussion
 
@@ -28,5 +28,5 @@ For systems that may need to bridge between the Linked Data and non-Linked Data 
 
 ## Related
 
-- `Patterned URIs <patterned-uris>`
-- `Natural Keys <natural-keys>`
+- [`Patterned URIs`](../chapter-2/patterned-uris)
+- [`Natural Keys`](../chapter-2/natural-keys)

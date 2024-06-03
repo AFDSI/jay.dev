@@ -1,5 +1,5 @@
 ---
-$title: Natural Keys
+$title@: Natural Keys
 $order: 4
 leveled: false
 ---
@@ -26,4 +26,4 @@ By deriving the URI from the natural key for the identifier we avoid the need to
 
 ## Related
 
-- `Patterned URIs <patterned-uris>`
+- [`Patterned URIs`](../chapter-2/patterned-uris)

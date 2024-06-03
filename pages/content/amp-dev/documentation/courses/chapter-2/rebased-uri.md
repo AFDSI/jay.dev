@@ -1,5 +1,5 @@
 ---
-$title: Rebased URI
+$title@: Rebased URI
 $order: 7
 leveled: false
 ---
@@ -8,7 +8,9 @@ leveled: false
 
 ## Context
 
-Sometimes when generating a `Patterned URI <patterned-uris>` the key that we have for as `URL Slug <url-slug>` is not a simple literal value, but instead another URI. For example this can occur when generating a new Named Graph URI for a resource, or when defining a service URL for a `URI Resolver <uri-resolver>`.
+Sometimes when generating a [`Patterned URIs`](../chapter-2/patterned-uris) 
+the key that we have for as [`URL Slug `](../chapter-2/url-slug) is not a simple literal value, but instead another URI. For example this can occur when generating a new Named Graph URI for a resource, or when defining a service URL for a
+ [`URI Resolver`](../chapter-6/uri-resolver).
 
 ## Solution
 
@@ -22,11 +24,13 @@ An application needs to generate a new Named Graph URI for a resource URI of ``h
 
 URL rewriting is a common feature of all web servers and most web frameworks. Rewriting is normally carried out using regular expressions to match and replace portions of the original URI with some standard replacement text.
 
-URL rewriting is used in several Linked Data services in order to create new URLs. This is typically to support `URI resolution <uri-resolver>` for remote (RDF) resources.
+URL rewriting is used in several Linked Data services in order to create new URLs. This is typically to support [`URI Resolver`](../chapter-6/uri-resolver)  for remote (RDF) resources.
 
 Several different approaches seem to be in use. The following examples all show a rewrite for this URI:
-``http://example.org/document/1``. Each example notes an example service that uses the approach:
 
+- ``http://example.org/document/1``
+
+Each example notes an example service that uses the approach:
 
 - *Simple Prefixing* (URIBurner): ``http://service.example.com/resolve/http://example.org/document/1``. The original URI is simply appended to a new base URL. Has the advantage of working with any protocol.
 - *Prefixing, No Protocol* (Triplr): ``http://service.example.com/resolve/example.org/document/1``. The original URI is simply appended to a new base URL after first removing the protocol (e.g. ``http://``). Server will  need to assume the ``http`` protocol if de-referencing the URI or reversing the rewrite.
@@ -36,4 +40,4 @@ Several different approaches seem to be in use. The following examples all show 
 
 ## Related
 
-- `URI resolver <uri-resolver>`
+- [`URI Resolver`](../chapter-6/uri-resolver)

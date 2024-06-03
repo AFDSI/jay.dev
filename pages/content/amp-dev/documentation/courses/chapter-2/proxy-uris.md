@@ -1,5 +1,5 @@
 ---
-$title: Proxy URIs
+$title@: Proxy URIs
 $order: 6
 leveled: false
 ---
@@ -25,11 +25,11 @@ ex:anImage a foaf:Image;
 
 ## Discussion
 
-A publisher should focus on their immediate goal of opening up their data, ensuring that the published data is internally consistent and has identifiers for all key concepts. If existing identifiers exist then these should be reused. Where they don't then new locally minted URIs should be created from `Shared Keys <shared-keys>`.
+A publisher should focus on their immediate goal of opening up their data, ensuring that the published data is internally consistent and has identifiers for all key concepts. If existing identifiers exist then these should be reused. Where they don't then new locally minted URIs should be created from [`Shared Keys`](../chapter-2/shared-keys) .
 
-Once the data has been published, some alignment can take place within a community to achieve agreement on standard URIs for shared identifiers. One approach for achieving this alignment is to publish `Equivalence Links <equivalence-links>`.
+Once the data has been published, some alignment can take place within a community to achieve agreement on standard URIs for shared identifiers. One approach for achieving this alignment is to publish [`Equivalence Links`](../chapter-4/equivalence-links) .
 
 ## Related
 
-- `Shared Keys <shared-keys>`
-- `Equivalence Links <equivalence-links>`
+- [`Shared Keys`](../chapter-2/shared-keys)
+- [`Equivalence Links`](../chapter-4/equivalence-links)

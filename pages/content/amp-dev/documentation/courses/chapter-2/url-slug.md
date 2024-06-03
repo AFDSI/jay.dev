@@ -1,5 +1,5 @@
 ---
-$title: URL Slug
+$title@: URL Slug
 $order: 9
 leveled: false
 ---
@@ -8,29 +8,30 @@ leveled: false
 
 ## Context
 
-When generating a URI for an identifier we may not always have a simple numeric `Natural Key <natural-keys>` for a resource. In some cases, e.g. for documents, keywords, categories, we may only have a title or name.
+When generating a URI for an identifier we may not always have a simple numeric
 
 ## Solution
 
-Apply the `Patterned URI <patterned-uris>` pattern to create a common root URI and generate a simple URL "slug" by from the available text or keywords
+Apply the [`Patterned URIs`](../chapter-2/patterned-uris) pattern to create a common root URI and generate a simple URL "slug" by from the available text or keywords.
 
-There are several potential algorithms for normalising a string to create a URL slug. A typical algorithm would be:
+There are several potential algorithms for normalizing a string to create a URL slug. A typical algorithm would be:
 
 - Lowercase the string
 - Remove any special characters and punctuation that might require encoding in the URL
 - Replace spaces with a dash
 
-The original text is then preserved by using it to `label <label-everything>` the resource.
+The original text is then preserved by using it to [`label`](../chapter-3/label-everything) the resource.
 
 ## Example(s)
 
-For example if we are generating a URI for a category called "Heavy Metal" we might generate a URI as follows
+For example if we are generating a URI for a category called "Heavy Metal" we might generate a URI as follows:
 
 [sourcecode:html]
 <!-- Generate a patterned URI with a simple URL slug from "Heavy Metal" -->
 <http:www.example.org/category/heavy-metal>
   rdfs:label "Heavy Metal"
 [/sourcecode]
+
 
 ## Discussion
 
@@ -42,9 +43,8 @@ Normalization of text strings can be problematic if it results in the same URL s
 
 ## Related
 
-- `Patterned URI <patterned-uris>`
-- `Natural Key <natural-keys>`
+- [`Patterned URIs`](../chapter-2/patterned-uris)
+- [`Natural Keys`](../chapter-2/natural-keys)
 
 ## Further Reading
-
-- `Slug (web publishing) on Wikipedia <https://en.wikipedia.org/wiki/Clean_URL#Slug>`_
+- [`Slug (web publishing) on Wikipedia`](https://en.wikipedia.org/wiki/Clean_URL#Slug)

@@ -1,5 +1,5 @@
 ---
-$title: Patterned URIs
+$title@: Patterned URIs
 $order: 5
 leveled: false
 ---
@@ -8,8 +8,7 @@ leveled: false
 
 ## Context
 
-Clean, clear URIs can be easier to remember and easier for developers to work with. This is especially true if the URIs can
-be algorithmically constructed or follow a common pattern. This allows URIs to be constructed or hacked in order to create new entry points into the dataset, e.g. determining the URI for a collection of similar resources based on knowledge of a single example URI.
+Clean, clear URIs can be easier to remember and easier for developers to work with. This is especially true if the URIs can be algorithmically constructed or follow a common pattern. This allows URIs to be constructed or hacked in order to create new entry points into the dataset, e.g. determining the URI for a collection of similar resources based on knowledge of a single example URI.
 
 ## Solution
 
@@ -23,11 +22,11 @@ For example if an application will be publishing data about book resources, whic
 
 Where `/books` is the base part of the URI indicating "the collection of books", and the `12345` is an identifier for an individual book.
 
-If multiple classes share a common base class, then it is also possible to use the name of the common base class, rather than generating separate URIs for each derived type
+If multiple classes share a common base class, then it is also possible to use the name of the common base class, rather than generating separate URIs for each derived type.
 
 ## Example(s)
 
-The BBC website uses `/programmes` to group together URIs that relate to series, brands and episodes, all of which are subclasses of the rdf:type po:Programme
+The BBC website uses `/programs` to group together URIs that relate to series, brands and episodes, all of which are subclasses of the rdf:type po:Programs
 
 ## Discussion
 
@@ -35,5 +34,5 @@ There are clear benefits from having human-readable, hackable URIs. This solutio
 
 ## Related
 
-- `Hierarchical URIs <hierarchical-uris>`
-- `Natural Keys <natural-keys>`
+- [`Hierarchical URIs`](../chapter-2/hierarchical-uris)
+- [`Natural Keys`](../chapter-2/natural-keys)
