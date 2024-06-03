@@ -16,7 +16,7 @@ Mint URIs that are algorithmically derived from the existing non-URI identifier.
 
 ## Example(s)
 
-The BBC programmes website uses URIs that are derived from its existing "programme id" or pid.
+The BBC program website uses URIs that are derived from its existing "program id" or pid.
 
 ## Discussion
 
@@ -26,4 +26,4 @@ By deriving the URI from the natural key for the identifier we avoid the need to
 
 ## Related
 
-  - `Patterned URIs <patterned-uris>`
+- `Patterned URIs <patterned-uris>`

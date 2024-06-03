@@ -21,8 +21,8 @@ Create `Patterned URIs <patterned-uris>` by applying the `Natural Keys <natural-
 The BBC have created URIs for artists that are algorithmically related to the MusicBrainz URIs using a common Shared Key. MusicBrainz URIs are `Patterned URIs <patterned-uris>` built from a "MusicBrainz ID", e.g. ``a74b1b7f-71a5-4011-9441-d0b5e4122711``. The MusicBrainz and BBC URIs are shown below:
 
 [sourcecode:html]
-   http://www.bbc.co.uk/music/artists/a74b1b7f-71a5-4011-9441-d0b5e4122711
-   http://musicbrainz.org/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711[/sourcecode]
+  http://www.bbc.co.uk/music/artists/a74b1b7f-71a5-4011-9441-d0b5e4122711
+  http://musicbrainz.org/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711[/sourcecode]
 [/sourcecode]
 
 ## Discussion

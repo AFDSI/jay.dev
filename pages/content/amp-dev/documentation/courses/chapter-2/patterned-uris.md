@@ -35,5 +35,5 @@ There are clear benefits from having human-readable, hackable URIs. This solutio
 
 ## Related
 
-  - `Hierarchical URIs <hierarchical-uris>`
-  - `Natural Keys <natural-keys>`
+- `Hierarchical URIs <hierarchical-uris>`
+- `Natural Keys <natural-keys>`

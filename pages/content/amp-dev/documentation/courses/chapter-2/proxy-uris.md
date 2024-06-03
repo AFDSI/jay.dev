@@ -31,5 +31,5 @@ Once the data has been published, some alignment can take place within a communi
 
 ## Related
 
-  - `Shared Keys <shared-keys>`
-  - `Equivalence Links <equivalence-links>`
+- `Shared Keys <shared-keys>`
+- `Equivalence Links <equivalence-links>`

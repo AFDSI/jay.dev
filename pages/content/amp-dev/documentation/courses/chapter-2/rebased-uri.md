@@ -28,7 +28,7 @@ Several different approaches seem to be in use. The following examples all show 
 ``http://example.org/document/1``. Each example notes an example service that uses the approach:
 
 
-- *Simple Prefixing* (URIBurnder): ``http://service.example.com/resolve/http://example.org/document/1``. The original URI is simply appended to a new base URL. Has the advantage of working with any protocol.
+- *Simple Prefixing* (URIBurner): ``http://service.example.com/resolve/http://example.org/document/1``. The original URI is simply appended to a new base URL. Has the advantage of working with any protocol.
 - *Prefixing, No Protocol* (Triplr): ``http://service.example.com/resolve/example.org/document/1``. The original URI is simply appended to a new base URL after first removing the protocol (e.g. ``http://``). Server will  need to assume the ``http`` protocol if de-referencing the URI or reversing the rewrite.
 - *Prefixing, With Delimiter* (Callimachus): ``http://service.example.com/resolve;http://example.org/document/1``. The original URI is simply appended to a new base URL which ends with a semi-colon.
 - *Prefixing, As Parameter* (SPARQL Graph Protocol): ``http://service.example.com/resolve?uri=http://example.org/document/1``. The original URI is simply appended to a new base URL as a query string parameter.

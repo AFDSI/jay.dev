@@ -40,4 +40,4 @@ The same applies to circumstances where the hierarchy may change over time.
 
 ## Related
 
-- [`Patterned URIs`](../patterned-uris.md)
+- [`Patterned URIs`](./patterned-uris)

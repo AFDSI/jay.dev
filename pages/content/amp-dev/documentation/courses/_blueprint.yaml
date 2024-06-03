@@ -6,8 +6,3 @@ $localization:
 $order: 4
 bucket: true
 
-formats:
-  - websites
-  - stories
-  - ads
-  - email
