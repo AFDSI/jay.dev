@@ -4,7 +4,7 @@ $order: 5
 leveled: false
 ---
 
-  *How can we create more predictable, human-readable URIs?*
+*How can we create more predictable, human-readable URIs?*
 
 ## Context
 
@@ -18,7 +18,8 @@ Create URIs that follow a simple naming pattern. For applications generating Lin
 For example if an application will be publishing data about book resources, which are modelled as the rdf:type ex:Book. One might construct URIs of the form:
 
 [sourcecode:html]
-   /books/12345[/sourcecode]
+/books/12345
+[/sourcecode]
 
 Where `/books` is the base part of the URI indicating "the collection of books", and the `12345` is an identifier for an individual book.
 

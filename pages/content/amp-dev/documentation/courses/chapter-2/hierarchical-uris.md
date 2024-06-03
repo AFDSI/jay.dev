@@ -12,16 +12,16 @@ It is often the case that a collection of resources may form a natural hierarchy
 
 ## Solution
 
-Where a natural hierarchy exists between a set of resources use :ref:`Patterned URIs <patterned-uris>` that conform to the following pattern:
+Where a natural hierarchy exists between a set of resources use `Patterned URIs <patterned-uris>` that conform to the following pattern:
 
 [sourcecode:html]
-   :collection/:item/:sub-collection/:item
+:collection/:item/:sub-collection/:item
 [/sourcecode]
 
 E.g. in a system which is publishing data about individual books and their chapters, we might use the following identifier for chapter 1 of a specific book:
 
 [sourcecode:html]
-   /books/12345/chapters/1
+/books/12345/chapters/1
 [/sourcecode]
 
 ## Example(s)
@@ -29,7 +29,7 @@ E.g. in a system which is publishing data about individual books and their chapt
 The discogs dataset in data-incubator uses hierarchical uris of the form:
 
 [sourcecode:html]
-   http://discogs.dataincubator.org/release/22530/track/1-01
+http://discogs.dataincubator.org/release/22530/track/1-01
 [/sourcecode]
 
 ## Discussion
@@ -40,4 +40,4 @@ The same applies to circumstances where the hierarchy may change over time.
 
 ## Related
 
-  * `Patterned URIs <patterned-uris>`
+- `Patterned URIs <patterned-uris>`

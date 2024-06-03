@@ -4,7 +4,7 @@ $order: 6
 leveled: false
 ---
 
-  *How do we deal with lack of standard identifiers for third-party resources?*
+*How do we deal with lack of standard identifiers for third-party resources?*
 
 ## Context
 
@@ -19,8 +19,9 @@ Treat third-party resources identically to those in your own data and assign the
 There is still no agreed standard way of generating URIs for Internet Media Types. IANA have adopted RDF for publishing descriptions of registered media types. A data set containing descriptions of images may therefore use locally minted URIs for those media types:
 
 [sourcecode:html]
-   ex:anImage a foaf:Image;
-     dc:format <http://www.example.org/media-types/image/jpeg>[/sourcecode]
+ex:anImage a foaf:Image;
+  dc:format <http://www.example.org/media-types/image/jpeg>
+[/sourcecode]
 
 ## Discussion
 

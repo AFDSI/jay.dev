@@ -4,7 +4,7 @@ $order: 7
 leveled: false
 ---
 
-  *How can we construct one URI based on another?*
+*How can we construct one URI based on another?*
 
 ## Context
 
@@ -28,21 +28,12 @@ Several different approaches seem to be in use. The following examples all show 
 ``http://example.org/document/1``. Each example notes an example service that uses the approach:
 
 
-  - *Simple Prefixing* (URIBurnder):
-  ``http://service.example.com/resolve/http://example.org/document/1``.
-  The original URI is simply appended to a new base URL. Has the advantage of working with any protocol.
-  - *Prefixing, No Protocol* (Triplr):
-  ``http://service.example.com/resolve/example.org/document/1``.
-  The original URI is simply appended to a new base URL after first removing the protocol (e.g. ``http://``). Server will  need to assume the ``http`` protocol if de-referencing the URI or reversing the rewrite.
-  - *Prefixing, With Delimiter* (Callimachus):
-  ``http://service.example.com/resolve;http://example.org/document/1``.
-  The original URI is simply appended to a new base URL which ends with a semi-colon.
-  - *Prefixing, As Parameter* (SPARQL Graph Protocol):
-  ``http://service.example.com/resolve?uri=http://example.org/document/1``.
-  The original URI is simply appended to a new base URL as a query string parameter.
-  - *Rewritten Authority*:
-  ``http://data.example.org/document/1``. The authority component of the URI is rewritten to create a new base URI. This approach might lead to URI clashes unless the input URIs have a predictable structure.
+- *Simple Prefixing* (URIBurnder): ``http://service.example.com/resolve/http://example.org/document/1``. The original URI is simply appended to a new base URL. Has the advantage of working with any protocol.
+- *Prefixing, No Protocol* (Triplr): ``http://service.example.com/resolve/example.org/document/1``. The original URI is simply appended to a new base URL after first removing the protocol (e.g. ``http://``). Server will  need to assume the ``http`` protocol if de-referencing the URI or reversing the rewrite.
+- *Prefixing, With Delimiter* (Callimachus): ``http://service.example.com/resolve;http://example.org/document/1``. The original URI is simply appended to a new base URL which ends with a semi-colon.
+- *Prefixing, As Parameter* (SPARQL Graph Protocol): ``http://service.example.com/resolve?uri=http://example.org/document/1``. The original URI is simply appended to a new base URL as a query string parameter.
+- *Rewritten Authority*: ``http://data.example.org/document/1``. The authority component of the URI is rewritten to create a new base URI. This approach might lead to URI clashes unless the input URIs have a predictable structure.
 
 ## Related
 
-  - `URI resolver <uri-resolver>`
+- `URI resolver <uri-resolver>`

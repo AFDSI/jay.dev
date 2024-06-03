@@ -4,7 +4,7 @@ $order: 9
 leveled: false
 ---
 
-  *How can we create URLs from arbitrary text or keywords?*
+*How can we create URLs from arbitrary text or keywords?*
 
 ## Context
 
@@ -16,9 +16,9 @@ Apply the `Patterned URI <patterned-uris>` pattern to create a common root URI a
 
 There are several potential algorithms for normalising a string to create a URL slug. A typical algorithm would be:
 
-  - Lowercase the string
-  - Remove any special characters and punctuation that might require encoding in the URL
-  - Replace spaces with a dash
+- Lowercase the string
+- Remove any special characters and punctuation that might require encoding in the URL
+- Replace spaces with a dash
 
 The original text is then preserved by using it to `label <label-everything>` the resource.
 
@@ -27,9 +27,10 @@ The original text is then preserved by using it to `label <label-everything>` th
 For example if we are generating a URI for a category called "Heavy Metal" we might generate a URI as follows
 
 [sourcecode:html]
-   #Generate a patterned URI with a simple URL slug from "Heavy Metal"
-   <http:www.example.org/category/heavy-metal>
-     rdfs:label "Heavy Metal"[/sourcecode]
+<!-- Generate a patterned URI with a simple URL slug from "Heavy Metal" -->
+<http:www.example.org/category/heavy-metal>
+  rdfs:label "Heavy Metal"
+[/sourcecode]
 
 ## Discussion
 
@@ -41,8 +42,8 @@ Normalization of text strings can be problematic if it results in the same URL s
 
 ## Related
 
--  `Patterned URI <patterned-uris>`
--  `Natural Key <natural-keys>`
+- `Patterned URI <patterned-uris>`
+- `Natural Key <natural-keys>`
 
 ## Further Reading
 

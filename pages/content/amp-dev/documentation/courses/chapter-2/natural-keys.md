@@ -4,7 +4,7 @@ $order: 4
 leveled: false
 ---
 
-  *How can we create unique URIs from data that already has unique identifiers?*
+*How can we create unique URIs from data that already has unique identifiers?*
 
 ## Context
 
