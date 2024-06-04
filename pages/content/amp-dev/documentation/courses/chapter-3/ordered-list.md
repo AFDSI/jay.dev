@@ -1,6 +1,6 @@
 ---
 $title: Ordered List
-$order: 7
+$order: 9
 leveled: false
 ---
 
@@ -12,20 +12,20 @@ Sometimes ordering is an important aspect of some collection of data. E.g. the l
 
 ## Solution
 
-Use an ``rdf:List`` to describe a ordered list of resources.
+Use an `rdf:List` to describe a ordered list of resources.
 
 ## Example(s)
 
 [sourcecode:html]
-   <http://www.example.com/docs/1> ex:authors (
+<http://www.example.com/docs/1> ex:authors (
    <http://www.example.com/author/joe>
    <http://www.example.com/author/bob>
-   ).
+).
 
-   <http://www.example.com/author/joe>
+<http://www.example.com/author/joe>
    foaf:name "Joe".
 
-   <http://www.example.com/author/bob>
+<http://www.example.com/author/bob>
    foaf:name "Bob".
 [/sourcecode]
 

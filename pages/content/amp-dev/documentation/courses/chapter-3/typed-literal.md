@@ -1,6 +1,6 @@
 ---
 $title: Typed Literal
-$order: 14
+$order: 15
 leveled: false
 ---
 

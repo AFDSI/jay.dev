@@ -1,6 +1,6 @@
 ---
 $title: Reified Statement
-$order: 11
+$order: 13
 leveled: false
 ---
 
@@ -17,11 +17,11 @@ Use a technique known as reification and model the triple as a resource, with pr
 ## Example(s)
 
 [sourcecode:html]
-   _:ex rdf:type rdf:Statement;
-     rdf:subject <http://www.example.com/book/1>;
-     rdf:predicate <http://xmlns.com/foaf/0/1/maker>;
-     rdf:object <http://www.example.com/author/joe>;
-     dc:created "2010-02-13".
+_:ex rdf:type rdf:Statement;
+  rdf:subject <http://www.example.com/book/1>;
+  rdf:predicate <http://xmlns.com/foaf/0/1/maker>;
+  rdf:object <http://www.example.com/author/joe>;
+  dc:created "2010-02-13".
 [/sourcecode]
 
 ## Discussion

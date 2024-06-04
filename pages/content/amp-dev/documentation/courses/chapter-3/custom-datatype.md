@@ -1,6 +1,6 @@
 ---
 $title: Custom Datatype
-$order: 15
+$order: 2
 leveled: false
 ---
 
@@ -17,18 +17,18 @@ Create a URI to identify the custom datatype and use that URI when creating `Typ
 ## Example(s)
 
 [sourcecode:html]
-   <!-- Define a URI for different forms of shipping codes -->
-   <http:www.example.org/datatype/FedexShippingCode>
-     rdfs:label "Fedex Shipping Code".
-   <http:www.example.org/datatype/UPSShippingCode>
-     rdfs:label "UPS Shipping Code".
+<!-- Define a URI for different forms of shipping codes -->
+<http:www.example.org/datatype/FedexShippingCode>
+  rdfs:label "Fedex Shipping Code".
+<http:www.example.org/datatype/UPSShippingCode>
+  rdfs:label "UPS Shipping Code".
 
-   <!-- Indicate the form of shipping code with a Typed Literal -->
-   _:delivery1
-     ex:shippingCode "1234-568"^^<http:www.example.org/datatype/FedexShippingCode>.
+<!-- Indicate the form of shipping code with a Typed Literal -->
+_:delivery1
+  ex:shippingCode "1234-568"^^<http:www.example.org/datatype/FedexShippingCode>.
 
-   _:delivery1
-     ex:shippingCode "abcd/zx"^^<http:www.example.org/datatype/UPSShippingCode>.
+_:delivery1
+  ex:shippingCode "abcd/zx"^^<http:www.example.org/datatype/UPSShippingCode>.
 [/sourcecode]
 
 ## Discussion
@@ -40,14 +40,14 @@ The key limitation to custom datatypes is that SPARQL query engines will not und
 Note that a typed literal with a custom datatype can also be modelled as a sub-property. Continuing the above example, instead of defining a new type for each shipping code, the model could have instead been structured as:
 
 [sourcecode:html]
-   <http:www.example.org/def/post/fedexShippingCode>
-     a rdfs:Property;
-     rdfs:subPropertyOf <http:www.example.org/def/post/shippingCode>
-     rdfs:label "Fedex Shipping Code".
+<http:www.example.org/def/post/fedexShippingCode>
+  a rdfs:Property;
+  rdfs:subPropertyOf <http:www.example.org/def/post/shippingCode>
+  rdfs:label "Fedex Shipping Code".
 
-   <!-- Use the derived property: -->
-   _:delivery1
-     ex:fedexShippingCode "1234-568".
+<!-- Use the derived property: -->
+_:delivery1
+  ex:fedexShippingCode "1234-568".
 [/sourcecode]
 
 The advantages of this alternate approaches are:

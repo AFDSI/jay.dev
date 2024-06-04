@@ -1,6 +1,6 @@
 ---
 $title: Topic Relation
-$order: 13
+$order: 14
 leveled: false
 ---
 
@@ -19,14 +19,14 @@ Use the ``foaf:topic`` and/or ``foaf:primaryTopic`` relationships to associate a
 In a dataset describing Paris, some additional further reading links may be available:
 
 [sourcecode:html]
-   <http://www.example.org/place/Paris> a ex:Place;
-      skos:prefLabel "Paris"@fr.
+<http://www.example.org/place/Paris> a ex:Place;
+   skos:prefLabel "Paris"@fr.
 
-   <http://travel.example.com/blog/a-paris-guide>
-      foaf:primaryTopic <http://www.example.org/place/Paris>.
+<http://travel.example.com/blog/a-paris-guide>
+   foaf:primaryTopic <http://www.example.org/place/Paris>.
 
-   <http://travel.example.com/blog/top-europe-cities>
-      foaf:topic <http://www.example.org/place/Paris>.
+<http://travel.example.com/blog/top-europe-cities>
+   foaf:topic <http://www.example.org/place/Paris>.
 [/sourcecode]
 
 ## Discussion

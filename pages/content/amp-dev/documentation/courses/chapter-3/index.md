@@ -16,7 +16,7 @@ When we are creating an Entity-Relationship (ER) or Object-Oriented model we are
 
 In a Linked Data context we approach a modelling exercise in a different way.
 
-Firstly we may be able to avoid the exercise completely. Using RDF Schema and OWL it is possible to share vocabularies (or ontologies, or schemas, whatever your preferred term) on the web, just as we share data. This means that communities of interest can collaborate around a data model and then extend it where necessary. With semantic web technologies we can better crowd-source and share our data models.
+First we may be able to avoid the exercise completely. Using RDF Schema and OWL it is possible to share vocabularies (or ontologies, or schemas, whatever your preferred term) on the web, just as we share data. This means that communities of interest can collaborate around a data model and then extend it where necessary. With semantic web technologies we can better crowd-source and share our data models.
 
 It is often the case that a combination of existing vocabularies will adequately cover a domain. Where there is a short-fall we can define small extensions, e.g. new properties or types, that extend the model for our purposes.
 
@@ -26,9 +26,9 @@ Of course a model must ultimately support the kinds of data we want to capture o
 
 This is not the same as saying that all modelling must be done up front. Modelling for Linked Data can be agile and iterative. We should just take care to think about the likely areas of extension, as the `Link Not Label <link-not-label>` pattern illustrates.
 
-Thirdly, and finally, the other important way in which RDF modelling differs from other approaches is that there is no separate physical data model: the logical model is exactly how our data is stored. An RDF triple store is "schema-free" in the sense that we don't have to define the physical layout (e.g. tables, columns) of our database. Any RDF triple store can store any RDF data expressed using any RDF vocabulary.
+Third, and finally, the other important way in which RDF modelling differs from other approaches is that there is no separate physical data model: the logical model is exactly how our data is stored. An RDF triple store is "schema-free" in the sense that we don't have to define the physical layout (e.g. tables, columns) of our database. Any RDF triple store can store any RDF data expressed using any RDF vocabulary.
 
 This makes RDF very amenable for rapid, iterative application development. Importantly it also means that everyone involved in a project team is working off the same domain model; the same mental model of how the resources in a dataset are described and how they relate to one another.
 
-This chapter introduces a number of RDF modelling patterns that are useful in a variety of different use cases. Several of the patterns are really illustrations of how to use particular features of RDF, e.g. annotation of literals with `data types <typed-literal>` or `languages <multi-lingual-literal>`. We've included these within the overall patterns collection as we feel that presenting them as solutions to specific questions, e.g. "How can internationalized text be expressed in RDF?" may help address what are frequently asked questions by new users.
+This chapter introduces a number of RDF modeling patterns that are useful in a variety of different use cases. Several of the patterns are really illustrations of how to use particular features of RDF, e.g. annotation of literals with `data types <typed-literal>` or `languages <multi-lingual-literal>`. We've included these within the overall patterns collection as we feel that presenting them as solutions to specific questions, e.g. "How can internationalized text be expressed in RDF?" may help address what are frequently asked questions by new users.
 

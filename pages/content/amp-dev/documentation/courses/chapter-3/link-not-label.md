@@ -1,6 +1,6 @@
 ---
 $title: Link Not Label
-$order: 2
+$order: 5
 leveled: false
 ---
 
@@ -10,9 +10,9 @@ leveled: false
 
 Most datasets are centred around a few core resources types that are central to that dataset. For example a social network dataset would be centred on people, groups and organizations, whereas a publishing dataset would be centred on authors, publications and publishers.
 
-However every dataset typically has some additional resource types that are less "central". E.g areas or topics of interest, spoken or print languages, publication formats, etc. Often these resources are over-looked during modelling and are often only represented as simple literal values. This can make it less efficient to query a dataset, e.g. to group resources based on shared characteristics (e.g. everyone with same interests, all hardback books). It can also limit the `annotate <annotation>` these aspects of a dataset, e.g. in order to add `equivalence links <equivalence-links>`.
+However every dataset typically has some additional resource types that are less "central". E.g areas or topics of interest, spoken or print languages, publication formats, etc. Often these resources are over-looked during modeling and are often only represented as simple literal values. This can make it less efficient to query a dataset, e.g. to group resources based on shared characteristics (e.g. everyone with same interests, all hardback books). It can also limit the `annotate <annotation>` these aspects of a dataset, e.g. in order to add `equivalence links <equivalence-links>`.
 
-Many common modelling approaches or industry standard models often re-inforce a less expressive modelling approach. For example many publishing and library standards, while encouraging use of controlled terms and authority files, focus largely on publications as the only important entity in a data model, leaving subject categories and authors as little more than labels associated with a work.
+Many common modeling approaches or industry standard models often re-inforce a less expressive modeling approach. For example many publishing and library standards, while encouraging use of controlled terms and authority files, focus largely on publications as the only important entity in a data model, leaving subject categories and authors as little more than labels associated with a work.
 
 ## Solution
 
@@ -34,32 +34,32 @@ Example of potential resources that might get overlooked:
 A simple example:
 
 [sourcecode:html]
-   <!-- Rather than this: -->
-   <http://www.example.org/book/1>
-     dc:format "Hardback";
-     dc:lang "en"
-     dc:subject "RDF", "SPARQL".
+<!-- Rather than this: -->
+<http://www.example.org/book/1>
+  dc:format "Hardback";
+  dc:lang "en"
+  dc:subject "RDF", "SPARQL".
 
-   <!-- Use a richer model: -->
-   <http://www.example.org/book/1>
-     dcterms:format <http://example.org/formats/hardback>;
-     dcterms:lang <http://www.lingvoj.org/lingvo/en>;
-     dcterms:subject <http://example.org/category/rdf>;
-     dcterms:subject <http://example.org/category/sparql>.
+<!-- Use a richer model: -->
+<http://www.example.org/book/1>
+  dcterms:format <http://example.org/formats/hardback>;
+  dcterms:lang <http://www.lingvoj.org/lingvo/en>;
+  dcterms:subject <http://example.org/category/rdf>;
+  dcterms:subject <http://example.org/category/sparql>.
 
-   <http://example.org/formats/hardback>
-     rdfs:label "Hardback".
+<http://example.org/formats/hardback>
+  rdfs:label "Hardback".
 
-   <http://example.org/category/rdf>
-     rdfs:label "RDF".
+<http://example.org/category/rdf>
+  rdfs:label "RDF".
 
-   <http://example.org/category/sparql>
-     rdfs:label "SPARQL".
+<http://example.org/category/sparql>
+  rdfs:label "SPARQL".
 
-   <!-- Categories could later be related to other sources -->
-   <http://example.org/category/rdf>
-     owl:sameAs <http://id.loc.gov/authorities/sh2003010124#concept>;
-     owl:sameAs <http://rdf.freebase.com/ns/authority.us.gov.loc.sh.sh2003010124>.
+<!-- Categories could later be related to other sources -->
+<http://example.org/category/rdf>
+  owl:sameAs <http://id.loc.gov/authorities/sh2003010124#concept>;
+  owl:sameAs <http://rdf.freebase.com/ns/authority.us.gov.loc.sh.sh2003010124>.
 [/sourcecode]
 
 ## Discussion

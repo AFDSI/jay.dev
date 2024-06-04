@@ -1,6 +1,6 @@
 ---
 $title: Multi-Lingual Literal
-$order: 4
+$order: 6
 leveled: false
 ---
 
@@ -8,7 +8,7 @@ leveled: false
 
 ## Context
 
-It is increasingly common for data to contain internationalized text, e.g. translated titles for a document. This alternate language text needs to be associated with the relevant resource in a clearly identifiable way
+It is increasingly common for data to contain internationalized text, e.g. translated titles for a document. This alternate language text needs to be associated with the relevant resource in a clearly identifiable way.
 
 ## Solution
 

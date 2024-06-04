@@ -12,7 +12,7 @@ It is often the case that a web application will provide its users with a number
 
 ## Solution
 
-Create resources for each "index" and associate the index with the items that it contains. An rdf:List or rdf:Seq is best used here as these structured include the notion of ordering that is an essential aspect of an index.
+Create resources for each "index" and associate the index with the items that it contains. An `rdf:List` or `rdf:Seq` is best used here as these structured include the notion of ordering that is an essential aspect of an index.
 
 ## Example(s)
 
@@ -24,7 +24,7 @@ By creating separate resources and links between these indexes and their content
 
 If a collection may be unmanageably large, then it can be decomposed into smaller groupings. E.g. a large A-Z index may be decomposed into smaller collections: A-C, D-F, etc.
 
-By using an rdf:List or rdf:Seq to order the association between the index and its contents we retain the notion of ordering. Where the index is a permanent collection, with all contents known at the time of publishing, then an rdf:List is the best structure. Otherwise use an rdf:Seq. These RDF data structures can easily be generated and maintained using an asynchronous indexing system, avoiding the need to rebuild all the indexes whenever the underlying data changes. However for a large number of different indexes or variations the time spent building these indexes can be expensive.
+By using an `rdf:List` or `rdf:Seq` to order the association between the index and its contents we retain the notion of ordering. Where the index is a permanent collection, with all contents known at the time of publishing, then an `rdf:List` is the best structure. Otherwise use an `rdf:Seq`. These RDF data structures can easily be generated and maintained using an asynchronous indexing system, avoiding the need to rebuild all the indexes whenever the underlying data changes. However for a large number of different indexes or variations the time spent building these indexes can be expensive.
 
 ## Related
 

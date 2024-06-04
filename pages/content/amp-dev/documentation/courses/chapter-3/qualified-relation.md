@@ -1,6 +1,6 @@
 ---
 $title: Qualified Relation
-$order: 10
+$order: 11
 leveled: false
 ---
 
@@ -19,27 +19,27 @@ Create a class for the relationship and create instances of that resource to rel
 Marriage is a relationship that could be modelled as a simple relationship between two people. But that simplistic approach doesn't let us capture the date that the marriage started (or ended). Modelling the marriage as a relationship allows the relationship to be annotated:
 
 [sourcecode:html]
-   eg:bob a foaf:Person.
-   eg:mary a foaf:Person.
+eg:bob a foaf:Person.
+eg:mary a foaf:Person.
 
-   _:bobMaryMarriage a ex:Marriage;
-       ex:partner eg:bob;
-       ex:partner eg:mary;
-       ex:date "2009-04-01"^^xsd:date.
+_:bobMaryMarriage a ex:Marriage;
+    ex:partner eg:bob;
+    ex:partner eg:mary;
+    ex:date "2009-04-01"^^xsd:date.
 [/sourcecode]
 
 A diagnosis can be viewed as a relationship between a person and a disease. A diagnosis needs to be qualified with a probability. By creating a class to model the diagnosis explicitly, as well as additional properties for relating the diagnosis to a patient and a disease, it becomes possible to annotate the relationship with qualifying properties:
 
 [sourcecode:html]
-   eg:bob a foaf:Person.
+eg:bob a foaf:Person.
 
-   eg:measles a ex:Disease.
+eg:measles a ex:Disease.
 
-   _:bobDiagnosis a ex:Diagnosis;
-       ex:patient eg:bob;
-       ex:disease eg:meases;
-       ex:probability "high";
-       ex:diagnostician ex:drhouse.
+_:bobDiagnosis a ex:Diagnosis;
+    ex:patient eg:bob;
+    ex:disease eg:meases;
+    ex:probability "high";
+    ex:diagnostician ex:drhouse.
 [/sourcecode]
 
 ## Discussion
@@ -51,12 +51,12 @@ If modelling relationships as classes is useful, then why not use this pattern f
 The only alternative to this approach would be to have another independent property whose value is intended to be interpreted alongside one or more other properties of the same resource, e.g.:
 
 [sourcecode:html]
-   eg:bob a foaf:Person.
-   eg:mary a foaf:Person.
+eg:bob a foaf:Person.
+eg:mary a foaf:Person.
 
-   eg:bob ex:partner eg:mary.
-   eg:bob ex:weddingDay "2009-04-01"^^xsd:date.
-   eg:mary ex:weddingDay "2009-04-01"^^xsd:date.
+eg:bob ex:partner eg:mary.
+eg:bob ex:weddingDay "2009-04-01"^^xsd:date.
+eg:mary ex:weddingDay "2009-04-01"^^xsd:date.
 [/sourcecode]
 
 In the above alternative the marriage relationship between two people is expressed using the ``ex:partner`` relation and the date of the wedding with the separate ``ex:weddingDay`` property. On the surface this seems simpler but loses flexibility and clarity. Firstly there could be a large number of additional properties associated with the marriage relation, all of these would need to be added to the model, and applications would need to know that this collection of properties were all related in some way (i.e. were about a marriage). It also fails to model divorces and re-marriages. Adding a relation resource deals with this better as we have greater clarity in the model about the relationship and its specific properties.

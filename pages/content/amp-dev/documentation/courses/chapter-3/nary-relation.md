@@ -1,6 +1,6 @@
 ---
 $title: N-Ary Relation
-$order: 6
+$order: 7
 leveled: false
 ---
 
@@ -12,23 +12,22 @@ An RDF triple expresses a relationship between at most two resources. However so
 
 ## Solution
 
-Create a class for the relationship, and create instances of that resource to relate together the other resources that are involved
-in the relation.
+Create a class for the relationship, and create instances of that resource to relate together the other resources that are involved in the relation.
 
 ## Example(s)
 
 [sourcecode:html]
-   ex:bob a foaf:Person.
-   ex:mary a foaf:Person.
-   ex:conferenceCentre a ex:Building.
-   ex:legoinc a foaf:Organization.
+ex:bob a foaf:Person.
+ex:mary a foaf:Person.
+ex:conferenceCentre a ex:Building.
+ex:legoinc a foaf:Organization.
 
-   _:event1 a ex:Conference;
-     dc:title "Lego Hack Day";
-     ex:organizer ex:mary;
-     ex:attendee ex:bob;
-     ex:sponsor ex:legoinc;
-     ex:location ex:conferenceCentre.
+_:event1 a ex:Conference;
+  dc:title "Lego Hack Day";
+  ex:organizer ex:mary;
+  ex:attendee ex:bob;
+  ex:sponsor ex:legoinc;
+  ex:location ex:conferenceCentre.
 [/sourcecode]
 
 ## Discussion
