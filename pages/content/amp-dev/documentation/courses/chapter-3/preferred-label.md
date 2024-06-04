@@ -12,11 +12,11 @@ There are many different RDF properties that can be used for expressing a label,
 
 ## Solution
 
-Use `skos:prefLabel` to publish the preferred display label for a resource
+Use `skos:prefLabel` to publish the preferred display label for a resource.
 
 ## Example(s)
 
-A library system publishes Linked Data about authors. The preferred mechanism for specifying author names is using a normalized form, e.g Surname, First Name. This preferred label can be specified using `skos:prefLabel`, but the authors full name, and part names can be published using properties from FOAF. A simple Linked Data browser may use the preferred label, whereas an Address Book application browsing the same data may choose to assemble display labels according to user defined preferences, e.g. First Name, Surname.
+A library system publishes Linked Data about authors. The preferred mechanism for specifying author names is using a normalized form, e.g Last Name, First Name. This preferred label can be specified using `skos:prefLabel`, but the authors full name, and part names can be published using properties from FOAF. A simple Linked Data browser may use the preferred label, whereas an Address Book application browsing the same data may choose to assemble display labels according to user defined preferences, e.g. First Name, Last Name.
 
 ## Discussion
 

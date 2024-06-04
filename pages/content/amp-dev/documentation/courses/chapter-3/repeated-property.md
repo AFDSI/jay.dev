@@ -8,7 +8,7 @@ leveled: false
 
 ## Context
 
-A resource may have multiple values for a specific property. E.g. a set of keywords associated with a research paper. RDF offers several options for modeling these multi-valued relations. Sometimes these multi-valued relations have an explicit ordering that should be preserved in the data, e.g. the order of authors. In other cases an explicit ordering is not required
+A resource may have multiple values for a specific property. E.g. a set of keywords associated with a research paper. RDF offers several options for modeling these multi-valued relations. Sometimes these multi-valued relations have an explicit ordering that should be preserved in the data, e.g. the order of authors. In other cases an explicit ordering is not required.
 
 ## Solution
 
