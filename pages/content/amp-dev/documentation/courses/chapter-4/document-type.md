@@ -12,7 +12,7 @@ While the web of Linked Data is, in its broadest sense, a set of RDF triples, th
 
 ## Solution
 
-Define a document type describing a conceptual or physical grouping of triples. Indicate where a specific document is of a particular type, including a [`Topic Relation`](../chapter-4/topic-relation) such as `foaf:primaryTopic` to relate the document to the resource(s) it is describing.
+Define a document type describing a conceptual or physical grouping of triples. Indicate where a specific document is of a particular type, including a [`Topic Relation`](../chapter-3/topic-relation) such as `foaf:primaryTopic` to relate the document to the resource(s) it is describing.
 
 ## Example(s)
 
@@ -45,7 +45,7 @@ allowing a user agent to more easily discover [`Equivalence Links`](../chapter-4
 
 ## Related
 
-- [`Named Graphs`](../chapter-5/annotation)
+- [`Named Graphs`](../chapter-5/named-graphs)
 - [`See Also`](../chapter-4/see-also)
 
 ## Further Reading

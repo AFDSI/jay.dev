@@ -1,5 +1,5 @@
 ---
-$title: Union Graph
+$title@: Union Graph
 $order: 7
 leveled: false
 ---
@@ -8,7 +8,8 @@ leveled: false
 
 ## Context
 
-The `Named Graph <named-graphs>` pattern describes an approach for managing RDF statements as a collection of graphs. The `Graph Annotation <graph-annotation>` pattern illustrates how to capture information about these graphs. However for many use cases, a consuming application may need to ignore the graph structure of a dataset and instead work on a single consistent view of the data. In other circumstances we may only want to query a certain set of graphs (e.g. just the data, or just the annotations). So how do we gain the benefits of named graphs without having to teach all applications about the internal structure of our triple store?
+The [`Named Graphs`](../chapter-5/named-graphs) pattern describes an approach for managing RDF statements as a collection of graphs.
+The [`Graph Annotation`](../chapter-5/graph-annotation) pattern illustrates how to capture information about these graphs. However for many use cases, a consuming application may need to ignore the graph structure of a dataset and instead work on a single consistent view of the data. In other circumstances we may only want to query a certain set of graphs (e.g. just the data, or just the annotations). So how do we gain the benefits of named graphs without having to teach all applications about the internal structure of our triple store?
 
 ## Solution
 
@@ -47,13 +48,12 @@ There is scope here for further innovation on the part of store implementors, e.
 
 ## Related
 
-- `Named Graph <named-graphs>`
-- `Graph Annotation <graph-annotation>`
+- [`Named Graphs`](../chapter-5/named-graphs)
+- [`Graph Annotation`](../chapter-5/graph-annotation)
 
 ## Further Reading
 
-- `Managing RDF using Named Graphs <https://blog.ldodds.com/2009/11/05/managing-rdf-using-named-graphs/>`
-- `TDB Datasets <https://jena.apache.org/documentation/tdb/datasets.html>`
-- `TDB Dynamic Datasets <https://jena.apache.org/documentation/tdb/dynamic_datasets.html>`
-- `SPARQL 1.1 Specifying RDF Datasets <https://www.w3.org/TR/rdf-sparql-query/>`
-
+- [`Managing RDF using Named Graphs`](https://blog.ldodds.com/2009/11/05/managing-rdf-using-named-graphs/)
+- [`TDB Datasets`](https://jena.apache.org/documentation/tdb/datasets.html)
+- [`TDB Dynamic Datasets`](https://jena.apache.org/documentation/tdb/dynamic_datasets.html)
+- [`SPARQL 1.1 Specifying RDF Datasets`](https://www.w3.org/TR/rdf-sparql-query/)
