@@ -1,5 +1,5 @@
 ---
-$title: Topic Relation
+$title@: Topic Relation
 $order: 14
 leveled: false
 ---
@@ -20,13 +20,13 @@ In a dataset describing Paris, some additional further reading links may be avai
 
 [sourcecode:html]
 <http://www.example.org/place/Paris> a ex:Place;
-   skos:prefLabel "Paris"@fr.
+  skos:prefLabel "Paris"@fr.
 
 <http://travel.example.com/blog/a-paris-guide>
-   foaf:primaryTopic <http://www.example.org/place/Paris>.
+  foaf:primaryTopic <http://www.example.org/place/Paris>.
 
 <http://travel.example.com/blog/top-europe-cities>
-   foaf:topic <http://www.example.org/place/Paris>.
+  foaf:topic <http://www.example.org/place/Paris>.
 [/sourcecode]
 
 ## Discussion
@@ -35,8 +35,8 @@ There will always be a mix of unstructured documents and structured data on the 
 
 Other vocabularies provide similar related properties that may be more useful in some scenarios. For example Dublin Core defines the `dc:subject` property, but this is best used to relate a document to an entry in a controlled vocabulary, e.g. a subject heading, rather than a "real world" resource.
 
-Because the Topic Relation pattern involves making statements about other resources on the web, it is an application of the `Annotation <annotation>` pattern.
+Because the Topic Relation pattern involves making statements about other resources on the web, it is an application of the [`Annotation`](../chapter-4/annotation) pattern.
 
 ## Related
 
-- `Annotation <annotation>`
+- [`Named Graphs`](../chapter-5/named-graphs)

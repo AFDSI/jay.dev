@@ -1,5 +1,5 @@
 ---
-$title: Typed Literal
+$title@: Typed Literal
 $order: 15
 leveled: false
 ---
@@ -22,8 +22,8 @@ TODO
 
 The RDF allows a literal value to be associated with a data type. RDF itself does not have a built-in type system, it defers to the XML Schema datatypes to define a useful common set of data types and their legal lexical values. By using this facility data publishers can ensure that consumers can more easily manipulate and process the published data. Use of standard data types encourages interoperability between systems. It also supports internationalization of data as client applications can more easily process the value to present it for display in a specific locale.
 
-In some cases XML Schema does not define an existing data type. It is therefore common practice to define a `Custom Datatype <custom-datatype>`
+In some cases XML Schema does not define an existing data type. It is therefore common practice to define a [`Custom Datatype`](../chapter-3/custom-datatype).
 
 ## Related
 
-- `Custom Datatype <custom-datatype>`
+- [`Custom Datatype`](../chapter-3/custom-datatype)

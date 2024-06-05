@@ -1,5 +1,5 @@
 ---
-$title: Repeated Property
+$title@: Repeated Property
 $order: 12
 leveled: false
 ---
@@ -46,4 +46,4 @@ On the whole, the simplest way to express multi-valued relations is to use a sim
 
 ## Related
 
-- `Ordered List <ordered-list>`
+- [`Ordered List`](../chapter-3/ordered-list)

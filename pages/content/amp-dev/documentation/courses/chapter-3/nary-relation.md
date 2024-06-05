@@ -1,5 +1,5 @@
 ---
-$title: N-Ary Relation
+$title@: N-Ary Relation
 $order: 7
 leveled: false
 ---
@@ -32,12 +32,12 @@ _:event1 a ex:Conference;
 
 ## Discussion
 
-`Qualified Relation <qualified-relation>` pattern as both involve the same basic solution: modelling a relationship as a resource rather than a property. They differ in their context. In the Qualified Relation pattern the desire is to annotate a relationship between two resources, whereas in the N-ary Relation pattern the goal is to represent a complex relation between several resources.
+[`Qualified Relation`](../chapter-3/qualified-relation) pattern as both involve the same basic solution: modeling a relationship as a resource rather than a property. They differ in their context. In the Qualified Relation pattern the desire is to annotate a relationship between two resources, whereas in the N-ary Relation pattern the goal is to represent a complex relation between several resources.
 
 ## Related
 
-- `Qualified Relation <qualified-relation>`
+- [`Qualified Relation`](../chapter-3/qualified-relation)
 
 ## Further Reading
 
-- `Defining N-ary Relations on the Semantic Web <https://www.w3.org/TR/swbp-n-aryRelations/>`__
+- [`Defining N-ary Relations on the Semantic Web`](https://www.w3.org/TR/swbp-n-aryRelations/)

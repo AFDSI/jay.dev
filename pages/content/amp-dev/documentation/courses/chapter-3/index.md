@@ -1,11 +1,11 @@
 ---
-$title: Abstract
+$title@: Abstract
 $titles:
   teaser: Modeling Patterns
 teaser:
   icon: airplane
   label: Chapter 3
-description: Learn chapter 3.
+description: 'Learn chapter 3.'
 $order: 1
 leveled: false
 ---
@@ -20,15 +20,15 @@ First we may be able to avoid the exercise completely. Using RDF Schema and OWL 
 
 It is often the case that a combination of existing vocabularies will adequately cover a domain. Where there is a short-fall we can define small extensions, e.g. new properties or types, that extend the model for our purposes.
 
-The second key difference is that we focus on modelling the domain itself and set aside the immediate needs of the application. By focusing on the model rather than the application, we are more likely to be able to extend and enrich the model at a later date. Thinking about the entities and their relationships, rather than our application code, results in a stronger model. And one that may be more likely to be of use to others.
+The second key difference is that we focus on modeling the domain itself and set aside the immediate needs of the application. By focusing on the model rather than the application, we are more likely to be able to extend and enrich the model at a later date. Thinking about the entities and their relationships, rather than our application code, results in a stronger model. And one that may be more likely to be of use to others.
 
-Of course a model must ultimately support the kinds of data we want to capture or manipulate in our application. The ability to populate and query a model is a good test of its fit for purpose, but application requirements alone shouldn't guide our modelling.
+Of course a model must ultimately support the kinds of data we want to capture or manipulate in our application. The ability to populate and query a model is a good test of its fit for purpose, but application requirements alone shouldn't guide our modeling.
 
-This is not the same as saying that all modelling must be done up front. Modelling for Linked Data can be agile and iterative. We should just take care to think about the likely areas of extension, as the `Link Not Label <link-not-label>` pattern illustrates.
+This is not the same as saying that all modelling must be done up front. Modeling for Linked Data can be agile and iterative. We should just take care to think about the likely areas of extension, as the
 
 Third, and finally, the other important way in which RDF modelling differs from other approaches is that there is no separate physical data model: the logical model is exactly how our data is stored. An RDF triple store is "schema-free" in the sense that we don't have to define the physical layout (e.g. tables, columns) of our database. Any RDF triple store can store any RDF data expressed using any RDF vocabulary.
 
 This makes RDF very amenable for rapid, iterative application development. Importantly it also means that everyone involved in a project team is working off the same domain model; the same mental model of how the resources in a dataset are described and how they relate to one another.
 
-This chapter introduces a number of RDF modeling patterns that are useful in a variety of different use cases. Several of the patterns are really illustrations of how to use particular features of RDF, e.g. annotation of literals with `data types <typed-literal>` or `languages <multi-lingual-literal>`. We've included these within the overall patterns collection as we feel that presenting them as solutions to specific questions, e.g. "How can internationalized text be expressed in RDF?" may help address what are frequently asked questions by new users.
-
+This chapter introduces a number of RDF modeling patterns that are useful in a variety of different use cases. Several of the patterns are really illustrations of how to use particular features of RDF, e.g. annotation of literals with [`data types`](../chapter-3/typed-literal) 
+or [`languages`](../chapter-3/multi-lingual-literal) . We've included these within the overall patterns collection as we feel that presenting them as solutions to specific questions, e.g. "How can internationalized text be expressed in RDF?" may help address what are frequently asked questions by new users.

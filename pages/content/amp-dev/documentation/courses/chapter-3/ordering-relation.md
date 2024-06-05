@@ -1,5 +1,5 @@
 ---
-$title: Ordering Relation
+$title@: Ordering Relation
 $order: 8
 leveled: false
 ---
@@ -38,13 +38,11 @@ ex:stop3 a ex:BusStop;
 
 ## Discussion
 
-RDF provides several ways to implicitly and explicitly defining ordering in a dataset. Resources often have literal properties that implicitly define an ordering relationship between resources. E.g. time stamps on events, publication dates, or in the above example the numbers of each of the bus stops. Application code can use a query to extract this implicit ordering from the date. However its otherwise not defined in the model.
-
-Another, more explicit way to define order is by using an RDF collection to create an `Ordered List <ordered-list>`. Using an Ordered List, the above example could have been expressed as:
+Another, more explicit way to define order is by using an RDF collection to create an
 
 [sourcecode:html]
-   ex:bus10 a ex:Bus;
-      ex:route ( ex:stop1 ex:stop2 ex:stop3 ).
+ex:bus10 a ex:Bus;
+  ex:route ex:stop1.
 [/sourcecode]
 
 Lists are useful when there is no explicit relationship between the resources in the ordered collection. The above example has lost the fact that Bus Stop 2 is preceded by Bus Stop 1, other than their arrangement in a list. An application could still discover this relation using a query, but this can be difficult, and is certainly less explicit than the original example.
@@ -55,8 +53,8 @@ The trade-offs between using an Ordering Relation versus an Ordered List depends
 
 ## Related
 
-- `Ordered List <ordered-list>`
+- [`Ordered List`](../chapter-3/ordered-list)
 
 ## Further Reading
 
-- `Defining N-ary Relations on the Semantic Web <http://www.w3.org/TR/swbp-n-aryRelations/#pattern2>`__
+- [`Defining N-ary Relations on the Semantic Web`](https://www.w3.org/TR/swbp-n-aryRelations/#pattern2)

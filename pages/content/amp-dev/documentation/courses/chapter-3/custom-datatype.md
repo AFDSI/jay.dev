@@ -1,5 +1,5 @@
 ---
-$title: Custom Datatype
+$title@: Custom Datatype
 $order: 2
 leveled: false
 ---
@@ -12,7 +12,7 @@ Some applications may have pre-defined custom datatypes for describing the struc
 
 ## Solution
 
-Create a URI to identify the custom datatype and use that URI when creating `Typed Literals <typed-literal>`
+Create a URI to identify the custom datatype and use that URI when creating [`Typed Literals`](../chapter-3/typed-literal).
 
 ## Example(s)
 
@@ -25,10 +25,9 @@ Create a URI to identify the custom datatype and use that URI when creating `Typ
 
 <!-- Indicate the form of shipping code with a Typed Literal -->
 _:delivery1
-  ex:shippingCode "1234-568"^^<http:www.example.org/datatype/FedexShippingCode>.
-
+  ex:shippingCode "1234-568"  <http:www.example.org/datatype/FedexShippingCode>.
 _:delivery1
-  ex:shippingCode "abcd/zx"^^<http:www.example.org/datatype/UPSShippingCode>.
+  ex:shippingCode "abcd/zx"  <http:www.example.org/datatype/UPSShippingCode>.
 [/sourcecode]
 
 ## Discussion
@@ -52,7 +51,7 @@ _:delivery1
 
 The advantages of this alternate approaches are:
 
-- Simpler querying of data by allowing the use of triple patterns, rather than FILTERs for extracting data of a common type.
+- Simpler querying of data by allowing the use of triple patterns, rather than FILTERs for extracting data of a common type
 - More explicit, fine-grained semantics
 
 But there are several disadvantages to this approach:
@@ -62,12 +61,12 @@ But there are several disadvantages to this approach:
 
 With this in mind the general recommendation is to:
 
-- Use a custom datatype to label particular types of structured value that share a common lexical form. These values may be associated with a broad range of different properties. Processing applications may want to implement a common set type conversions or display options for the values.
+- Use a custom datatype to label particular types of structured value that share a common lexical form. These values may be associated with a broad range of different properties. Processing applications may want to implement a common set type conversions or display options for the values
 - Use a sub-property in all other cases
 
-Note that these options aren't always mutually exclusive. It might be useful in some scenarios to have an explicit property for associating a general class of code, identifier, or other `Literal Key <literal-keys>` with a resource, but also assign a specific datatype to the identifier as a cue for applications and reasoners
+Note that these options aren't always mutually exclusive. It might be useful in some scenarios to have an explicit property for associating a general class of code, identifier, or other
 
 ## Related
 
-- `Typed Literal <typed-literal>`
-- `Literal Key <literal-keys>`
+- [`Typed Literals`](../chapter-3/typed-literal)
+- [`Literal Key`](../chapter-3/literal-keys)

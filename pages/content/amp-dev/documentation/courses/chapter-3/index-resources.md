@@ -1,5 +1,5 @@
 ---
-$title: Index Resources
+$title@: Index Resources
 $order: 3
 leveled: false
 ---
@@ -28,5 +28,5 @@ By using an `rdf:List` or `rdf:Seq` to order the association between the index a
 
 ## Related
 
-- `Hierarchical URIs <hierarchical-uris>`
-- `Composite Descriptions <composite-descriptions>`
+- [`Hierarchical URIs`](../chapter-2/hierarchical-uris)
+- [`Composite Descriptions`](../chapter-6/composite-descriptions)

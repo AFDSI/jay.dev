@@ -1,5 +1,5 @@
 ---
-$title: Preferred Label
+$title@: Preferred Label
 $order: 10
 leveled: false
 ---
@@ -8,7 +8,7 @@ leveled: false
 
 ## Context
 
-There are many different RDF properties that can be used for expressing a label, including generic properties such as rdfs:label and more domain specific labels such as foaf:name. This presents a variety of choices to the data provider, and can be confusing for application authors.
+There are many different RDF properties that can be used for expressing a label, including generic properties such as `rdfs:label` and more domain specific labels such as `foaf:name`. This presents a variety of choices to the data provider, and can be confusing for application authors.
 
 ## Solution
 

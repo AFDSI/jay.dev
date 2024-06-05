@@ -1,5 +1,5 @@
 ---
-$title: Ordered List
+$title@: Ordered List
 $order: 9
 leveled: false
 ---
@@ -16,25 +16,28 @@ Use an `rdf:List` to describe a ordered list of resources.
 
 ## Example(s)
 
+For example if we are generating a URI for a category called "Heavy Metal" we might generate a URI as follows:
+
 [sourcecode:html]
 <http://www.example.com/docs/1> ex:authors (
-   <http://www.example.com/author/joe>
-   <http://www.example.com/author/bob>
+  <http://www.example.com/author/joe>
+  <http://www.example.com/author/bob>
 ).
 
 <http://www.example.com/author/joe>
-   foaf:name "Joe".
+  foaf:name "Joe".
 
 <http://www.example.com/author/bob>
-   foaf:name "Bob".
+  foaf:name "Bob".
 [/sourcecode]
+
 
 ## Discussion
 
-RDF offers several modelling options for defining collections of resources. Formally these are the RDF Containers (Sequence, Bag, and Alternates) and the RDF Collections (List). For this purposes of this pattern an RDF Sequence and an RDF List are very similar: both describe an ordered list of resources. Semantically the two structures differ in that a sequence is open ended (i.e. other members may exist, but aren't itemized) while a list is closed (i.e. the members are complete).
+RDF offers several modeling options for defining collections of resources. Formally these are the RDF Containers (Sequence, Bag, and Alternates) and the RDF Collections (List). For this purposes of this pattern an RDF Sequence and an RDF List are very similar: both describe an ordered list of resources. Semantically the two structures differ in that a sequence is open ended (i.e. other members may exist, but aren't itemized) while a list is closed (i.e. the members are complete).
 
-In practice though there is no real difference between the structures as data cannot be easily merged into an existing sequence, e.g. to append values. Both also suffer from being poorly handled in SPARQL 1.0: there is no way to query or construct an arbitrary sized list or sequence without extensions; SPARQL 1.1 property paths will remedy the querying aspects.
+In practice though there is no real difference between the structures as data cannot be easily merged into an existing sequence, e.g. to append values. Both also suffer from being poorly handled in SPARQL 1.0 (there is no way to query or construct an arbitrary sized list or sequence without extensions); SPARQL 1.1 property paths remedy the querying aspects.
 
 ## Related
 
-- `Repeated Property <repeated-property>`
+- [`Patterned URIs`](../chapter-2/patterned-uris)

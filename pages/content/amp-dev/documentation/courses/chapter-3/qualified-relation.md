@@ -1,5 +1,5 @@
 ---
-$title: Qualified Relation
+$title@: Qualified Relation
 $order: 11
 leveled: false
 ---
@@ -16,16 +16,16 @@ Create a class for the relationship and create instances of that resource to rel
 
 ## Example(s)
 
-Marriage is a relationship that could be modelled as a simple relationship between two people. But that simplistic approach doesn't let us capture the date that the marriage started (or ended). Modelling the marriage as a relationship allows the relationship to be annotated:
+Marriage is a relationship that could be modeled as a simple relationship between two people. But that simplistic approach doesn't let us capture the date that the marriage started (or ended). Modeling the marriage as a relationship allows the relationship to be annotated:
 
 [sourcecode:html]
 eg:bob a foaf:Person.
 eg:mary a foaf:Person.
 
 _:bobMaryMarriage a ex:Marriage;
-    ex:partner eg:bob;
-    ex:partner eg:mary;
-    ex:date "2009-04-01"^^xsd:date.
+  ex:partner eg:bob;
+  ex:partner eg:mary;
+  ex:date "2009-04-01"  xsd:date.
 [/sourcecode]
 
 A diagnosis can be viewed as a relationship between a person and a disease. A diagnosis needs to be qualified with a probability. By creating a class to model the diagnosis explicitly, as well as additional properties for relating the diagnosis to a patient and a disease, it becomes possible to annotate the relationship with qualifying properties:
@@ -36,10 +36,10 @@ eg:bob a foaf:Person.
 eg:measles a ex:Disease.
 
 _:bobDiagnosis a ex:Diagnosis;
-    ex:patient eg:bob;
-    ex:disease eg:meases;
-    ex:probability "high";
-    ex:diagnostician ex:drhouse.
+  ex:patient eg:bob;
+  ex:disease eg:meases;
+  ex:probability "high";
+  ex:diagnostician ex:drhouse.
 [/sourcecode]
 
 ## Discussion
@@ -55,14 +55,14 @@ eg:bob a foaf:Person.
 eg:mary a foaf:Person.
 
 eg:bob ex:partner eg:mary.
-eg:bob ex:weddingDay "2009-04-01"^^xsd:date.
-eg:mary ex:weddingDay "2009-04-01"^^xsd:date.
+eg:bob ex:weddingDay "2009-04-01"  xsd:date.
+eg:mary ex:weddingDay "2009-04-01"  xsd:date.
 [/sourcecode]
 
 In the above alternative the marriage relationship between two people is expressed using the `ex:partner` relation and the date of the wedding with the separate `ex:weddingDay` property. On the surface this seems simpler but loses flexibility and clarity. First there could be a large number of additional properties associated with the marriage relation, all of these would need to be added to the model, and applications would need to know that this collection of properties were all related in some way (i.e. were about a marriage). It also fails to model divorces and re-marriages. Adding a relation resource deals with this better as we have greater clarity in the model about the relationship and its specific properties.
 
-There are a number of cases where adding resources into a data model in this way can aid expressive, understanding when and when not to apply the pattern is an important part of RDF modelling.
+There are a number of cases where adding resources into a data model in this way can aid expressive, understanding when and when not to apply the pattern is an important part of RDF modeling.
 
 ## Related
 
-- `N-Ary Relation <nary-relation>`
+- [`N-Ary Relation`](../chapter-3/nary-relation)
