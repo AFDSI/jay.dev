@@ -1,5 +1,5 @@
 ---
-$title: Edit Trail
+$title@: Edit Trail
 $order: 6
 leveled: false
 ---

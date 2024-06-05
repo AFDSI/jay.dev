@@ -1,5 +1,5 @@
 ---
-$title: Primary Topic Autodiscovery
+$title@: Primary Topic Autodiscovery
 $order: 11
 leveled: false
 ---
@@ -14,7 +14,7 @@ Often a web page is concerned with a particular physical object or other resourc
 
 When publishing a web page include a link element in the head of the web page pointing to the URI of the page's primary topic. Use a rel attribute value of "primarytopic".
 
-``<link rel="primarytopic" href="http://dbpedia.org/resource/London"/>``
+`<link rel="primarytopic" href="http://dbpedia.org/resource/London"/>`
 
 ## Example(s)
 
@@ -28,4 +28,4 @@ Even when the page is about several topics there can be a single primary topic t
 
 ## Related
 
-- `Autodiscovery <autodiscovery>`
+- [`N-Ary Relation`](../chapter-3/nary-relation)

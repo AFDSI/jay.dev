@@ -1,5 +1,5 @@
 ---
-$title: Link Base
+$title@: Link Base
 $order: 9
 leveled: false
 ---
@@ -14,19 +14,19 @@ The linking data within a dataset may therefore have different quality assurance
 
 ## Solution
 
-Partition the data into two datasets: the core data and the linking data. Publish linking data as a separate set of documents. Use `See Also <see-also>` links to tie the data together.
+Partition the data into two datasets: the core data and the linking data. Publish linking data as a separate set of documents. Use 
 
 ## Example(s)
 
 [sourcecode:html]
-   <!-- Core Data -->
-   <http://www.example.org/places/Paris> a ex:Place;
-     skos:prefLabel "Paris";
-     rdfs:seeAlso <http://www.example.org/links/Paris>.
+<!-- Core Data -->
+<http://www.example.org/places/Paris> a ex:Place;
+  skos:prefLabel "Paris";
+  rdfs:seeAlso <http://www.example.org/links/Paris>.
 
-   <!-- Linking Data -->
-   <http://www.example.org/links/Paris>
-     owl:sameAs <http://dbpedia.org/resource/Paris>.
+<!-- Linking Data -->
+<http://www.example.org/links/Paris>
+  owl:sameAs <http://dbpedia.org/resource/Paris>.
 [/sourcecode]
 
 ## Discussion
@@ -39,4 +39,4 @@ For a consumer, the partitioning of links into a separate dataset allows more ch
 
 ## Related
 
-- `Equivalence Links <equivalence-links>`
+- [`Equivalence Links`](../chapter-4/equivalence-links)

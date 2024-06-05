@@ -1,5 +1,5 @@
 ---
-$title: Embedded Metadata
+$title@: Embedded Metadata
 $order: 7
 leveled: false
 ---
@@ -8,7 +8,7 @@ leveled: false
 
 ## Context
 
-There are two related aspects to this pattern
+There are two related aspects to this pattern.
 
 First, many web sites that are using frameworks or content management systems that are either difficult to customize or are operated by organizations that have little or no in-house technical staff. How can these sites be updated, with a minimum of effort, to support publishing of structured data?
 
@@ -26,7 +26,7 @@ A less common scenario involves embedding data within a different document forma
 
 At the time of writing there are a number of competing proposals for embedding metadata in XHTML/HTML documents, including RDFa, microdata and microformats. RDFa can also be used to embedded metadata in other XML formats
 
-Options vary for embedding metadata in other formats, but `Adobe XMP <https://www.adobe.com/products/xmp.html>` provides an option that can be used in a variety of formats.
+Options vary for embedding metadata in other formats, but [`Adobe XMP`](https://www.adobe.com/products/xmp.html) provides an option that can be used in a variety of formats.
 
 ## Discussion
 
@@ -36,6 +36,5 @@ While it can be very easy to quickly instrument a website with embedded metadata
 
 ## Related
 
-- `Primary Topic Autodiscovery <primary-topic-autodiscovery>`
-- `See Also <see-also>`
-
+- [`Primary Topic Autodiscovery`](../chapter-4/primary-topic-autodiscovery)
+- [`See Also`](../chapter-4/see-also)

@@ -1,5 +1,5 @@
 ---
-$title: Dataset Autodiscovery
+$title@: Dataset Autodiscovery
 $order: 4
 leveled: false
 ---
@@ -8,7 +8,7 @@ leveled: false
 
 ## Context
 
-A Linked Data application might apply the `Follow Your Nose <follow-your-nose>` pattern to discover additional data about resources in an RDF graph. But the application may need to discover additional metadata about the dataset to which the resource belongs, such as its license. The application may also need access to additional facilities, such as a SPARQL endpoint, in order to extract any additional data it requires.
+A Linked Data application might apply the [`Follow Your Nose`](../chapter-6/primary-topic-autodiscovery) pattern to discover additional data about resources in an RDF graph. But the application may need to discover additional metadata about the dataset to which the resource belongs, such as its license. The application may also need access to additional facilities, such as a SPARQL endpoint, in order to extract any additional data it requires.
 
 ## Solution
 
@@ -26,9 +26,9 @@ Providing such as description allows a consuming application to bootstrap its kn
 
 ## Related
 
-- `Autodiscovery <autodiscovery>`
+- [`Autodiscovery`](../chapter-4/autodiscovery)
 
 ## Further Reading
 
-- `VoiD Dataset Auto-discovery <#>`
-- `RFC5785 - Defining Well-Known URIs <https://datatracker.ietf.org/doc/html/rfc5785>`
+- [`VoiD Dataset Auto-discovery`](<#>)
+- [`RFC5785 - Defining Well-Known URIs`](https://datatracker.ietf.org/doc/html/rfc5785)

@@ -1,5 +1,5 @@
 ---
-$title: Autodiscovery
+$title@: Autodiscovery
 $order: 3
 leveled: false
 ---
@@ -28,4 +28,4 @@ Until web browsers become fully linked data aware it may not be satisfactory to 
 
 ## Related
 
--  `Primary Topic Autodiscovery <primary-topic-autodiscovery>`
+- [`Hierarchical URIs`](../chapter-2/hierarchical-uris)

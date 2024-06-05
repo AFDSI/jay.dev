@@ -1,5 +1,5 @@
 ---
-$title: See Also
+$title@: See Also
 $order: 13
 leveled: false
 ---
@@ -12,22 +12,20 @@ Linked Data is typically discoverable by de-referencing URIs. Starting with a si
 
 ## Solution
 
-Use the ``rdfs:seeAlso`` property to link to additional RDF documents.
+Use the `rdfs:seeAlso` property to link to additional RDF documents.
 
 ## Example(s)
 
-The Linked Data published by the BBC Wildlife Finder application includes data about eco-zones. The data about an individual eco-zone, e.g. the `Nearctic Eco-zone <http://www.bbc.co.uk/nature/ecozones/Nearctic_ecozone.rdf>` refers to the habitats it contains and the species that live in that eco-zone. A semantic web agent can therefore begin traversing the graph to find more related data. The RDF document returned from that URI also includes a seeAlso relationship to another document that lists all eco-zones.
+The Linked Data published by the BBC Wildlife Finder application includes data about eco-zones. The data about an individual eco-zone, e.g. the [`Nearctic Eco-zone`](https://dbpedia.org/page/Nearctic_realm) refers to the habitats it contains and the species that live in that eco-zone. A semantic web agent can therefore begin traversing the graph to find more related data. The RDF document returned from that URI also includes a seeAlso relationship to another document that lists all eco-zones.
 
 ## Discussion
 
-The ``rdfs:seeAlso`` relationship is intended to support some hypertext links between RDF documents on the web. There are no explicit semantics for the property other than that a user agent might expect to find additional, relevant RDF data about a resource at the indicated location. Using this relationship allows documents to be linked together without requiring semantic relations to be specified between resources where none exists.
+The `rdfs:seeAlso` relationship is intended to support some hypertext links between RDF documents on the web. There are no explicit semantics for the property other than that a user agent might expect to find additional, relevant RDF data about a resource at the indicated location. Using this relationship allows documents to be linked together without requiring semantic relations to be specified between resources where none exists.
 
-By ensuring that data from a Linked Data site is robustly linked together, it helps semantic web crawlers and user agents to traverse the site to find all relevant material. The ``rdfs:seeAlso`` relation is therefore well-suited for publishing simple directories of links for a crawler to follow.
+By ensuring that data from a Linked Data site is robustly linked together, it helps semantic web crawlers and user agents to traverse the site to find all relevant material. The `rdfs:seeAlso` relation is therefore well-suited for publishing simple directories of links for a crawler to follow.
 
-The relation can also be used to refer to other documents on the web, e.g. published by third-parties, that may contain additional useful `Annotation <annotation>` data.
+The relation can also be used to refer to other documents on the web, e.g. published by third-parties, that may contain additional useful [`Annotation`](../chapter-4/annotation) data.
 
 ## Related
 
-- `Annotation <annotation>`
-
-.. container:: navfooter
+- [`Annotation`](../chapter-4/annotation)

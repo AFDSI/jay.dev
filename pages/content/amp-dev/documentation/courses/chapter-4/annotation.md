@@ -1,5 +1,5 @@
 ---
-$title: Annotation
+$title@: Annotation
 $order: 2
 leveled: false
 ---
@@ -33,9 +33,9 @@ Linked Data available from `http://www.example.org/author/john` when retrieved m
 
 With RDF Anyone can say Anything Anywhere, there are no restrictions about who may make statements about a resource; although clearly a processing application might want to pick its sources carefully.
 
-It is entirely consistent with the Linked Data principles to make statements about third-party resources. While in some cases it is useful to use the `Proxy URIs <proxy-uris>` pattern, in many cases simply making statements about external resources, whether these are entities (e.g. a person) or documents (e.g. a web page) is sufficient.
+It is entirely consistent with the Linked Data principles to make statements about third-party resources. While in some cases it is useful to use the [`Proxy URIs`](../chapter-3/proxy-uris) pattern, in many cases simply making statements about external resources, whether these are entities (e.g. a person) or documents (e.g. a web page) is sufficient.
 
 ## Related
 
-- `Proxy URIs <proxy-uris>`
-- `Topic Relation <topic-relation>`
+- [`Proxy URIs`](../chapter-3/proxy-uris)
+- [`Topic Relation`](../chapter-3/topic-relation)
