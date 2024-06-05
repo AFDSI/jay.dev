@@ -69,4 +69,4 @@ Note that these options aren't always mutually exclusive. It might be useful in 
 ## Related
 
 - [`Typed Literals`](../chapter-3/typed-literal)
-- [`Literal Key`](../chapter-3/literal-keys)
+- [`Literal Key`](../chapter-2/literal-keys)

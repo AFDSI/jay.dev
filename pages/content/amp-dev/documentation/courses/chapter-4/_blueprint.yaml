@@ -3,13 +3,9 @@ $view: /views/detail/docs-detail.j2
 $path: /documentation/courses/chapter-4/{base}.html
 $localization:
   path: /{locale}/documentation/courses/chapter-4/{base}.html
-$order: 8
+$order: 4
 toc: true
-
 chaptered: false
 tutorial: true
 formats:
   - websites
-  - stories
-  - ads
-  - email

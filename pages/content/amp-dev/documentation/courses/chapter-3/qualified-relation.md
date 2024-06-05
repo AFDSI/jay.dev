@@ -44,7 +44,7 @@ _:bobDiagnosis a ex:Diagnosis;
 
 ## Discussion
 
-Modeling relationships as resources works around the limitations of simple binary predicates. Creating a resource for the relationship allows much more flexibility in qualifying or describing the relationships between resources. Any number of additional properties may be used to annotate the relation. When the relationship is between two resources we refer to it as a qualified relation, when it is between several resources, each of which are equally involved in the relationship then we have an `N-Ary Relation <nary-relation>`.
+Modeling relationships as resources works around the limitations of simple binary predicates. Creating a resource for the relationship allows much more flexibility in qualifying or describing the relationships between resources. Any number of additional properties may be used to annotate the relation. When the relationship is between two resources we refer to it as a qualified relation, when it is between several resources, each of which are equally involved in the relationship then we have an [`N-Ary Relation`](../chapter-3/nary-relation).
 
 If modeling relationships as classes is useful, then why not use this pattern for all non-trivial relationships in a model? The main reason is that it causes explosion in the number of terms in a vocabulary, e.g. each predicate is replaced with two predicates and a class. A vocabulary can quickly become unwieldy, so the value of the extra modeling structure needs to be justified with clear requirements for needing the extra complexity. As described here, the primary reason is to qualify the relation.
 

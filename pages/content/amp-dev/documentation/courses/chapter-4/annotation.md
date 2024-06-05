@@ -12,21 +12,21 @@ Datasets are rarely completely self-contained. They will often contain facts or 
 
 ## Solution
 
-Just publish RDF documents containing the statements about the external resources
+Just publish RDF documents containing the statements about the external resources.
 
 ## Example(s)
 
-Linked Data available from ``http://www.example.org/author/john`` when retrieved might contain the following data which contains annotations about two additional resources:
+Linked Data available from `http://www.example.org/author/john` when retrieved might contain the following data which contains annotations about two additional resources:
 
 [sourcecode:html]
-   <http://www.example.org/author/john> a foaf:Person.
+<http://www.example.org/author/john> a foaf:Person.
 
-   <http://wiki.example.net/page/UbuntuTips>
-     dc:title "Ubuntu Tips";
-     dc:creator <http://www.example.org/author/john>.
+<http://wiki.example.net/page/UbuntuTips>
+  dc:title "Ubuntu Tips";
+  dc:creator <http://www.example.org/author/john>.
 
-   <http://publisher.example.org/authors/1234>
-     owl:sameAs <http://www.example.org/author/john>.
+<http://publisher.example.org/authors/1234>
+  owl:sameAs <http://www.example.org/author/john>.
 [/sourcecode]
 
 ## Discussion

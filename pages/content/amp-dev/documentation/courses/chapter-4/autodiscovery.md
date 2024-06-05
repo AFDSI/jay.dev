@@ -14,7 +14,7 @@ Currently the Web is predominately built from interlinked HTML pages. Linking di
 
 When publishing a web page derived from linked data include a link element in the head of the web page pointing to the original data.
 
-``<link rel="meta" type="application/rdf+xml" title="Raw Data" href="http://example.com/data.rdf"/>``
+`<link rel="meta" type="application/rdf+xml" title="Raw Data" href="http://example.com/data.rdf"/>`
 
 ## Example(s)
 

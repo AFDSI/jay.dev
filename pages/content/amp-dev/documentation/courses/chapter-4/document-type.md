@@ -12,20 +12,20 @@ While the web of Linked Data is, in its broadest sense, a set of RDF triples, th
 
 ## Solution
 
-Define a document type describing a conceptual or physical grouping of triples. Indicate where a specific document is of a particular type, including a `Topic Relation <topic-relation>` such as ``foaf:primaryTopic`` to relate the document to the resource(s) it is describing.
+Define a document type describing a conceptual or physical grouping of triples. Indicate where a specific document is of a particular type, including a `Topic Relation <topic-relation>` such as `foaf:primaryTopic` to relate the document to the resource(s) it is describing.
 
 ## Example(s)
 
 [sourcecode:html]
-   <!-- document type -->
-   foaf:PersonalProfileDocument a foaf:Document.
+<!-- document type -->
+foaf:PersonalProfileDocument a foaf:Document.
 
-   <!-- specific instance of document, with indication of its topic -->
-   <http://www.example.org/doc/john> a foaf:PersonalProfileDocument;
-      foaf:primaryTopic <http://www.example.org/doc/john#me>.
+<!-- specific instance of document, with indication of its topic -->
+<http://www.example.org/doc/john> a foaf:PersonalProfileDocument;
+   foaf:primaryTopic <http://www.example.org/doc/john#me>.
 
-   <http://www.example.org/doc/john#me> a foaf:Person;
-      foaf:name "John".
+<http://www.example.org/doc/john#me> a foaf:Person;
+   foaf:name "John".
 [/sourcecode]
 
 ## Discussion
@@ -36,7 +36,7 @@ Collections of triples may be published to the web using a variety of syntax's a
 
 Using document types does not imply that a user agent can make assumptions about the structure or format of the data that will be retrievable. The document may contain information about any number of different resources, or use any RDF syntax.
 
-Two well deployed examples of document typing in use today are RSS 1.0 and FOAF. RSS 1.0 is defined as both an XML and an RDF vocabulary and as such has a strict definition of document that aligns with its use in an XML context. FOAF however is an RDF vocabulary, but has still found it useful to define the notion of a ``foaf:PersonalProfileDocument`` which indicates that a document primarily describes a particular person (but may include additional data).
+Two well deployed examples of document typing in use today are RSS 1.0 and FOAF. RSS 1.0 is defined as both an XML and an RDF vocabulary and as such has a strict definition of document that aligns with its use in an XML context. FOAF however is an RDF vocabulary, but has still found it useful to define the notion of a `foaf:PersonalProfileDocument` which indicates that a document primarily describes a particular person (but may include additional data).
 
 The Document Type pattern is most commonly used in conjunction with the `See Also <see-also>` and `Annotation <annotation>` patterns. It could also usefully be applied when referencing a `Link Base <link-base>`, allowing a user agent to more easily discover `Equivalence Links <equivalence-links>` related to a specific resource(s).
 
