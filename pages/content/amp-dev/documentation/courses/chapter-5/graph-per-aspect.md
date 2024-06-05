@@ -1,6 +1,6 @@
 ---
 $title: Graph Per Aspect
-$order: 2
+$order: 3
 leveled: false
 ---
 
