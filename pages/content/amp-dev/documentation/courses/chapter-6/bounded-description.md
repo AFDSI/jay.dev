@@ -29,7 +29,7 @@ Many different variations of these basic descriptions are possible, especially w
 
 In practice many common web application use cases can easily be fulfilled with one or more bounded description queries. The ability to use general purpose queries to build a user interface or otherwise drive application behavior increases cacheability of the results: an application may end up using a small number of relatively general purpose queries that apply to a number of use cases.
 
-Bounded descriptions can be implemented using SPARQL ``CONSTRUCT`` queries. SPARQL ``DESCRIBE`` queries are implemented using a Bounded Description that is built-in to the specific SPARQL processor being used. The most common approach is to use a Concise Bounded Description.
+Bounded descriptions can be implemented using SPARQL `CONSTRUCT` queries. SPARQL `DESCRIBE` queries are implemented using a Bounded Description that is built-in to the specific SPARQL processor being used. The most common approach is to use a Concise Bounded Description.
 
 ## Further Reading
 
