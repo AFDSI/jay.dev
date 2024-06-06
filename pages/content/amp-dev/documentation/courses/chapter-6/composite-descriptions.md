@@ -1,5 +1,5 @@
 ---
-$title: Composite Descriptions
+$title@: Composite Descriptions
 $order: 5
 leveled: false
 ---
@@ -12,7 +12,9 @@ When integrating data from heterogenous sources it is sometimes necessary to syn
 
 ## Solution
 
-Create data about your description pages and include foaf:topic and foaf:primaryTopic properties to link the page to the resources that it describes. When rendering these pages obtain the data describing the page then bring in descriptions of each resource referenced with ``foaf:topic`` and ``foaf:primaryTopic`` to build the base dataset for the page.
+Create data about your description pages and include foaf:topic and foaf:primaryTopic properties to link the page to the resources that it describes. When rendering these pages obtain the data describing the page then bring in descriptions of each resource referenced with `foaf:topic` and `foaf:primaryTopic` to build the base dataset for the page.
+
+A good approach is to look for any controlled vocabularies, keywords, tags, or annotations and dimensions in a dataset and model them as resources. Even structured literal values like dates might be more usefully modeled as resources.
 
 ## Example(s)
 
@@ -28,3 +30,11 @@ Changing the level of detail for classes of page or even of specified individual
 
 An additional benefit is that the page structure of the site can also be made queryable so it would be possible to discover which pages include information about a specific subject, thereby presenting the possibility of automatic cross-linking.
 
+## Related
+
+- [`annotate`](../chapter-4/annotation)
+- [`equivalence links`](../chapter-4/equivalence-links)
+
+## Further Reading
+
+- [`Why Resources in Linked Data are Good`](<#>)

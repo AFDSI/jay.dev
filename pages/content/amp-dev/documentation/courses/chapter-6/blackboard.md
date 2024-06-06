@@ -1,5 +1,5 @@
 ---
-$title: Blackboard
+$title@: Blackboard
 $order: 3
 leveled: false
 ---
@@ -12,7 +12,7 @@ Applications consuming Linked Data commonly need to compile a dataset by collect
 
 ## Solution
 
-Create a number of separate processes that are each specialized to a particular task. Each process runs independently from each of the others, allowing each to be as simple or as complex as necessary. The processes all co-ordinate in the `Progressive Enrichment <progressive-enrichment.html>` of a single dataset, but are not triggered in any particular sequence. Instead each process looks for specific patterns in the underlying dataset, triggering the processing of the data, the results are then written back to the dataset.
+Create a number of separate processes that are each specialized to a particular task. Each process runs independently from each of the others, allowing each to be as simple or as complex as necessary. The processes all co-ordinate in the [`Progressive Enrichment`](../chapter-4/progressive-enrichment) of a single dataset, but are not triggered in any particular sequence. Instead each process looks for specific patterns in the underlying dataset, triggering the processing of the data, the results are then written back to the dataset.
 
 ## Example(s)
 
@@ -34,5 +34,5 @@ The decomposition of the data aggregation & conversion tasks into smaller units 
 
 ## Related
 
-- `Progressive Enrichment <progressive-enrichment.html>`
-- `Parallel Loading <parallel-loading.html>`
+- [`Progressive Enrichment`](../chapter-4/progressive-enrichment)
+- [`Parallel Loading`](../chapter-6/parallel-loading)

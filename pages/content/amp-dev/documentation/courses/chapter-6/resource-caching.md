@@ -1,5 +1,5 @@
 ---
-$title: Resource Caching
+$title@: Resource Caching
 $order: 12
 leveled: false
 ---
@@ -24,6 +24,5 @@ Ideally applications should provide configuration to support the user in managin
 
 ## Related
 
-- `Follow Your Nose <follow-your-nose.html>`
-- `Parallel Retrieval <parallel-retrieval.html>`
-
+- [`Follow Your Nose`](../chapter-6/label-everything)
+- [`Parallel Retrieval`](../chapter-6/parallel-retrieval)

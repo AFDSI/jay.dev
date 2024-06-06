@@ -1,11 +1,11 @@
 ---
-$title: Abstract
+$title@: Abstract
 $titles:
   teaser: Application Patterns
 teaser:
   icon: airplane
   label: Chapter 6
-description: Learn chapter 6.
+description: 'Learn chapter 6.'
 $order: 1
 leveled: false
 ---

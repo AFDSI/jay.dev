@@ -1,10 +1,10 @@
 ---
-$title: Follow Your Nose
+$title@: Follow Your Nose
 $order: 6
 leveled: false
 ---
 
-*How do we find additional relevant data from the web?*
+*How can internationalized text be expressed in RDF?*
 
 ## Context
 
@@ -24,12 +24,13 @@ This pattern is at the core of the Linked Data approach. By giving resources URI
 
 There are two main types of links that could be followed in an RDF graph:
 
-- URIs of other resources -- `See Also <see-also.html>` links to further documents, or URIs of other related resources. Follow these links to find more data.
-- URIs of RDF terms -- links to definitions of properties, classes and other terms. Follow these links to find machine-readable descriptions of terms
+- URIs of other resources -- links to further documents, or URIs of other related resources. Follow these links to find more data.
+- URIs of RDF terms -- links to definitions of properties, classes and other terms. Follow these links to find machine-readable descriptions of terms.
 
 An application is unlikely to want to blindly follow all links. For example applications will certainly want to place a limit on how many additional links it will want to fetch, e.g. one or two hops from the original resource. An application may also want to limit the data retrieved, e.g. by only following certain types of relationship or restricting the domains from which data will be retrieved. The former allows a more directed "crawl" to find related information, while the latter allows simple white/black-listing to only obtain data from trusted sources.
 
-An application might also want to limit network traffic by performing `Resource Caching <resource-caching.html>`. `Parallel Retrieval <parallel-retrieval.html>` can also improve performance.
+An application might also want to limit network traffic by performing [`Resource Caching`](../chapter-6/resource-caching).
+[`Parallel Retrieval`](../chapter-6/parallel-retrieval) can also improve performance.
 
 The retrieved data will often be parsed into one RDF graph that can then be queried or manipulated within the application. This "working set" might be cached as well as the original source descriptions, to allow for the fact that the same data may be repeatedly referenced.
 
@@ -37,9 +38,8 @@ Some additional processing may also be carried out on the retrieved data, e.g. t
 
 ## Related
 
-- `Missing Isn't Broken <missing-isnt-broken.html>`
-- `See Also <see-also.html>`
-- `Smushing <smushing.html>`
-- `Resource Caching <resource-caching.html>`
-- `Parallel Retrieval <parallel-loading.html>`
-
+- [`Missing Isn't Broken`](../chapter-6/missing-isnt-broken)
+- [`See Also`](../chapter-4/see-also)
+- [`Smushing`](../chapter-6/smushing)
+- [`Resource Caching`](../chapter-6/resource-caching)
+- [`Parallel Retrieval`](../chapter-6/parallel-loading)

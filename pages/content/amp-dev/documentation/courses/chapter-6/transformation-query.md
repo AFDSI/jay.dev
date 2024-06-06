@@ -1,5 +1,5 @@
 ---
-$title: Transformation Query
+$title@: Transformation Query
 $order: 15
 leveled: false
 ---
@@ -12,11 +12,11 @@ There are a broad range of different vocabularies in use on the Linked Data web.
 
 ## Solution
 
-Use a SPARQL ``CONSTRUCT`` query, or collection of queries, to generate a normalized view of the data, saving the results back into the triple store.
+Use a SPARQL `CONSTRUCT` query, or collection of queries, to generate a normalized view of the data, saving the results back into the triple store.
 
 ## Example(s)
 
-The following query normalizes any one of three different naming or labeling properties into ``rdfs:label`` properties.
+The following query normalizes any one of three different naming or labeling properties into `rdfs:label` properties.
 
 [sourcecode:html]
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -27,18 +27,18 @@ CONSTRUCT {
   ?s rdfs:label ?o.
 }
 WHERE {
-  {  ?s foaf:name ?o. }
+  { ?s foaf:name ?o. }
   UNION
-  {  ?s vCard:FN ?o. }
+  { ?s vCard:FN ?o. }
   UNION
-  {  ?s skos:prefLabel ?o. }
+  { ?s skos:prefLabel ?o. }
 }
 [/sourcecode]
 
 ## Discussion
 
-Writing application code to normalize data patterns can be tedious and difficult to maintain in the face of changes. SPARQL ``CONSTRUCT`` queries provide a way to generate arbitrary RDF graphs from existing data. They therefore provide a way to carry out transformations on RDF graph. These transformations can be used to infer new data based on existing patterns and this covers the generation of normalized data models. SPARQL therefore provides a declarative syntax for describing graph transformations. The increased expressivity of SPARQL 1.1 will allow more complex transformations to be specified.
+Writing application code to normalize data patterns can be tedious and difficult to maintain in the face of changes. SPARQL `CONSTRUCT` queries provide a way to generate arbitrary RDF graphs from existing data. They therefore provide a way to carry out transformations on RDF graph. These transformations can be used to infer new data based on existing patterns and this covers the generation of normalized data models. SPARQL therefore provides a declarative syntax for describing graph transformations. The increased expressivity of SPARQL 1.1 will allow more complex transformations to be specified.
 
-An application may apply one or more Transformation Queries to its data source either during execution, e.g. to extract a graph of a known structure, or during assembly of the underlying dataset, e.g. as part of the `Blackboard <blackboard.html>` pattern.
+An application may apply one or more Transformation Queries to its data source either during execution, e.g. to extract a graph of a known structure, or during assembly of the underlying dataset, e.g. as part of the [`Custom Datatype`](../chapter-3/custom-datatype) pattern.
 
-Each transformation query may cover one specific normalization task. However, as shown in the example above, several operations can be combined using a ``UNION`` query. This allows the graph pattern of the query to match for a number of different variants, resulting in the generation of a single standard output graph.
+Each transformation query may cover one specific normalization task. However, as shown in the example above, several operations can be combined using a `UNION` query. This allows the graph pattern of the query to match for a number of different variants, resulting in the generation of a single standard output graph.

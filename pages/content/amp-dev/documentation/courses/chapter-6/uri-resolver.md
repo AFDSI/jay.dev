@@ -1,5 +1,5 @@
 ---
-$title: URI Resolver
+$title@: URI Resolver
 $order: 16
 leveled: false
 ---
@@ -8,7 +8,7 @@ leveled: false
 
 ## Context
 
-Linked Data applications typically acquire additional relevant data by adopting `Follow Your Nose <follow-your-nose.html>` behavior: any URI in a graph may be assumed to be de-referencable to obtain additional data.
+Linked Data applications typically acquire additional relevant data by adopting
 
 However in practice simple de-referencing, i.e. performing a GET request on a URI, is not always desirable. For example:
 
@@ -26,9 +26,9 @@ Application code should defer to the URI resolver in order to source RDF stateme
 
 ## Example(s)
 
-A Linked Data browser loads and displays resources as directed by user behavior, e.g. clicking on links in the user interface. A user selects to view a resource. When a user requests that the browser displays a resource, ``http://example.org/person/1``, instead of performing a GET request on the resource the browser invokes a pre-configured URI resolver to retrieve the description of the resource.
+A Linked Data browser loads and displays resources as directed by user behavior, e.g. clicking on links in the user interface. A user selects to view a resource. When a user requests that the browser displays a resource, `http://example.org/person/1`, instead of performing a GET request on the resource the browser invokes a pre-configured URI resolver to retrieve the description of the resource.
 
-The URI resolver has been set up to direct requests matching a pattern of ``http://example.org/*`` to a local triple store that contains a mirror of the remote data. However when the user visits ``http://other.example.org/document/123`` the URI resolver does not have any prior knowledge of the resource and falls back to a simple GET request on the resource URI.
+The URI resolver has been set up to direct requests matching a pattern of `http://example.org/*` to a local triple store that contains a mirror of the remote data. However when the user visits `http://other.example.org/document/123` the URI resolver does not have any prior knowledge of the resource and falls back to a simple GET request on the resource URI.
 
 In neither case does the browser (or the user) need to know how the description was actually retrieved.
 
@@ -44,21 +44,21 @@ The indirection offered by URI resolvers make them an ideal location in which to
 - Substitution of a local mirror of the data in preference for the remote version
 - Substitution of a local mirror of the data in preference for the remote version, but only where the remote service is unavailable
 - Serving of a fixed response, regardless of URI (e.g. to support testing scenarios)
-- Retrieval of both the remote description of a resource plus local `annotations <annotation.html>` to mix public and private data
-- `parallel retrieval <parallel-retrieval.html>` of the description of a resource that is spread across any combination of local or remote locations
+- Retrieval of both the remote description of a resource plus local `annotations` to mix public and private data
+- `parallel retrieval` of the description of a resource that is spread across any combination of local or remote locations
 - Provision of reasoning over retrieved data to augment data against a vocabulary
 - Provision of support for resolution of non-HTTP URI schemes -  On-demand conversion of non-RDF data into RDF statements
 
 With suitable configuration, URI resolvers can potentially be chained together to create a de-referencing pipeline that can deliver some complex application behaviors with a simple framework.
 
-There are some Linked Data applications that provide URI resolver services, this includes generic Linked Data browsers. At their simplest the browsers simply provide additional HTML presentation of retrieved data. But in some cases the retrieved data is both directly accessible (i.e. the service acts as a proxy) and may be supplemented with local caches, annotation, or inferencing, as outlined above. To support de-referencing typically use a `Rebased URI <rebased-uri.html>`
+There are some Linked Data applications that provide URI resolver services, this includes generic Linked Data browsers. At their simplest the browsers simply provide additional HTML presentation of retrieved data. But in some cases the retrieved data is both directly accessible (i.e. the service acts as a proxy) and may be supplemented with local caches, annotation, or inferencing, as outlined above. To support de-referencing typically use a [`Rebased URI`](../chapter-2/rebased-uri).
 
 ## Related
 
-- `Follow Your Nose <follow-your-nose.html>`
+- [`Follow Your Nose`](../chapter-6/label-everything)
 
 ## Further Reading
 
-- `Diverted URI pattern <#>`
-- `The Jena FileManager and LocationMapper <#>`
-- `Entity management in XML applications <#>`
+- [`Diverted URI pattern`](<#>)
+- [`The Jena FileManager and LocationMapper`](<#>)
+- [`Entity management in XML applications`](<#>)

@@ -1,5 +1,5 @@
 ---
-$title: Schema Annotation
+$title@: Schema Annotation
 $order: 13
 leveled: false
 ---
@@ -12,9 +12,11 @@ Data driven applications typically end up with built-in processing rules for han
 
 ## Solution
 
-Externalize constraints using annotation properties that are used to drive processing rules or constraints by annotating classes and properties in a vocabulary
+Externalize constraints using annotation properties that are used to drive processing rules or constraints by annotating classes and properties in a vocabulary.
 
 ## Example(s)
+
+For example a research paper may have multiple keywords. The ordering of these keywords is not important, so using the Dublin Core subject property, we can express this multi-valued relation as:
 
 [sourcecode:html]
 ex:RequiredProperty a rdfs:Property;
@@ -34,10 +36,10 @@ ex:IgnoredProperty a rdfs:Property;
 
 Simple annotations of classes and properties is a simple and easy way to externalize some common types of application configuration. RDF vocabularies are easily extended with additional properties, making them suitable for extension in this way. Using this approach applications can be very easily tailored to work with a range of different vocabularies.
 
-Annotations may encode a wide range of configuration options including: display preferences, validation constraints, identifier assignment rules for classes, and local labeling for classes and properties. Annotation may even be used to tailor inferencing over specific vocabularies to allow for more local customisation and control over how inferencing is applied; for example a local schema annotation might declare that two classes were equivalent, or that a specific property is an inverse-functional-property, triggering data to be merged.
+Annotations may encode a wide range of configuration options including: display preferences, validation constraints, identifier assignment rules for classes, and local labeling for classes and properties. Annotation may even be used to tailor inferencing over specific vocabularies to allow for more local customiZation and control over how inferencing is applied; for example a local schema annotation might declare that two classes were equivalent, or that a specific property is an inverse-functional-property, triggering data to be merged.
 
 Schema annotations would typically form part of the overall application configuration and would be applied locally, rather than being published to the open web.
 
 ## Related
 
-- `Annotation <annotation.html>`
+- [`Annotation`](../chapter-4/annotation)

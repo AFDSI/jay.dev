@@ -1,5 +1,5 @@
 ---
-$title: Bounded Description
+$title@: Bounded Description
 $order: 4
 leveled: false
 ---
@@ -13,7 +13,7 @@ Application using semi-structured data sources should be tolerant of discovering
 ## Solution
 
 Extract a sub-graph, or "bounded description", from a dataset that contains all of relevant properties and relationships associated with a resource.
-
+0
 ## Discussion
 
 Bounded Descriptions take advantage of the graph structure of RDF in order to define simple graph operations that can be applied to any node in the graph. The operations yield a useful sub-set of the properties associated with the resource based on how they relate to the resource, rather than the specific RDF predicates that have been used.
@@ -33,6 +33,5 @@ Bounded descriptions can be implemented using SPARQL `CONSTRUCT` queries. SPARQL
 
 ## Further Reading
 
-- `Bounded Descriptions in RDF <http://n2.talis.com/wiki/Bounded_Descriptions_in_RDF>`
-- `Concise Bounded Description <http://www.w3.org/Submission/CBD/>`
-
+- [`Bounded Descriptions in RDF`](http://n2.talis.com/wiki/Bounded_Descriptions_in_RDF)
+- [`Concise Bounded Description`](http://www.w3.org/Submission/CBD/)

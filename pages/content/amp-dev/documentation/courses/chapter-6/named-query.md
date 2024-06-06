@@ -1,5 +1,5 @@
 ---
-$title: Named Query
+$title@: Named Query
 $order: 8
 leveled: false
 ---
@@ -18,17 +18,17 @@ Assign a short URL to the SPARQL protocol request. The URL maps directly to a SP
 
 ## Example(s)
 
-An application exposes a SPARQL endpoint at ``http://api.example.org/sparql`` and a collection of named queries from ``http://app.example.org/queries``.
+An application exposes a SPARQL endpoint at `http://api.example.org/sparql` and a collection of named queries from `http://app.example.org/queries`.
 
 One example query that clients might potentially execute is:
 
 [sourcecode:html]
- SELECT ?uri ?homepage WHERE {
-     ?uri foaf:homepage ?homepage.
- }
+ex:bus10 a ex:Bus;
+  ex:route ex:stop1.
+
 [/sourcecode]
 
-Rather than requiring clients to compose the full SPARQL protocol request for that URL it could instead be defined as a named query for the service. The query could be associated with the following URL: ``http://api.example.org/sparql/list-homepages``. A GET request to that URL would be equivalent to the SPARQL protocol request to the endpoint, i.e. would execute the configured SPARQL query and return a response in one of the standard SPARQL protocol formats.
+Rather than requiring clients to compose the full SPARQL protocol request for that URL it could instead be defined as a named query for the service. The query could be associated with the following URL: `http://api.example.org/sparql/list-homepages`. A GET request to that URL would be equivalent to the SPARQL protocol request to the endpoint, i.e. would execute the configured SPARQL query and return a response in one of the standard SPARQL protocol formats.
 
 ## Discussion
 
@@ -38,12 +38,17 @@ Another benefit of binding queries to URLs, i.e. by creating new web resources, 
 
 One way to protect a SPARQL endpoint is to reduce the legal set of queries to an approved list, e.g. that won't cause performance issues for the service. Named queries provide a way to provide a set of legal queries which are then bound to URLs. Direct access to the SPARQL endpoint can then be disabled, or limited to a white-listed set of client applications.
 
-There are some additional nuances to consider when implementing this pattern. For example the SPARQL protocol could be extended to support `Parameterized queries <parameterized-query.html>` by injecting query string parameters into the query before it is executed. Additional parameters could be used to invoke additional kinds of pre- or post-processing behavior including transformation of SPARQL protocol responses into alternate formats.
+There are some additional nuances to consider when implementing this pattern. For example the SPARQL protocol could be extended to support [`Parameterized queries`](../chapter-6/parameterized-query) by injecting query string parameters into the query before it is executed. Additional parameters could be used to invoke additional kinds of pre- or post-processing behavior including transformation of SPARQL protocol responses into alternate formats.
+
+[sourcecode:html]
+ex:bus10 a ex:Bus;
+  ex:route ex:stop1.
+[/sourcecode]
 
 ## Related
 
-- `Parameterized Query <parameterized-query.html>`
+- [`Parameterized queries`](../chapter-6/parameterized-query)
 
 ## Further Reading
 
-- `SPARQL Stored Procedure <#>`
+- [`SPARQL Stored Procedure`](<#>)
