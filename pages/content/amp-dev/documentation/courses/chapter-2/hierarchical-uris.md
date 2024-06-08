@@ -2,12 +2,7 @@
 $title@: Hierarchical URIs
 $order: 2
 leveled: false
-teaser:
-  text: >-
-    This document outlines the structured data features currently supported by ABC.
 ---
-
->-
 
 *How should URIs be assigned to a group of resources that form a natural hierarchy?*
 
@@ -49,7 +44,7 @@ The same applies to circumstances where the hierarchy may change over time.
 
 
 [tip type="read-on"]
-If you're primarily interested in what's allowed in ABC and what isn't, watch our [primer video on ABC's limitations](https://www.youtube.com/watch?v=Gv8A4CktajQ).
+using new icon
 [/tip]
 
 [tip type="default"]
@@ -59,5 +54,15 @@ Default tip same as note
 [tip type="important"]
 Important
 [/tip]
+
+<pre>
+now is the time for all good men to come to the aid of their country
+</pre>
+
+<span style="font-family: Fira Mono, monospace; font-weight: 500; font-size: 1.2rem;">now is the time for all good men to come to the aid of their country</span>
+
+<code>
+now is the time for all good men to come to the aid of their country
+</code>
 
 
