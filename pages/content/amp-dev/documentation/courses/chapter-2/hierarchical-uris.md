@@ -2,7 +2,12 @@
 $title@: Hierarchical URIs
 $order: 2
 leveled: false
+teaser:
+  text: >-
+    This document outlines the structured data features currently supported by ABC.
 ---
+
+This document outlines the structured data features currently supported by ABC.
 
 *How should URIs be assigned to a group of resources that form a natural hierarchy?*
 
@@ -14,13 +19,13 @@ It is often the case that a collection of resources may form a natural hierarchy
 
 Where a natural hierarchy exists between a set of resources use [`Patterned URIs`](../chapter-2/patterned-uris) that conform to the following pattern:
 
-[sourcecode:html]
+[sourcecode:bash]
 :collection/:item/:sub-collection/:item
 [/sourcecode]
 
 E.g. in a system which is publishing data about individual books and their chapters, we might use the following identifier for chapter 1 of a specific book:
 
-[sourcecode:html]
+[sourcecode:http]
 /books/12345/chapters/1
 [/sourcecode]
 
@@ -28,7 +33,7 @@ E.g. in a system which is publishing data about individual books and their chapt
 
 The discogs dataset in data-incubator uses hierarchical uris of the form:
 
-[sourcecode:html]
+[sourcecode:javascript]
 http://discogs.dataincubator.org/release/22530/track/1-01
 [/sourcecode]
 
@@ -41,3 +46,35 @@ The same applies to circumstances where the hierarchy may change over time.
 ## Related
 
 - [`Patterned URIs`](../chapter-2/patterned-uris)
+
+
+[tip type="read-on"]
+If you're primarily interested in what's allowed in ABC and what isn't, watch our [primer video on ABC's limitations](https://www.youtube.com/watch?v=Gv8A4CktajQ).
+[/tip]
+
+[tip type="default"]
+Default tip
+[/tip]
+
+[tip type="important"]
+Important
+[/tip]
+
+
+[tip type="note"]
+Note
+[/tip]
+
+This isn’t common, but some Markdown processors allow you to highlight text. The result looks like this. To highlight words, use two equal signs (==) before and after the words.
+
+I need to highlight these ==very important words==.
+
+The rendered output looks like this:
+
+I need to highlight these very important words.
+
+Alternatively, if your Markdown application supports HTML, you can use the mark HTML tag.
+
+I need to highlight these <mark>very important words</mark>.
+
+
