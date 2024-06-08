@@ -4,7 +4,7 @@ $order: 2
 leveled: false
 ---
 
-### *How should URIs be assigned to a group of resources that form a natural hierarchy?*
+#### *How should URIs be assigned to a group of resources that form a natural hierarchy?*
 
 ## Context
 
@@ -45,48 +45,26 @@ The same applies to circumstances where the hierarchy may change over time.
 
 ## testing new tip
 
-<amp-img
-  align="left"
-  width="80"
-  height="80" src="https://raw.githubusercontent.com/akarsh/akarsh-seggemu-resume/master/akarsh%20seggemu%20resume/Assets/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png"
-  alt="Resume application project app icon"
-  layout="responsive"
-></amp-img>
+{{ image('https://raw.githubusercontent.com/akarsh/akarsh-seggemu-resume/master/akarsh%20seggemu%20resume/Assets/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png', 80, 80, align='left') }}
 
 ## Resume application project
   - text here
 
-
-## another test
-
-### Features
-
-- [x] Download a remote JSON file and profile image file in the application.
-- [x] Store the downloaded remote JSON file and profile image in the application.
-- [x] Read the stored JSON file in the application.
-- [x] Pass data from resume schema layout view controller to other view controllers.
-- [x] Translate the contents in the application based on the resume language selected by the user.
-- [x] Application adapts to different screen sizes of iPhones models (iPhone SE +).
-    - [x] Use autolayout for all storyboards.
-- [x] Continuous Integration (Travis-CI) to test the application.
-
 ## testing new tip
 
 <h3>
-<amp-img
-  align="center"
-  width="30"
-  height="30"
-  src="https://user-images.githubusercontent.com/84743905/174507937-c8637dd7-5a10-4c12-bf23-945c7872ace2.png"
-  layout="responsive"
-/> text here</h3>
+{{ image('https://user-images.githubusercontent.com/84743905/174507937-c8637dd7-5a10-4c12-bf23-945c7872ace2.png', 30, 30, align='center') }}
+text here
+</h3>
 
 
 ## blockquote and emoji
 
-> :warning: **Warning:** Do not push the big red button.
+> ⚠️ **Warning:** Do not push the big red button.
 
-> :memo: **Note:** Sunrises are beautiful.
 
-> :bulb: **Tip:** Remember to appreciate the little things in life.
+  > 📝 **Note:** Sunrises are beautiful.
+
+
+  > 💡 **Tip:** Remember to appreciate the little things in life.
 
