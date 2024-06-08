@@ -4,7 +4,7 @@ $order: 2
 leveled: false
 ---
 
-## *How should URIs be assigned to a group of resources that form a natural hierarchy?*
+### *How should URIs be assigned to a group of resources that form a natural hierarchy?*
 
 ## Context
 
