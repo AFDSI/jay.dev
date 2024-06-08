@@ -10,6 +10,8 @@ leveled: false
 
 It is often the case that a collection of resources may form a natural hierarchy. E.g. the chapters within a book, or the departments within an organization. Reflecting this strict hierarchy within the URI structure makes those URIs more hackable allowing users/developers to "navigate" up the hierarchy by pruning the URI.
 
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
 ## Solution
 
 Where a natural hierarchy exists between a set of resources use [`Patterned URIs`](../chapter-2/patterned-uris) that conform to the following pattern:
@@ -43,3 +45,33 @@ The same applies to circumstances where the hierarchy may change over time.
 - [`Patterned URIs`](../chapter-2/patterned-uris)
 
 
+## amp-anim
+
+<figure class="centered-fig">
+  <amp-anim width="300" height="533" layout="fixed" alt="AMP Story Example" src="https://github.com/ampproject/amphtml/raw/main/extensions/amp-story/img/amp-story.gif">
+    <noscript>
+    <img alt="AMP Story Example" src="https://github.com/ampproject/amphtml/raw/main/extensions/amp-story/img/amp-story.gif" />
+  </noscript>
+  </amp-anim>
+</figure>
+
+## Definition List
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+## Footnote
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
