@@ -4,7 +4,7 @@ $order: 2
 leveled: false
 ---
 
-*How should URIs be assigned to a group of resources that form a natural hierarchy?*
+## *How should URIs be assigned to a group of resources that form a natural hierarchy?*
 
 ## Context
 
@@ -41,28 +41,4 @@ The same applies to circumstances where the hierarchy may change over time.
 ## Related
 
 - [`Patterned URIs`](../chapter-2/patterned-uris)
-
-
-[tip type="read-on"]
-using new icon
-[/tip]
-
-[tip type="default"]
-Default tip same as note
-[/tip]
-
-[tip type="important"]
-Important
-[/tip]
-
-<pre>
-now is the time for all good men to come to the aid of their country
-</pre>
-
-<span style="font-family: Fira Mono, monospace; font-weight: 500; font-size: 1.2rem;">now is the time for all good men to come to the aid of their country</span>
-
-<code>
-now is the time for all good men to come to the aid of their country
-</code>
-
 
