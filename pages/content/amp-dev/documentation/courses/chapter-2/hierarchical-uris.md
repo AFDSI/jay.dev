@@ -43,28 +43,3 @@ The same applies to circumstances where the hierarchy may change over time.
 - [`Patterned URIs`](../chapter-2/patterned-uris)
 
 
-## testing new tip
-
-{{ image('https://raw.githubusercontent.com/akarsh/akarsh-seggemu-resume/master/akarsh%20seggemu%20resume/Assets/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png', 80, 80, align='left') }}
-
-## Resume application project
-  - text here
-
-## testing new tip
-
-<h3>
-{{ image('https://user-images.githubusercontent.com/84743905/174507937-c8637dd7-5a10-4c12-bf23-945c7872ace2.png', 30, 30, align='center') }}
-text here
-</h3>
-
-
-## blockquote and emoji
-
-> ⚠️ **Warning:** Do not push the big red button.
-
-
-  > 📝 **Note:** Sunrises are beautiful.
-
-
-  > 💡 **Tip:** Remember to appreciate the little things in life.
-
