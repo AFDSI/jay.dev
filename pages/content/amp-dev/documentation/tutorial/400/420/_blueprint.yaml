@@ -1,4 +1,4 @@
-$title@: blueprint title chapter 420
+$title@: chapter 420
 $view: /views/detail/docs-detail.j2
 $path: /documentation/tutorial/400/420/{base}.html
 $localization:
