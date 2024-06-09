@@ -1,10 +1,13 @@
-$title@: Pizza Tutorial
+$title@: blueprint title Pizza Tutorial
 $view: /views/detail/docs-detail.j2
 $path: /documentation/tutorial/{base}.html
 $localization:
   path: /{locale}/documentation/tutorial/{base}.html
 $order: 5
 bucket: true
-
+toc: false
+chaptered: false
+tutorial: false
 formats:
   - websites
+  - nation-usa

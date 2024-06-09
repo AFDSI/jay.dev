@@ -1,0 +1,13 @@
+$title@: blueprint title chapter 100
+$view: /views/detail/docs-detail.j2
+$path: /documentation/tutorial/100/{base}.html
+$localization:
+  path: /{locale}/documentation/tutorial/100/{base}.html
+$order: 1
+bucket: false
+toc: true
+chaptered: true
+tutorial: true
+formats:
+  - websites
+  - nation-usa
