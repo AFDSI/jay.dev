@@ -10,8 +10,6 @@ leveled: false
 
 It is often the case that a collection of resources may form a natural hierarchy. E.g. the chapters within a book, or the departments within an organization. Reflecting this strict hierarchy within the URI structure makes those URIs more hackable allowing users/developers to "navigate" up the hierarchy by pruning the URI.
 
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
 ## Solution
 
 Where a natural hierarchy exists between a set of resources use [`Patterned URIs`](../chapter-2/patterned-uris) that conform to the following pattern:
