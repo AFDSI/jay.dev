@@ -1,4 +1,4 @@
-$title@: blueprint title chapter 100
+$title@: chapter 100
 $view: /views/detail/docs-detail.j2
 $path: /documentation/tutorial/100/{base}.html
 $localization:
@@ -6,7 +6,7 @@ $localization:
 $order: 1
 bucket: false
 toc: true
-chaptered: true
+chaptered: false
 tutorial: true
 formats:
   - websites
