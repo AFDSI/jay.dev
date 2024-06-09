@@ -1,0 +1,26 @@
+---
+$title@: Track and measure
+$titles:
+  teaser: chapter-401
+teaser:
+  icon: airplane
+  label: Chapter 4
+$view: /views/overview/courses.j2
+$path: /documentation/tutorial/400/401.html
+$localization:
+  path: /{locale}/documentation/tutorial/400/401.html
+description: 'Learn chapter 4.'
+$order: 1
+---
+{% do doc.styles.addCssFile('css/components/templates/courses-overview.css') %}
+{% do doc.styles.addCssFile('css/components/molecules/copy.css') %}
+
+<section class="ap--section ap--intro">
+  <h1>{{ _('You're currently not connected to the internet.') }}</h1>
+  <p>
+  {{ _('Third-party JS likes to use synchronous JS loading. They also like to <code>document.write</code> more sync scripts. For example, if you have five ads on your page, and each of them cause three synchronous loads, each with a 1 second latency connection, you’re in 15 seconds of load time just for JS loading.') }}
+  </p>
+</section>
+
+
+
