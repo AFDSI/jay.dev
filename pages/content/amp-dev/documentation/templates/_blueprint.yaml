@@ -1,5 +1,6 @@
-$path: /documentation/templates/{base}.html
+$title@: Templates
 $view: /views/default.j2
-$title: Templates
+$path: /documentation/templates/{base}.html
 $localization:
   path: /{locale}/documentation/templates/{base}.html
+$order: 6
