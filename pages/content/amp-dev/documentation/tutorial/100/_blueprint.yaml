@@ -4,9 +4,9 @@ $path: /documentation/tutorial/100/{base}.html
 $localization:
   path: /{locale}/documentation/tutorial/100/{base}.html
 $order: 1
-bucket: false
+bucket: true
 toc: true
-chaptered: false
+chaptered: true
 tutorial: true
 formats:
   - websites
