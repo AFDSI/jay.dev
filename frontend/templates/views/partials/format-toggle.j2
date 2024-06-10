@@ -5,6 +5,10 @@
 {% if not '/courses/' in doc.pod_path %}
 {% set formats = ['websites', 'stories', 'ads', 'email', 'nation-usa'] %}
 
+{# Tutorials are not format togglable #}
+{% if not '/tutorial/' in doc.pod_path %}
+{% set formats = ['websites', 'stories', 'ads', 'email'] %}
+
 <div class="ap-m-format-toggle">
   {# Use websites as default to have an element to dynamically set #}
   <button class="ap-m-format-toggle-selected ap-m-format-toggle-link-[= format =]">
