@@ -33,8 +33,6 @@ const AVAILABLE_STUBS = ['.html', '/index.html', '', '/'];
 const DOCUMENTATION_ROUTE_PATTERN = /\/documentation\/*/;
 /* Matches all courses routes */
 const COURSES_ROUTE_PATTERN = /\/courses\/*/;
-/* Matches all tutorial routes */
-const TUTORIAL_ROUTE_PATTERN = /\/tutorial\/*/;
 
 /* Matches <a> tags with the href-attribute value as its first matching group */
 const A_HREF_PATTERN = /<a\s+(?:[^>]*?\s+)?href=(["'])(.*?)\1/gm;
