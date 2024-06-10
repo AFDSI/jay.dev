@@ -1,8 +1,8 @@
 $title@: chapter 100
 $view: /views/detail/docs-detail.j2
-$path: /documentation/tutorial/100/{base}.html
+$path: /documentation/tutorial-p/100/{base}.html
 $localization:
-  path: /{locale}/documentation/tutorial/100/{base}.html
+  path: /{locale}/documentation/tutorial-p/100/{base}.html
 $order: 1
 bucket: true
 toc: true

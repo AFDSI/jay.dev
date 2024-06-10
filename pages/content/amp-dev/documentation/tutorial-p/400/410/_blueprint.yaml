@@ -1,8 +1,8 @@
 $title@: chapter 410
 $view: /views/detail/docs-detail.j2
-$path: /documentation/tutorial/400/410/{base}.html
+$path: /documentation/tutorial-p/400/410/{base}.html
 $localization:
-  path: /{locale}/documentation/tutorial/400/410/{base}.html
+  path: /{locale}/documentation/tutorial-p/400/410/{base}.html
 $order: 3
 bucket: false
 toc: true

@@ -5,9 +5,9 @@ $titles:
   sidebar: Learn Pizza OWL
   teaser: Tutorial
 $view: /views/overview/courses.j2
-$path: /documentation/tutorial/index.html
+$path: /documentation/tutorial-p/index.html
 $localization:
-  path: /{locale}/documentation/tutorial/index.html
+  path: /{locale}/documentation/tutorial-p/index.html
 $order: 0
 
 description: "Learn Structured Data by taking pizza tutorial."
@@ -39,8 +39,8 @@ flyout:
   <div class="ap-o-teaser-grid">
     <div class="ap-o-teaser-grid-list">
       {% for teaser_doc in [
-        g.doc('/content/amp-dev/documentation/tutorial/100/101.md', locale=doc.locale),
-        g.doc('/content/amp-dev/documentation/tutorial/400/401.md', locale=doc.locale),
+        g.doc('/content/amp-dev/documentation/tutorial-p/100/101.md', locale=doc.locale),
+        g.doc('/content/amp-dev/documentation/tutorial-p/400/401.md', locale=doc.locale),
         ] %}
       {% include '/views/partials/teaser.j2' %}
       {% endfor %}

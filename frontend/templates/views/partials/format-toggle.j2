@@ -2,8 +2,10 @@
 {% do doc.styles.addCssFile('css/components/molecules/format-toggle.css') %}
 
 {# Courses are not format togglable #}
-{% if not '/courses/' in doc.pod_path %}
+{# {% if not '/courses/' in doc.pod_path %} #}
+{% if not '/courses/' or not '/tutorial-p/' in doc.pod_path %}
 {% set formats = ['websites', 'stories', 'ads', 'email', 'nation-usa'] %}
+
 
 <div class="ap-m-format-toggle">
   {# Use websites as default to have an element to dynamically set #}
