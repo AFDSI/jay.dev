@@ -8,5 +8,6 @@ bucket: false
 toc: true
 chaptered: true
 tutorial: true
+
 formats:
   - websites
