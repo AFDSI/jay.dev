@@ -39,6 +39,8 @@ const {
 const {cheerioOptions} = require('../platform/lib/common/cheerioOptions');
 const coursesPath = '/documentation/courses';
 const coursesRegex = new RegExp(`^(.+)(?:${coursesPath})(.*)$`);
+const coursesPath = '/documentation/tutorial';
+const coursesRegex = new RegExp(`^(.+)(?:${tutorialPath})(.*)$`);
 
 const getUpdatedURL = (u, requestedFormat, forcedFormat) => {
   return u.replace(
