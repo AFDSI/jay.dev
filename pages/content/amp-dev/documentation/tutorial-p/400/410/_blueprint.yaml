@@ -5,7 +5,6 @@ $localization:
   path: /{locale}/documentation/tutorial-p/400/410/{base}.html
 $order: 3
 bucket: false
-toc: true
 chaptered: true
 tutorial: true
 
