@@ -1,7 +1,7 @@
 {% do doc.styles.addCssFile('css/components/atoms/format-backgrounds.css') %}
 {% do doc.styles.addCssFile('css/components/molecules/format-toggle.css') %}
 
-{# Courses are not format togglable #}
+{# Courses and Tutorials are not format togglable #}
 {# {% if not '/courses/' in doc.pod_path %} #}
 {% if not '/courses/' in doc.pod_path and not '/tutorial-p/' in doc.pod_path %}
 {% set formats = ['websites', 'stories', 'ads', 'email', 'nation-usa'] %}
