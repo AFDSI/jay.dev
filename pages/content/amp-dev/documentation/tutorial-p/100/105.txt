@@ -1,0 +1,32 @@
+## tables
+
+<table>
+  <tr>
+   <td colspan="3">Text spanning three columns
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td><strong>Single Story</strong>
+   </td>
+   <td><strong>Web story player</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>A richer user experience</strong>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Swipe down to exit the Story and return to your site
+   </td>
+   <td>❌
+   </td>
+   <td>✅
+   </td>
+  </tr>
+</table>
