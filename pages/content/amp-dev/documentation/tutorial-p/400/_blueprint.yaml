@@ -1,4 +1,4 @@
-$title@: chapter 400
+$title@: Chapter 4
 $view: /views/detail/docs-detail.j2
 $path: /documentation/tutorial-p/400/{base}.html
 $localization:
@@ -6,8 +6,6 @@ $localization:
 $order: 1
 bucket: true
 toc: true
-chaptered: false
 tutorial: true
-
 formats:
   - websites
