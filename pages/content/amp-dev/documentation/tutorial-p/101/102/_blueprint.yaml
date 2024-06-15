@@ -1,8 +1,0 @@
-$title@: Organization
-$view: /views/detail/docs-detail.j2
-$path: /documentation/tutorial-p/101/102/{base}.html
-$localization: 
-  path: /{locale}/documentation/tutorial-p/101/102/{base}.html
-$order: 2
-formats:
-  - websites

@@ -1,4 +1,4 @@
-$title@: 
+$title@: Components
 $view: /views/detail/docs-detail.j2
 $path: /documentation/tutorial-p/103/102/{base}.html
 $localization: 
