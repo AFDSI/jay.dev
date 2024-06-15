@@ -1,0 +1,11 @@
+$title@: Chapter 4
+$view: /views/detail/docs-detail.j2
+$path: /documentation/tutorial-p/999/{base}.html
+$localization:
+  path: /{locale}/documentation/tutorial-p/999/{base}.html
+$order: 4
+toc: false
+chaptered: true
+tutorial: true
+formats:
+  - websites
