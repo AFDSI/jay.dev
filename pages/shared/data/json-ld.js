@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+{
+	"@graph": [{
+		"@id": "http://www.openlinksw.com/dataspace/person/kidehen@openlinksw.com#this",
+		"http://vocab.org/bio/0.1/keywords": [{
+			"@value": "semanticweb, sparql, hyperlink, rdf, semantic_web, semweb, odbc, jdbc, sql, sioc, foaf, webdav, rdfs, skos, owl, ordbms, linq, php, perl, python, ruby, programming, eii, esb, soa, xbrl, xml, xslt, xml_schema"
+		}],
+		"http://xmlns.com/foaf/0.1/made": [{
+			"@id": "http://www.openlinksw.com/dataspace/kidehen@openlinksw.com/weblog/kidehen@openlinksw.com%27s%20BLOG%20%5B127%5D/1662"
+		},
+		{
+			"@id": "http://www.openlinksw.com/ods/describe?uri=mailto%3Akidehen@openlinksw.com"
+		}],
+		"http://www.w3.org/2007/05/powder-s#describedby": [{
+			"@id": "http://virtuoso.openlinksw.com/about/id/entity/http/virtuoso.openlinksw.com:8889/about/id/entity/http/virtuoso.openlinksw.com/blog/index.vspx?tag=database"
+		},
+		{
+			"@id": "http://virtuoso.openlinksw.com:8889/about/id/entity/http/virtuoso.openlinksw.com/blog/index.vspx?tag=virtuoso&type=signup"
+		},
+		{
+			"@id": "http://virtuoso.openlinksw.com:8889/about/id/entity/http/ods.openlinksw.com:8889/"
+		}],
+		"http://www.w3.org/2000/01/rdf-schema#seeAlso": [{
+			"@id": "http://www.openlinksw.com/dataspace/kidehen@openlinksw.com/about.rdf"
+		}],
+		"@type": ["http://xmlns.com/foaf/0.1/Person"],
+		"http://www.openlinksw.com/virt_curi#has_curi": [1],
+		"http://www.openlinksw.com/virt_curi#has_code": [{
+			"@value": "9C5K2GYX"
+		}]
+	}]
+}
+</script>
