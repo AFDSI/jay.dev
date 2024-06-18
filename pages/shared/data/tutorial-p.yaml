@@ -3,3 +3,4 @@ item:
   - heading_2: "&#x201C;"
   - text_1: "Now is the time for action."
   - text_2: "The sun is a star."
+  - text_3: "Let&#x0027;s look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
