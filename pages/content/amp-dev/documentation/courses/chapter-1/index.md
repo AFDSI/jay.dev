@@ -3,7 +3,7 @@ $title: Abstract
 $titles:
   teaser: Introduction to Linked Data
 teaser:
-  icon: airplane
+  icon: linked-data
   label: Chapter 1
 description: 'Learn to model, publish, and consume Linked Data.'
 $order: 1
