@@ -3,7 +3,7 @@ $title@: Abstract
 $titles:
   teaser: Identifier Patterns
 teaser:
-  icon: airplane
+  icon: course-identifier
   label: Chapter 2
 description: 'Learn chapter 2.'
 $order: 1

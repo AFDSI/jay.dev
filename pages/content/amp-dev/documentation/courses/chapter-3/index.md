@@ -3,7 +3,7 @@ $title@: Abstract
 $titles:
   teaser: Modeling Patterns
 teaser:
-  icon: airplane
+  icon: course-models-software
   label: Chapter 3
 description: 'Learn chapter 3.'
 $order: 1

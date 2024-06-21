@@ -3,7 +3,7 @@ $title@: Abstract
 $titles:
   teaser: Data Management Patterns
 teaser:
-  icon: airplane
+  icon: course-data-management
   label: Chapter 5
 description: 'Learn chapter 5.'
 $order: 1

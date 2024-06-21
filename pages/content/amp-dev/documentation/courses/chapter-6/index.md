@@ -3,7 +3,7 @@ $title@: Abstract
 $titles:
   teaser: Application Patterns
 teaser:
-  icon: airplane
+  icon: course-application-architecture
   label: Chapter 6
 description: 'Learn chapter 6.'
 $order: 1
