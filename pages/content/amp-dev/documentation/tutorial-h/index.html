@@ -1,0 +1,52 @@
+---
+$title@: HTML Control
+$titles:
+  navigation: Tutorial
+  sidebar: HTML Control
+  teaser: Tutorial
+$view: /views/overview/courses.j2
+$path: /documentation/tutorial-h/index.html
+$localization:
+  path: /{locale}/documentation/tutorial-h/index.html
+$order: 0
+
+description: HTML Control
+flyout:
+  description: HTML Control
+  icon: learn
+---
+{% do doc.styles.addCssFile('css/components/templates/courses-overview.css') %}
+{% do doc.styles.addCssFile('css/components/molecules/copy.css') %}
+
+<section class="ap--section ap--intro">
+  <h1>{{ _('HTML Control') }}</h1>
+  <p>
+  {{ _('ABC can help you create structured data more quickly!') }}
+    <ul>
+      <li>{{ _('If you’re <b>an experienced web developer</b>, you can create structured data.') }}</li>
+      <li>{{ _('If you’re <b>a new web developer</b>, ABC helps you learn structured data.') }}</li>
+    </ul>
+  </p>
+  <!-- <div class="ap-m-copy ap-m-copy-center"> -->
+    <!-- <a href="/documentation/courses/beginning-course/course-introduction/?format=websites&amp;level=beginner" class="ap-a-btn"> -->
+      <!-- {{ _('Get started') }} -->
+    <!-- </a> -->
+  <!-- </div> -->
+</section>
+
+{% do doc.styles.addCssFile('/css/components/organisms/teaser-grid.css') %}
+<section class="ap--teaser-grid ap--section">
+  <div class="ap-o-teaser-grid">
+    <div class="ap-o-teaser-grid-list">
+      {% for teaser_doc in [
+        g.doc('/content/amp-dev/documentation/tutorial-h/101/a101.md', locale=doc.locale),
+        g.doc('/content/amp-dev/documentation/tutorial-h/102/a101.md', locale=doc.locale),
+        g.doc('/content/amp-dev/documentation/tutorial-h/103/a101.md', locale=doc.locale),
+        g.doc('/content/amp-dev/documentation/tutorial-h/888/101.md', locale=doc.locale),
+        ] %}
+      {% include '/views/partials/teaser.j2' %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+

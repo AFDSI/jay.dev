@@ -1,0 +1,10 @@
+$title@: Chapter 1
+$view: /views/detail/docs-detail.j2
+$path: /documentation/tutorial-h/101/{base}.html
+$localization: 
+  path: /{locale}/documentation/tutorial-h/101/{base}.html
+$order: 1
+bucket: true
+tutorial: true
+formats:
+  - websites

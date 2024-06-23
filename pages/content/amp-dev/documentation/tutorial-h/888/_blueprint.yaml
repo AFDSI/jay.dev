@@ -1,0 +1,11 @@
+$title@: Chapter 88
+$view: /views/detail/docs-detail.j2
+$path: /documentation/tutorial-h/888/{base}.html
+$localization:
+  path: /{locale}/documentation/tutorial-h/888/{base}.html
+$order: 88
+bucket: true
+chaptered: true
+tutorial: true
+formats:
+  - websites

@@ -1,0 +1,9 @@
+$title@: HTML control
+$view: /views/detail/docs-detail.j2
+$path: /documentation/tutorial-h/{base}.html
+$localization: 
+  path: /{locale}/documentation/tutorial-h/{base}.html
+$order: 7
+bucket: true
+formats:
+  - websites
