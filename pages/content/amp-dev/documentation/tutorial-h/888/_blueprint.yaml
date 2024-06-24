@@ -5,7 +5,7 @@ $localization:
   path: /{locale}/documentation/tutorial-h/888/{base}.html
 $order: 88
 bucket: true
-chaptered: true
-tutorial: true
+chaptered: false
+tutorial: false
 formats:
   - websites
