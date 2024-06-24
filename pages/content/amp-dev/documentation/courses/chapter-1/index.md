@@ -8,6 +8,7 @@ teaser:
 description: 'Learn to model, publish, and consume Linked Data.'
 $order: 1
 leveled: false
+author: ldodds
 ---
 
 There are many ways to help spread the adoption of a technology, and to share skills and experience amongst a community of practitioners.
