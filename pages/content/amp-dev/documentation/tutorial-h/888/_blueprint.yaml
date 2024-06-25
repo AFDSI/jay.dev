@@ -7,3 +7,5 @@ $order: 88
 bucket: true
 chaptered: false
 tutorial: false
+formats:
+  - websites

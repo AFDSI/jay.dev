@@ -5,3 +5,5 @@ $localization:
   path: /{locale}/documentation/tutorial-h/{base}.html
 $order: 7
 bucket: true
+formats:
+  - websites

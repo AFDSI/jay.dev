@@ -6,3 +6,5 @@ $localization:
 $order: 1
 bucket: true
 tutorial: true
+formats:
+  - websites
