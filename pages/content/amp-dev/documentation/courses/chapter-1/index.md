@@ -2,10 +2,10 @@
 $title@: Abstract
 description@: 'Learn to model, publish, and consume Linked Data.'
 $titles:
-  teaser: Introduction to Linked Data
+  teaser@: Introduction to Linked Data
 teaser:
   icon: course-linked-data
-  label: Chapter 1
+  label@: Chapter 1
 $order: 1
 leveled: false
 author: ldodds
