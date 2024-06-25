@@ -1,4 +1,4 @@
-$title@: HTML control
+$title@: HTML control side
 $view: /views/detail/docs-detail.j2
 $path: /documentation/tutorial-h/{base}.html
 $localization: 
