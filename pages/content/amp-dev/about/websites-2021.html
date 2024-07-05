@@ -30,6 +30,7 @@ success_stories:
   - !g.doc /content/amp-dev/runner/success-stories/teads.yaml
   - !g.doc /content/amp-dev/runner/success-stories/carved.yaml
   - !g.doc /content/amp-dev/runner/success-stories/wompmobile.yaml
+faq: !g.yaml /shared/data/faq.yaml
 ---
 
 <main>
@@ -282,3 +283,7 @@ success_stories:
     </div>
   </section>
 </main>
+
+{% block footer %}
+{% include 'views/partials/footer.j2' %}
+{% endblock %}
