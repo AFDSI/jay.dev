@@ -7,6 +7,7 @@ sharing_images:
   wide: /static/img/sharing/about-stories-600x314.png
 
 benefits: !g.yaml /shared/data/benefits.yaml
+faq: !g.yaml /shared/data/faq.yaml
 
 flyout:
   format: stories
@@ -72,7 +73,7 @@ templates:
   - image: /static/img/templates/app_install.jpg
     immage_alt@: App Install
 ---
-
+<main>
 <section class="ap--stage ap--container-fluid">
   {% do doc.styles.addCssFile('css/components/organisms/stage-stories.css') %}
   <div class="ap-o-stage">
@@ -440,3 +441,15 @@ templates:
 {% with format = 'stories', group = 'creation' %}
 {% include 'views/partials/tools-widget.j2' %}
 {% endwith %}
+</main>
+
+{% do doc.styles.addCssFile('css/components/organisms/footer.css') %}
+<footer class="ap--footer">
+  <div class="ap-o-footer">
+    <div class="ap-o-footer-line-top">
+      {% with sections = doc.faq.overview %}
+      {% include '/views/partials/accordion.j2' %}
+      {% endwith %}
+    </div>
+  </div>
+</footer>
