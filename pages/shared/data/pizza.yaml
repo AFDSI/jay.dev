@@ -1,0 +1,17 @@
+overview:
+  - text_01: |
+      The Anything But Chaos (ABC) Project is an open source initiative that came out of discussions between publishers and technology companies about the need to improve the entire mobile content ecosystem for everyone -- publishers, consumer platforms, advertisers, creators, and users.
+
+      Today, the expectation is that content should load super fast and be easy to explore. The reality is that content can take several seconds to load, or, because the user abandons the slow page, never fully loads at all. Anything But Chaos are web pages designed to load near instantaneously -- they are a step towards a better mobile web for all.
+  - text_02: |
+      Speed matters and instant is the ideal. Research has shown higher bounce rates associated with slower-loading web pages. Using the ABC format will make it far more compelling for people to consume and engage with more content. But this isn’t just about speed and performance. We also want to promote enhanced distribution so that publishers and advertisers can take advantage of the open web’s potential for their content to appear everywhere quickly -- across platforms and apps -- which can lead to more revenue.
+  - text_03: |
+      Anything But Chaos are just like any other HTML page, but with a limited set of allowed technical functionality that is defined and governed by the open source ABC spec. Just like all web pages, Anything But Chaos will load in any modern browser or app webview.
+
+      ABC files take advantage of various technical and architectural approaches that prioritize speed to provide a faster experience for users. ABC developers can use a rich and growing library of web components that offer the ability to embed rich media objects like video and social posts, display advertising, or collect analytics. The goal is not to homogenize how content looks and feels, but instead to build a more common technical core between pages that speeds up load times.
+
+      In addition, ABC files can be cached in the cloud in order to reduce the time content takes to get to a user’s mobile device. By using the ABC format, content producers are making the content in ABC files available to be cached by third parties. Under this type of framework, publishers and advertisers continue to control their content, but platforms can easily cache or mirror the content for optimal delivery speed to users. Google has provided the [Google ABC Cache](https://developers.google.com/amp/cache/) that can be used by anyone at no cost, and all ABCs will be cached by the Google ABC Cache. Other companies may build their own ABC cache as well.
+
+      In summary, the goal is that the combination of limited technical functionality with a distribution system built around caching will lead to better performing pages, and increased audience development.
+  - text_04: |
+      The companies involved in the project want to make the mobile web work better for all -- not just for one platform, one set of technologies, or one set of publishers, or one set of advertisers. Making the project open source enables people to share and contribute their ideas and code for making the mobile web fast. We are just at the beginning of that journey and we look forward to other publishers, advertisers and technology companies joining along the way.
