@@ -30,7 +30,6 @@ success_stories:
   - !g.doc /content/amp-dev/runner/success-stories/teads.yaml
   - !g.doc /content/amp-dev/runner/success-stories/carved.yaml
   - !g.doc /content/amp-dev/runner/success-stories/wompmobile.yaml
-faq: !g.yaml /shared/data/faq.yaml
 ---
 
 <main>
@@ -284,13 +283,3 @@ faq: !g.yaml /shared/data/faq.yaml
   </section>
 </main>
 
-{% do doc.styles.addCssFile('css/components/organisms/footer.css') %}
-<footer class="ap--footer">
-  <div class="ap-o-footer">
-    <div class="ap-o-footer-line-top">
-      {% with sections = doc.faq.overview %}
-      {% include 'views/partials/accordion.j2' %}
-      {% endwith %}
-    </div>
-  </div>
-</footer>
