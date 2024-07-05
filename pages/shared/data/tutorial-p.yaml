@@ -1,6 +1,6 @@
 content:
-  - heading_1: "Tell a story about &#x0050;&#x0072;&#x006F;&#x0074;&#x00E9;&#x0067;&#x00E9;&#x000A;"
-  - heading_2: "&#x201C;Now is the time for action&#x201C;."
+  - heading_1: "Tell a story about Protégé"
+  - heading_2: "“Now is the time for action“."
   - text_1: "Now is the time for action."
   - text_2: "The sun is a star."
-  - text_3: "Let&#x0027;s look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
+  - text_3: "Let's look at an example: <i>bookmarks</i>. Right now, most web browsers let you organize your bookmarks hierarchically into <i>folders</i>. Each bookmark is a <i>pointer</i> to a web page called a <b>URI</b> (<b>U</b>niform <b>R</b>esource <b>I</b>dentifier)."
