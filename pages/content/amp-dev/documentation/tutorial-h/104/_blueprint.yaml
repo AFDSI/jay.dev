@@ -6,6 +6,6 @@ $localization:
 $order: 4
 bucket: true
 chaptered: false
-tutorial: false
+tutorial: true
 formats:
   - websites
