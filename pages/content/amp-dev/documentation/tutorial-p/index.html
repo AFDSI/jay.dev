@@ -1,29 +1,27 @@
 ---
 $titles:
-  navigation@: Pizza Tutorial
-  sidebar@: Learn OWL and Description Logic
-  teaser@: Tutorial other
+  navigation@: 'Pizza Tutorial'
+  sidebar@: 'Learn OWL and Description Logic'
+  teaser@: 'Tutorial other'
 flyout:
-  description@: Learn knowledge modeling
+  description@: 'Learn knowledge modeling'
   icon: learn
 $order: 0
-$title@: Learn knowledge modeling
+$title@: 'Learn knowledge modeling'
 description@: 'Learn how to represent complex knowledge with the pizza tutorial.'
 $view: /views/overview/courses.j2
 $path: /documentation/tutorial-p/index.html
 $localization:
   path: /{locale}/documentation/tutorial-p/index.html
 ---
-{# {% do doc.styles.addCssFile('css/components/templates/courses-overview.css') %} #}
-{# {% do doc.styles.addCssFile('css/components/molecules/copy.css') %} #}
 
 <section class="ap--section ap--intro">
-  <h1>{{ _('Learn how to represent complex knowledge with the pizza tutorial') }}</h1>
-  <p> {{ _('One goal of this site is to teach description logic and OWL — a language used to represent complex knowledge.') }} </p>
-  <p> {{ _('To make abstract concepts more accessible, we use a simple yet effective example: pizza.') }} </p>
-  <p> {{ _('The pizza example illustrate foundational principles of OWL without getting bogged down in complicated technical details.') }} </p>
-  <p> {{ _('It is easy to take a pizza menu and ask people to extract the information necessary to build a pizza ontology. It is easy to talk about classifications of toppings.') }} </p>
-  <p> {{ _('The pizza example focuses on essential aspects of OWL, such as open world reasoning and Boolean algebra, by using the familiar context of pizza toppings and bases.') }} </p>
+  <h1>{{ _('Learn to represent complex knowledge from the pizza tutorial') }}</h1>
+  <p>{{ _('One of our goals is to explain how to document complex knowledge using Description Logic and OWL — a language used to represent complex knowledge.') }}</p>
+  <p>{{ _('To make abstract concepts more accessible, we use a simple example: pizza.') }}</p>
+  <p>{{ _('The pizza example illustrates OWL principles without getting bogged down in technical details.') }}</p>
+  <p>{{ _('It is easy to take a pizza menu and ask people to extract information necessary to build a pizza ontology. It also is easy to talk about classifications of toppings.') }}</p>
+  <p>{{ _('Our pizza example focuses on OWL principles, such as open world reasoning and Boolean algebra, by using the familiar context of pizza toppings and bases.') }}</p>
 </section>
 
 {% do doc.styles.addCssFile('/css/components/organisms/teaser-grid.css') %}
@@ -39,4 +37,3 @@ $localization:
     </div>
   </div>
 </section>
-
