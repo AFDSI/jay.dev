@@ -1,4 +1,0 @@
-items:
-  - text_1: "Convey facts and figures via bite-sized chunks of one or two sentences – ideal for mobile devices. Choose from different font colors for basic readability. Or add visual elements like subtle black transparent gradient overlays to ensure readability even on random background imagery, for example user generated content. On top of this, you can use short audio files on every page to provide spoken information or background music."
-  - text_2: "5. Add a comment to the class <code>MargheritaPizza</code> using the <mark>Annotations</mark> view."
-  - text_3: "Our current description of <code>CheesyPizza</code> says that if something is a <code>CheesyPizza</code> it is <i>necessarily</i> <code>Pizza</code> and it is <i>necessary</i> for it to have at least one topping that is a kind of <code>CheeseTopping</code>."
