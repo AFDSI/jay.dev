@@ -19,6 +19,7 @@ jobs:
       contents: read
       id-token: write      
     outputs:
+      label: ${{ steps.start-ec2-runner.outputs.label }}
       ec2-instance-id: ${{ steps.start-ec2-runner.outputs.ec2-instance-id }}
     steps:
       - name: Configure AWS credentials
@@ -51,13 +52,10 @@ jobs:
             [
               {"Key": "Owner", "Value": "deploybot"}
             ]
-      - name: Set output
-        run: echo "ec2-instance-id=${{ steps.start-ec2-runner.outputs.ec2-instance-id }}" >> $GITHUB_OUTPUT
 
   queue:
-    needs:
-      - start-runner
-    runs-on: ${{ github.run_id }}   
+    needs: start-runner
+    runs-on: ${{ needs.start-runner.outputs.label }}
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
     steps:
@@ -72,9 +70,8 @@ jobs:
   
   verify:
     timeout-minutes: 1
-    needs:
-      - queue
-    runs-on: ${{ github.run_id }}   
+    needs: queue
+    runs-on: ${{ needs.start-runner.outputs.label }}
     steps:
       - name: Cloning repository
         uses: actions/checkout@v4
@@ -98,10 +95,8 @@ jobs:
 
   prepare:
     timeout-minutes: 1
-    needs:
-      - queue
-      - verify
-    runs-on: ${{ github.run_id }}   
+    needs: [queue, verify]
+    runs-on: ${{ needs.start-runner.outputs.label }}
     steps:
       - name: Cloning repository
         uses: actions/checkout@v4
@@ -131,30 +126,11 @@ jobs:
   build:
     env:
       APP_ENV: production
-    needs: 
-      - prepare
+    needs: prepare
+    runs-on: ${{ needs.start-runner.outputs.label }}
     strategy:
       matrix:
-        language:
-          [
-            'en',
-#            'de',
-            'fr',
-#            'ar',
-            'es',
-            'hi',
-#            'it',
-#            'id',
-#            'ja',
-#            'ko',
-            'pt_BR',
-#            'ru',
-#            'tr',
-#            'zh_CN',
-#            'pl',
-#            'vi',
-          ]
-    runs-on: ${{ github.run_id }}   
+        language: ['en', 'fr', 'es', 'hi', 'pt_BR']
     steps:
       - name: Cloning repository
         uses: actions/checkout@v4
@@ -199,9 +175,8 @@ jobs:
           path: artifacts
 
   deploy:
-    needs: 
-      - build
-    runs-on: ${{ github.run_id }}   
+    needs: build
+    runs-on: ${{ needs.start-runner.outputs.label }}
     steps:
       - name: Set up AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
