@@ -1,15 +1,61 @@
----
 name: 'Release: Static Production'
+
+permissions:
+  id-token: write
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - static-production-amp-dev
+      - aws-deployment
 
 jobs:
+  start-runner:
+        timeout-minutes: 5                  
+        name: Start self-hosted EC2 runner   
+        runs-on: ubuntu-latest
+        permissions:
+          actions: write        
+          contents: read
+          id-token: write      
+        steps:
+          - name: Configure AWS credentials
+            id: creds
+            uses: aws-actions/configure-aws-credentials@v4
+            with:
+              aws-region: "us-east-1"
+              role-to-assume: "arn:aws:iam::369827282464:role/deployment-role"
+              output-credentials: true                  
+          - name: Start EC2 runner
+            id: start-ec2-runner
+            uses: NextChapterSoftware/ec2-action-builder@v1.5
+            with:
+              github_token: ${{ secrets.PAT }}
+              aws_access_key_id: ${{ steps.creds.outputs.aws-access-key-id }}
+              aws_secret_access_key: ${{ steps.creds.outputs.aws-secret-access-key }}
+              aws_session_token: ${{ steps.creds.outputs.aws-session-token }}
+              aws_iam_role_arn: "arn:aws:iam::723448370684:role/my_role20230517183106294400000001"
+              aws_region: "us-east-1"
+              github_action_runner_version: v2.300.2 # Optional (default is latest release)
+              ec2_instance_type: c5.4xlarge
+              ec2_ami_id: ami-04a81a99f5ec58529
+              ec2_root_disk_size_gb: "100"                 # Optional - (defaults to AMI settings)
+              ec2_root_disk_ebs_class: "gp2"               # Optional - Only used with custom volume root size (defaults to gp2)
+              ec2_subnet_id: "subnet-e5717fd8"
+              ec2_security_group_id: "sg-0c24020172d67c06a"
+              ec2_instance_ttl: 40                          # Optional - (default is 60 minutes)
+              ec2_spot_instance_strategy: BestEffort    # Other options are: None, BestEffort, MaxPerformance 
+              ec2_instance_tags: >                          # Required for IAM role resource permission scoping
+                [
+                  {"Key": "Owner", "Value": "deploybot"}
+                ]
+
+  # Job that runs on the self-hosted runner 
   queue:
-    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    needs:
+      - start-runner
+    runs-on: ${{ github.run_id }}   
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
     steps:
@@ -22,53 +68,48 @@ jobs:
           paths_ignore: '["**/README.md", "**/docs/**"]'
           do_not_skip: '["workflow_dispatch", "schedule"]'
   verify:
-    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    needs:
+      - start-runner
+    runs-on: ${{ github.run_id }}   
     steps:
       - name: Cloning repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setting up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 14
-
-      - uses: actions/cache@v3
-        if: ${{ !env.ACT }}
-        with:
-          path: '**/node_modules'
-          key: node_modules-${{ hashFiles('**/package-lock.json') }}
+          node-version: 16
+          cache: npm
 
       - name: Installing Node.js packages
         run: npm ci
 
       - name: Running tests
         run: |
-          npx browserslist@latest --update-db
           npx gulp updateTestResources
           npx gulp lintNode
           npx gulp lintYaml
           npm run test:platform
-          npm run test:playground
+#          npm run test:playground
   prepare:
-    needs: verify
-    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    needs:
+      - start-runner
+      - verify
+    runs-on: ${{ github.run_id }}   
     steps:
       - name: Cloning repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setting up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 14
-
-      - uses: actions/cache@v3
-        if: ${{ !env.ACT }}
-        with:
-          path: '**/node_modules'
-          key: node_modules-${{ hashFiles('**/package-lock.json') }}
+          node-version: 16
+          cache: npm
 
       - name: Installing Node.js packages
-        run: npm install
+        run: npm ci
 
       - name: Preparing build
         env:
@@ -78,7 +119,7 @@ jobs:
           npx gulp buildPrepare
 
       - name: Storing build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: build-setup
           path: artifacts/setup.tar.gz
@@ -86,41 +127,48 @@ jobs:
   build:
     env:
       APP_ENV: production
-    needs: prepare
+    needs: 
+      - prepare
+      - start-runner
     strategy:
       matrix:
         language:
           [
             'en',
+#            'de',
+            'fr',
+#            'ar',
+            'es',
+            'hi',
+#            'it',
+#            'id',
+#            'ja',
+#            'ko',
+            'pt_BR',
+#            'ru',
+#            'tr',
+#            'zh_CN',
+#            'pl',
+#            'vi',
           ]
-    runs-on: ubuntu-latest
+    runs-on: ${{ github.run_id }}   
     steps:
       - name: Cloning repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setting up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 14
-
-      - uses: actions/cache@v3
-        if: ${{ !env.ACT }}
-        with:
-          path: '**/node_modules'
-          key: node_modules-${{ hashFiles('**/package-lock.json') }}
+          node-version: 16
+          cache: npm
 
       - name: Installing Node.js packages
-        run: npm install
+        run: npm ci
 
       - name: Setting up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
-
-#      - uses: actions/cache@v3
-#        with:
-#          path: ${{ env.pythonLocation }}
-#          key: ${{ env.pythonLocation }}
 
       - name: Installing Grow
         run: |
@@ -128,7 +176,7 @@ jobs:
           pip install grow --upgrade-strategy eager
 
       - name: Fetching build artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: build-setup
           path: artifacts
@@ -142,44 +190,38 @@ jobs:
           npx gulp buildPages --locales ${{ matrix.language }}
 
       - name: Storing build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: pages-${{ github.run_id }}-${{ matrix.language }}
           path: artifacts
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment: Production
-    env:
-      APP_ENV: production
-      NETLIFY_DEPLOY_TOKEN: ${{ secrets.NETLIFY_DEPLOY_TOKEN }}
+    needs: 
+      - build
+      - start-runner
+    runs-on: ${{ github.run_id }}   
     steps:
+      - name: Set up AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
       - name: Cloning repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setting up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 14
-
-      - uses: actions/cache@v3
-        if: ${{ !env.ACT }}
-        with:
-          path: '**/node_modules'
-          key: node_modules-${{ hashFiles('**/package-lock.json') }}
+          node-version: 16
+          cache: npm
 
       - name: Installing Node.js packages
-        run: |
-#          sudo apt-get install tree
-#          sudo npm uninstall netlify-cli
-          sudo npm install netlify-cli
-#          ntl login
-          npm install
-          sudo apt-get update
+        run: npm ci
 
       - name: Fetching build artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           path: artifacts
 
@@ -191,6 +233,6 @@ jobs:
         run: |
           npx gulp buildFinalize
 
-      - name: Deploying
+      - name: Deploying to S3
         run: |
-          npx gulp staticDeploy
+          aws s3 sync artifacts/ s3://${{ env.S3_BUCKET }}/ --delete
