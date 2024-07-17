@@ -11,53 +11,50 @@ on:
 
 jobs:
   start-runner:
-        timeout-minutes: 5                  
-        name: Start self-hosted EC2 runner   
-        runs-on: ubuntu-latest
-        permissions:
-          actions: write        
-          contents: read
-          id-token: write      
-        steps:
-          - name: Configure AWS credentials
-            id: creds
-            uses: aws-actions/configure-aws-credentials@v4
-            with:
-              aws-region: "us-east-1"
-              role-to-assume: "arn:aws:iam::369827282464:role/deployment-role"
-              output-credentials: true                  
-          - name: Start EC2 runner
-            id: start-ec2-runner
-            uses: NextChapterSoftware/ec2-action-builder@v1.5
-            with:
-              github_token: ${{ secrets.PAT }}
-              aws_access_key_id: ${{ steps.creds.outputs.aws-access-key-id }}
-              aws_secret_access_key: ${{ steps.creds.outputs.aws-secret-access-key }}
-              aws_session_token: ${{ steps.creds.outputs.aws-session-token }}
-              aws_iam_role_arn: "arn:aws:iam::723448370684:role/my_role20230517183106294400000001"
-              aws_region: "us-east-1"
-              github_action_runner_version: v2.300.2 # Optional (default is latest release)
-              ec2_instance_type: t2.2xlarge
-              ec2_ami_id: ami-04a81a99f5ec58529
-              ec2_root_disk_size_gb: "100"                 # Optional - (defaults to AMI settings)
-              ec2_root_disk_ebs_class: "gp2"               # Optional - Only used with custom volume root size (defaults to gp2)
-              ec2_subnet_id: "subnet-e5717fd8"
-              ec2_security_group_id: "sg-0c24020172d67c06a"
-              ec2_instance_ttl: 40                          # Optional - (default is 60 minutes)
-              ec2_spot_instance_strategy: BestEffort    # Other options are: None, BestEffort, MaxPerformance 
-              ec2_instance_tags: >                          # Required for IAM role resource permission scoping
-                [
-                  {"Key": "Owner", "Value": "deploybot"}
-                ]
+    timeout-minutes: 5
+    name: Start self-hosted EC2 runner
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write        
+      contents: read
+      id-token: write
+    steps:
+      - name: Configure AWS credentials
+        id: creds
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: "us-east-1"
+          role-to-assume: "arn:aws:iam::369827282464:role/deployment-role"
+          output-credentials: true                  
+      - name: Start EC2 runner
+        id: start-ec2-runner
+        uses: NextChapterSoftware/ec2-action-builder@v1.5
+        with:
+          github_token: ${{ secrets.PAT }}
+          aws_access_key_id: ${{ steps.creds.outputs.aws-access-key-id }}
+          aws_secret_access_key: ${{ steps.creds.outputs.aws-secret-access-key }}
+          aws_session_token: ${{ steps.creds.outputs.aws-session-token }}
+          aws_iam_role_arn: "arn:aws:iam::723448370684:role/my_role20230517183106294400000001"
+          aws_region: "us-east-1"
+          github_action_runner_version: v2.300.2 # Optional (default is latest release)
+          ec2_instance_type: t2.2xlarge
+          ec2_ami_id: ami-04a81a99f5ec58529
+          ec2_root_disk_size_gb: "100"                 # Optional - (defaults to AMI settings)
+          ec2_root_disk_ebs_class: "gp2"               # Optional - Only used with custom volume root size (defaults to gp2)
+          ec2_subnet_id: "subnet-e5717fd8"
+          ec2_security_group_id: "sg-0c24020172d67c06a"
+          ec2_instance_ttl: 40                          # Optional - (default is 60 minutes)
+          ec2_spot_instance_strategy: BestEffort    # Other options are: None, BestEffort, MaxPerformance 
+          ec2_instance_tags: >                          # Required for IAM role resource permission scoping
+            [
+              {"Key": "Owner", "Value": "deploybot"}
+            ]
 
-  # Job that runs on the self-hosted runner 
-  queue:
-    timeout-minutes: 1
+  deploy-and-build:
+    timeout-minutes: 60
     needs:
       - start-runner
     runs-on: ${{ github.run_id }}   
-    outputs:
-      should_skip: ${{ steps.skip_check.outputs.should_skip }}
     steps:
       - id: skip_check
         uses: fkirc/skip-duplicate-actions@master
@@ -88,18 +85,6 @@ jobs:
           npm run test:platform
 #          npm run test:playground
 
-      - name: Cloning repository
-        uses: actions/checkout@v4
-
-      - name: Setting up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 16
-          cache: npm
-
-      - name: Installing Node.js packages
-        run: npm ci
-
       - name: Preparing build
         env:
           APP_ENV: production
@@ -112,46 +97,6 @@ jobs:
         with:
           name: build-setup
           path: artifacts/setup.tar.gz
-
-  build:
-    env:
-      APP_ENV: production
-    needs: 
-      - start-runner
-    strategy:
-      matrix:
-        language:
-          [
-            'en',
-#            'de',
-            'fr',
-#            'ar',
-            'es',
-            'hi',
-#            'it',
-#            'id',
-#            'ja',
-#            'ko',
-            'pt_BR',
-#            'ru',
-#            'tr',
-#            'zh_CN',
-#            'pl',
-#            'vi',
-          ]
-    runs-on: ${{ github.run_id }}   
-    steps:
-      - name: Cloning repository
-        uses: actions/checkout@v4
-
-      - name: Setting up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 16
-          cache: npm
-
-      - name: Installing Node.js packages
-        run: npm ci
 
       - name: Setting up Python
         uses: actions/setup-python@v5
@@ -174,6 +119,27 @@ jobs:
           npx gulp unpackArtifacts
 
       - name: Building pages
+        strategy:
+          matrix:
+            language:
+              [
+                'en',
+#                'de',
+                'fr',
+#                'ar',
+                'es',
+                'hi',
+#                'it',
+#                'id',
+#                'ja',
+#                'ko',
+                'pt_BR',
+#                'ru',
+#                'tr',
+#                'zh_CN',
+#                'pl',
+#                'vi',
+              ]
         run: |
           npx gulp buildPages --locales ${{ matrix.language }}
 
@@ -183,35 +149,12 @@ jobs:
           name: pages-${{ github.run_id }}-${{ matrix.language }}
           path: artifacts
 
-  deploy:
-    needs: 
-      - build
-      - start-runner
-    runs-on: ${{ github.run_id }}   
-    steps:
       - name: Set up AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-
-      - name: Cloning repository
-        uses: actions/checkout@v4
-
-      - name: Setting up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 16
-          cache: npm
-
-      - name: Installing Node.js packages
-        run: npm ci
-
-      - name: Fetching build artifacts
-        uses: actions/download-artifact@v4
-        with:
-          path: artifacts
 
       - name: Unpacking artifacts
         run: |
