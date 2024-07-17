@@ -11,51 +11,51 @@ on:
 
 jobs:
   start-runner:
-    timeout-minutes: 5                  
-    name: Start self-hosted EC2 runner   
-    runs-on: ubuntu-latest
-    permissions:
-      actions: write        
-      contents: read
-      id-token: write      
-    outputs:
-      label: ${{ steps.start-ec2-runner.outputs.label }}
-      ec2-instance-id: ${{ steps.start-ec2-runner.outputs.ec2-instance-id }}
-    steps:
-      - name: Configure AWS credentials
-        id: creds
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-region: "us-east-1"
-          role-to-assume: "arn:aws:iam::369827282464:role/deployment-role"
-          output-credentials: true                  
-      - name: Start EC2 runner
-        id: start-ec2-runner
-        uses: NextChapterSoftware/ec2-action-builder@v1.5
-        with:
-          github_token: ${{ secrets.PAT }}
-          aws_access_key_id: ${{ steps.creds.outputs.aws-access-key-id }}
-          aws_secret_access_key: ${{ steps.creds.outputs.aws-secret-access-key }}
-          aws_session_token: ${{ steps.creds.outputs.aws-session-token }}
-          aws_iam_role_arn: "arn:aws:iam::369827282464:role/deployment-role"
-          aws_region: "us-east-1"
-          github_action_runner_version: v2.300.2
-          ec2_instance_type: t2.2xlarge
-          ec2_ami_id: ami-04a81a99f5ec58529
-          ec2_root_disk_size_gb: "100"
-          ec2_root_disk_ebs_class: "gp2"
-          ec2_subnet_id: "subnet-e5717fd8"
-          ec2_security_group_id: "sg-0c24020172d67c06a"
-          ec2_instance_ttl: 40
-          ec2_spot_instance_strategy: BestEffort
-          ec2_instance_tags: >
-            [
-              {"Key": "Owner", "Value": "deploybot"}
-            ]
+        timeout-minutes: 5                  
+        name: Start self-hosted EC2 runner   
+        runs-on: ubuntu-latest
+        permissions:
+          actions: write        
+          contents: read
+          id-token: write      
+        steps:
+          - name: Configure AWS credentials
+            id: creds
+            uses: aws-actions/configure-aws-credentials@v4
+            with:
+              aws-region: "us-east-1"
+              role-to-assume: "arn:aws:iam::369827282464:role/deployment-role"
+              output-credentials: true                  
+          - name: Start EC2 runner
+            id: start-ec2-runner
+            uses: NextChapterSoftware/ec2-action-builder@v1.5
+            with:
+              github_token: ${{ secrets.PAT }}
+              aws_access_key_id: ${{ steps.creds.outputs.aws-access-key-id }}
+              aws_secret_access_key: ${{ steps.creds.outputs.aws-secret-access-key }}
+              aws_session_token: ${{ steps.creds.outputs.aws-session-token }}
+              aws_iam_role_arn: "arn:aws:iam::723448370684:role/my_role20230517183106294400000001"
+              aws_region: "us-east-1"
+              github_action_runner_version: v2.300.2 # Optional (default is latest release)
+              ec2_instance_type: t2.2xlarge
+              ec2_ami_id: ami-04a81a99f5ec58529
+              ec2_root_disk_size_gb: "100"                 # Optional - (defaults to AMI settings)
+              ec2_root_disk_ebs_class: "gp2"               # Optional - Only used with custom volume root size (defaults to gp2)
+              ec2_subnet_id: "subnet-e5717fd8"
+              ec2_security_group_id: "sg-0c24020172d67c06a"
+              ec2_instance_ttl: 40                          # Optional - (default is 60 minutes)
+              ec2_spot_instance_strategy: BestEffort    # Other options are: None, BestEffort, MaxPerformance 
+              ec2_instance_tags: >                          # Required for IAM role resource permission scoping
+                [
+                  {"Key": "Owner", "Value": "deploybot"}
+                ]
 
+  # Job that runs on the self-hosted runner 
   queue:
-    needs: start-runner
-    runs-on: ${{ needs.start-runner.outputs.label }}
+    timeout-minutes: 1
+    needs:
+      - start-runner
+    runs-on: ${{ github.run_id }}   
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
     steps:
@@ -67,12 +67,7 @@ jobs:
           skip_after_successful_duplicate: true
           paths_ignore: '["**/README.md", "**/docs/**"]'
           do_not_skip: '["workflow_dispatch", "schedule"]'
-  
-  verify:
-    timeout-minutes: 1
-    needs: queue
-    runs-on: ${{ needs.start-runner.outputs.label }}
-    steps:
+
       - name: Cloning repository
         uses: actions/checkout@v4
 
@@ -93,11 +88,6 @@ jobs:
           npm run test:platform
 #          npm run test:playground
 
-  prepare:
-    timeout-minutes: 1
-    needs: [queue, verify]
-    runs-on: ${{ needs.start-runner.outputs.label }}
-    steps:
       - name: Cloning repository
         uses: actions/checkout@v4
 
@@ -126,11 +116,30 @@ jobs:
   build:
     env:
       APP_ENV: production
-    needs: prepare
-    runs-on: ${{ needs.start-runner.outputs.label }}
+    needs: 
+      - start-runner
     strategy:
       matrix:
-        language: ['en', 'fr', 'es', 'hi', 'pt_BR']
+        language:
+          [
+            'en',
+#            'de',
+            'fr',
+#            'ar',
+            'es',
+            'hi',
+#            'it',
+#            'id',
+#            'ja',
+#            'ko',
+            'pt_BR',
+#            'ru',
+#            'tr',
+#            'zh_CN',
+#            'pl',
+#            'vi',
+          ]
+    runs-on: ${{ github.run_id }}   
     steps:
       - name: Cloning repository
         uses: actions/checkout@v4
@@ -175,8 +184,10 @@ jobs:
           path: artifacts
 
   deploy:
-    needs: build
-    runs-on: ${{ needs.start-runner.outputs.label }}
+    needs: 
+      - build
+      - start-runner
+    runs-on: ${{ github.run_id }}   
     steps:
       - name: Set up AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -213,5 +224,3 @@ jobs:
       - name: Deploying to S3
         run: |
           aws s3 sync artifacts/ s3://${{ env.S3_BUCKET }}/ --delete
-
-  
