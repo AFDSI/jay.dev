@@ -54,7 +54,28 @@ jobs:
     timeout-minutes: 60
     needs:
       - start-runner
-    runs-on: ${{ github.run_id }}   
+    runs-on: ${{ github.run_id }}
+    strategy:
+      matrix:
+        language:
+          [
+            'en',
+#            'de',
+            'fr',
+#            'ar',
+            'es',
+            'hi',
+#            'it',
+#            'id',
+#            'ja',
+#            'ko',
+            'pt_BR',
+#            'ru',
+#            'tr',
+#            'zh_CN',
+#            'pl',
+#            'vi',
+          ]
     steps:
       - id: skip_check
         uses: fkirc/skip-duplicate-actions@master
@@ -119,27 +140,6 @@ jobs:
           npx gulp unpackArtifacts
 
       - name: Building pages
-        strategy:
-          matrix:
-            language:
-              [
-                'en',
-#                'de',
-                'fr',
-#                'ar',
-                'es',
-                'hi',
-#                'it',
-#                'id',
-#                'ja',
-#                'ko',
-                'pt_BR',
-#                'ru',
-#                'tr',
-#                'zh_CN',
-#                'pl',
-#                'vi',
-              ]
         run: |
           npx gulp buildPages --locales ${{ matrix.language }}
 
