@@ -96,7 +96,7 @@ jobs:
           cache: npm
 
       - name: Installing Node.js packages
-        run: npm ci
+        run: npm ci --legacy-peer-deps
 
       - name: Running tests
         run: |
