@@ -94,6 +94,9 @@ jobs:
         with:
           node-version: 14
           cache: npm
+      
+      - name: Upgrade node-gyp
+        run: npm install -g node-gyp@latest
 
       - name: Installing Node.js packages
         run: npm ci --legacy-peer-deps
