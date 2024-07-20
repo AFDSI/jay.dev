@@ -93,6 +93,10 @@ jobs:
           sudo apt-get install -y python3 python3-pip
           npm config set python /usr/bin/python3
 
+      - name: Patch node-gyp to avoid invalid mode 'rU'
+        run: |
+          sed -i 's/\"rU\"/\"r\"/g' $(npm root -g)/node-gyp/gyp/pylib/gyp/input.py
+
       - name: Installing Node.js packages
         run: npm ci --legacy-peer-deps
 
