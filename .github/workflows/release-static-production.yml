@@ -3,9 +3,9 @@
     
     on:
       workflow_dispatch:
-      push:
-        branches:
-          - aws-dev
+      # push:
+      #   branches:
+      #     - aws-dev
     
     jobs:
       queue:
