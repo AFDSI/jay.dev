@@ -38,7 +38,7 @@ jobs:
           ec2_ami_id: ami-04d914df9d16d009c
           ec2_root_disk_size_gb: "100"                 # Optional - (defaults to AMI settings)
           ec2_root_disk_ebs_class: "gp2"               # Optional - Only used with custom volume root size (defaults to gp2)
-          ec2_subnet_id: "subnet-e5717fd8"
+          ec2_subnet_id: "subnet-6b172841"
           ec2_security_group_id: "sg-0c24020172d67c06a"
           ec2_instance_ttl: 40                          # Optional - (default is 60 minutes)
           ec2_spot_instance_strategy: BestEffort    # Other options are: None, BestEffort, MaxPerformance 
