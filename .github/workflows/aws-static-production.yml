@@ -34,7 +34,7 @@ jobs:
           aws_iam_role_arn: "arn:aws:iam::369827282464:role/deployment-role"
           aws_region: "us-east-1"
           github_action_runner_version: v2.300.2 # Optional (default is latest release)
-          ec2_instance_type: t2.2xlarge
+          ec2_instance_type: c5.4xlarge
           ec2_ami_id: ami-04d914df9d16d009c
           ec2_root_disk_size_gb: "100"                 # Optional - (defaults to AMI settings)
           ec2_root_disk_ebs_class: "gp2"               # Optional - Only used with custom volume root size (defaults to gp2)
