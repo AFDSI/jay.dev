@@ -35,7 +35,7 @@ jobs:
           aws_region: "us-east-1"
           github_action_runner_version: v2.300.2 # Optional (default is latest release)
           ec2_instance_type: c5.12xlarge
-          ec2_ami_id: ami-01beb9c7f333b1989
+          ec2_ami_id: ami-0a763e5ba08b5d692
           ec2_root_disk_size_gb: "100"                 # Optional - (defaults to AMI settings)
           ec2_root_disk_ebs_class: "gp2"               # Optional - Only used with custom volume root size (defaults to gp2)
           ec2_subnet_id: "subnet-6b172841"
